@@ -18,7 +18,7 @@ KyrieViolinoII = {
 		d8.\trill e16 f8 cis,16( d e f g a)
 		b8\sfp g g g g g
 		g g g g f f %10
-		g g a a b g
+		g g a a \once \slurDashed b( g)
 		f[ f e] c16.\ff d32 e16. f32 g16. a32
 		b8\sfp c, c c c c
 		r c c c c c

@@ -89,15 +89,15 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\KyrieOrgano
+						\transpose c c,\KyrieOrgano
 					}
 				>>
 				\new FiguredBass {
 					\KyrieBassFigures
 				}
 			>>
-			\layout { }
-% 			\midi { \tempo 4 = 100 }
+% 			\layout { }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

@@ -106,7 +106,7 @@ KyrieOrgano = {
 		a,\ff a a a a a
 		d4 r r
 		\appoggiatura { a'32[ h cis] } d4-! a-! f-!
-		d-!\p d-! d-!
+		d-! d-!\pp d-!
 		d2 r4\fermata \bar "|." %100 finis
 	}
 }
@@ -161,7 +161,7 @@ KyrieBassFigures = \figuremode {
 	r
 	r2 <[7] _!>4
 	<[_!]> <7->2
-	<7->4 <6> <[5]> %50
+	<7->4 <6> <7-> %50
 	r2.
 	<4 2>4 <6> <6 _->
 	r <[6]>2
