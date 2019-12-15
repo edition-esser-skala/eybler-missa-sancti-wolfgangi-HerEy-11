@@ -166,6 +166,10 @@ rfz = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "rfz"))
 rfzE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "rfz")))
 fz = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "fz")))
 fzE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "fz")))
+sf = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "sf")))
+sfE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "sf")))
+sfp = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "sfp")))
+sfpE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "sfp")))
 pocoF = #(make-dynamic-script (markup #:line (#:normal-text #:small "poco" #:normal-text #:large #:bold "f")))
 pocoFE = #(make-dynamic-script (markup #:line (#:normal-text #:small #:italic "poco" #:normal-text #:large #:bold #:italic "f")))
 pocoP = #(make-dynamic-script (markup #:line (#:normal-text #:small "poco" #:normal-text #:large #:bold "p")))
@@ -322,7 +326,7 @@ tempoKyrie = \tempoMarkup "Andante"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
-% 		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 	\context {
 		\StaffGroup
