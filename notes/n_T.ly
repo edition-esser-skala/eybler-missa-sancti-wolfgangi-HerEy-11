@@ -51,7 +51,7 @@ KyrieTenoreNotes = {
 		c r r
 		c as( c)
 		des r r %35
-		as g! b
+		as\crescE g! b
 		a! c b~
 		b as\pE g
 		g fis r
@@ -67,7 +67,7 @@ KyrieTenoreNotes = {
 		c c\decresc b
 		b\p c des %50
 		c8.([ b16)] a4 r
-		a( b) c
+		a(\crescE b) c
 		d4. c8 b4
 		es\p d( c)
 		b r8 g'([\f f es)] %55

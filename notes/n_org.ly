@@ -43,7 +43,7 @@ KyrieOrgano = {
 		c c c c c c
 		c c des des es es
 		des des des des des des %35
-		d d es\cresc es e e
+		d\cresc d es es e e
 		f f fis fis g g
 		c,\p c c' c cis cis
 		d d, d'\f-! c-! b-! a-!
@@ -59,7 +59,7 @@ KyrieOrgano = {
 		c, c f\decresc f b, b
 		e!\p e e e e e %50
 		f f f f f f
-		es es d\cresc d c c
+		es\cresc es d d c c
 		b b d d g g
 		es\p es f f f, f
 		b\f b' b b b b %55

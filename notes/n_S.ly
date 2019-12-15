@@ -42,16 +42,16 @@ KyrieSopranoNotes = {
 		c8.([ b16)] a4 r
 		f'2\ff f4
 		<< { \voiceOne f8 } \\ \context Voice = "Soprano" { \voiceTwo \mvTr f16([\p^\solo e f e] g[ f e d]) c[( b a g]) \oneVoice } >>
-		\mvTrr f2(\pp^\tuttiE \grace a8 g4) %25
+		f2(\pp \grace a8 g4) %25
 		f r r
 		R2.*3
-		f'4\f f, r %30
+		\mvTr f'4\f^\tutti f, r %30
 		f' f, r
 		g\pp g2
 		g4 r r
 		as4 as2
 		as?4 r r %35
-		b des\crescE c
+		b\crescE des c
 		es d d~
 		d c\pE b
 		b a r
@@ -67,7 +67,7 @@ KyrieSopranoNotes = {
 		e! es\decrescE d
 		des\p c b %50
 		a8.([ b16)] c4 r
-		c( d!) es
+		c(\crescE d!) es
 		f4. es8 d4
 		d16([\p c es c)] b4( a)
 		b d\fE b %55

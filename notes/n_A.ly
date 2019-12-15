@@ -30,7 +30,7 @@ KyrieAltoNotes = {
 		b2\sfp g4
 		g r f %10
 		d c! b8([ d)]
-		c4 c r
+		c!4 c r
 		\mvTr c'4.\pE^\solo e,8 e e
 		g8.([ f16)] f4 r
 		R2.*2 %16
@@ -51,7 +51,7 @@ KyrieAltoNotes = {
 		e4 r r
 		e f( ges)
 		f r r %35
-		f es\crescE g!
+		f\crescE es g!
 		f( a!) b
 		es,\p es e
 		d d r
@@ -67,7 +67,7 @@ KyrieAltoNotes = {
 		c a\decrescE b
 		g\p g g %50
 		f f r
-		f2 f4
+		f2\crescE f4
 		f4. f8 b4
 		g\p f4.( es8)
 		d4 r8 b'([\f a g)] %55
