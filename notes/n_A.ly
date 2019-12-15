@@ -95,7 +95,7 @@ KyrieAltoNotes = {
 		R2.
 		b'4..\f a16 g4
 		f!4.. e16 d4 %80
-		d8([ e)] f([ d)] a' g
+		d8([\pE e)] f([ d)] a' g
 		g([ f)] f4 r
 		\mvTrr f4..\sf^\tutti f16 f4
 		f4..\sf f16 f4
