@@ -11,7 +11,7 @@ KyrieOrgano = {
 		\mvTr d8.(\f-\tutti f32 a) d8 d, d c
 		b8.( d32 f) b8 b, b a
 		g4(\pp a b)
-		a8.(\f cis32 e) a8-! g-! f-! e-!
+		a8.( cis32 e) a8-!\f g-! f-! e-!
 		d8 d d d e e %5
 		f f f f fis fis
 		g g a a a, a
@@ -19,7 +19,7 @@ KyrieOrgano = {
 		c!\sfp c c c c c
 		cis cis cis cis d d %10
 		b b a a g g
-		c! c' c, c-!\f e-! g-!
+		c! c' c, c-!\ffE e-! g-!
 		\mvTrr b\sfp-\soloE b b b b b
 		a, a' a a a a
 		e, e' e e e e %15
@@ -35,8 +35,8 @@ KyrieOrgano = {
 		c8\pp c c c c, c %25
 		f4 r8 c''-!\cresc a-! f-!
 		c\sf c c c c c
-		cis cis d d' g, b
-		c! c c c c, c
+		cis\pE cis d d' g, b
+		c!\sfpE c c c c, c
 		f8.(\f a32 c) f8 f, f e %30
 		d8.( f32 a) d8 d, d c
 		h\pp h c c des des
@@ -46,7 +46,7 @@ KyrieOrgano = {
 		d\cresc d es es e e
 		f f fis fis g g
 		c,\p c c' c cis cis
-		d d, d'\f-! c-! b-! a-!
+		d d, d'-! c-!\f b-! a-!
 		g g g g a a %40
 		b b b b h h
 		c c d d d, d
@@ -56,7 +56,7 @@ KyrieOrgano = {
 		d d d d d d
 		g g g g g g
 		es\sf es es es g g
-		c, c f\decresc f b, b
+		c,\decresc c f f b, b
 		e!\p e e e e e %50
 		f f f f f f
 		es\cresc es d d c c
@@ -77,7 +77,7 @@ KyrieOrgano = {
 		d d c c b b
 		a2.~-\tasto
 		a8 gis a gis a gis
-		a b'-!\f a-! g-! f-! e-! %70
+		a b'-!\f a-! g!-! f-! e-! %70
 		d8.( f32 a) d8 d, d c
 		b8.( d32 f) b8 b, b a
 		g4(\pp a b)
@@ -139,8 +139,8 @@ KyrieBassFigures = \figuremode {
 	<6 4>2 <7>4 %25
 	r2.
 	<7>
-	<6 5>4 <5>2
-	<6 4> <7>4
+	<6 5>4 <5>4. <[6]>8
+	<6 4>2 <7>4
 	r2. %30
 	r
 	<6 5 3>4 \bassFigureExtendersOn <6 5 8> <6 5 6!> \bassFigureExtendersOff

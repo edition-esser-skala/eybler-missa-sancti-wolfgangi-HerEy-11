@@ -64,7 +64,7 @@ KyrieAltoNotes = {
 		d2 d4
 		b r r
 		b2\sf h4
-		c a\decrescE b
+		c\decrescE a b
 		g\p g g %50
 		f f r
 		f2\crescE f4

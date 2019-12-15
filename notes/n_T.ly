@@ -64,7 +64,7 @@ KyrieTenoreNotes = {
 		f r r
 		d2 d4
 		g\sfE es? d
-		c c\decresc b
+		c\decresc c b
 		b\p c des %50
 		c8.([ b16)] a4 r
 		a(\crescE b) c

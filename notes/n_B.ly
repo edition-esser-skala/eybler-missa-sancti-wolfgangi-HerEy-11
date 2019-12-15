@@ -52,7 +52,7 @@ KyrieBassoNotes = {
 		d r r
 		b2 b4
 		es\sfE es, g
-		c, f\decresc b,
+		c,\decresc f b,
 		e!2.\p %50
 		f2 r4
 		es(\crescE d) c

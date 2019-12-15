@@ -51,7 +51,7 @@ KyrieSopranoNotes = {
 		g4 r r
 		as4 as2
 		as?4 r r %35
-		b\crescE des c
+		b\crescE des c!
 		es d d~
 		d c\pE b
 		b a r
@@ -64,7 +64,7 @@ KyrieSopranoNotes = {
 		f2 f4
 		d r r
 		g2\sf f4
-		e! es\decrescE d
+		e!\decrescE es d
 		des\p c b %50
 		a8.([ b16)] c4 r
 		c(\crescE d!) es
