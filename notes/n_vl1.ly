@@ -18,7 +18,7 @@ KyrieViolinoI = {
 		f8.\trill g16 a8 cis,16( d e f g a)
 		b8\sfp b, b b b b
 		a a a a a a %10
-		b b c([ c d b)]
+		b b c c d b
 		a[ a g] c,16.\ff d32 e16. f32 g16. a32
 		b8\sfp e, e e e e
 		r f f f f f
@@ -74,8 +74,8 @@ KyrieViolinoI = {
 		b!8 b b b a! a %65
 		gis gis a a g g
 		f f e! e d d
-		cis( f e f e f)
-		e( gis a gis a gis)
+		cis f( e f e f)
+		e gis( a gis a gis)
 		a-! b-!\f a-! g-! f-! e-! %70
 		<d d'> f4 f f8
 		d' f,4 f f8

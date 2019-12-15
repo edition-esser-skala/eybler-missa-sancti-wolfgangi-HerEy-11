@@ -76,7 +76,7 @@ KyrieOrgano = {
 		d d cis cis e! e
 		d d c c b b
 		a2.~-\tasto
-		a8 gis a gis a gis
+		a8 \once \slurDashed gis( a gis a gis)
 		a b'-!\f a-! g!-! f-! e-! %70
 		d8.( f32 a) d8 d, d c
 		b8.( d32 f) b8 b, b a
@@ -207,7 +207,7 @@ KyrieBassFigures = \figuremode {
 	q q q q q q
 	<7 _!>2.
 	<6 4> %95
-	<[5] _+>
+	<[7] _+>
 	r
 	r
 	r
