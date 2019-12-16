@@ -110,3 +110,11 @@ KyrieViola = {
 		f2 r4\fermata \bar "|." %100 finis
 	}
 }
+
+GloriaViola = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoGloria
+		
+	}
+}

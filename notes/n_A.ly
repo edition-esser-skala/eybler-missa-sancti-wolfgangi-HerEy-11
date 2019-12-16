@@ -213,6 +213,18 @@ KyrieAltoLyrics = \lyricmode {
 	son. %97 finis
 }
 
+GloriaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoGloria
+		
+	}
+}
+
+GloriaAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

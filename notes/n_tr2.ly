@@ -35,3 +35,11 @@ KyrieTrombaII = {
 		R2.\fermataMarkup \bar "|." %100 finis
 	}
 }
+
+GloriaTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoGloria
+		
+	}
+}

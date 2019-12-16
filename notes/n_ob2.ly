@@ -81,3 +81,11 @@ KyrieOboeII = {
 		d2 r4\fermata \bar "|." %100 finis
 	}
 }
+
+GloriaOboeII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoGloria
+		
+	}
+}
