@@ -218,13 +218,182 @@ GloriaOrgano = {
 	\relative c {
 		\clef bass
 		\key d \major \time 4/4 \tempoGloria
-		\mvTr d'8\f-\tuttiE r d, r a' a,16. h32 cis16.-! d32-! e16.-! cis32-!
-		
+		\mvTr d8\f-\tuttiE d'16 cis d a fis d a'8 a,16.-! h32-! cis16.-! d32-! e16.-! cis32-!
+		a8 a'16 gis a e cis a d8 d16.-! e32-! fis16.-! g32-! a16.-! fis32-!
+		\mvTr d8\p-\solo r d' r d, r d' r
+		cis, r d r a a'16 gis a e cis e
+		a,8 r a' r d, d g g %5
+		a a a, a d4 r8 fis,\f
+		g g' r g, a a' r cis
+		d fis, g a d, r r fis\pp
+		e e a, a \mvTr d16\f-\tutti fis32 e d16 fis a a, a a'
+		h, d32 cis h16 d fis fis, fis fis' g, h32 a g16 h d d, d d' %10
+		g, g'32 fis e16 g a g a a, d8 r r \mvTrr fis\pp-\solo
+		e e a, a d d d d
+		d d d d d d d d
+		cis cis cis cis d d d d
+		e e e e a, a a a %15
+		cis cis cis cis \mvTr d16\f-\tutti e32 fis g a h cis d16 d, ais ais'
+		h h, cis cis' d d, dis dis' e4 h8 gis
+		e4 cis8 a e' e' r e,
+		a e cis a e'8.. fis32-! gis16.-! a32-! h16.-! cis32-!
+		d8\pp d d d cis cis cis cis %20
+		h h h h a a a a
+		fis fis d d cis \mvTr a\f-\tutti d fis
+		e e e, e a4 r8 cis
+		d d' r d, e e' r gis,
+		a cis, d e fis a, h cis %25
+		fis,4 r8 d''\p cis( h a gis)
+		fis fis fis fis fis fis fis fis
+		eis eis fis fis gis gis a a
+		h h h h cis cis cis cis
+		fis, a gis fis e! d cis h %30
+		a a' a a a a a a
+		d, d a' a h h cis cis
+		d d d d e e e e
+		a,,4 cis e a
+		gis, h e gis %35
+		a, cis e a
+		gis, h e gis
+		a a, \clef treble e'''-\org a, \clef bass
+		\mvTr d,,\f-\bassi h g'! g
+		fis8( gis ais h) cis( ais fis e) %40
+		d d' cis cis, h h' a! a,!
+		gis gis' gis gis, g g' g g,
+		fis fis' fis fis fis, fis' fis fis
+		h,4 r8 \mvTr fis''\p-\solo e!( d! cis h)
+		ais( g'! fis e) dis( fis h, a) %45
+		g( fis e d) cis!( h ais cis)
+		h fis''4\cresc d h fis8~
+		fis d4 h h'8 fis fis,
+		h r16. \mvTr d'32\f-\unisono cis16. h32 a!16. g32 fis8 r16. h32 a16. g32 fis16. e32
+		d8-\tutti d'16 cis d a fis d a8 a'16 gis a e cis e %50
+		a,8 a'16 gis a e cis a d8 d'16 cis d a fis d
+		h'8 h, a a' g g, fis fis'
+		e fis g gis a r a,4\sf
+		gis'8\pp gis gis gis a a a a
+		h h h h a4 r8 \mvTr cis,\f-\solo %55
+		d d' r d, e e' r gis,
+		a cis, d e a, a'16-\tutti gis a e cis a
+		e'8 e'16 dis e h gis h e,8 e'16 dis e h gis e
+		a,8 a'16 gis a e cis a fis8 fis'16 eis fis fis a fis
+		gis,8 gis'16 a h a gis fis eis8 gis16 fis eis cis dis eis %60
+		fis8 fis16 eis fis cis a fis h8 h'16 ais h fis d h
+		a!8 a' h, h' cis, cis'16 his cis8 cis,
+		fis cis'-! a-! fis-! eis\pp eis eis eis
+		fis fis fis fis gis gis gis gis
+		a4 r8 \mvTr a,\f-\solo h h' r h, %65
+		cis cis' r eis, fis a, h cis
+		fis, fis'16-\tutti eis fis cis' a fis e8 e'16 dis e cis a e
+		cis8 cis'16 h cis a e cis d8 d'16 cis d a fis d
+		g,8 g'16 fis g d h g fis8 fis'16 e fis d a fis
+		e8 e'16 d e cis g e d8 d'16 cis d a fis d %70
+		gis8 gis'16 fis gis e fis gis a8 h16 cis d a fis d
+		a8 a'16 gis a8 a, d-! a'-! fis-! d-!
+		cis\pp cis cis cis d d d d
+		e e e e fis16\f d e fis g a h cis
+		d8 d, a' a, h' h, fis' fis, %75
+		g' g, e' e, fis' fis, h'-\critnote h,
+		\clef treble h''4-\org d g g
+		g2 \clef bass \mvTr e,4\f-\bassi d
+		c2 b
+		a8\cresc a a a gis gis gis gis %80
+		g\ff g g g fis fis h h
+		a a a a a, a a a
+		d4 r8 fis,-\solo g g' r g,
+		a a' r cis, d e16. fis32 g16. fis32 g16. a32
+		h16. a32 h16. cis32 d16. cis32 d16. e32 fis8 r fis,4-! %85
+		g-! a-! d,-! r\fermata \bar "||" %86 finis
 	}
 }
 
 GloriaBassFigures = \figuremode {
-	
+	r1
+	r
+	r4 <7 5> <6 4> <\t \t>8 <5 3>
+	<6 5>4 <\t \t>8 <6 4> <\t \t>4 <_+>
+	<7>2.. <6>8 %5
+	<6 4>4 <[5] _+> r4. <[6]>8
+	r4. <6>8 r4. <[6]>8
+	r2.. <6>8
+	<7>4 q r <4>8 <3>
+	<9> <8> <4> <3> <9> <8> <4> <3> %10
+	r4 <[5] 4>8 <7 [3]> r4. <[6]>8
+	<7>4 q r2
+	<6 4> <5 3>
+	<6> q
+	<7 _+>1 %15
+	<6>2 r4. <6 5>8
+	r <6\\> r <6 5> <_+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<_+>4 <6> <_+>2
+	<8>8 q q q q2
+	<4\+>2 <6> %20
+	<6\\>1
+	<6>2 q
+	<6 4>4 <5 _+> r4. <6>8
+	r4. <6>8 <_+>4. <[6]>8
+	r4 <6 5>8 <7 _+> <5> <\t> <6\\ 5> <7 [5+] _+> %25
+	r4. <6>8 <6 4> <6\\> <6> <6\\>
+	r1
+	<7 _+>2 <6\\ 4 3>4 <6>
+	<6\\ 5>2 <[5+] _+>
+	r4. <3>8 <_+> <3> q q %30
+	r1
+	r2 <6\\ 4 3>4 <6>
+	<6 5>2 <_+>
+	<[5 3]>2. \bassFigureExtendersOn <5 3>4
+	<[6]>2. <6>4 %35
+	<[5 3]>2. <5 3>4
+	<[6]>2. <6>4 \bassFigureExtendersOff
+	r1
+	r4 <5> <6>2
+	<_+>2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff %40
+	<6>4 <6\\> r <4\+>
+	<6>2 <6\\>
+	<6 4> <[5] _+>
+	r1
+	r %45
+	r
+	r
+	r
+	r
+	r %50
+	r
+	<6>4 <6 4> r <6>
+	<5>8 <6> q <7> r2
+	r1
+	<6\\>2.. <[6]>8 %55
+	r2.. <[6]>8
+	r1
+	<6 4>2 <7 _+>
+	<9 4>8 <8 3>4. <5>2
+	<6\\> <6 5 [_+]> %60
+	<9+ 4>8 <8 3>4. r2
+	<6>4 <5>8 <6\\> <6 4>4 <[5+] _+>
+	r1
+	r2 <6\\>
+	<[6]>1 %65
+	r
+	r2 <6 4>
+	r <9 4>
+	r <6>
+	<6> <5 3> %70
+	<6 5> <7!>
+	<4>4 <3>2.
+	r1
+	<6>2 <6 3>
+	r <5>4 q %75
+	q q <_+>2
+	r1
+	r2 <10 3>4 <6 4>
+	<8 3>2 <\t \t>
+	<7 _+> <8 6 4> %80
+	<4 2> <6>4 q
+	<6 4>2 <[5] _+>
+	r1
+	r
+	r2. <[6]>4 %85
+	<[6 5]>1 %86 finis
 }
 
 % Organo = {
