@@ -12,7 +12,7 @@ KyrieViolinoI = {
 		d' f,4 f f8
 		e\pp e4 e e8
 		e8.( \tuplet 3/2 16 { a,32 cis e) } a8-!\f g-! f-! e-!
-		<d a' a'> a'' a a cis,[ cis] %5
+		<d a' a'> a''[ a a cis, cis] %5
 		d d d d c c
 		b b' a a, g g'
 		f8.\trill g16 a8 cis,16( d e f g a)
@@ -36,7 +36,7 @@ KyrieViolinoI = {
 		f8 f16 g a(\cresc b c d e f g a)
 		b4\sfE b16( g e c) b( g e b)
 		a4~\p a16 a' gis a c( b a g)
-		c4.\sfp b16( a a g f e)
+		c!4.\sfp b16( a a g f e)
 		f8.(\f a32 c) f8 f, f e %30
 		d8.( f32 a) d8 d, d c
 		h\pp g' g g g g

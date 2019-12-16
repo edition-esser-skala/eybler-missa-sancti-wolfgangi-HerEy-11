@@ -13,7 +13,7 @@ KyrieViola = {
 		b b4 b b8
 		b4(\pp a gis)
 		a4. g8\f f e
-		<d a' d a'> a'' a a g[ g] %5
+		<d a' d a'> a''[ a a g g] %5
 		f d d d d d
 		d d cis cis cis cis
 		d d d a' g f

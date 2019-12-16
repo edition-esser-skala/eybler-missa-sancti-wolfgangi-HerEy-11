@@ -12,7 +12,7 @@ KyrieViolinoII = {
 		f d4 d d8
 		d\ppE d4 d d8
 		cis8.( \tuplet 3/2 16 { a32 cis e) } a8-!\f g-! f-! e-!
-		<d a' f'> f' f f b,[ b] %5
+		<d a' f'> f'[ f f b, b] %5
 		a a a a a a
 		g g' f f, e e'
 		d8.\trill e16 f8 cis,16( d e f g a)
