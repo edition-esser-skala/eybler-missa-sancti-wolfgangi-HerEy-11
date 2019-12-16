@@ -222,7 +222,7 @@ GloriaSopranoNotes = {
 		d8[ \appoggiatura { e16[ d] } cis d] e[ fis] g([ cis,)] d8 \mvTr fis\fE^\tutti e e
 		d d cis cis h h a4 %10
 		h8 g' fis cis d4 r
-		\mvTrr g4.\ppE^\solo cis,8 d8. a16 a4
+		\mvTr g4.\fE^\solo cis,8 d8. a16 a4
 		h e16([ d)] cis([ h)] a8. g16 fis8 r
 		e'4. d16([ cis)] ais8.([ h16]) d4
 		fis e8 d his8.([ cis16)] cis4 %15
@@ -230,7 +230,7 @@ GloriaSopranoNotes = {
 		d cis h a! e'4 r
 		\mvTr e\fE^\tutti e8 e e e r e
 		a e cis a e'4 r
-		\mvTrr d4\ppE^\solo h8 gis a8.([ e16)] e4 %20
+		\mvTrr d4\fE^\solo h8 gis a8.([ e16)] e4 %20
 		\acciaccatura e'8 d4 cis16([ h)] a([ gis)] a8. e16 e4
 		a d8 fis e([ g! fis d]
 		cis4) h a r

@@ -219,6 +219,7 @@ GloriaTenoreNotes = {
 
 GloriaTenoreLyrics = \lyricmode {
 	
+% Et in ter -- ra pax ho -- mi -- ni -- bus bo -- nae vo -- lun -- ta -- tis.
 }
 
 % TenoreNotes = {

@@ -308,8 +308,8 @@ GloriaOrgano = {
 }
 
 GloriaBassFigures = \figuremode {
-	r1
-	r
+	r2 <[7]>
+	q1
 	r4 <7 5> <6 4> <\t \t>8 <5 3>
 	<6 5>4 <\t \t>8 <6 4> <\t \t>4 <_+>
 	<7>2.. <6>8 %5
@@ -318,13 +318,13 @@ GloriaBassFigures = \figuremode {
 	r2.. <6>8
 	<7>4 q r <4>8 <3>
 	<9> <8> <4> <3> <9> <8> <4> <3> %10
-	r4 <[5] 4>8 <7 [3]> r4. <[6]>8
+	r4 <[6] 4>8 <7 [3]> r4. <[6]>8
 	<7>4 q r2
 	<6 4> <5 3>
 	<6> <[5\+]>4 <[6]>
 	<[9] 7 _+> <[8] \t \t> <[2+]> <[3]> %15
 	<6>2 r4. <6 5>8
-	r <6\\> <[6]> <6 5> <_+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r <6\\> <[6]> <[7] 5> <_+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
 	<_+>4 <6> <_+>2
 	<8>8 q q q q2
 	<4\+>2 <6> %20
@@ -341,10 +341,10 @@ GloriaBassFigures = \figuremode {
 	r1
 	r2 <6\\ 4 3>4 <6>
 	<6 5>2 <_+>
-	<[5 3]>2. \bassFigureExtendersOn <5 3>4
-	<[6]>2. <6>4 %35
-	<[5 3]>2. <5 3>4
-	<[6]>2. <6>4 \bassFigureExtendersOff
+	<[5 3]>2. \bassFigureExtendersOn <5 3>4 \bassFigureExtendersOff
+	<[6 5]>2. \bassFigureExtendersOn <6 5>4 \bassFigureExtendersOff %35
+	<[5 3]>2. \bassFigureExtendersOn <5 3>4 \bassFigureExtendersOff
+	<[6 5]>2. \bassFigureExtendersOn <6 5>4 \bassFigureExtendersOff
 	r1
 	r4 <5> <6>2
 	<_+>2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff %40
@@ -361,7 +361,7 @@ GloriaBassFigures = \figuremode {
 	r
 	<6>4 <6 4> r <6>
 	<5>8 <6> q <7> r2
-	r1
+	<[6]>1
 	<6\\>2.. <[6]>8 %55
 	r2.. <[6]>8
 	r1

@@ -217,12 +217,153 @@ GloriaAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoGloria
-% 		Et in ter -- ra pax ho -- mi -- ni -- bus bo -- nae vo -- lun -- ta -- tis.
+		\mvTr fis8\f^\tutti fis16 fis a8 a a8.([ e16)] e4
+		a8 a a a a8.([ fis16)] fis4
+		R1*6 %8
+		r2 r8 \mvTr a\f^\tuttiE a a
+		fis fis fis fis d d d4 %10
+		d8 e d g fis4 r
+		R1
+		r2 r8 d4\pp d8
+		e8. e16 e4^\critnote r8 fis4 fis8
+		d4 d r8 cis4 e8 %15
+		e4 e r8 d\p d fis
+		fis([ e)] d([ cis)] h4 r
+		gis'4\f a8 a gis gis r gis
+		a e' cis a e4 r
+		r2 r8 cis4\pp cis8 %20
+		e8.([ d16)] d4 r8 cis4 cis8
+		d8. e16 fis4 r8 a\p a a
+		a4 gis a r
+		R1*3 %26
+		cis,4\p cis8 cis cis([ fis)] gis a
+		gis4 a r2
+		R1*2 %30
+		e4 e8 e e([ a)] a a
+		a4 a r2
+		R1*2
+		d,2 d4 d %35
+		cis4. d8 cis4 r
+		d d d d8 d
+		cis4. d8 cis4 r
+		R1
+		e4\f cis fis fis %40
+		fis8([ gis)] ais fis h4 h
+		h h8 h h4 h
+		h2( ais)
+		h4 r r2
+		R1*5 %49
+		fis4\f fis8 fis e4 a %50
+		a4. a8 a4 fis
+		g fis h a
+		r r8 d, a'8. a,16 a4
+		r8 e'4\ppE e8 e8. fis16 e4
+		e4. e8 e4 r %55
+		R1
+		r2 e4\f e8 e
+		e4 e e4. e8
+		e8. e16 e4 a2
+		h4 r h4. gis8 %60
+		gis4 fis fis4. fis8
+		fis4. gis8 fis4( eis8) eis
+		fis4 r r8 cis4\pp cis8
+		cis8. d16 cis4 cis4. cis8
+		cis4 r r2 %65
+		R1
+		a'4\f a8 a a4 a
+		g4. e8 e4 d
+		d4. d8 d4 r
+		a'2 a4 r %70
+		h h8 h a4 a
+		a2 fis4 r
+		r8 a,4\pp a8 a8. h16 a4
+		g'4. g8 fis4 r
+		a\f a fis fis %75
+		d g8 g fis4 fis
+		R1
+		r2 g4 h
+		c2 c
+		cis1~\crescE %80
+		cis2\ffE d4 g,!
+		a1
+		fis4 r r2
+		R1*2 %85
+		R1\fermataMarkup \bar "||" %86 finis
 	}
 }
 
 GloriaAltoLyrics = \lyricmode {
+	Glo -- ri -- a in ex -- cel -- sis,
+	in ex -- cel -- sis De -- o.
 	
+	Lau -- da -- mus
+	te, lau -- da -- mus te, lau -- da -- %10
+	mus, lau -- da -- mus te,
+	
+	be -- ne --
+	di -- ci -- mus, ad -- o --
+	ra -- mus, ad -- o -- %15
+	ra -- mus, glo -- ri -- fi --
+	ca -- mus te,
+	glo -- ri -- fi -- ca -- mus, glo --
+	ri -- fi -- ca -- mus te,
+	ad -- o -- %20
+	ra -- mus, be -- ne --
+	di -- ci -- mus, glo -- ri -- fi --
+	ca -- mus te.
+	
+	Gra -- ti -- as a -- gi -- mus %27
+	ti -- bi,
+	
+	gra -- ti -- as a -- gi -- mus %31
+	ti -- bi,
+	
+	
+	gra -- ti -- as %35
+	a -- gi -- mus,
+	ti -- bi gra -- ti -- as
+	a -- gi -- mus
+	
+	pro -- pter ma -- gnam %40
+	glo -- ri -- am tu -- am,
+	glo -- ri -- am tu -- am
+	ma --
+	gnam,
+	
+	Do -- mi -- ne De -- us, %50
+	Rex coe -- le -- stis,
+	De -- us Pa -- ter
+	o -- mni -- po -- tens,
+	ti -- bi gra -- ti -- as
+	a -- gi -- mus, %55
+	
+	Do -- mi -- ne
+	Fi -- li u -- ni --
+	ge -- ni -- te, Je --
+	su, Je -- su %60
+	Chri -- ste, Fi -- li
+	u -- ni -- ge -- ni --
+	te, ti -- bi
+	gra -- ti -- as a -- gi --
+	mus, %65
+	
+	Do -- mi -- ne De -- us,
+	A -- gnus De -- i,
+	Fi -- li -- us
+	Pa -- tris, %70
+	Fi -- li -- us De -- i
+	Pa -- tris,
+	ti -- bi gra -- ti -- as
+	a -- gi -- mus
+	pro -- pter ma -- gnam %75
+	glo -- ri -- am tu -- am,
+	
+	pro -- pter
+	ma -- gnam
+	glo -- %80
+	ri -- am
+	tu --
+	am. %83 finis
 }
 
 % AltoNotes = {
