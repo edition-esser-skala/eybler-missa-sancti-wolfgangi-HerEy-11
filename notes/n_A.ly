@@ -296,7 +296,7 @@ GloriaAltoLyrics = \lyricmode {
 	Glo -- ri -- a in ex -- cel -- sis,
 	in ex -- cel -- sis De -- o.
 	
-	Lau -- da -- mus
+	Lau -- da -- mus %9
 	te, lau -- da -- mus te, lau -- da -- %10
 	mus, lau -- da -- mus te,
 	
@@ -304,7 +304,7 @@ GloriaAltoLyrics = \lyricmode {
 	di -- ci -- mus, ad -- o --
 	ra -- mus, ad -- o -- %15
 	ra -- mus, glo -- ri -- fi --
-	ca -- mus te,
+	ca -- mus __ te,
 	glo -- ri -- fi -- ca -- mus, glo --
 	ri -- fi -- ca -- mus te,
 	ad -- o -- %20

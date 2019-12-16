@@ -213,13 +213,162 @@ GloriaTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \major \time 4/4 \autoBeamOff \tempoGloria
-		
+		\mvTr d8\f^\tutti d16 d d8 d e8.([ cis16)] cis4
+		cis8 cis cis e fis8.([ d16)] d4
+		\mvTr d4.\p^\solo cis8 \acciaccatura cis8 h4. a8
+		\acciaccatura a g4. fis8 a8. fis16 e4
+		e'4. cis8 e16([ d cis d] cis[ h)] a([ g)] %5
+		fis4( e) d r
+		R1*2
+		r2 r8 \mvTr d'\f^\tutti d cis
+		cis h h a a g g([ fis)] %10
+		g h a e' d4 r
+		R1
+		r2 r8 a4\pp a8
+		a8. a16 a4 r8 d4 d8
+		h4 h r8 a4 a8 %15
+		a4 a r8 a\p d cis
+		d([ e)] fis([ a,)] gis4 r
+		h\f a8 cis h e r h
+		cis e cis a e'4 r
+		r2 r8 a,4\pp a8 %20
+		h4 h r8 a4 a8
+		a8. a16 a4 r8 cis\p d d
+		e4 e cis r
+		R1*3 %26
+		a4\p a8 a h([ a)] gis fis
+		h4 a r2
+		R1*2 %30
+		cis4 cis8 cis gis([ a)] h cis
+		d4 cis e a,
+		fis' d h e8 e
+		cis4 a r2
+		h2 h4 h %35
+		a4. h8 a4 r
+		h h h h8 h
+		a4. h8 a4 r
+		r2 h4\f e,
+		cis' cis ais8([ h)] cis ais %40
+		fis'4 e d! fis
+		h, h d d8 d
+		d2( cis)
+		h4 r r2
+		R1*5 %49
+		a4\f a8 d cis4 cis %50
+		cis4. cis8 d4 d
+		d d d d
+		r r8 d a8. a16 a4
+		r8 e4\ppE e8 e8. fis16 e4
+		d'4. d8 cis4 r %55
+		R1
+		r2 a4 a8 a
+		a8([ gis)] gis4 gis4. h8
+		h8. a16 a4 cis2
+		cis4 r cis4. cis8 %60
+		cis4 cis h4. h8
+		cis4 h8([ d)] cis4. cis8
+		cis4 r r8 cis,4\pp cis8
+		cis8. d16 cis4 h'4. h8
+		a4 r r2 %65
+		R1
+		cis4\f cis8 cis cis4 e
+		a,4. a8 a4 a
+		g4. g8 a4 r
+		cis2 d4 r %70
+		d d8 d cis4 d
+		d( cis) d r
+		r8 a4\pp a8 a8. h16 a4
+		a4. a8 a4 r
+		d\f cis h a %75
+		g h8 h ais4 h
+		R1
+		r2 g'4 f
+		e2 e
+		\once \tieDashed e1~\cresc %80
+		e2 a,4\ff d
+		d2( cis)
+		d4 r r2
+		R1*2 %85
+		R1\fermataMarkup \bar "||" %86 finis
 	}
 }
 
 GloriaTenoreLyrics = \lyricmode {
+	Glo -- ri -- a in ex -- cel -- sis,
+	in ex -- cel -- sis De -- o.
+	Et in ter -- ra
+	pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- %5
+	ta -- tis.
 	
-% Et in ter -- ra pax ho -- mi -- ni -- bus bo -- nae vo -- lun -- ta -- tis.
+	Lau -- da -- mus %9
+	te, lau -- da -- mus te, lau -- da -- %10
+	mus, lau -- da -- mus te,
+	
+	be -- ne --
+	di -- ci -- mus, ad -- o --
+	ra -- mus, ad -- o -- %15
+	ra -- mus, glo -- ri -- fi --
+	ca -- mus __ te,
+	glo -- ri -- fi -- ca -- mus, glo --
+	ri -- fi -- ca -- mus te,
+	ad -- o -- %20
+	ra -- mus, be -- ne --
+	di -- ci -- mus, glo -- ri -- fi --
+	ca -- mus te.
+	
+	Gra -- ti -- as a -- gi -- mus %27
+	ti -- bi,
+	
+	gra -- ti -- as a -- gi -- mus %31
+	ti -- bi pro -- pter
+	ma -- gnam glo -- ri -- am
+	tu -- am,
+	gra -- ti -- as %35
+	a -- gi -- mus,
+	ti -- bi gra -- ti -- as
+	a -- gi -- mus
+	pro -- pter
+	ma -- gnam glo -- ri -- am %40
+	tu -- am, pro -- pter
+	tu -- am glo -- ri -- am
+	ma --
+	gnam,
+	
+	Do -- mi -- ne De -- us, %50
+	Rex coe -- le -- stis,
+	De -- us Pa -- ter
+	o -- mni -- po -- tens,
+	ti -- bi gra -- ti -- as
+	a -- gi -- mus, %55
+	
+	Do -- mi -- ne
+	Fi -- li u -- ni --
+	ge -- ni -- te, Je --
+	su, Je -- su %60
+	Chri -- ste, Fi -- li
+	u -- ni -- ge -- ni --
+	te, ti -- bi
+	gra -- ti -- as a -- gi --
+	mus, %65
+	
+	Do -- mi -- ne De -- us,
+	A -- gnus De -- i,
+	Fi -- li -- us
+	Pa -- tris, %70
+	Fi -- li -- us De -- i
+	Pa -- tris,
+	ti -- bi gra -- ti -- as
+	a -- gi -- mus
+	pro -- pter ma -- gnam %75
+	glo -- ri -- am tu -- am,
+	
+	pro -- pter
+	ma -- gnam
+	glo -- %80
+	ri -- am
+	tu --
+	am. %83 finis
 }
 
 % TenoreNotes = {
