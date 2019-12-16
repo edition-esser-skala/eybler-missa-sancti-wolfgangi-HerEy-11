@@ -215,12 +215,156 @@ GloriaSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoGloria
-		
+		\mvTr d'8\f^\tutti d16 d fis8 d cis8.([ e16)] g4
+		e8 e g cis, d8.([ fis16)] a4
+		R1*5 %7
+		r2 r8 \mvTrr a,\ppE^\solo d4~
+		d8[ \appoggiatura { e16[ d] } cis d] e[ fis] g([ cis,)] d8 \mvTr fis\fE^\tutti e e
+		d d cis cis h h a4 %10
+		h8 g' fis cis d4 r
+		\mvTrr g4.\ppE^\solo cis,8 d8. a16 a4
+		h e16([ d)] cis([ h)] a8. g16 fis8 r
+		e'4. d16([ cis)] ais8.([ h16]) d4
+		fis e8 d his8.([ cis16)] cis4 %15
+		r8 a cis e fis4 d8 e
+		d cis h a! e'4 r
+		\mvTr e\fE^\tutti e8 e e e r e
+		a e cis a e'4 r
+		\mvTrr d4\ppE^\solo h8 gis a8.([ e16)] e4 %20
+		\acciaccatura e'8 d4 cis16([ h)] a([ gis)] a8. e16 e4
+		a d8 fis e([ g! fis d]
+		cis4) h a r
+		R1*3 %26
+		\mvTr fis4\pE^\tutti fis8 fis gis([ a)] h cis
+		d4 cis r2
+		R1*2 %30
+		a4 a8 a h([ cis)] d e
+		fis4 e r2
+		R1
+		e2 cis4 a
+		e4. fis8 e4 r %35
+		e' e d8([ cis)] h a
+		e4. fis8 e4 r
+		r2 e'4\f a,
+		fis' fis e8([ d)] cis h
+		ais4 fis r2 %40
+		h4 cis d dis
+		e2 eis4 eis
+		fis1
+		h,4 r r2
+		R1*5 %49
+		d4\f d8 d e4 a, %50
+		e'4. e8 fis4 d
+		d d d d
+		r r8 d a'8. a,16 a4
+		r8 e4\ppE e8 e8. fis16 e4
+		gis4. gis8 a4 r %55
+		R1
+		r2 cis4\f cis8 cis
+		cis([ h)] h4 d4. d8
+		d8. cis16 cis4 fis2
+		eis4 r gis4. h,8 %60
+		h4 a d4. d8
+		cis([ fis)] d([ h)] a4( gis8) gis
+		fis4 r r8 cis4\pp cis8
+		cis8. d16 cis4 eis4. eis8
+		fis4 r r2 %65
+		R1
+		fis'4\f fis8 fis g!4 cis,
+		e4. g,8 g4 fis
+		h4. h8 a4 r
+		g'2 fis4 r %70
+		e e8 e g!4 fis
+		e2 d4 r
+		r8 a4\pp a8 a8. h16 a4
+		cis4. cis8 d4 r
+		fis\fE e d cis %75
+		h e8 e cis4 d
+		h d g g
+		g1~
+		g~
+		g2\crescE gis %80
+		a\ffE d,4 g
+		fis2( e)
+		d4 r r2
+		R1*2 %85
+		R1\fermataMarkup \bar "||" %86 finis
 	}
 }
 
 GloriaSopranoLyrics = \lyricmode {
+	Glo -- ri -- a in ex -- cel -- sis,
+	in ex -- cel -- sis De -- o.
 	
+	Lau -- da -- %8
+	_ mus te, lau -- da -- mus
+	te, lau -- da -- mus te, lau -- da -- %10
+	mus, lau -- da -- mus te,
+	be -- ne -- di -- ci -- mus
+	te, be -- ne -- di -- ci -- mus,
+	ad -- o -- ra -- mus
+	te, ad -- o -- ra -- mus, %15
+	glo -- ri -- fi -- ca -- mus, glo --
+	ri -- fi -- ca -- mus te,
+	glo -- ri -- fi -- ca -- mus, glo --
+	ri -- fi -- ca -- mus te,
+	te ad -- o -- ra -- mus, %20
+	te be -- ne -- di -- ci -- mus,
+	glo -- ri -- fi -- ca --
+	mus te.
+	
+	Gra -- ti -- as a -- gi -- mus %27
+	ti -- bi,
+	
+	gra -- ti -- as a -- gi -- mus %31
+	ti -- bi,
+	
+	gra -- ti -- as
+	a -- gi -- mus, %35
+	ti -- bi gra -- ti -- as
+	a -- gi -- mus
+	pro -- pter
+	ma -- gnam glo -- ri -- am
+	tu -- am, %40
+	pro -- pter tu -- am
+	glo -- ri -- am
+	ma --
+	gnam,
+	
+	Do -- mi -- ne De -- us, %50
+	Rex coe -- le -- stis,
+	De -- us Pa -- ter
+	o -- mni -- po -- tens,
+	ti -- bi gra -- ti -- as
+	a -- gi -- mus, %55
+	
+	Do -- mi -- ne
+	Fi -- li u -- ni --
+	ge -- ni -- te, Je --
+	su, Je -- su %60
+	Chri -- ste, Fi -- li
+	u -- ni -- ge -- ni --
+	te, ti -- bi
+	gra -- ti -- as a -- gi --
+	mus, %65
+	
+	Do -- mi -- ne De -- us,
+	A -- gnus De -- i,
+	Fi -- li -- us
+	Pa -- tris, %70
+	Fi -- li -- us De -- i
+	Pa -- tris,
+	ti -- bi gra -- ti -- as
+	a -- gi -- mus
+	pro -- pter ma -- gnam %75
+	glo -- ri -- am tu -- am,
+	pro -- pter ma -- gnam
+	glo --
+	
+	_ %80
+	_ ri -- am
+	tu --
+	am. %83 finis
 }
 
 % SopranoNotes = {

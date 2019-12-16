@@ -217,7 +217,7 @@ GloriaAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoGloria
-		
+% 		Et in ter -- ra pax ho -- mi -- ni -- bus bo -- nae vo -- lun -- ta -- tis.
 	}
 }
 

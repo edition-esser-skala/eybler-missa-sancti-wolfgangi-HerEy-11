@@ -82,7 +82,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = \markup { \center-column { "Violoncello," "Basso e" "Organo" } }
 						\GloriaOrgano
 					}
 				>>
