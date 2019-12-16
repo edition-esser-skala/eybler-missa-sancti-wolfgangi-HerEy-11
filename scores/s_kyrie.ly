@@ -55,37 +55,37 @@
 							\KyrieViola
 						}
 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = \SopranoIncipit
-% 						\override Staff.InstrumentName.self-alignment-Y = ##f
-% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-% 						\new Voice = "Soprano" { \dynamicUp \KyrieSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = \AltoIncipit
-% 						\override Staff.InstrumentName.self-alignment-Y = ##f
-% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-% 						\new Voice = "Alto" { \dynamicUp \KyrieAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \KyrieAltoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = \TenoreIncipit
-% 						\override Staff.InstrumentName.self-alignment-Y = ##f
-% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-% 						\new Voice = "Tenore" { \dynamicUp \KyrieTenoreNotes }
-% 					}
-% 					\new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \KyrieBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \KyrieBassoLyrics
-% 				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = \SopranoIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Soprano" { \dynamicUp \KyrieSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \AltoIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Alto" { \dynamicUp \KyrieAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \KyrieAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \TenoreIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Tenore" { \dynamicUp \KyrieTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \KyrieBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \KyrieBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"

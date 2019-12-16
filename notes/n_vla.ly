@@ -7,7 +7,7 @@
 
 KyrieViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \minor \time 3/4 \tempoKyrie
 		a8\f a4 a a8
 		b b4 b b8
