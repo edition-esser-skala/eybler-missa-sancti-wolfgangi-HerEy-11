@@ -40,6 +40,36 @@ GloriaTrombaII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoGloria
-		
+		e8\f e16 e e8 e g4 r
+		g8 g16 g g8 g c4 r
+		R1*6 %8
+		r2 e,4\fE g
+		c, r r2 %10
+		r4 g c r
+		R1*4 %15
+		r2 c4\f e8 e
+		e r r4 r2
+		R1*4 %21
+		r2 r8 g\f c c
+		d4 d g, r
+		R1*26 %49
+		e4\f e8 e g4 r %50
+		g g8 g c4 r
+		c, c c c
+		r2 r4 g\sf
+		R1*3 %56
+		r2 g4\sf r
+		R1*12 %69
+		g'2\f c4 r %70
+		r2 g4 c~
+		c g e r
+		R1*2
+		c4\f g' e r %75
+		R1*5 %80
+		g2\ff c4 c
+		c2 g
+		e4 r r2
+		R1*2 %85
+		r4 g, c r\fermata \bar "||" %86 finis
 	}
 }
