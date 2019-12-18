@@ -11,9 +11,92 @@
 #(set-global-staff-size 15.87)
 
 \book {
+% 	\bookpart {
+% 		\header {
+% 			movement = "2.1 GLORIA"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\GloriaOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\GloriaOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in D" } }
+% 						\partcombine \GloriaTrombaI \GloriaTrombaII
+% 					>>
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Timpani" "in d–A" } }
+% 					\GloriaTimpani
+% 				}
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\GloriaViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\GloriaViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\GloriaViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Violoncello," "Basso e" "Organo" } }
+% 						\GloriaOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\GloriaBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "2.1 GLORIA"
+			movement = "2.2 QUI TOLLIS"
 		}
 		\score {
 			<<
@@ -21,77 +104,67 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-							\GloriaOboeI
+							\QuiTollisOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
-							\GloriaOboeII
+							\QuiTollisOboeII
 						}
 					>>
 				>>
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in D" } }
-						\partcombine \GloriaTrombaI \GloriaTrombaII
-					>>
-				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Timpani" "in d–A" } }
-					\GloriaTimpani
-				}
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\GloriaViolinoI
+							\QuiTollisViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\GloriaViolinoII
+							\QuiTollisViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\GloriaViola
+						\QuiTollisViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
+					\new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
+					\new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
+					\new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
+					\new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Violoncello," "Basso e" "Organo" } }
-						\GloriaOrgano
+						\QuiTollisOrgano
 					}
 				>>
 				\new FiguredBass {
-					\GloriaBassFigures
+					\QuiTollisBassFigures
 				}
 			>>
 			\layout { }
-% 			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

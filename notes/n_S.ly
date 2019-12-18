@@ -367,6 +367,19 @@ GloriaSopranoLyrics = \lyricmode {
 	am. %83 finis
 }
 
+QuiTollisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #87
+		
+	}
+}
+
+QuiTollisSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

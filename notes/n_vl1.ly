@@ -203,6 +203,15 @@ GloriaViolinoI = {
 	}
 }
 
+QuiTollisViolinoI = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #87
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

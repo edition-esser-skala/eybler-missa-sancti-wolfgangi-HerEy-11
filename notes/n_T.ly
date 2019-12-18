@@ -371,6 +371,19 @@ GloriaTenoreLyrics = \lyricmode {
 	am. %83 finis
 }
 
+QuiTollisTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key h \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #87
+		
+	}
+}
+
+QuiTollisTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

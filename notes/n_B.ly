@@ -358,6 +358,19 @@ GloriaBassoLyrics = \lyricmode {
 	am. %83 finis
 }
 
+QuiTollisBassoNotes = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #87
+		
+	}
+}
+
+QuiTollisBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

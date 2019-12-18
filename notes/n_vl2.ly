@@ -202,3 +202,12 @@ GloriaViolinoII = {
 		<d h' g'> <a e' cis'> <a fis' d'> r\fermata \bar "||" %86 finis
 	}
 }
+
+QuiTollisViolinoII = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #87
+		
+	}
+}

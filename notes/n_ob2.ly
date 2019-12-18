@@ -160,3 +160,12 @@ GloriaOboeII = {
 		h g fis r\fermata \bar "||" %86 finis
 	}
 }
+
+QuiTollisOboeII = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #87
+		
+	}
+}

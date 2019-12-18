@@ -168,6 +168,8 @@ fz = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "fz")))
 fzE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "fz")))
 sf = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "sf")))
 sfE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "sf")))
+sfz = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "sfz")))
+sfzE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "sfz")))
 sfp = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "sfp")))
 sfpE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "sfp")))
 pocoF = #(make-dynamic-script (markup #:line (#:normal-text #:small "poco" #:normal-text #:large #:bold "f")))
@@ -238,6 +240,7 @@ tempoMarkup =
 
 tempoKyrie = \tempoMarkup "Andante"
 tempoGloria = \tempoMarkup "Allegro con fuoco"
+	tempoQuiTollis = \tempoMarkup "Adagio"
 
 
 

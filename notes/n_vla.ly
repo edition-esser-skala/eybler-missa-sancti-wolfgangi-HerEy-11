@@ -203,3 +203,12 @@ GloriaViola = {
 		<d h'> <a g'> <d, a' fis'> r\fermata \bar "||" %86 finis
 	}
 }
+
+QuiTollisViola = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #87
+		
+	}
+}
