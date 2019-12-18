@@ -285,7 +285,7 @@ GloriaTenoreNotes = {
 		r2 g'4 f
 		e2 e
 		\once \tieDashed e1~\cresc %80
-		e2 a,4\ff d
+		e2\ff a,4 d
 		d2( cis)
 		d4 r r2
 		R1*2 %85

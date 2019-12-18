@@ -226,7 +226,7 @@ GloriaOrgano = {
 		a a a, a d4 r8 fis,\f
 		g g' r g, a a' r cis
 		d fis, g a d, r r fis\pp
-		e e a, a d16 fis32 e \mvTr d16\f-\tutti fis a a, a a'
+		e e a, a d16 \mvTr fis32\f-\tutti e d16 fis a a, a a'
 		h, d32 cis h16 d fis fis, fis fis' g, h32 a g16 h d d, d d' %10
 		g, g'32 fis e16 g a g a a, d8 r r \mvTrr fis\pp-\solo
 		e e a, a d d d d
@@ -240,7 +240,7 @@ GloriaOrgano = {
 		\mvTrr d8\pp-\soloE d d d cis cis cis cis %20
 		h h h h a a a a
 		fis fis d d cis \mvTr a\pE-\tutti d fis
-		e e e, e a4 r8 cis
+		e e e, e a4 r8 cis\fE
 		d d' r d, e e' r gis,
 		a cis, d e fis a, h cis %25
 		fis,4 r8 d''\p cis( h a gis)
@@ -257,7 +257,7 @@ GloriaOrgano = {
 		gis, h e gis
 		a a, \clef treble \mvTr e'''\f-\org a, \clef bass
 		d,,-\bassi h g'! g
-		fis8( gis ais h) cis( ais fis e) %40
+		fis8( gis ais h) cis( ais fis e!) %40
 		d d' cis cis, h h' a! a,!
 		gis gis' gis gis, g g' g g,
 		fis fis' fis fis fis, fis' fis fis
@@ -265,8 +265,8 @@ GloriaOrgano = {
 		ais( g'! fis e) dis( fis h, a) %45
 		g( fis e d) cis!( h ais cis)
 		h fis''4\cresc d h fis8~
-		fis d4 h h'8 fis fis,
-		h r16. \mvTr d'32\f-\unisono cis16. h32 a!16. g32 fis8 r16. h32 a16. g32 fis16. e32
+		fis d4 h h'8 fis[ fis,]
+		h r16. \mvTr d'32\f-\unisono cis16. h32 a!16. g!32 fis8 r16. h32 a16. g32 fis16. e32
 		d8-\tutti d'16 cis d a fis d a8 a'16 gis a e cis e %50
 		a,8 a'16 gis a e cis a d8 d'16 cis d a fis d
 		h'8 h, a a' g g, fis fis'
@@ -280,7 +280,7 @@ GloriaOrgano = {
 		gis,8 gis'16 a h a gis fis eis8 gis16 fis eis cis dis eis %60
 		fis8 fis16 eis fis cis a fis h8 h'16 ais h fis d h
 		a!8 a' h, h' cis, cis'16 his cis8 cis,
-		fis cis'-! a-! fis-! eis\pp eis eis eis
+		fis cis'-! a-! fis-! eis eis\pp eis eis
 		fis fis fis fis gis gis gis gis
 		a4 r8 \mvTr a,\f-\solo h h' r h, %65
 		cis cis' r eis, fis a, h cis
@@ -290,7 +290,7 @@ GloriaOrgano = {
 		e8 e'16 d e cis g e d8 d'16 cis d a fis d %70
 		gis8 gis'16 fis gis e fis gis a8 h16 cis d a fis d
 		a8 a'16 gis a8 a, d-! a'-! fis-! d-!
-		cis\pp cis cis cis d d d d
+		cis cis\pp cis cis d d d d
 		e e e e fis16 d\f e fis g a h cis
 		d8 d, a' a, h' h, fis' fis, %75
 		g' g, e' e, fis' fis, h'-\critnote h,
@@ -312,10 +312,10 @@ GloriaBassFigures = \figuremode {
 	q1
 	r4 <\t \t>8 <7 5> <6 4>4 <\t \t>8 <5 3>
 	<6 5>4 <\t \t>8 <[5 3]> <6 4>4 <[5] _+>
-	<7>2 <[9]>8 <[8]> <[5]> <6> %5
+	<7>2 <[9 4]>8 <[8 3]> <[5]> <6> %5
 	<6 4>4 <[5] _+> r4. <[6]>8
-	r4. <6>8 r4. <[6]>8
-	r2.. <6>8
+	r4. <6>8 r4. <[6 5]>8
+	r <[6]> <[6 5]>4 r4. <6>8
 	<7>4 q r <4>8 <3>
 	<9> <8> <4> <3> <9> <8> <4> <3> %10
 	r4 <[6] 4>8 <7 [3]> r4. <[6]>8
