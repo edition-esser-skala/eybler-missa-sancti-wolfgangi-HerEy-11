@@ -86,6 +86,77 @@ GloriaOboeII = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \tempoGloria
-		
+		fis2\f e4 r
+		g2 fis4 r
+		R1*3 %5
+		r2 r4 r8 d\sfE
+		h'4. e,8 cis'4. a8
+		a d4 cis8 d r r4
+		r2 r8 d4\f cis8~
+		cis h4 a g fis8 %10
+		g e' d cis d r r4
+		R1*4 %15
+		r2 d4.\f cis8
+		h ais h a gis e4 gis8
+		h4 a gis h8 d
+		cis e cis a e4 r
+		R1*2 %21
+		r2 r8 cis'\f d a
+		a4 gis a r8 a~
+		a fis r h~ h gis r h
+		a e' fis d cis4 d8 h %25
+		a4 r r2
+		R1*7 %33
+		a1\pE
+		h %35
+		a
+		h
+		a4 r e'\fE a,
+		fis' fis e8 d cis h
+		ais4 fis r2 %40
+		r h4 h
+		h1
+		d2 cis
+		h4 r r2
+		R1*2 %46
+		h1~\crescE
+		h2. ais4
+		h r r2
+		d2\fE cis %50
+		cis d
+		d4 d2 d4
+		e8 d h h a r cis4\sfE
+		R1
+		r2 r8 e,\fE a4~ %55
+		a8 fis h4~ h8 gis d'4
+		cis h a a8 a
+		a gis gis4 h4. h8
+		h a a4 a2
+		h gis'4. gis,8 %60
+		gis4 fis fis2
+		fis4. gis8 fis4 eis
+		fis r r2
+		R1
+		r4 r8 fis\fE d'4. gis,8 %65
+		eis'4. gis8 fis fis, gis4
+		a2. cis4
+		e2. d4
+		d1
+		cis2 d %70
+		d cis4 d~
+		d cis d r
+		R1*2
+		d4\fE cis h a %75
+		g h ais h
+		R1
+		r2 g'4 f
+		\once \tieDashed e1~
+		e\crescE %80
+		cis2\ffE d~
+		d cis
+		d4 r8 d, h'4. e,8
+		cis' e4 e,8 d e16. fis32 g16. fis32 g16. a32
+		h16. a32 h16. cis32 d16. cis32 d16. e32 fis8 r d4 %85
+		h g fis r\fermata \bar "||" %86 finis
 	}
 }

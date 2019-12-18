@@ -166,8 +166,8 @@ GloriaViolinoI = {
 		d16 d' d d fis, d' d d e cis cis cis cis a a a %50
 		a e' e e cis e e e fis d d d a d d d
 		g8 g,16 g' fis8 fis,16 fis' h8 h,16 h' a8 a,16 a'
-		g a fis g e fis d! e cis8 r <a, e' cis' a'>4\sf
-		h8\pp h h h a a a a
+		g a fis g e fis d e cis8 r <a, e' cis' a'>4\sf
+		d8\pp^\critnote d d d cis cis cis cis
 		gis' gis gis gis a e'16.\f d32 cis16. h32 a16. gis32 %55
 		fis8 fis'16. e32 d16. cis32 h16. a32 gis8 h'16. a32 gis16. fis32 e16. d32
 		cis16. e32 a16. a,32 h8 gis' a,16 cis cis cis e, cis' cis cis
@@ -185,7 +185,7 @@ GloriaViolinoI = {
 		d h' h h g h h h d, a' a a a, a' a a
 		cis, e g g a, g' g g a, d fis fis a, fis' fis fis %70
 		h, e e e d e e e cis e g g a, d fis fis
-		e a d d a,8 cis' \slurDashed d,16( a') a( fis) fis( d) d( a) \slurSolid
+		e a d d a,8 cis' \slurDashed d,16( a') a( fis) fis( d) d( h)-\critnote \slurSolid
 		a8 a\pp a a a a a a
 		cis cis cis cis d16 fis,\f g a h cis d e
 		fis8 fis,16 fis' e8 e,16 e' d8 d,16 d' cis8 cis,16 cis' %75

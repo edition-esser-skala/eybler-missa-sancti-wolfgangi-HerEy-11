@@ -179,7 +179,7 @@ GloriaViola = {
 		a!8 a' h, h' cis, cis'16 his cis8 cis,
 		fis cis a fis eis gis\ppE gis gis
 		fis fis fis fis h h h h
-		a fis\fE fis e' r gis, gis gis' %65
+		a fis\fE  fis e' r gis, gis gis' %65
 		r gis gis cis, cis cis d h
 		a fis'16 eis fis cis a fis e8 e'16 dis e cis a e
 		cis'8 cis'16 h cis a e cis d8 d'16 cis d a fis d

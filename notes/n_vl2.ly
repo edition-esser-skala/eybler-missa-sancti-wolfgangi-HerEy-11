@@ -155,7 +155,7 @@ GloriaViolinoII = {
 		R1
 		e4\f cis fis fis %40
 		fis8 gis ais fis h h4 h8
-		h16 h h h h h h h cis cis cis cis cis cis cis cis
+		h16 h h h h h h h h^\critnote h h h h h h h
 		d fis d fis d fis d fis cis fis cis fis cis fis cis fis
 		h,8 fis'(\p e d) cis( h ais g'!)
 		fis( e dis c') h( a! g fis) %45
@@ -166,7 +166,7 @@ GloriaViolinoII = {
 		d16 d' d d fis, d' d d e cis cis cis cis a a a %50
 		a e' e e cis e e e fis d d d a d d d
 		g8 g,16 g' fis8 fis,16 fis' h8 h,16 h' a8 a,16 a'
-		g a fis g e fis d! e cis8 r <a, e' cis' a'>4\sf
+		g a fis g e fis d e cis8 r <a, e' cis' a'>4\sf
 		h8\pp h h h a a a a
 		d d d d cis cis'16.\f h32 a16. gis32 fis16. e32 %55
 		d8 d'16. cis32 h16. a32 gis16. fis32 e8 gis'16. fis32 e16. d32 cis16. h32
