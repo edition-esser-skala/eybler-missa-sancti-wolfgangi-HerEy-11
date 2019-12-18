@@ -144,7 +144,7 @@ GloriaViolinoI = {
 		d d cis cis h h a a
 		gis gis gis gis gis gis gis gis
 		a4 r8 a gis( fis e! d) %30
-		cis a' a a h cis d e
+		\once \slurDashed cis( a') a a h cis d e
 		fis fis e e d d cis cis
 		h h h h h h h h
 		a e4 e e e8~

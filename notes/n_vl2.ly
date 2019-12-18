@@ -114,6 +114,91 @@ GloriaViolinoII = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \tempoGloria
-		
+		<a fis' d'>8\f r8 q r <a e' cis'> a16.[ h32] cis16. d32 e16. cis32
+		<a e' a>8 r q r <a fis' d'> d16.[ e32] fis16. g32 a16. fis32
+		d8\p fis4 a8 r g4 fis8
+		r e4 d8 fis8. d16 cis4
+		r8 g'4 e8 r fis a16( g fis e) %5
+		d8 d cis cis d a'16.\f g32 fis16. g32 a16. fis32
+		d8 h'16. a32 g16. a32 h16. g32 e8 g16. fis32 e16. g32 fis16. e32
+		d16. fis32 a16. d32 h8 g fis r r a\pp
+		g g g g fis16 d'32\f e fis16 d e a, a' cis,
+		d h32 cis d16 h cis fis, fis' a, h g32 a h16 g a d, d' a %10
+		h e32 fis g16 e d fis cis e d8 r r a\ppE
+		g g g g fis fis fis fis
+		g g g g fis fis fis fis
+		e e e e d d d d
+		d d e e e cis cis cis %15
+		e e e e <d a' fis'>16\pE d d fis' fis fis, e e'
+		d d, cis cis' h h, a! a'! gis16 e32\fE fis gis16 e h' gis e' h
+		gis' e h' gis a e cis a gis e gis h e gis h gis
+		a8:32 e: cis: a: e'8 e,16. fis32 gis16. a32 h16. cis32
+		d8\pp e, e e e e e e %20
+		e e e e e e e e
+		d d fis fis e a16\f a' fis, fis' d, d'
+		cis e a a, h8 gis' a, e'16.\fE d32 cis16. d32 e16. cis32
+		a8 fis'16. e32 d16. e32 fis16. d32 h8 d16. cis32 h16. d32 cis16. h32
+		a16. cis32 e16. a32 fis16. d32 h16. gis32 fis16. a32 cis16. fis32 d16. h32 gis16. h32 %25
+		a8 d(\p cis h) a( gis fis eis)
+		fis( cis) cis cis cis fis gis a
+		gis gis a a eis eis fis fis
+		fis fis fis fis eis eis eis eis
+		fis4 r gis8( fis e! d) %30
+		cis( e) e e e( a) a a
+		a a a a gis gis a a
+		a a a a gis gis gis gis
+		a cis,4 cis cis cis8
+		d d4 d d d8 %35
+		cis cis4 cis cis cis8
+		d d4 d d d8
+		cis4 r r2
+		R1
+		e4\f cis fis fis %40
+		fis8 gis ais fis h h4 h8
+		h16 h h h h h h h cis cis cis cis cis cis cis cis
+		d fis d fis d fis d fis cis fis cis fis cis fis cis fis
+		h,8 fis'(\p e d) cis( h ais g'!)
+		fis( e dis c') h( a! g fis) %45
+		e( g c, h) ais( g! fis e)
+		d16 h cis\cresc d e fis gis ais h fis gis ais h cis d e
+		fis h, cis d e fis gis ais h fis d h cis8 ais'
+		h, r16. d32\f cis16. h32 a!16. g!32 fis8 r16. h32 a16. g32 fis16. e32
+		d16 d' d d fis, d' d d e cis cis cis cis a a a %50
+		a e' e e cis e e e fis d d d a d d d
+		g8 g,16 g' fis8 fis,16 fis' h8 h,16 h' a8 a,16 a'
+		g a fis g e fis d! e cis8 r <a, e' cis' a'>4\sf
+		h8\pp h h h a a a a
+		d d d d cis cis'16.\f h32 a16. gis32 fis16. e32 %55
+		d8 d'16. cis32 h16. a32 gis16. fis32 e8 gis'16. fis32 e16. d32 cis16. h32
+		a16. cis32 e16. a32 h,8 gis' a,16 cis cis cis e, cis' cis cis
+		e, cis' h h gis h h h e, d' d d h d d d
+		e, d' cis cis a cis cis cis cis fis fis fis a fis fis fis
+		cis eis eis eis gis eis eis eis cis gis' gis gis h gis gis gis %60
+		cis, h' h h a fis fis fis fis d d d h d d d
+		cis fis fis fis d h h h a fis' fis fis gis,8 eis'
+		fis,8 cis'16( a) a( fis) fis( cis) cis8 h\pp h h
+		a a a a cis cis cis cis
+		cis a'16.\f gis32 fis16. e!32 d16. cis32 h8 h'16. a32 gis16. fis32 eis16. dis32 %65
+		cis8 eis16. gis32 cis16. eis32 gis16. h,32 a16. cis32 fis16. a,32 gis8 eis'
+		a,16 fis' fis fis cis fis fis fis g e cis cis e, a cis cis
+		a cis e e a, e' g g a, e' g g a, d fis fis
+		d h' h h g h h h d, a' a a a, a' a a
+		cis, e g g a, g' g g a, d fis fis a, fis' fis fis %70
+		h, e e e d e e e cis e g g a, d fis fis
+		e a d d a,8 e' \slurDashed d16( a) a( fis) fis( d) d( h) \slurSolid
+		a8 g'\pp g g fis fis fis fis
+		g g g g fis g16\f a h cis d e
+		d8 d,16 d' cis8 cis,16 cis' h8 h,16 h' a8 a,16 a' %75
+		g8 h16 d g8 e16 h ais8.(\trill gis32 ais) h4
+		R1
+		r2 g'4 f
+		e8 e e e e e e e
+		e16\cresc e e e e e e e e e e e e e e e %80
+		<cis e>\ffE q q q q q q q <d fis> q q q <d g!> <d g> q q
+		<d fis> q q q q q q q <cis e> q q q q q q q
+		d8 fis16. e32 d16. cis32 h16. a32 g8 g'16. fis32 e16. d32 cis16. h32
+		a8 cis16. h32 a16. g32 fis16. e32 d16. fis32 g16. a32 h16. a32 h16. cis32
+		d16. cis32 d16. e32 fis16. e32 fis16. g32 a8 r <d,, a' a'>4 %85
+		<d h' g'> <a e' cis'> <a fis' d'> r\fermata \bar "||" %86 finis
 	}
 }
