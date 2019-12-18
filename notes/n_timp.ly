@@ -37,9 +37,37 @@ KyrieTimpani = {
 }
 
 GloriaTimpani = {
-	\relative c' {
-		\clef treble
+	\relative c {
+		\clef bass
 		\key c \major \time 4/4 \tempoGloria
-		
+		c8\f c16 c c8 c g4 r
+		g8 g16 g g8 g c4 r
+		R1*6 %8
+		r2 c4\fE g
+		c r r2 %10
+		r4 g8 g16 g c4 r
+		R1*4 %15
+		r2 c4\f r
+		R1*6 %22
+		r2 g4\fE r
+		R1*26 %49
+		c4\f c8 c g4 r %50
+		g g8 g c4 r
+		c c c c
+		r2 r4 g\sf
+		R1*3 %56
+		r2 g4\sfE r
+		R1*12 %69
+		g8\fE g16 g g8 g c4 r %70
+		r2 g4 c
+		g8 g16 g g8 g c4 r
+		R1*2
+		c4\fE g c r %75
+		R1*5 %80
+		g8\ffE \tuplet 3/2 8 { g16 g g } g8 g c4 r
+		g8 \tuplet 3/2 8 { g16 g g } g8 g g g g g
+		c4 r r2
+		R1*2 %85
+		r4 c g r\fermata \bar "||" %86 finis
 	}
 }
