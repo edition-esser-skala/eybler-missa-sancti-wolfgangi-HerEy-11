@@ -129,8 +129,8 @@ GloriaViolinoII = {
 		g g g g fis fis fis fis
 		e e e e d d d d
 		d d e e e cis cis cis %15
-		e e e e <d a' fis'>16\pE d d fis' fis fis, e e'
-		d d, cis cis' h h, a! a'! gis16 e32\fE fis gis16 e h' gis e' h
+		e e e e <d a' fis'>16\f d d fis' fis fis, e e'
+		d d, cis cis' h h, a! a'! gis16 e32 fis gis16 e h' gis e' h
 		gis' e h' gis a e cis a gis e gis h e gis h gis
 		a8:32 e: cis: a: e'8 e,16. fis32 gis16. a32 h16. cis32
 		d8\pp e, e e e e e e %20

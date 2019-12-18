@@ -233,8 +233,8 @@ GloriaOrgano = {
 		d d d d d d d d
 		cis cis cis cis d d d d
 		e e e e a, a a a %15
-		cis cis cis cis \mvTr d16\pE-\tutti e32 fis g a h cis d16 d, ais ais'
-		h h, cis cis' d d, dis dis' e4 h8\fE gis
+		cis cis cis cis \mvTr d16\f-\tutti e32 fis g a h cis d16 d, ais ais'
+		h h, cis cis' d d, dis dis' e4 h8 gis
 		e4 cis8 a e' e' r e,
 		a e cis a e'8.. fis32-! gis16.-! a32-! h16.-! cis32-!
 		\mvTrr d8\pp-\soloE d d d cis cis cis cis %20
@@ -308,8 +308,8 @@ GloriaOrgano = {
 }
 
 GloriaBassFigures = \figuremode {
-	r2 <[7]>
-	q1
+	r1
+	<[7]>
 	r4 <\t \t>8 <7 5> <6 4>4 <\t \t>8 <5 3>
 	<6 5>4 <\t \t>8 <[5 3]> <6 4>4 <[5] _+>
 	<7>2 <[9 4]>8 <[8 3]> <[5]> <6> %5

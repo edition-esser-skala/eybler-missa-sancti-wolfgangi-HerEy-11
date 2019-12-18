@@ -130,8 +130,8 @@ GloriaViola = {
 		d d d d d d d d
 		a a a a d, d h' h
 		h h h h a a a a %15
-		a a a a d,16\pE e32 fis g a h cis d16 d' cis cis,
-		h h' a! e d fis fis fis, e gis'\fE e h gis h e gis
+		a a a a d,16 e32 fis g a h cis d16 d' cis cis,
+		h h' a! e d fis fis fis, e gis' e h gis h e gis
 		h gis? e h' cis a e cis' h gis e h gis e gis h
 		cis cis e e cis cis a a e'8 e,16. fis32 gis16. a32 h16. cis32
 		d8\ppE h h h a a a a %20

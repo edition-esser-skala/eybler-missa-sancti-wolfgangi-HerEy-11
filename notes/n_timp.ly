@@ -68,6 +68,6 @@ GloriaTimpani = {
 		g8 \tuplet 3/2 8 { g16 g g } g8 g g g g g
 		c4 r r2
 		R1*2 %85
-		r4 c g r\fermata \bar "||" %86 finis
+		r4 g c r\fermata \bar "||" %86 finis
 	}
 }

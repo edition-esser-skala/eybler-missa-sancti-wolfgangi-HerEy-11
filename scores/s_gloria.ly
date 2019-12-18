@@ -21,11 +21,11 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-% 							\GloriaOboeI
+							\GloriaOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
-% 							\GloriaOboeII
+							\GloriaOboeII
 						}
 					>>
 				>>
@@ -50,36 +50,36 @@
 							\GloriaViolinoII
 						}
 					>>
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Viola"
-% 						\GloriaViola
-% 					}
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\GloriaViola
+					}
 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
-% 					}
-% 					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
-% 				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Violoncello," "Basso e" "Organo" } }
@@ -91,7 +91,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+% 			\midi { \tempo 4 = 90 }
 		}
 	}
 }
