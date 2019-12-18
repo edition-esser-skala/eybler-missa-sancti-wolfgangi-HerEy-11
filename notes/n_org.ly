@@ -234,8 +234,8 @@ GloriaOrgano = {
 		cis cis cis cis d d d d
 		e e e e a, a a a %15
 		cis cis cis cis \mvTr d16\pE-\tutti e32 fis g a h cis d16 d, ais ais'
-		h h, cis cis' d d, dis dis' e4 h8 gis
-		e4\fE cis8 a e' e' r e,
+		h h, cis cis' d d, dis dis' e4 h8\fE gis
+		e4 cis8 a e' e' r e,
 		a e cis a e'8.. fis32-! gis16.-! a32-! h16.-! cis32-!
 		\mvTrr d8\pp-\soloE d d d cis cis cis cis %20
 		h h h h a a a a
@@ -247,7 +247,7 @@ GloriaOrgano = {
 		fis fis fis fis fis fis fis fis
 		eis eis fis fis gis gis a a
 		h h h h cis cis cis cis
-		fis, a gis fis e! d cis h %30
+		fis, \slurDashed a( gis fis) e!( d cis h) \slurSolid %30
 		a a' a a a a a a
 		d, d a' a h h cis cis
 		d d d d e e e e
@@ -351,7 +351,7 @@ GloriaBassFigures = \figuremode {
 	<6>4 <6\\> r <4\+>
 	<6>2 <6\\ 5!>
 	<6 4> <[5] _+>
-	r4. <[6 4]>8 <4\+ 2> <[6]> <[6\\]> <[6!]>
+	r4. <[6 4]>8 <[4\+ 2]> <[6]> <[6\\]> <[6!]>
 	<[6 _+]> <[6]> <[6 4+]> <[6!]> <[6]> <[6\\]> <[6 4]> <[4\+ 2]> %45
 	<[6]> <[\t]> <[6!]> <[6]> <[6\\]> <[6!]> <[6]> <[6\\]>
 	<[8 3]>1 \bassFigureExtendersOn
