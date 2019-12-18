@@ -401,12 +401,90 @@ QuiTollisOrgano = {
 		\clef bass
 		\key h \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #87
-		\partial 4 r16 \mvTr d(\p-\solo cis h) ais8\sfz ais' r16 e16(\p d cis) h8\sfz h' r16 fis'(\f e d)
+		\partial 4 r16 \mvTr d(\p-\solo cis h) ais8\sfz ais' r16 e16(\p d cis) h8\sfz h' r16 fis'(\f d h)
+		g\p g g g d d h h g g g g g g g g
+		g'\ff g g g g g g g fis8 r r4
+		r4 r16 \mvTr g(\p-\vlc fis e) d8 r r16 d(-\bassi cis h) %90
+		ais8\sfz ais' r16 e(\p d cis) h8\sfz h' r16 fis'(\f d h)
+		g\p g g g d d h h g g g g g g g g
+		g'\ff g g g g g g g fis4 r
+		\mvTr d16\p-\tutti d d d ais ais ais ais h h h h h h h h
+		e, e e e d d d d a' a a a a a g g %95
+		fis fis fis fis fis' fis fis fis g g g g e e g g
+		a a a a a, a a a d8 r r16 fis(-\solo e d)
+		e8\sfzE e' r16 g,(\pE fis e) fis8\sfzE fis' r16 a,(\pE g fis)
+		g8\sfzE g' r16 e,(\pE fis g) a a a a ais ais ais ais
+		h h h h cis cis cis cis d d d d d d d d %100
+		d,\ff d d d d d d d cis8 r r4
+		r r16 \mvTr d'(\p-\vlc cis h) a8 r r16 a,(-\bassi gis fis)
+		eis8\sfz eis' r16 h(\p a gis) fis8\sfz fis' r16 cis'16(\f a fis)
+		d\p d d d a a fis fis d d d d d d d d
+		d''\ff d d d d d d d cis4 r %105
+		\mvTr a16\p-\tutti a a a a a a a gis gis gis gis gis gis gis gis
+		fis fis fis fis fis fis fis fis e e e e e e e e
+		d d d d d d d d g! g g g c, c c c
+		g g g g g g g g c8 r r16 \once \slurDashed e(-\solo d c)
+		d8\sfzE d' r16 f,(\pE e d) e8\sfzE e' r16 g,( f? e) %110
+		f8\sfzE f' r16 d,(\pE e f?) g g g g gis gis gis gis
+		a a a a h h h h c c c c c c c c
+		c,\ffE c c c c c c c h8 r r4
+		r r16 \mvTr c'(\pE-\vlcE h a) g8 r r16 g(-\bassiE fis e)
+		dis8\sfz dis' r16 a(\p g fis) e8\sfz e' r16 h(\f g e) %115
+		c\p c c c g g e e c c c c c c c c
+		c''\ff c c c c c c c h4 r
+		\mvTr g16\p-\tutti g g g dis dis dis dis e e e e e e e e
+		e e e e eis eis eis eis fis fis fis fis fis fis fis fis
+		ais, ais ais ais ais ais ais ais h h h h g' g g g %120
+		fis fis fis fis fis, fis fis fis << {
+			h4^\vlc r
+			r e8 g h4 ais
+			h2
+		} \\ {
+			\once \tieDashed h,2~-\tasto-\bassi
+			h1~
+			h2
+		} >> r\fermata \bar "||" %123 finis
 	}
 }
 
 QuiTollisBassFigures = \figuremode {
-	
+	r4 r1 %87
+	r
+	r
+	r %90
+	r
+	r
+	r
+	r4 <6 4>8 <5 3> <9 4>4 <8 3>
+	<6> <4>8 <3> <6 4>4 <5 3> %95
+	<6 3>8. \bassFigureExtendersOn q16 <6 _+>8. q16 <6 3>8. q16 <6 5>8. q16 \bassFigureExtendersOff
+	<6 4>4 <7 3> r2
+	r1
+	r
+	r %100
+	r
+	r
+	r
+	r
+	r %105
+	r2 <6\\ 4 3>
+	r <6 4 _!>
+	<7!> <7!>4 <8 3>
+	<4!> <3> r2
+	r1 %110
+	r
+	r
+	r
+	r
+	r %115
+	r
+	r
+	r4 <6 4>8 <5 3> <9 4>4 <8 3>
+	<6!> <7>8 <5> <5 4>4 <\l _+>
+	<7!>4 <6 4> <5 3>8 <6 4> <6 5 3>4 %120
+	<6 4> <5 _+> r2
+	r1
+	r %123 finis
 }
 
 % Organo = {
