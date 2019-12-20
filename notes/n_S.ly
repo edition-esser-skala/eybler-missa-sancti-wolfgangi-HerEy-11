@@ -385,9 +385,9 @@ QuiTollisSopranoNotes = {
 		R1*8 %117
 		h'4.\p a8 a8.([ g16)] g4
 		c4. h8 h8.([ ais16)] ais4
-		ais8([ cis)] e([ g)] g([ fis)] e([ d)] %120
+		ais8([ cis)] e([ g!)] g([ fis)] e([ d)] %120
 		d4( cis) h h8 h
-		c([ h)] a([ g)] fis4.( \slashedGrace a8 g)
+		c([ h)] a([ g)] fis4.( \slashedGrace a!8 g)
 		fis4 r r\fermata \bar "||" %123 finis
 	}
 }

@@ -371,12 +371,43 @@ QuiTollisAltoNotes = {
 		\clef treble
 		\key h \minor \time 4/4 \autoBeamOff \tempoQuiTollis
 			\set Score.currentBarNumber = #87
-		
+		\partial 4 r4 R1*7 %93
+		\mvTr d4.\p^\tutti cis8 cis8.([ h16)] h4
+		cis d d8.([ cis16)] cis4 %95
+		d4. d8 d4( e8) h
+		a4.( cis8) d4 r
+		R1*8 %105
+		a4\p a8 a h8. h16 h4
+		a8 a a a a4 a
+		a8 a c c h4 c
+		c( h) c r
+		R1*8 %117
+		g'4.\p fis8 fis8.([ e16)] e4
+		g4 gis fis fis
+		e4. cis8 h([ d)] e([ eis)] %120
+		fis2 fis4 a!8 a
+		g4 e dis e
+		dis r r\fermata \bar "||" %123 finis
 	}
 }
 
 QuiTollisAltoLyrics = \lyricmode {
+	Mi -- se -- re -- re, %94
+	mi -- se -- re -- re, %95
+	mi -- se -- re -- re
+	no -- bis.
 	
+	Su -- sci -- pe, su -- sci -- pe %106
+	de -- pre -- ca -- ti -- o -- nem,
+	de -- pre -- ca -- ti -- o -- nem
+	no -- stram.
+	
+	Mi -- se -- re -- re, %118
+	mi -- se -- re -- re,
+	mi -- se -- re -- re __ %120
+	no -- bis, mi -- se --
+	re -- re no --
+	bis. %123 finis
 }
 
 % AltoNotes = {

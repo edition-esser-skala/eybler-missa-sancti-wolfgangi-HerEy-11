@@ -456,7 +456,7 @@ QuiTollisBassFigures = \figuremode {
 	r
 	r
 	r4 <6 4>8 <5 3> <9 4>4 <8 3>
-	<6> <4>8 <3> <6 4>4 <5 3> %95
+	<6> <4>8 <3> <6 4>4 <5 3>8 <\t \t> %95
 	<6 3>4 \bassFigureExtendersOn q16 q <6 _+>8. q16 <6 3> q16 <6 5>8. q16 \bassFigureExtendersOff
 	<6 4>4 <7 3> r2
 	r1
@@ -480,11 +480,11 @@ QuiTollisBassFigures = \figuremode {
 	r
 	r
 	r4 <6 4>8 <5 3> <9 4>4 <8 3>
-	<6!> <7>8 <5> <5 4>4 <\l _+>
-	<7!>2 <6 4>8 <5 3> <6 4> <6 5 3> %120
+	<6!>4 <\t _+>8 <7 5 \t> <5 4>4 <\l _+>
+	<7!>2 <6 4>8 <5 3> <6 4> <6\\ 5 3> %120
 	<6 4>4 <5 _+> r2
 	r1
-	r %123 finis
+	r2. %123 finis
 }
 
 % Organo = {
