@@ -415,12 +415,81 @@ QuoniamAltoNotes = {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoQuoniam
 			\set Score.currentBarNumber = #124
-		
+		R1*4 %127
+		\mvTr a'8.\f^\tutti a16 a8 a a4 a8 a
+		g fis e4 d r
+		R1*2 %131
+		a'8. a16 a8 a a4 a8 a
+		g fis e e d4 r
+		r2 fis4 fis8 fis
+		fis4 fis e e8 e %135
+		e8. d16 cis4 h h8 h
+		h([ e)] e e fis4. fis8
+		fis e r4 r2
+		e4\p e r2
+		e8. e16 e4 r r8 a\f %140
+		a4 a8 a a a a([ gis)]
+		a4 r r2
+		R1*4 %146
+		cis,8. e16 a8 h cis4 a8 e
+		e fis gis([ h]) a4 r
+		R1*2 %150
+		fis8. fis16 fis8 fis fis4 fis8 fis
+		fis fis fis8. fis16 fis4 r
+		R1
+		h4 g!8 e d!8.([ cis16)] cis4
+		a' fis8 d d8. d16 d8 e %155
+		fis([ g)] a fis d e16 fis g8 fis
+		fis e r4 g\p g8 fis
+		fis8.([ e16)] e4 g g8 fis
+		fis8. e16 e4 a\f g8 fis
+		g([ h)] h h a([ g fis)] h %160
+		a g a4 fis r8 fis\ff
+		d([ fis)] a d cis4. cis8
+		d4 r r2
+		R1*4 %167
+		r8 d,\ff d d fis8. fis16 fis8 fis
+		a8. a16 a8 a fis fis16 fis a8 a
+		a2 a\fermata %170
 	}
 }
 
 QuoniamAltoLyrics = \lyricmode {
+	Quo -- ni -- am tu so -- lus, tu %128
+	so -- lus san -- ctus,
 	
+	quo -- ni -- am tu so -- lus, tu %132
+	so -- lus Do -- mi -- nus,
+	tu so -- lus
+	san -- ctus, tu so -- lus %135
+	Do -- mi -- nus, so -- lus al --
+	tis -- si -- mus, Je -- su
+	Chri -- ste,
+	san -- ctus,
+	Do -- mi -- nus, al -- %140
+	tis -- si -- mus, Je -- su Chri --
+	ste.
+	
+	Quo -- ni -- am tu so -- lus, tu %147
+	so -- lus san -- ctus,
+	
+	quo -- ni -- am tu so -- lus, tu %151
+	so -- lus Do -- mi -- nus,
+	
+	tu so -- lus [san -- ctus,]
+	tu so -- lus Do -- mi -- nus, tu %155
+	so -- lus al -- tis -- si -- mus, Je -- su
+	Chri -- ste, tu so -- lus
+	san -- ctus, tu so -- lus
+	Do -- mi -- nus, so -- lus al --
+	tis -- si -- mus, Je -- su, %160
+	Je -- su Chri -- ste, tu
+	so -- lus al -- tis -- si --
+	mus.
+	
+	Cum San -- cto Spi -- ri -- tu in %168
+	glo -- ri -- a, in glo -- ri -- a De -- i
+	Pa -- tris. %170
 }
 
 % AltoNotes = {

@@ -416,12 +416,81 @@ QuoniamSopranoNotes = {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoQuoniam
 			\set Score.currentBarNumber = #124
-		
+		R1*4 %127
+		\mvTr d'8.\f^\tutti e16 fis8 g a4 fis8 d
+		cis h a([ g)] fis4 r
+		R1*2 %131
+		d'8. e16 fis8 g a4 fis8 d
+		cis h a g fis4 r
+		r2 fis'4 ais,8 ais
+		h8.([ cis16)] d4 e gis,8 gis %135
+		a8. h16 cis4 d dis8 dis
+		e4 d8 cis h( fis'4) a,8
+		a gis r4 r2
+		e4\p e r2
+		e'8. e,16 e4 r r8 a\f %140
+		a'4 gis8 fis e d cis([ h)]
+		a4 r r2
+		R1*4 %146
+		a8. h16 cis8 d e4 cis8 a
+		gis a h8.([ cis32 d)] cis4 r
+		R1*2 %150
+		h8. cis16 d8 e fis4 d8 h
+		ais h cis8. d32([ e)] d4 r
+		r2 fis4 d8 h
+		a!8.([ g!16)] g4 e' cis8 a
+		g8. fis16 fis4 g8([ a)] h cis %155
+		d([ e)] fis d h( e4) d8
+		d cis r4 r2
+		a4\p a8 a a8.([ h16)] a4
+		a a8 a d8. a16 a8 a\f
+		h([ g')] fis e a([ cis,)] d e %160
+		fis g fis([ e)] d d,\ff fis a
+		d4 fis8 d a'4. a8
+		d,4 r r2
+		R1*4 %167
+		r8 d,\f d d fis8. fis16 fis8 fis
+		a8. a16 a8 a d d16 d e8 e
+		fis2 e\fermata %170
 	}
 }
 
 QuoniamSopranoLyrics = \lyricmode {
+	Quo -- ni -- am tu so -- lus, tu %128
+	so -- lus san -- ctus,
 	
+	quo -- ni -- am tu so -- lus, tu %132
+	so -- lus Do -- mi -- nus,
+	tu so -- lus
+	san -- ctus, tu so -- lus %135
+	Do -- mi -- nus, so -- lus al --
+	tis -- si -- mus, Je -- su
+	Chri -- ste,
+	san -- ctus,
+	Do -- mi -- nus, al -- %140
+	tis -- si -- mus, Je -- su Chri --
+	ste.
+	
+	Quo -- ni -- am tu so -- lus, tu %147
+	so -- lus san -- ctus,
+	
+	quo -- ni -- am tu so -- lus, tu %151
+	so -- lus Do -- mi -- nus,
+	tu so -- lus
+	san -- ctus, tu so -- lus
+	Do -- mi -- nus, so -- lus al -- %155
+	tis -- si -- mus, Je -- su
+	Chri -- ste,
+	tu so -- lus san -- ctus,
+	tu so -- lus Do -- mi -- nus, tu
+	so -- lus al -- tis -- si -- mus, %160
+	Je -- su Chri -- ste, tu so -- lus,
+	so -- lus al -- tis -- si --
+	mus.
+	
+	Cum San -- cto Spi -- ri -- tu in %168
+	glo -- ri -- a, in glo -- ri -- a De -- i
+	Pa -- tris. %170
 }
 
 % SopranoNotes = {

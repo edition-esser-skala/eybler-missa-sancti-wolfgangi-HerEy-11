@@ -506,10 +506,10 @@ QuoniamOrgano = {
 		d, d' h, h' cis, cis' e, e' %135
 		cis, cis' a, a' h, h'16 ais h8 a
 		gis gis, a a' d, d'16 cis d8 dis
-		e e,16. fis32 gis16. a32 h16. gis32 e8-\soloE e'16. dis32 e8 e
+		e e,16. fis32 gis16. a32 h16. gis32 \mvTr e8\pE-\soloE e'16. dis32 e8 e
 		e e,16. fis32 gis16. a32 h16. gis32 e8 e'16. dis32 e8 e
-		e e,16. fis32 gis16. a32 h16. d,32 cis8-\tutti e a a, %140
-		d fis16 a d8 fis, cis fis e e,
+		e e,16. fis32 gis16. a32 h16. d,32 \mvTr cis8\f-\tutti e a a, %140
+		d fis16 a d8 d, cis fis e e,
 		a a' r \tuplet 3/2 8 { a,16-\solo h cis } d8 d' r \tuplet 3/2 8 { h,16 cis d }
 		e8 e' r \tuplet 3/2 8 {  e,16 fis gis} a8 a, gis gis'
 		fis fis' e e, d d' cis cis,
@@ -522,12 +522,12 @@ QuoniamOrgano = {
 		h8-\tutti h, h h h h'16 ais h8 d
 		cis h ais fis h4 r8 d
 		cis4 r8 ais, h h' d, d'
-		e, g h e a,, a' cis, cis'
+		e, g! h e a,, a' cis, cis'
 		d, fis a c h a gis g %155
 		fis e d fis g, g'16 fis g8 gis
-		a a,16.-! h32-! cis16.-! d32-! e16.-! cis32-! a8-\solo a'16. gis32 a8 a
+		a a,16.-! h32-! cis16.-! d32-! e16.-! cis32-! \mvTr a8\pE-\solo a'16. gis32 a8 a
 		a a,16. h32 cis16. d32 e16. cis32 a8 a'16. gis32 a8 a
-		a, a' a16. g32 fis16. e32 d8-\tutti fis a d
+		a, a' a16. g32 fis16. e32 \mvTr d8\f-\tutti fis a d
 		g, e a g fis ais h gis %160
 		a h a a, d4 r8 a'\ff
 		d a fis d a a'16. gis32 a8 a,
@@ -624,11 +624,11 @@ QuoniamBassFigures = \figuremode {
 	r4. q8 r4 <_+>
 	<6>2 q4 <_+> %135
 	<6>2 r4 <_+>
-	<6>8 <5!> <4> <3> <6>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <6 5>
+	<6>8 <5!> <[9] 4> <[8] 3> <6>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <6 5>
 	<9 4> <8 _+> <[6]>4 <7 _+>4. <6 4>8
 	<\t \t> <5 _+> <[6]>4 <7 _+>4. <6 4>8
-	<\t \t> <[5 _+]> <[6]>4 <6>8 <[_+]> <9 4> <8 3> %140
-	r4. <[6]>8 <6> q <6 4> <[5] _+>
+	<\t \t> <[5 _+]> <[6]>4 <6>8 <\t> <9 4> <8 3> %140
+	r2 <6>8 q <6 4> <[5] _+>
 	r1
 	<[_+]>2. <[6]>4
 	r1
@@ -639,15 +639,15 @@ QuoniamBassFigures = \figuremode {
 	r1
 	r %150
 	r2.. <6>8
-	<6\\> <[6]> q <[7 _+]> r4. <6>8
-	<6\\>4. <[6]>8 r2
+	<6\\>4 <[6]>8 <[7 _+]> r4. <6>8
+	<6\\>4. <[6]>8 r4 <[6]>
 	<4>8 <\t> <6 4>4 <4>8 <\t> <6 4>4
-	<4>8 <\t> <6 4>4 <6>8 <6_!> <6 5> <4\+ 2> %155
+	<4>8 <\t> <6 4> <[2]> <6> <6_!> <6 5> <4\+ 2> %155
 	<6> q r <[6]> <5> <6> r <7>
 	<6 4> <[5] _+> <[6]>4 <7 5>4. <6 4>8
 	<\t \t> <[5 3]> <6>4 <7>4. <6 4>8
 	<\t \t>4 <[5] _+> r2
-	r4 <4\+>8 <6> <6!> <7> r <6 5> %160
+	r4 <4\+>8 <6> <[6]> <7!> r <6 5> %160
 	<6 4> <6> <6 4> <5 [3]> r2
 	r1
 	r
