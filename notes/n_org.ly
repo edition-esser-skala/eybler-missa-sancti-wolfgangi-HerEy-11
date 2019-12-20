@@ -458,7 +458,7 @@ QuiTollisBassFigures = \figuremode {
 	r4 <6 4>8 <5 3> <9 4>4 <8 3>
 	<6> <4>8 <3> <6 4>4 <5 3>8 <\t \t> %95
 	<6 3>4 \bassFigureExtendersOn q16 q <6 _+>8. q16 <6 3> q16 <6 5>8. q16 \bassFigureExtendersOff
-	<6 4>4 <7 3> r2
+	<6 4>4. <7 3>8 r2
 	r1
 	r
 	r %100
