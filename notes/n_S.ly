@@ -375,7 +375,7 @@ QuiTollisSopranoNotes = {
 		\partial 4 r4 R1*7 %93
 		\mvTr fis4.\p^\tutti e8 e8.([ d16]) d4
 		g4. fis8 fis8.([ e16)] e4 %95
-		a4. ais8 ais8([ cis16 h] a[ g)] fis([ e)]
+		a4. ais8 ais8([ cis16 h] a_[ g)] fis([ e)]
 		d4.( \slashedGrace fis8 e) d4 r
 		R1*8 %105
 		cis4\p cis8 cis cis8. d16 cis4

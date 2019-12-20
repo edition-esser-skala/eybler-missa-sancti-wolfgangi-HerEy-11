@@ -183,7 +183,7 @@ QuiTollisOboeI = {
 		R1
 		his2\ff cis4 r %105
 		R1*4
-		f,4~^\soloE f16 d( c h) g'4~ g16 e( d c) %110
+		f,4~\pE^\soloE f16 d( c h) g'4~ g16 e( d c) %110
 		a'4~ a16 f( d c) h2
 		c4 dis, e~ e16 g( c e)
 		g4.\ffE e8 dis r r4

@@ -128,31 +128,31 @@
 						\QuiTollisViola
 					}
 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
-% 					}
-% 					\new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
-% 				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Violoncello," "Basso e" "Organo" } }
@@ -164,7 +164,7 @@
 				}
 			>>
 			\layout { }
-% 			\midi { \tempo 4 = 45 }
+			\midi { \tempo 4 = 40 }
 		}
 	}
 }
