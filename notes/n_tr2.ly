@@ -73,3 +73,12 @@ GloriaTrombaII = {
 		r4 g, c r\fermata \bar "||" %86 finis
 	}
 }
+
+QuoniamTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #124
+		
+	}
+}

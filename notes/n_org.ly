@@ -487,6 +487,19 @@ QuiTollisBassFigures = \figuremode {
 	r2. %123 finis
 }
 
+QuoniamOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #124
+		\mvTr g8\f-\solo g' r g, fis fis' r \tuplet 3/2 8 { d16 fis a }
+	}
+}
+
+QuoniamBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

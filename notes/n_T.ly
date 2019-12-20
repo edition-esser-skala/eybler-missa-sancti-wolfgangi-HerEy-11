@@ -415,6 +415,19 @@ QuiTollisTenoreLyrics = \lyricmode {
 	bis. %123 finis
 }
 
+QuoniamTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoQuoniam
+			\set Score.currentBarNumber = #124
+		
+	}
+}
+
+QuoniamTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -247,3 +247,12 @@ QuiTollisViolinoII = {
 		dis2 r4\fermata \bar "||" %123 finis
 	}
 }
+
+QuoniamViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #124
+		
+	}
+}

@@ -426,6 +426,19 @@ QuiTollisBassoLyrics = \lyricmode {
 	bis. %123 finis
 }
 
+QuoniamBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \autoBeamOff \tempoQuoniam
+			\set Score.currentBarNumber = #124
+		
+	}
+}
+
+QuoniamBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
