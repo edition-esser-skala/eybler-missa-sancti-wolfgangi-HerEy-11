@@ -384,7 +384,7 @@ QuiTollisTenoreNotes = {
 		R1*8 %105
 		e4\p e8 e eis8. eis16 eis4
 		fis8 fis fis fis g!4 g
-		fis8 fis fis fis g4 g
+		fis8 fis fis fis g!4 g
 		g2 g4 r
 		R1*8 %117
 		d'4\p h h8.([ e16)] e4
