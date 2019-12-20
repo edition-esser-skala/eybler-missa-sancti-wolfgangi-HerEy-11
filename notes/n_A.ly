@@ -386,7 +386,7 @@ QuiTollisAltoNotes = {
 		g4 gis fis fis
 		e4. cis8 h([ d)] e([ eis)] %120
 		fis2 fis4 a!8 a
-		g4 e dis e
+		g4 e dis( e)
 		dis r r\fermata \bar "||" %123 finis
 	}
 }
