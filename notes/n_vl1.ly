@@ -233,7 +233,7 @@ QuiTollisViolinoI = {
 		d d d d d d d d e e e e e e e e
 		f f f f f f f f g g g g g g g g %110
 		a a a a d d c c h h h h h h h h
-		c c c c c c c c dis, dis dis dis e e e e
+		c c c c dis, dis dis dis e e e e e e e e
 		<e e'>\ff q q q q q q q <fis dis'> h'\p( c h a g fis e)
 		dis( h fis' e dis c h a) g( h c h a g fis e)
 		dis8 fis'\sfz r16 a,(\p g fis) e8 g'\sfz r16 h(\f g e) %115
