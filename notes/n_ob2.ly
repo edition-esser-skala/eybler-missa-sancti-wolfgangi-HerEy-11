@@ -166,6 +166,29 @@ QuiTollisOboeII = {
 		\clef treble
 		\key h \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #87
-		
+		\partial 4 r4 r8 g''!\sfzE r4 r8 fis\sfzE r4
+		R1
+		d4.\ffE h8 fis'8 r r4
+		R1 %90
+		r8 cis\sfzE r4 r8 h\sfzE r4
+		R1
+		d4.\ffE h8 fis'4^\critnote r
+		R1*7 %100
+		his,2\ffE cis8 r r4
+		R1
+		r8 gis'\sfzE r4 r8 fis\sfzE r4
+		R1
+		a4.\ffE fis8 eis4^\critnote r %105
+		R1*7 %112
+		ais,2\ffE h8 r r4
+		R1
+		r8 fis'\sfzE r4 r8 e\sfzE r4 %115
+		R1
+		g4.\ffE e8 dis4 r
+		R1*2
+		e2~\sfpE e8 d cis h %120
+		h4 ais h r
+		R1
+		r2 r4\fermata \bar "||" %123 finis
 	}
 }
