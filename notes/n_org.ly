@@ -493,11 +493,239 @@ QuoniamOrgano = {
 		\key d \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #124
 		\mvTr g8\f-\solo g' r g, fis fis' r \tuplet 3/2 8 { d16 fis a }
+		h8-! a-! g-! gis-! a4 r8 cis, %125
+		d4 r8 fis a4 r8 \tuplet 3/2 8 { a16 h cis }
+		d8-! a-! fis-! d-! a' a, r4
+		d8-\tutti d' d d d, d' d fis,
+		e d cis a d4 r8 fis-\solo
+		e4 r8 cis d4 r8 fis, %130
+		g a h cis d \tuplet 3/2 8 { d'16 cis h } a8 \tuplet 3/2 8 { g16 fis e }
+		d8-\tutti d' d d d, d'16 cis d8 fis,
+		e d cis a d4 r8 fis-\solo
+		e4 r8 cis d d' fis, fis'
+		d, d' h, h' cis, cis' e, e' %135
+		cis, cis' a, a' h, h'16 ais h8 a
+		gis gis, a a' d, d'16 cis d8 dis
+		e e,16. fis32 gis16. a32 h16. gis32 e8-\soloE e'16. dis32 e8 e
+		e e,16. fis32 gis16. a32 h16. gis32 e8 e'16. dis32 e8 e
+		e e,16. fis32 gis16. a32 h16. d,32 cis8-\tutti e a a, %140
+		d fis16 a d8 fis, cis fis e e,
+		a a' r \tuplet 3/2 8 { a,16-\solo h cis } d8 d' r \tuplet 3/2 8 { h,16 cis d }
+		e8 e' r \tuplet 3/2 8 {  e,16 fis gis} a8 a, gis gis'
+		fis fis' e e, d d' cis cis,
+		h a gis e a h cis d %145
+		e fis gis e a fis d e
+		a,-\tutti a' a a a, a'16 gis a8 cis
+		h a gis e a4 r8 cis-\solo
+		h4 r8 gis a4 r8 ais,
+		h g' e fis h, \tuplet 3/2 8 { d16 cis h } fis'8 \tuplet 3/2 8 { ais16 gis fis } %150
+		h8-\tutti h, h h h h'16 ais h8 d
+		cis h ais fis h4 r8 d
+		cis4 r8 ais, h h' d, d'
+		e, g h e a,, a' cis, cis'
+		d, fis a c h a gis g %155
+		fis e d fis g, g'16 fis g8 gis
+		a a,16.-! h32-! cis16.-! d32-! e16.-! cis32-! a8-\solo a'16. gis32 a8 a
+		a a,16. h32 cis16. d32 e16. cis32 a8 a'16. gis32 a8 a
+		a, a' a16. g32 fis16. e32 d8-\tutti fis a d
+		g, e a g fis ais h gis %160
+		a h a a, d4 r8 a'\ff
+		d a fis d a a'16. gis32 a8 a,
+		d4 r8 \tuplet 3/2 8 { \mvTr fis16\f-\solo e d } a'8 a, r \tuplet 3/2 8 { a'16 h cis }
+		d8 d, r \tuplet 3/2 8 { d'16 e fis } g8 g, fis fis'
+		e e, d d' cis cis, h h' %165
+		a h cis d e4 cis
+		d r8 a fis d a' a,
+		d4 r8. \mvTr d32(\ff-\unisono e fis4) r8. fis32( g
+		a4) r8. \tuplet 3/2 16 { a32( h cis } d8[) r16 \tuplet 3/2 16 { d32 cis h] } a8[ r16 \tuplet 3/2 16 { g32 fis e] }
+		d4 fis8 d a2\fermata %170
+		a'4\f fis h g
+		r8 e a g fis8.\trill e16 d4
+		\clef treble d'' \clef "treble_8" a, d fis
+		gis,2\trill a4. h16 cis
+		d4 \clef bass d, g h %175
+		cis,2 d
+		\clef "treble_8" d'4 h e d
+		\clef treble << { gis-\org } \\ { fis8[ e] } >> \clef bass e,4.^\bassi fis16 gis a8 g
+		fis e d4. e16 fis g8 fis
+		e d cis4. d16 e fis8 e %180
+		d cis h4 \clef "treble_8" e' g~
+		g8 fis16 e \clef bass fis,4. gis16 ais h8 cis
+		d4 \clef "treble_8" a d h
+		r8 gis cis h a \clef bass cis,[ fis e]
+		dis8.\trill cis16 h4 r8 h e d %185
+		cis8.\trill h16 a4 r8 a d c
+		h8.\trill a16 g4 \clef "treble_8" c' e~
+		e8 d16 c h8 a g a16 h c8 h
+		a h16 c d8 c \clef bass h4 g
+		c a r8 fis h a %190
+		g fis16 e h'4~ h8 cis16 d cis8 h
+		ais2 h
+		gis a
+		fis gis
+		eis fis %195
+		gis a
+		\clef "treble_8" d8 cis h cis16 d e8[ d cis] \clef bass e,
+		a g! fis8.\trill e16 d4 r8 d
+		g fis e8.\trill d16 cis4 r8 cis
+		fis e d8.\trill cis16 h4 \clef "treble_8" g'8 h %200
+		e8. d16 cis8 e a8. g16 fis8 e
+		d4 \clef treble << { d'-\org } \\ { fis, } >> \clef bass g,^\bassi e
+		a fis r8 d g fis
+		e e a g fis fis h a
+		g4 \clef treble << { e''8-\org d cis4 } \\ { e,4. fis16 g } >> \clef "treble_8" cis,4~^\bassi %205
+		cis8 d16 e \clef bass d,4. e16 fis g8 a
+		h4 cis,4. d16 e fis8 g
+		a4 h,4. cis16 d e8 fis
+		g4 e cis ais
+		h \clef "treble_8" d' g e %210
+		\clef treble << { ais-\org } \\ { r8 cis, } >> \clef bass fis,2^\bassi d4
+		g e r8 cis fis e
+		d e16 fis g8 fis e d cis d16 e
+		fis8 e d cis h cis16 d e8 d
+		cis h a4~-\tasto a2~ %215
+		a1~
+		a1~
+		a1~
+		a1~
+		a1~ %220
+		a2 \clef treble a''4^\org \clef "treble_8" d,^\bassi
+		h \clef bass g e a
+		fis \clef "treble_8" d'8 cis h \clef bass d,[ g fis]
+		e fis16 g a8 g h a g a16 h
+		cis8 a d cis h4. a8 %225
+		g fis e fis16 g a8 d a a,
+		d8 d \mvTrr fis\pp-\solo fis e e a, a
+		d d fis fis e e a, a
+		d d fis fis e e a, a
+		\mvTr d\f-\tutti d' h, h' g, g' a, a' %230
+		d,8 d \mvTrr fis\pp-\solo fis e e a, a
+		d d fis fis e e a, a
+		d d fis fis e e a, a
+		\mvTr d\f-\tutti d' h, h' g, g' a, a'
+		d,4 r8. \mvTr d32(\ff-\unisono e fis4) r8. fis32( g %235
+		a4) r8. \tuplet 3/2 16 { a32( h cis } d8) a fis d
+		g-\tutti g, h d g d h g
+		d'1\fermata \bar "|." %238 FINIS
 	}
 }
 
 QuoniamBassFigures = \figuremode {
-	
+	r2 <[6]> %124
+	r1 %125
+	r
+	r
+	r2.. <6>8
+	q q q <7> r4. <[6]>8
+	r4. q8 r4. q8 %130
+	r1
+	r2.. <6>8
+	q q q <7> r4. <[6]>8
+	r4. q8 r4 <_+>
+	<6>2 q4 <_+> %135
+	<6>2 r4 <_+>
+	<6>8 <5!> <4> <3> <6>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <6 5>
+	<9 4> <8 _+> <[6]>4 <7 _+>4. <6 4>8
+	<\t \t> <5 _+> <[6]>4 <7 _+>4. <6 4>8
+	<\t \t> <[5 _+]> <[6]>4 <6>8 <[_+]> <9 4> <8 3> %140
+	r4. <[6]>8 <6> q <6 4> <[5] _+>
+	r1
+	<[_+]>2. <[6]>4
+	r1
+	r %145
+	r
+	r2.. <6>8
+	<6\\> <6> q <[_+]> r4. <[6]>8
+	r1
+	r %150
+	r2.. <6>8
+	<6\\> <[6]> q <[7 _+]> r4. <6>8
+	<6\\>4. <[6]>8 r2
+	<4>8 <\t> <6 4>4 <4>8 <\t> <6 4>4
+	<4>8 <\t> <6 4>4 <6>8 <6_!> <6 5> <4\+ 2> %155
+	<6> q r <[6]> <5> <6> r <7>
+	<6 4> <[5] _+> <[6]>4 <7 5>4. <6 4>8
+	<\t \t> <[5 3]> <6>4 <7>4. <6 4>8
+	<\t \t>4 <[5] _+> r2
+	r4 <4\+>8 <6> <6!> <7> r <6 5> %160
+	<6 4> <6> <6 4> <5 [3]> r2
+	r1
+	r
+	r
+	r %165
+	r
+	r
+	r
+	r
+	<8 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r2 %170
+	<1>4 <6> <6> <10>
+	<6>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>2
+	r4 <3> q <6>
+	<3> <6>8 <5> <3>2
+	r2. <[6]>4 %175
+	<7 5> <6 4>8 <5 3> r2
+	<1>4 <6> q <10>
+	r <8 6 _+>8 <7 5> <6 4>4. <[2]>8
+	<6>4 q2.
+	<5>4 <5>4. <6>8 <_+>4 %180
+	<6>2 <10>4 <6>
+	<2+> <8 _+>8 <7> <6 4> <\t \t> <5 3>4 \bassFigureExtendersOn
+	q \bassFigureExtendersOff <6> q <10>
+	<6 5>8 <4>16 <3> <6 _+>8 <6\\ \t> <6> <6 4>4.
+	<6>4 <[_+]> <6 4+>2 %185
+	<6> <6 4>
+	<6>2. <6 4!>8 <\l 3>
+	<4 2>4 \bassFigureExtendersOn <10 2>8 <10! 2> \bassFigureExtendersOff r2
+	<_!> <6>
+	r4 <6 _!>8 \bassFigureExtendersOn <5 _!> <6\\ _!> \bassFigureExtendersOff <4>16 <3> <6 _+>8 <6> %190
+	q4 <5> <4 2+>2
+	<7>4 <6> <8 4> <5 3>
+	r1
+	<6 5>2 <5>
+	<6 5> <8 5>4 <\t 6>8 <7 5> %195
+	<5>4 <8 6>8 <7 5> <5>4 <8 6>8 <7 5>
+	r2 <_+>8 q <5> <7 _+>
+	r4 <5>2 <8 6>8 <7 5>
+	r4 <5> <5> <8 6>8 <7 5>
+	r4 <5> r <10>8 <7> %200
+	<3> <5>16 <\t> <10>8 <7> <3> <5>16 <\t> <10>8 q
+	<10 5>1
+	<_!>4 <5!> r8 <6>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<_!> <6> r <_!> <6>4 <3>8 q
+	r2. <8>8 <7> %205
+	<6 4>2. <5>4
+	<6> <5>2 <5>4
+	<6\\> r2 <5>4
+	<6>4 q r <6 4>8 <5 3>
+	r4 <6> <\t> <6>8 <5> %210
+	r4 <5 _+> <6 4> <\t \t>
+	<6>2 <6\\>8 <\t> <_+>4
+	<6>2. <5>4
+	r1
+	<6>8 <6\\>2.. %215
+	r1
+	r
+	r
+	r
+	r %220
+	r
+	r
+	r4 <5 3>8 <\t 3> <10 3> <7> <3> <\t>
+	<8> <5> <\t> <7> <3> <\t> <8 6> <5 3>16 <\t \t>
+	r8 <7>4. <5>2 %225
+	r <7>4 <4>8 <3>
+	r2 <7>4 q
+	r2 <7>4 q
+	r2 <7>4 q
+	r2 <6 5> %230
+	r <7>4 q
+	r2 <7>4 q
+	r2 <7>4 q
+	r2 <[6 5]>
+	r1 %235
+	r2 <8 3>8 <\t \t> <6 5!> <\t \t>
+	r1
+	r %238 FINIS
 }
 
 % Organo = {
