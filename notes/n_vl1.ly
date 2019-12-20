@@ -208,7 +208,43 @@ QuiTollisViolinoI = {
 		\clef treble
 		\key h \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #87
-		
+		\partial 4 r16 d(\p cis h) ais8 e''\sfz r16 e,(\p d cis) h8 d'\sfz r16 fis(\f d h)
+		g\p g g g d d h h g g g g g g g g
+		<h' h'>\ff q q q q q q q ais' fis(\p g! fis e d cis h)
+		ais( fis cis' h ais g! fis e) d( fis g fis e d cis h) %90
+		ais8 e''\sfz r16 e,(\p d cis) h8 d'\sfz r16 fis(\f d h)
+		g\p g g g d d h h g g g g g g g g
+		<h' h'>\ff q q q q q q q <cis ais'> fis,\p fis fis fis fis fis fis
+		fis fis fis fis fis fis e e e e e e d d d d
+		g g g g g g fis fis fis fis fis fis e e e e %95
+		a a a a a a ais ais ais ais h h g g e e
+		d d d d d d cis cis d fis fis fis fis fis fis fis
+		g g g g g g g g a a a a a a a a
+		h h h h e e d d cis cis cis cis cis cis cis cis
+		d d d d eis, eis eis eis fis fis fis fis fis fis fis fis %100
+		fis'\ff fis fis fis fis fis fis fis eis cis'(\p d! cis h a gis fis)
+		eis( cis gis' fis eis d! cis h) a( cis d cis h a gis fis)
+		eis8 gis'\sfz r16 h,(\p a gis) fis8 a'\sfz r16 cis(\f a fis)
+		d\p d d d a a fis fis d d d d d d d d
+		fis'\ff fis fis fis fis fis fis fis eis cis,\p cis cis cis cis cis cis %105
+		cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis
+		cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis
+		d d d d d d d d f f f f e e e e
+		d d d d d d d d e e e e e e e e
+		f f f f f f f f g g g g g g g g %110
+		a a a a d d c c h h h h h h h h
+		c c c c c c c c dis, dis dis dis e e e e
+		<e e'>\ff q q q q q q q <fis dis'> h'\p( c h a g fis e)
+		dis( h fis' e dis c h a) g( h c h a g fis e)
+		dis8 fis'\sfz r16 a,(\p g fis) e8 g'\sfz r16 h(\f g e) %115
+		c\p c c c g g e e c c c c c c c c
+		e''\ff e e e e e e e dis h,\p h h h h h h
+		h h h h h h a a a a a a g g g g
+		c c c c c c h h h h h h ais ais ais ais
+		g'!\sfp g g g g g g g g g fis fis e e d d %120
+		d d d d cis cis cis cis h4( a!)
+		g2 fis4. \slashedGrace a!8 g
+		fis2 r4\fermata \bar "||" %123 finis
 	}
 }
 

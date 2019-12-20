@@ -401,40 +401,40 @@ QuiTollisOrgano = {
 		\clef bass
 		\key h \minor \time 4/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #87
-		\partial 4 r16 \mvTr d(\p-\solo cis h) ais8\sfz ais' r16 e16(\p d cis) h8\sfz h' r16 fis'(\f d h)
+		\partial 4 r16 \mvTr d(\p-\solo cis h) ais8 ais'\sfz r16 e16(\p d cis) h8 h'\sfz r16 fis'(\f d h)
 		g\p g g g d d h h g g g g g g g g
 		g'\ff g g g g g g g fis8 r r4
-		r4 r16 \mvTr g(\p-\vlc fis e) d8 r r16 d(-\bassi cis h) %90
-		ais8\sfz ais' r16 e(\p d cis) h8\sfz h' r16 fis'(\f d h)
+		r4 r16 \mvTr g!(\p-\vlc fis e) d8 r r16 d(-\bassi cis h) %90
+		ais8 ais'\sfz r16 e(\p d cis) h8 h'\sfz r16 fis'(\f d h)
 		g\p g g g d d h h g g g g g g g g
 		g'\ff g g g g g g g fis4 r
 		\mvTr d16\p-\tutti d d d ais ais ais ais h h h h h h h h
 		e, e e e d d d d a' a a a a a g g %95
 		fis fis fis fis fis' fis fis fis g g g g e e g g
 		a a a a a, a a a d8 r r16 fis(-\solo e d)
-		e8\sfzE e' r16 g,(\pE fis e) fis8\sfzE fis' r16 a,(\pE g fis)
-		g8\sfzE g' r16 e,(\pE fis g) a a a a ais ais ais ais
+		e8 e'\sfzE r16 g,(\pE fis e) fis8 fis'\sfzE r16 a,(\pE g fis)
+		g8 g'\sfzE r16 e,(\pE fis g) a a a a ais ais ais ais
 		h h h h cis cis cis cis d d d d d d d d %100
 		d,\ff d d d d d d d cis8 r r4
-		r r16 \mvTr d'(\p-\vlc cis h) a8 r r16 a,(-\bassi gis fis)
-		eis8\sfz eis' r16 h(\p a gis) fis8\sfz fis' r16 cis'16(\f a fis)
+		r r16 \mvTr d'!(\p-\vlc cis h) a8 r r16 a,(-\bassi gis fis)
+		eis8 eis'\sfz r16 h(\p a gis) fis8 fis'\sfz r16 cis'16(\f a fis)
 		d\p d d d a a fis fis d d d d d d d d
 		d''\ff d d d d d d d cis4 r %105
 		\mvTr a16\p-\tutti a a a a a a a gis gis gis gis gis gis gis gis
 		fis fis fis fis fis fis fis fis e e e e e e e e
 		d d d d d d d d g! g g g c, c c c
 		g g g g g g g g c8 r r16 \once \slurDashed e(-\solo d c)
-		d8\sfzE d' r16 f,(\pE e d) e8\sfzE e' r16 g,( f? e) %110
-		f8\sfzE f' r16 d,(\pE e f?) g g g g gis gis gis gis
+		d8 d'\sfzE r16 f,(\pE e d) e8 e'\sfzE r16 g,( f? e) %110
+		f8 f'\sfzE r16 d,(\pE e f?) g g g g gis gis gis gis
 		a a a a h h h h c c c c c c c c
 		c,\ffE c c c c c c c h8 r r4
 		r r16 \mvTr c'(\pE-\vlcE h a) g8 r r16 g(-\bassiE fis e)
-		dis8\sfz dis' r16 a(\p g fis) e8\sfz e' r16 h(\f g e) %115
+		dis8 dis'\sfz r16 a(\p g fis) e8 e'\sfz r16 h(\f g e) %115
 		c\p c c c g g e e c c c c c c c c
 		c''\ff c c c c c c c h4 r
 		\mvTr g16\p-\tutti g g g dis dis dis dis e e e e e e e e
 		e e e e eis eis eis eis fis fis fis fis fis fis fis fis
-		ais, ais ais ais ais ais ais ais h h h h g' g g g %120
+		ais,\sfpE ais ais ais ais ais ais ais h h h h g' g g g %120
 		fis fis fis fis fis, fis fis fis << {
 			h4^\vlc r
 			r e8 g h4 ais
