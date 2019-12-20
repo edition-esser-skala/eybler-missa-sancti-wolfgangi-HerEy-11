@@ -412,8 +412,8 @@ QuiTollisOrgano = {
 		e, e e e d d d d a' a a a a a g g %95
 		fis fis fis fis fis' fis fis fis g g g g e e g g
 		a a a a a, a a a d8 r r16 fis(-\solo e d)
-		e8 e'\sfzE r16 g,(\pE fis e) fis8 fis'\sfzE r16 a,(\pE g fis)
-		g8 g'\sfzE r16 e,(\pE fis g) a a a a ais ais ais ais
+		e8 e' r16 g,( fis e) fis8 fis' r16 a,( g fis)
+		g8 g' r16 e,( fis g) a a a a ais ais ais ais
 		h h h h cis cis cis cis d d d d d d d d %100
 		d,\ff d d d d d d d cis8 r r4
 		r r16 \mvTr d'!(\p-\vlc cis h) a8 r r16 a,(-\bassi gis fis)
@@ -424,8 +424,8 @@ QuiTollisOrgano = {
 		fis fis fis fis fis fis fis fis e e e e e e e e
 		d d d d d d d d g! g g g c, c c c
 		g g g g g g g g c8 r r16 \once \slurDashed e(-\solo d c)
-		d8 d'\sfzE r16 f,(\pE e d) e8 e'\sfzE r16 g,( f? e) %110
-		f8 f'\sfzE r16 d,(\pE e f?) g g g g gis gis gis gis
+		d8 d' r16 f,( e d) e8 e' r16 g,( f? e) %110
+		f8 f' r16 d,( e f?) g g g g gis gis gis gis
 		a a a a h h h h c c c c c c c c
 		c,\ffE c c c c c c c h8 r r4
 		r r16 \mvTr c'(\pE-\vlcE h a) g8 r r16 g(-\bassiE fis e)
@@ -448,37 +448,37 @@ QuiTollisOrgano = {
 }
 
 QuiTollisBassFigures = \figuremode {
-	r4 r1 %87
-	r
-	r
-	r %90
-	r
-	r
-	r
+	r4 r8 <[7!]> r4. <[5 3]> %87
+	r1
+	<[6\\]>2 <[_+]>
+	r1 %90
+	r8 <[7!]> r4. <[5 3]>
+	r1
+	<[6\\]>2 <[_+]>
 	r4 <6 4>8 <5 3> <9 4>4 <8 3>
 	<6> <4>8 <3> <6 4>4 <5 3>8 <\t \t> %95
 	<6 3>4 \bassFigureExtendersOn q16 q <6 _+>8. q16 <6 3> q16 <6 5>8. q16 \bassFigureExtendersOff
 	<6 4>4. <7 3>8 r2
+	<[7]>8 <[6]>4. <[7]>8 <[6]>4.
+	<[7]>8 <[6]>4. <[7]>4 <[6 5]>
+	r <[7 5+ _+]> r2 %100
+	<[6\\]> <[5+ _+]>
 	r1
-	r
-	r %100
-	r
-	r
-	r
-	r
-	r %105
-	r2 <6\\ 4 3>
+	r8 <[7! 5 _+]> r4. <[5 3]>
+	r1
+	<[6\\]>2 <[5+ _+]> %105
+	r <6\\ 4 3>
 	r <6 4 _!>
-	<7!> <7!>4 <8 3>
+	r4 <7!> q <8 3>
 	<4!> <3> r2
-	r1 %110
-	r
-	r
-	r
-	r
-	r %115
-	r
-	r
+	<[7 _!]>8 <[6 \t]>4. <[7]>8 <[6!]>4. %110
+	<[7 5!]>8 <[6]>4. <[7!]>4 <[6 5]>
+	<[_!]> <[7 5+ _+]> r2
+	<[6\\]> <[_+]>
+	r1
+	r8 <[7!]> r4. <[5 3]> %115
+	r1
+	<[6\\]>2 <[_+]>
 	r4 <6 4>8 <5 3> <9 4>4 <8 3>
 	<6!>4 <7 \t [_+]>8 <\t 5 \t> <5 4>4 <\l _+>
 	<7!>2 <6 4>8 <5 3> <6 4> <6\\ 5 3> %120
