@@ -443,7 +443,7 @@ QuoniamSopranoNotes = {
 		d([ e)] fis d h( e4) d8
 		d cis r4 r2
 		a4\p a8 a a8.([ h16)] a4
-		a a8 a d8. a16 a8 a\f
+		a a8 a d8.\f a16 a8 a
 		h([ g')] fis e a([ cis,)] d e %160
 		fis g fis([ e)] d d,\ff fis a
 		d4 fis8 d a'4. a8

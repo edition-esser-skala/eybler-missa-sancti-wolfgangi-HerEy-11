@@ -251,7 +251,7 @@ QuiTollisViola = {
 
 QuoniamViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #124
 		d8.\f cis16 h8 a fis'8. e16 d8 d'

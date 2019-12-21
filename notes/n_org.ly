@@ -536,7 +536,7 @@ QuoniamOrgano = {
 		e e, d d' cis cis, h h' %165
 		a h cis d e4 cis
 		d r8 a fis d a' a,
-		d4 r8. \mvTr d32(\ff-\unisono e fis4) r8. fis32( g
+		d4\ff r8. d32(-\unisono e fis4) r8. fis32( g
 		a4) r8. \tuplet 3/2 16 { a32( h cis } d8[) r16 \tuplet 3/2 16 { d32 cis h] } a8[ r16 \tuplet 3/2 16 { g32 fis e] } \noBreak
 		d4 fis8 d a2\fermata \bar "||" %170
 		a'4\f fis h g \noBreak
@@ -544,7 +544,7 @@ QuoniamOrgano = {
 		\clef treble d'' \clef "treble_8" a, d fis
 		gis,2\trill a4. h16 cis
 		d4 \clef bass d, g h %175
-		cis,2 d
+		cis,2\trillE d
 		\clef "treble_8" d'4 cis fis d
 		\clef treble << { gis-\org } \\ { \voiceThree fis8[ e16 d] } \\ { \voiceFour r8 h } >> \clef bass e,4.^\bassi fis16 gis a8 g
 		fis e d4. e16 fis g8 fis

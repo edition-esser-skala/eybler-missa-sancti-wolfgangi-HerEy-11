@@ -5,7 +5,7 @@
 \version "2.18.0"
 
 \include "../definitions.ly"
-showLastLength = r1*68
+
 \paper { first-page-number = #19 }
 
 #(set-global-staff-size 15.87)
@@ -177,11 +177,11 @@ showLastLength = r1*68
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-% 							\QuoniamOboeI
+							\QuoniamOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
-% 							\QuoniamOboeII
+							\QuoniamOboeII
 						}
 					>>
 				>>
@@ -199,16 +199,16 @@ showLastLength = r1*68
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-% 							\QuoniamViolinoI
+							\QuoniamViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-% 							\QuoniamViolinoII
+							\QuoniamViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-% 						\QuoniamViola
+						\QuoniamViola
 					}
 				>>
 				\new ChoirStaff <<
@@ -216,25 +216,25 @@ showLastLength = r1*68
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
 					}
-% 					\new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
+					\new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \QuoniamAltoNotes }
 					}
-% 					\new Lyrics \lyricsto Alto \QuoniamAltoLyrics
+					\new Lyrics \lyricsto Alto \QuoniamAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \QuoniamTenoreNotes }
 					}
-% 					\new Lyrics \lyricsto Tenore \QuoniamTenoreLyrics
+					\new Lyrics \lyricsto Tenore \QuoniamTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
 						\new Voice = "Basso" { \dynamicUp \QuoniamBassoNotes }
 					}
-% 					\new Lyrics \lyricsto Basso \QuoniamBassoLyrics
+					\new Lyrics \lyricsto Basso \QuoniamBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
