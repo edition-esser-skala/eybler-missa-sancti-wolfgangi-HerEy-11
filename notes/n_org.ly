@@ -605,7 +605,7 @@ QuoniamOrgano = {
 		\mvTr d\f-\tutti d' h, h' g, g' a, a'
 		d,4 r8. \mvTr d32(\ff-\unisono e fis4) r8. fis32( g %235
 		a4) r8. \tuplet 3/2 16 { a32( h cis } d8) a fis d
-		g-\tutti g, h d g d h g
+		g g, h d g d h g
 		d'1\fermata \bar "|." %238 FINIS
 	}
 }
