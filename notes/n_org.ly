@@ -595,7 +595,7 @@ QuoniamOrgano = {
 		e fis16 g a8 fis^\critnote h a g a16 h
 		cis8 a d cis h4. a8 %225
 		g fis e fis16 g a8 d a a,
-		d8 \mvTrr d\pp-\solo fis fis e e a, a
+		d8 \mvTr d\p-\solo fis fis e e a, a
 		d d fis fis e e a, a
 		d d fis fis e e a, a
 		d\f d' h, h' g, g' a, a' %230

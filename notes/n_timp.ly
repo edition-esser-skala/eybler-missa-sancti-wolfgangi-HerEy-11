@@ -96,7 +96,7 @@ QuoniamTimpani = {
 		c2\trill g8 g16. g32 g16 g g g
 		c4 r r2
 		R1*2 %165
-		r2 g8 g16. g32 g8 g
+		r2 g8\fE g16. g32 g8 g
 		c4 r r2
 		c4\ff r8 \tuplet 3/2 8 { c16 c c } c4 r8 \tuplet 3/2 8 { c16 c c }
 		c4 r8 \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c } g8 \tuplet 3/2 8 { g16 g g } \noBreak

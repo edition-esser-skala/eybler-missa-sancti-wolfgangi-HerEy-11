@@ -300,6 +300,73 @@ QuoniamViolinoI = {
 		d,,4\ff r8. d32( e fis4) r8. fis32( g
 		a4) r8. \tuplet 3/2 16 { a32( h cis } d8) r16 a64( h cis d e8) r16 a,64( h cis d128 e \noBreak
 		fis8) d32( e fis g a8) fis <e a,>2\fermata \bar "||" %170
+		R1*2
+		d4\fE cis fis d
+		r8 h e d cis8.\trill h16 a4
+		r8 fis'16 e d e cis d h8 h'16 a g a fis g %175
+		e8 fis16 g a h g a fis a, h cis d cis e d
+		fis e g fis a a, h cis d cis e d fis fis, gis a
+		h cis d h e fis d e cis d h cis a a' a a
+		a h g! a fis g e fis d e cis d h cis d h
+		g' a fis g e fis d e cis d h cis ais h cis ais %180
+		h8 fis'16 e d e cis d h8 g'16 fis e fis d e
+		cis d e cis fis g e fis d8 fis16 e d e cis d
+		h cis d e fis gis a fis h8 h,16 cis d e cis d
+		h cis a h cis d h cis a fis' fis fis fis gis a fis
+		h h, h h h cis a h gis e' e e e fis gis e %185
+		a a, a a a h g a fis d' d d d e fis d
+		g8 d16 c h c a h g8 e'16 d c d h c
+		a h c a d e c d h c a h g g a h
+		c d e c a a h c d e c d h c a h
+		g a fis g a c fis e dis e fis dis h cis dis h %190
+		e h a g fis h cis d! e d cis h a h cis d
+		e cis d e fis g e fis d e cis d h cis d h
+		e e, gis h e fis d e cis d h cis a h cis a
+		d d, fis a d e cis d h cis a h gis a h gis
+		cis cis, eis gis cis d h cis a8 a'16 gis fis gis e fis %195
+		d8 h'16 a gis a fis gis e fis d e cis d e cis
+		fis8 fis16 e d e cis d h cis d h e fis d e
+		cis e fis g! a h g a fis a, h cis d e cis d
+		h d e fis g! a fis g e g, a h cis d h cis
+		a cis d e fis g e fis d fis, g a h cis a h %200
+		g h cis d e fis d e cis e fis g a h g a
+		fis g e fis d e cis d h cis a h g a fis g
+		e8 fis16 g a h g a h c a h g a h g
+		c d h c a h c a d d, fis a d e c d
+		h g h d g fis e d cis d e d cis a h cis %205
+		d cis d e fis g e fis d e cis d h cis a h
+		g h cis d e fis d e cis d h cis a h g a
+		fis a h cis d e cis d h cis a h g a fis g
+		e g a h cis h cis d e g fis e fis g e fis
+		d e fis d h8 h'16 a g fis e d cis d h cis %210
+		ais h gis ais fis gis ais fis h8 d16 cis h cis d h
+		e8 h'16 a! g! a fis g e fis d e cis d e cis
+		d e cis d h8 h'16 a g a fis g e fis d e
+		cis8 d16 e fis g e fis d e cis d h8 cis16 d
+		e fis d e cis d h cis a h g a fis8 d'16 cis %215
+		h d e fis g a fis g e fis d e cis e fis g
+		a h g a fis g e fis d fis g a h h, h' a
+		g fis e d cis e fis g a g fis e d fis g a
+		h a g fis e g a h cis h a g fis a h cis
+		d d, d' cis h cis a h gis a h a gis e fis gis %220
+		a a, h cis d e fis gis a a, a' g fis g e fis
+		d e cis d h8 cis16 d e fis d e cis d h cis
+		a h g a fis a h cis d e cis d h h cis d
+		e d cis h a cis fis e d d e fis g fis e d
+		cis e a g fis g e fis d e cis d h cis d cis %225
+		h d e fis g g, g' g g e fis d' e,8 cis'
+		d, a\p a a a a a a
+		a a a a a a a a
+		a a a a a a a a
+		fis16\f d' d d d, fis' fis fis e d' d d a, cis' cis cis %230
+		d,8 a16(\pp fis) fis( d) d( a) a2~
+		a8 a'16( fis) fis( d) d( a) a2~
+		a8 a'16( fis) fis( d) d( a) a2
+		fis'16 d' d d d, fis' fis fis e\f d' d d a, cis' cis cis
+		<d, d,>4 r8. d,32(\ff e fis4) r8. fis32( g %235
+		a4) r8. \tuplet 3/2 16 { a32( h cis } d8) d32( e fis g a8) d,32( e fis g64 a)
+		h16 g g d d h h g g h h d d g g h
+		a1\fermata \bar "|." %238 FINIS
 	}
 }
 

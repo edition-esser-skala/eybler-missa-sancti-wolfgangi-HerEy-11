@@ -5,7 +5,7 @@
 \version "2.18.0"
 
 \include "../definitions.ly"
-showFirstLength = r1*47
+showLastLength = r1*68
 \paper { first-page-number = #19 }
 
 #(set-global-staff-size 15.87)
@@ -177,11 +177,11 @@ showFirstLength = r1*47
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-% 							\QuoniamOboeI
+							\QuoniamOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
-% 							\QuoniamOboeII
+							\QuoniamOboeII
 						}
 					>>
 				>>
@@ -211,31 +211,31 @@ showFirstLength = r1*47
 						\QuoniamViola
 					}
 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
-% 					}
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
+					}
 % 					\new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \QuoniamAltoNotes }
-% 					}
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \QuoniamAltoNotes }
+					}
 % 					\new Lyrics \lyricsto Alto \QuoniamAltoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \QuoniamTenoreNotes }
-% 					}
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \QuoniamTenoreNotes }
+					}
 % 					\new Lyrics \lyricsto Tenore \QuoniamTenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \QuoniamBassoNotes }
-% 					}
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \QuoniamBassoNotes }
+					}
 % 					\new Lyrics \lyricsto Basso \QuoniamBassoLyrics
-% 				>>
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Violoncello," "Basso e" "Organo" } }
@@ -247,7 +247,7 @@ showFirstLength = r1*47
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+% 			\midi { \tempo 4 = 90 }
 		}
 	}
 }
