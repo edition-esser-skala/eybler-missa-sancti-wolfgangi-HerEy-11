@@ -256,15 +256,15 @@ QuoniamViola = {
 			\set Score.currentBarNumber = #124
 		d8.\f cis16 h8 a fis'8. e16 d8 d'
 		g, a h e, e r r a,~ %125
-		a r r a a r r a'
-		d a fis8.(\trillE e32 d) a'8 a, r4
+		a r r \once \tieDashed a~ a r r \once \slurDashed a'(
+		d) a fis8.(\trillE e32 d) a'8 a, r4
 		a'8. g16 fis8 e d fis a fis
 		e h cis e d4 r8 d(
-		e) r r a a r r a( %130
+		e) r r \once \tieDashed a~ a r r a( %130
 		g) r r a, d^\critnote \tuplet 3/2 8 { d'16 cis h } a8 \tuplet 3/2 8 { g16 fis e }
 		\appoggiatura { d16[ fis] } a8. g16 fis8 e d fis a d,
-		e h cis e d4 r8 d
-		e r r a a d, cis fis
+		e h cis e d4 r8 \once \slurDashed d(
+		e) r r a a d, cis fis
 		fis h, d fis e a gis h %135
 		e, a cis a fis d h fis'
 		h h, e a a fis d h
@@ -293,7 +293,7 @@ QuoniamViola = {
 		d e fis g a g fis e %160
 		d g a a, d4 r8 a\ff
 		fis a d fis \tuplet 3/2 8 { <a a,>16 q q q[ q q] q q q q[ q q] }
-		<fis a,>4 r8 a~ a cis, e a~
+		<fis a,>4 r8 a~\fE a cis, e a~
 		a fis a d~ d g,, fis fis'
 		e e, d d' cis cis h h %165
 		a a'4 a a, a8

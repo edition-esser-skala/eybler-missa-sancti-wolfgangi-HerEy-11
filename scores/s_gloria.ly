@@ -211,31 +211,31 @@ showFirstLength = r1*47
 						\QuoniamViola
 					}
 				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
-					}
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
+% 					}
 % 					\new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \QuoniamAltoNotes }
-					}
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \QuoniamAltoNotes }
+% 					}
 % 					\new Lyrics \lyricsto Alto \QuoniamAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \QuoniamTenoreNotes }
-					}
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \QuoniamTenoreNotes }
+% 					}
 % 					\new Lyrics \lyricsto Tenore \QuoniamTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \QuoniamBassoNotes }
-					}
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \QuoniamBassoNotes }
+% 					}
 % 					\new Lyrics \lyricsto Basso \QuoniamBassoLyrics
-				>>
+% 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Violoncello," "Basso e" "Organo" } }

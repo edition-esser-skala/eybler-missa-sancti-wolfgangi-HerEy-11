@@ -198,6 +198,52 @@ QuoniamOboeII = {
 		\clef treble
 		\key d \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #124
-		
+		g'8.\f fis16 g8 e a8. cis16 d8 fis
+		d d^\critnote h4 a8 r r \once \slurDashed e( %125
+		d) r r d( e) r r e'(
+		d) a fis8.(\trill e32 d) a'4 r
+		d8. cis16 d8 e fis4 d8 a
+		g fis e4 d r8 a'~
+		a r r e'( d) r r \once \tieDashed d~ %130
+		d cis d e d r r4
+		d8. cis16 d8 e fis4 d8 a
+		g fis e4 d r8 a'~
+		a r r e' a,4 ais
+		h r e, gis %135
+		a r fis2
+		e8 gis h a fis2~
+		fis8 e r4 r2
+		R1
+		r4 r8 e\f e'4 d8 cis %140
+		fis4 e8 d a4. gis8
+		a4 r8 e'( d) r r \once \slurDashed fis(
+		e) r r h a4 r8 e'
+		d4 r8 cis h4 r8 e
+		d cis h4 a r %145
+		r r8 h a a4 gis8
+		a8. gis16 a8 h cis4 a8 e'
+		d cis h4 a r8 e'~
+		e r r d( cis) r r e
+		d h4 ais8 h r r4 %150
+		h8. ais16 h8 cis d4 h8 h
+		ais h cis4 h r8 \once \slurDashed fis'(
+		e) r r cis( h) r r4
+		R1
+		a'4 g16 fis e d g8 r r a,~ %155
+		a cis d4 r8 e4 d8
+		d cis r4 r2
+		R1
+		r4 r8 a\f fis'4 e8 d
+		h4 dis8 e a, g fis h %160
+		a d4 cis8 d d,\ffE fis a
+		d4 fis8 d cis4. cis8
+		d4 r8 fis,(\fE e) r r \once \slurDashed e'(
+		d) r r \once \slurDashed a'( g) h, a4
+		r8 g fis4 r8 e d4 %165
+		r r8 a' cis4 e
+		d r r2
+		d,\ff fis
+		a d4 cis \noBreak
+		d2 cis\fermata \bar "||"
 	}
 }

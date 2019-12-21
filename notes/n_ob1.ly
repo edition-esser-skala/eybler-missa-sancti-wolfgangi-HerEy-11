@@ -204,6 +204,52 @@ QuoniamOboeI = {
 		\clef treble
 		\key d \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #124
-		
+		g'8.\f a16 h8 cis d8. e16 fis8 a
+		g fis e d cis r r g( %125
+		fis) r r d'( cis) r r g'(
+		fis) a fis8.(\trill e32 d) a'8 a, r4
+		d8. e16 fis8 g a4 fis8 d
+		cis h a g fis4 r8 d'(
+		cis) r r g'( fis) r r a( %130
+		h) a g8.(\trill fis32 g) fis8 r r4
+		d8. e16 fis8 g a4 fis8 d
+		cis h a g fis4 r8 d'(
+		cis) r r g' fis4 e
+		d r e d %135
+		cis r d dis
+		e d8 cis h4. a8~
+		a gis r4 r2
+		R1
+		r2 r4 r8 a\f %140
+		a'4 gis8 fis e d cis h
+		a4 r8 a'( fis) r r \once \slurDashed h(
+		gis) r r d cis fis e4
+		r8 d cis4 r8 h a[ a']
+		gis fis e d cis d e fis %145
+		gis a h d, cis4 h\trill
+		a8. h16 cis8 d e4 cis8 a'
+		gis fis e d cis4 r8 \once \slurDashed a'(
+		gis) r r h( a) r r g
+		fis h, cis8.(\trill d32 e) d8 r r4 %150
+		h8. cis16 d8 e fis4 d8 h
+		ais h cis8.(\trillE d32 e) d4 r8 \once \slurDashed h'(
+		ais) r r e( d) r r4
+		h'4 a16 g fis e \appoggiatura d4 cis2
+		r4 r8 fis, g a h cis %155
+		d e fis d h g'4 fis8
+		fis e r4 r2
+		R1
+		r4 r8 a,\fE a'4 g8 fis
+		h g fis e a cis, d e %160
+		fis g fis e d d,\ffE fis-\critnote a
+		d4 fis8 d a'4. a8
+		fis4 r8 d(\fE cis) r r \once \slurDashed g'(
+		fis) r r \once \slurDashed c'( h) r r a
+		g4 r8 fis e4 r8 d %165
+		cis d e fis g2
+		fis4 r r2
+		d,2\ff fis
+		a d4 e \noBreak
+		fis2 e\fermata \bar "||" %170
 	}
 }

@@ -621,8 +621,8 @@ QuoniamBassFigures = \figuremode {
 	r4 <[6]>8 <[6 5]> r2
 	r2.. <6>8
 	q q q <7> r4. <[6]>8
-	q4. <[6 5]>8 r4 <_+>
-	<6>2 q4 <_+> %135
+	q4. <[6 5]>8 r4 <[7] _+>
+	<6>2 q4 <[7] _+> %135
 	<6>2 r4 <_+>8 <\t>
 	<6>8 <5!> <[9] 4> <[8] 3> <6>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <6 5>
 	<9 4> <8 _+> <[6]>4 <7 _+>4. <6 4>8

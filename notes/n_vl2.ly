@@ -254,22 +254,22 @@ QuoniamViolinoII = {
 		\key d \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #124
 		h8.\f a16 g8 e' a8. g16 fis8 fis'
-		d d h h a r r e %125
-		d r r d e r r e'
-		d a' fis8.(\trill e32 d) a'8 a, r4
+		d d h h a r r \once \slurDashed e( %125
+		d) r r \once \slurDashed d( e) r r \once \slurDashed e'(
+		d) a' fis8.(\trill e32 d) a'8 a, r4
 		<d fis, a,>8. cis16 d8 e <fis a, d,>4 d8 a
-		g fis e cis d4 r8 a'
-		g r r e' d r r \tuplet 3/2 8 { d,16 fis a } %130
+		g fis e cis d4 r8 \once \slurDashed a'(
+		g) r r \once \slurDashed e'( d) r r \tuplet 3/2 8 { d,16 fis a } %130
 		d8 cis d e d \tuplet 3/2 8 { d16 cis h } a8 \tuplet 3/2 8 { g16 fis e }
-		\acciaccatura fis d'8. cis16 d8 e <fis a, d,>4 d8 a
+		\acciaccatura fis8 d'8. cis16 d8 e <fis a, d,>4 d8 a
 		g fis e cis d4 r8 a'
-		g r r e' d \tuplet 3/2 8 { a16 d fis } e8 \tuplet 3/2 8 { cis16 e ais }
+		g r r \once \slurDashed e'( d) \tuplet 3/2 8 { a16 d fis } e8 \tuplet 3/2 8 { cis16 e ais }
 		h8 \tuplet 3/2 8 { fis16 e d d[ cis h] h cis d } e8 \tuplet 3/2 8 { a,16 cis e } d8 \tuplet 3/2 8 { h16 d gis } %135
 		a8 \tuplet 3/2 8 { e16 d cis cis[ h a] a[ h cis] } d8 \tuplet 3/2 8 {  h16 d fis } h8 \tuplet 3/2 8 { fis16 dis h }
 		e8 \tuplet 3/2 8 { e,16 gis h } d8 \tuplet 3/2 8 { cis16 d e } fis8 \tuplet 3/2 8 { d16 cis h fis'[ e d] cis h a }
 		e'8 e,16. fis32 gis16. a32 h16. gis32 e8\p h4 a8
 		a a gis gis gis h4 a8
-		a8. h16 gis8 e' e'\f \tuplet 3/2 8 { e16 fis e d[ e d] cis d cis } %140
+		a8. h16 gis8 e'\f e' \tuplet 3/2 8 { e16 fis e d[ e d] cis d cis } %140
 		fis8 \tuplet 3/2 8 { fis16 gis fis e[ fis e] d e d } a8 a4 gis8
 		a4 r8 \tuplet 3/2 8 { cis16 d e } a,8 r r \tuplet 3/2 8 { d16 e fis }
 		h,8 r r \tuplet 3/2 8 { gis16 a h } cis8 \tuplet 3/2 8 { fis16 gis fis } e8 \tuplet 3/2 8 { e,16 fis e }
