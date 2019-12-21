@@ -199,16 +199,16 @@ showLastLength = r1*68
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\QuoniamViolinoI
+% 							\QuoniamViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\QuoniamViolinoII
+% 							\QuoniamViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\QuoniamViola
+% 						\QuoniamViola
 					}
 				>>
 				\new ChoirStaff <<

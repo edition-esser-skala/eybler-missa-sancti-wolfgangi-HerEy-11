@@ -364,7 +364,7 @@ QuoniamViola = {
 		d, <d fis>\pp q q <d g> <cis g'> q q
 		<d fis> q q q <d g> <cis g'> q q
 		<d fis> q q q <d g> <cis g'> q q
-		<d fis> d' h, h' g,\f g' a, a'
+		<d fis>\f d' h, h' g, g' a, a'
 		d,,4 r8. d32(\ff e fis4) r8. fis32( g %235
 		a4) r8. \tuplet 3/2 16 { a32( h cis } d8) a' fis d
 		g <g h>4 q q q8

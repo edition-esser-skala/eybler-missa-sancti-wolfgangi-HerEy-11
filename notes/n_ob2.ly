@@ -244,6 +244,67 @@ QuoniamOboeII = {
 		d r r2
 		d,\ff fis
 		a d4 cis \noBreak
-		d2 cis\fermata \bar "||"
+		d2 cis\fermata \bar "||" %170
+		R1*2
+		d4\f cis fis d
+		r8 h e d cis8.\trillE h16 a4
+		r2 r4 h~ %175
+		h8 a16 g fis8 e d4 r
+		r a' d fis
+		gis,2\trillE a
+		R1*2 %180
+		fis'4 d g e
+		r8 cis fis e d8.\trillE cis16 h4
+		r fis h d
+		eis,2\trillE fis
+		R1*2 %186
+		d'4 h e c
+		r8 a d c h a g a16 h
+		c8 h a h16 c d8 c h a
+		g a16 h c4. h16 a g8 fis %190
+		e4 r r g'~
+		g8 fis16 e d8 cis! h4 r
+		R1*3 %195
+		r2 e4 cis
+		fis d r8 h e d
+		cis8.\trillE h16 a4 r8 a d cis
+		h8.\trillE a16 g!4 r8 g cis h
+		a8.\trillE g16 fis4 r8 fis h a %200
+		g h e8. d16 cis8 e a8. g16
+		fis8 e d4 r2
+		r h4 g
+		c a r8 a d c
+		h h e d cis4. h16 cis %205
+		d4 r r h~
+		h8 cis16 d e8 fis g4 a,~
+		a8 h16 cis d8 e fis4 g,~
+		g8 a16 h cis8 d e d16 cis fis8 e
+		d cis h4. cis16 d cis8 h %210
+		ais2 h4 r
+		r e2 cis4
+		d h r8 h e d
+		cis d16 e fis8 e d cis h cis16 d
+		e8 d cis h a h16 cis d8 cis %215
+		h a g a16 h cis8 h a4~
+		a8 g fis g16 a h8 a g4~
+		g8 fis e fis16 g a8 g fis g16 a
+		h8 a g a16 h cis8 h a h16 cis
+		d8 cis h a gis4. fis16 gis %220
+		a4 r r2
+		d4 h e cis
+		r r8 a d cis h cis16 d
+		e8 cis fis e d e16 fis g8 e
+		a g fis4. e8 d4~ %225
+		d e8 d cis d4 cis8
+		d4 r r2
+		R1*2
+		d2.\f cis4 %230
+		d8 r r4 r2
+		R1*2
+		d2.\f cis4
+		d8 d,4\ff d8 fis2 %235
+		a d4 c
+		h1
+		a\fermata \bar "|." %238 FINIS
 	}
 }

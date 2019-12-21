@@ -362,7 +362,7 @@ QuoniamViolinoII = {
 		d8 r r4 r8 a,16(\pp cis) cis( e) e( a)
 		a2~ a8 a,16( cis) cis( e) e( a)
 		a2~ a8 a,16( cis) cis( e) e( a)
-		a fis fis fis fis d' d d h\f h' h h a, e' e e
+		a\f fis fis fis fis d' d d h h' h h a, e' e e
 		<d d,>4 r8. d,32(\ff e fis4) r8. fis32( g %235
 		a4) r8. \tuplet 3/2 16 { a32( h cis } d8) d32( e fis g a8) d,32( e fis g64 a)
 		h16( g) g( d) d( h) h( g) d( g) g( h) h( d) d( g)
