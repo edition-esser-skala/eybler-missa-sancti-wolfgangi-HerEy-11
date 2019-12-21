@@ -467,6 +467,73 @@ QuoniamBassoNotes = {
 		r8 d\ff d d fis8. fis16 fis8 fis
 		a8. a16 a8 a d d16 d a8 a
 		d,2 a\fermata %170
+		a'4\f fis h g
+		r8 e([ a)] g fis8.([ e16)] d4
+		R1*2
+		r4 d( g!) h %175
+		cis,2 d
+		R1
+		r4 e4. fis16[ gis] a8[ g]
+		fis[ e] d4. e16[ fis] g8[ fis]
+		e[ d] cis4. d16[ e] fis8[ e] %180
+		d[ cis] h4 r2
+		r4 fis'4. gis16[ ais] h8[ cis]
+		d4 r r2
+		r r8 cis,[( fis)] e
+		dis8.([ cis16)] h4 r8 h([ e)] d %185
+		cis8.([ h16)] a4 r8 a([ d)] c
+		h8.([ a16)] g4 r2
+		R1
+		r2 h'4 g
+		c a r8 fis([ h)] a %190
+		g[ fis16 e] h'4~ h8[ cis16 d] cis8[ h]
+		ais2 h
+		gis a
+		fis gis
+		eis fis %195
+		gis a
+		r2 r4 r8 e(
+		a) g! fis8.([ e16)] d4 r8 d(
+		g) fis e8.([ d16)] cis4 r8 cis(
+		fis) e d8.([ cis16)] h4 r %200
+		R1
+		r2 g'4 e
+		a fis r8 d([ g fis)]
+		e e([ a g)] fis fis([ h a)]
+		g4 r r2 %205
+		r4 d4. e16[ fis] g8[ a]
+		h4 cis,4. d16[ e] fis8[ g]
+		a4 h,4. cis16[ d] e8[ fis]
+		g4 e cis( ais)
+		h r r2 %210
+		r4 fis'2 d4
+		g e r8 cis[ fis e]
+		d[ e16 fis] g8[ fis] e[ d] cis[ d16 e]
+		fis8[ e d cis] h[ cis16 d] e8[ d]
+		cis[ h] a4 a2~ %215
+		a1~
+		a1~
+		a1~
+		a1~
+		a1 %220
+		a2 r
+		r4 g' e a
+		fis r r8 d[( g)] fis
+		e([ fis16 g)] a8 fis([ h)] a g([ a16 h)]
+		cis8 a([ d)] cis h4. a8 %225
+		g[ fis] e[ fis16 g] a8 d a4
+		d, r r8 \mvTr a'\p^\soloE a a
+		a8. h16 a4 r8 a a a16 a
+		a8.([ h16)] a4 r8 a a a16 a
+		d4\f h g( a) %230
+		d, r r8 a'4\pp a8
+		d4 d, r8 a'4 a8
+		d4 d, r8 a'4 a8
+		d4 h \mvTr g(\f^\tuttiE a)
+		d,8 d\ff d d fis8. fis16 fis8 fis %235
+		a a16 a a8 a d4 d,
+		g1
+		d\fermata \bar "|." %238 FINIS
 	}
 }
 
@@ -506,6 +573,69 @@ QuoniamBassoLyrics = \lyricmode {
 	Cum San -- cto Spi -- ri -- tu in %168
 	glo -- ri -- a, in glo -- ri -- a De -- i
 	Pa -- tris. %170
+	A -- men, a -- men,
+	a -- men, a -- men,
+	
+	a -- men, %175
+	a -- men,
+	
+	a -- _ _
+	_ _ _ _
+	_ _ _ _ %180
+	_ men,
+	a -- _ _
+	men,
+	a -- men,
+	a -- men, a -- men, %185
+	a -- men, a -- men,
+	a -- men,
+	
+	a -- men,
+	a -- men, a -- men, %190
+	a -- _ _
+	_ men,
+	a -- men,
+	a -- men,
+	a -- men, %195
+	a -- men,
+	a --
+	men, a -- men, a --
+	men, a -- men, a --
+	men, a -- men, %200
+	
+	a -- men,
+	a -- men, a --
+	men, a -- men, a --
+	men, %205
+	a -- _ _
+	men, a -- _ _
+	men, a -- _ _
+	_ men, a --
+	men, %210
+	a -- men,
+	a -- men, a --
+	_ _ _ _
+	_ _ _
+	_ men, a -- %215
+	
+	men, %221
+	a -- men, a --
+	men, a -- men,
+	a -- men, a -- men, a --
+	men, a -- men, a -- _ %225
+	_ _ _ men, a --
+	men. Cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a
+	De -- i, in glo -- ri -- a
+	De -- i Pa -- %230
+	tris, a -- men,
+	a -- men, a -- men,
+	a -- men, a -- men,
+	a -- men, a --
+	men. Cum San -- cto Spi -- ri -- tu in %235
+	glo -- ri -- a De -- i Pa -- tris,
+	a --
+	men. %238 FINIS
 }
 
 % BassoNotes = {

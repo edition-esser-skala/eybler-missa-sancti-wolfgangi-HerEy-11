@@ -614,7 +614,7 @@ QuoniamTenoreLyrics = \lyricmode {
 	men. A -- _ _ _
 	men, a -- _ _ _
 	men, a -- _ _ _
-	men,
+	men, %230
 	a --
 	men, a --
 	men, a --

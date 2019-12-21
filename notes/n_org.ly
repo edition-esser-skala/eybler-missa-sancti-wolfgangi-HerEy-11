@@ -595,14 +595,14 @@ QuoniamOrgano = {
 		e fis16 g a8 fis^\critnote h a g a16 h
 		cis8 a d cis h4. a8 %225
 		g fis e fis16 g a8 d a a,
-		d8 d \mvTrr fis\pp-\solo fis e e a, a
+		d8 \mvTrr d\pp-\solo fis fis e e a, a
 		d d fis fis e e a, a
 		d d fis fis e e a, a
-		\mvTr d\f-\tutti d' h, h' g, g' a, a' %230
-		d,8 d \mvTrr fis\pp-\solo fis e e a, a
+		d\f d' h, h' g, g' a, a' %230
+		d,8 d\pp fis fis e e a, a
 		d d fis fis e e a, a
 		d d fis fis e e a, a
-		\mvTr d\f-\tutti d' h, h' g, g' a, a'
+		d d' h, h' \mvTr g,\f-\tutti g' a, a'
 		d,4 r8. \mvTr d32(\ff-\unisono e fis4) r8. fis32( g %235
 		a4) r8. \tuplet 3/2 16 { a32( h cis } d8) a fis d
 		g-\tutti g, h d g d h g
