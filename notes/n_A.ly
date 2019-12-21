@@ -451,6 +451,73 @@ QuoniamAltoNotes = {
 		r8 d,\ff d d fis8. fis16 fis8 fis
 		a8. a16 a8 a fis fis16 fis a8 a
 		a2 a\fermata %170
+		r4 d,(\f g) h
+		cis,2 d
+		R1*2
+		a'4 fis h g %175
+		r8 e([ a)] g fis8.([ e16)] d4
+		r2 r4 fis~
+		fis8[ e16 d] cis8[ h] a4 r
+		r fis'4. g16[ a] h8[ a]
+		g[ fis e d] cis[ h] ais4 %180
+		h h( e) g
+		ais,2 h
+		r r4 d'~
+		d8[ cis16 h] a8[ gis] fis4 r
+		r8 fis([ h)] a gis8.([ fis16)] e4 %185
+		r8 e([ a)] g fis8.([ e16)] d4
+		r8 d([ g)] fis e[ fis16 g] a8[ g]
+		fis2 g4 e
+		a fis r8 d([ g)] fis
+		e[ fis16 g] fis8[ e] dis2 %190
+		e4 r r2
+		r4 fis4. gis16[ ais] h8[ cis]
+		d4 e,4. fis16[ gis] a8[ h]
+		cis4 d,4. e16[ fis] gis8[ a]
+		h4 cis,4. a'16[ gis] fis8[ e!] %195
+		d[ h'16 a] gis8[ fis] e[ cis'16 h] a8[ gis]
+		fis[ gis16 a] h8[ a] gis2
+		a8 e([ a)] g fis8.([ e16)] d4
+		r8 d([ g)] fis e8.([ d16)] cis4
+		r8 cis([ fis)] e d8.([ cis16)] h4 %200
+		R1
+		a'4 fis h g
+		r8 e([ a)] g fis8.([ e16)] d4
+		r2 r4 r8 d
+		g[ fis] e4. fis16[ g] a8[ g] %205
+		fis[ e] d4 r2
+		r4 e4. fis16[ g] a8[ h]
+		cis4 d,4. e16[ fis] g8[ a]
+		h4 g4. fis16[ e] d8[ cis]
+		h4 r r2 %210
+		r r4 h(
+		e) g ais,2
+		h8 fis'[ h a] g[ fis] e[ fis16 g]
+		a8[ g] fis[ g16 a] h8[ a g fis]
+		e[ fis16 gis] a8[ g] fis[ e] d[ e16 fis] %215
+		g4. fis8 e[ d] cis[ d16 e]
+		fis4. e8 d[ cis] h[ cis16 d]
+		e8[ d] cis[ d16 e] fis8[ e] d[ e16 fis]
+		g8[ fis] e4. fis16[ g] a8[ g]
+		fis[ e d cis] h2 %220
+		a4 r a' fis
+		h g r r8 e(
+		a) g fis8.([ e16)] d8 fis([ h)] a
+		g[ a16 h] cis8[ a] d[ cis] h[ cis16 d]
+		e8[ cis] d4 r r8 fis, %225
+		h[ a] g[ a16 h] a8 a a4
+		fis r r8 \mvTr a\p^\soloE a a
+		a8. h16 a4 r8 a a a16 a
+		a8.([ h16)] a4 r8 a a a16 a
+		a4\f h \once \stemUp h( a8[ g)] %230
+		fis4 r r8 g4\pp g8
+		fis4 a r8 g4 g8
+		fis4 a r8 g4 g8
+		fis4 h \once \stemUp \mvTr h(\fE^\tuttiE a8[ g])
+		fis d\ff d d fis8. fis16 fis8 fis %235
+		a a16 a a8 a d,4 fis
+		g1
+		fis\fermata \bar "|." %238 FINIS
 	}
 }
 
@@ -490,6 +557,73 @@ QuoniamAltoLyrics = \lyricmode {
 	Cum San -- cto Spi -- ri -- tu in %168
 	glo -- ri -- a, in glo -- ri -- a De -- i
 	Pa -- tris. %170
+	A -- men,
+	a -- men,
+	
+	a -- men, a -- men, %175
+	a -- men, a -- men,
+	a --
+	_ men,
+	a -- _ _
+	_ _ _ %180
+	men, a -- men,
+	a -- men,
+	a --
+	_ men,
+	a -- men, a -- men, %185
+	a -- men, a -- men,
+	a -- men, a -- _
+	_ _ men,
+	a -- men, a -- men,
+	a -- _ _ %190
+	men,
+	a -- _ _
+	men, a -- _ _
+	men, a -- _ _
+	men, a -- _ _ %195
+	_ _ _ _
+	_ _ _
+	men, a -- men, a -- men,
+	a -- men, a -- men,
+	a -- men, a -- men, %200
+	
+	a -- men, a -- men,
+	a -- men, a -- men,
+	a --
+	_ _ _ _ %205
+	_ men,
+	a -- _ _
+	men, a -- _ _
+	men, a -- _ _
+	men, %210
+	a --
+	men, a --
+	men, a -- _ _
+	_ _ _
+	_ _ _ _ %215
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ %220
+	men, a -- men,
+	a -- men, a --
+	men, a -- men, a -- men,
+	a -- _ _ _
+	_ men, a -- %225
+	_ _ _ men, a --
+	men. Cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a
+	De -- i, in glo -- ri -- a
+	De -- i Pa --
+	tris, a -- men,
+	a -- men, a -- men,
+	a -- men, a -- men,
+	a -- men, a --
+	men. Cum San -- cto Spi -- ri -- tu in %235
+	glo -- ri -- a De -- i Pa -- tris,
+	a --
+	men. %238 FINIS
 }
 
 % AltoNotes = {

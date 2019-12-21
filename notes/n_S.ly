@@ -449,9 +449,72 @@ QuoniamSopranoNotes = {
 		d4 fis8 d a'4. a8
 		d,4 r r2
 		R1*4 %167
-		r8 d,\f d d fis8. fis16 fis8 fis
+		r8 d,\ff d d fis8. fis16 fis8 fis
 		a8. a16 a8 a d d16 d e8 e
 		fis2 e\fermata %170
+		R1*2
+		d4\f cis fis d
+		r8 h([ e)] d cis8.([ h16)] a4
+		r2 r4 h~ %175
+		h8[ a16 g] fis8[ e] d4 r
+		r a'( d) fis
+		gis,2 a
+		R1*2 %180
+		fis'4 d g e
+		r8 cis([ fis)] e d8.([ cis16)] h4
+		r fis( h) d
+		eis,2 fis
+		R1*2 %186
+		d'4 h e c
+		r8 a([ d)] c h[ a] g[ a16 h]
+		c8[ h] a[ h16 c] d8[ c h a]
+		g[ a16 h] c4. h16[ a] g8[ fis] %190
+		e4 r r g'~
+		g8[ fis16 e] d8[ cis!] h4 r
+		R1*3 %195
+		r2 e4 cis
+		fis d r8 h([ e)] d
+		cis8.([ h16)] a4 r8 a([ d)] cis
+		h8.([ a16)] g!4 r8 g([ cis)] h
+		a8.([ g16)] fis4 r8 fis([ h)] a %200
+		g[ h] e8.[ d16] cis8[ e] a8.[ g16]
+		fis8[ e] d4 r2
+		r h4 g
+		c a r8 a([ d c)]
+		h h[ e d] cis4. h16[ cis] %205
+		d4 r r h~
+		h8[ cis16 d] e8[ fis] g4 a,~
+		a8[ h16 cis] d8[ e] fis4 g,~
+		g8[ a16 h] cis8[ d] e[ d16 cis] fis8[ e]
+		d[ cis] h4. cis16[ d] cis8[ h] %210
+		ais2 h4 r
+		r e2 cis4
+		d h r8 h[ e d]
+		cis[ d16 e] fis8[ e] d[ cis] h[ cis16 d]
+		e8[ d cis h] a[ h16 cis] d8[ cis] %215
+		h[ a] g[ a16 h] cis8[ h] a4~
+		a8[ g] fis[ g16 a] h8[ a] g4~
+		g8[ fis] e[ fis16 g] a8[ g] fis[ g16 a]
+		h8[ a] g[ a16 h] cis8[ h] a[ h16 cis]
+		d8[ cis h a] gis4. fis16[ gis] %220
+		a4 r r2
+		d4 h e cis
+		r r8 a([ d)] cis h([ cis16 d])
+		e8 cis([ fis)] e d([ e16 fis)] g8 e(
+		a) g fis4. e8 d4~ %225
+		d8[ e16 fis] g4. fis8 e4
+		d r8 \mvTr a(\pE^\solo g'4. cis,8)
+		d4 r8 a( g'4. cis,8)
+		d4 r8 a( g'4. cis,8)
+		d4 r r2 %230
+		r8 a\ppE d4. cis16[ d] e[ fis g e]
+		fis8 a, d4. cis16[ d] e[ fis g e]
+		fis8 a, d4. cis16[ d] e[ fis g e]
+		fis4 fis \mvTr e2\f^\tutti
+		d8 d,\ff d d fis8. fis16 fis8 fis %235
+		a a16 a a8 a d4 c
+		h1
+		a\fermata \bar "|." %238 FINIS
 	}
 }
 
@@ -491,6 +554,69 @@ QuoniamSopranoLyrics = \lyricmode {
 	Cum San -- cto Spi -- ri -- tu in %168
 	glo -- ri -- a, in glo -- ri -- a De -- i
 	Pa -- tris. %170
+	
+	A -- men, a -- men, %173
+	a -- men, a -- men,
+	a -- %175
+	_ men,
+	a -- men,
+	a -- men,
+	
+	a -- men, a -- men, %181
+	a -- men, a -- men,
+	a -- men,
+	a -- men,
+	
+	a -- men, a -- men, %187
+	a -- men, a -- _
+	_ _ _
+	_ _ _ _ %190
+	men, a --
+	_ men,
+	
+	a -- men, %196
+	a -- men, a -- men,
+	a -- men, a -- men,
+	a -- men, a -- men,
+	a -- men, a -- men, %200
+	a -- _ _ _
+	_ men,
+	a -- men,
+	a -- men, a --
+	men, a -- _ _ %205
+	men, a --
+	_ men, a --
+	_ men, a --
+	_ _ _
+	_ _ _ _ %210
+	_ men,
+	a -- men,
+	a -- men, a --
+	_ _ _ _
+	_ _ _ %215
+	_ _ _ _
+	_ _ _
+	_ _ _
+	_ _ _ _
+	_ _ _ %220
+	men,
+	a -- men, a -- men,
+	a -- men, a --
+	men, a -- men, a -- men, a --
+	men, a -- _ _ %225
+	_ men, a --
+	men. A --
+	men, a --
+	men, a --
+	men, %230
+	a -- _ _ _
+	men, a -- _ _ _
+	men, a -- _ _ _
+	_ men, a --
+	men. Cum San -- cto Spi -- ri -- tu in %235
+	glo -- ri -- a De -- i Pa -- tris,
+	a --
+	men. %238 FINIS
 }
 
 % SopranoNotes = {
