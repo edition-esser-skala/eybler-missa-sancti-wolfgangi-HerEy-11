@@ -449,9 +449,9 @@ QuoniamAltoNotes = {
 		d4 r r2
 		R1*4 %167
 		r8 d,\ff d d fis8. fis16 fis8 fis
-		a8. a16 a8 a fis fis16 fis a8 a
+		a8. a16 a8 a fis fis16 fis a8 a \noBreak
 		a2 a\fermata \bar "||" %170
-		r4 d,(\f g) h
+		r4 d,(\f g) h \noBreak
 		cis,2 d
 		R1*2
 		a'4 fis h g %175

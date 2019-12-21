@@ -450,7 +450,7 @@ QuoniamSopranoNotes = {
 		d,4 r r2
 		R1*4 %167
 		r8 d,\ff d d fis8. fis16 fis8 fis
-		a8. a16 a8 a d d16 d e8 e
+		a8. a16 a8 a d d16 d e8 e \noBreak
 		fis2 e\fermata \bar "||" %170
 		R1*2
 		d4\f cis fis d

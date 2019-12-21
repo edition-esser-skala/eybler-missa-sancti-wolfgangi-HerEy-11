@@ -298,7 +298,7 @@ QuoniamViolinoI = {
 		\tuplet 3/2 8 { cis h a d[ cis h] e d cis fis[ e d] g fis e d[ cis h] a h a g[ fis e] }
 		fis8 \tuplet 3/2 8 { d16 e fis g[ a h] cis d e fis[ g a] h cis d } e,8 cis'
 		d,,4\ff r8. d32( e fis4) r8. fis32( g
-		a4) r8. \tuplet 3/2 16 { a32( h cis } d8) r16 a64( h cis d e8) r16 a,64( h cis d128 e
+		a4) r8. \tuplet 3/2 16 { a32( h cis } d8) r16 a64( h cis d e8) r16 a,64( h cis d128 e \noBreak
 		fis8) d32( e fis g a8) fis <e a,>2\fermata \bar "||" %170
 	}
 }

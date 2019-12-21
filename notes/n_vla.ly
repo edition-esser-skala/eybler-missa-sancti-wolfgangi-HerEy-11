@@ -254,6 +254,52 @@ QuoniamViola = {
 		\clef treble
 		\key d \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #124
-		
+		d8.\f cis16 h8 a fis'8. e16 d8 d'
+		g, a h e, e r r a,~ %125
+		a r r a a r r a'
+		d a fis8.(\trillE e32 d) a'8 a, r4
+		a'8. g16 fis8 e d fis a fis
+		e h cis e d4 r8 d(
+		e) r r a a r r a( %130
+		g) r r a, d^\critnote \tuplet 3/2 8 { d'16 cis h } a8 \tuplet 3/2 8 { g16 fis e }
+		\appoggiatura { d16[ fis] } a8. g16 fis8 e d fis a d,
+		e h cis e d4 r8 d
+		e r r a a d, cis fis
+		fis h, d fis e a gis h %135
+		e, a cis a fis d h fis'
+		h h, e a a fis d h
+		e e,16. fis32 gis16. a32 h16. gis32 e8\pE gis4 a8
+		e4 r8 e e gis4 a8
+		e8.. fis32 gis16. a32 h16. gis32 a8\f cis e cis %140
+		d fis a d, cis d e d
+		cis4 r8 a'4 fis8 d[ h']~
+		h gis e e~ e cis' h h,
+		a a' gis gis, fis fis' e e,
+		d' cis h gis a a'4 a8 %145
+		d cis h gis a a fis d
+		cis8. d16 cis8 h a cis e a,
+		h fis gis h a4 r8 e'
+		e, r r e' e, r r cis'
+		d d g! fis fis \tuplet 3/2 8 { d16 cis h } fis'8 \tuplet 3/2 8 { ais16 gis fis } %150
+		h8. e,16 d8 cis h d fis h,
+		e d cis4 h r8 fis'
+		fis, r r fis' fis, r r h~
+		h g'! e cis a4 r8 a~
+		a fis' d a h c d e %155
+		fis g a fis d h'4 h8
+		a a,16. h32 cis16. d32 e16. cis32 a8\pE cis4 d8
+		a4 r8 a a cis4 d8
+		a8.. h32 cis16. e32 a16. g32 fis8\fE a, cis d~
+		d e fis g a g fis e %160
+		d g a a, d4 r8 a\ff
+		fis a d fis \tuplet 3/2 8 { <a a,>16 q q q[ q q] q q q q[ q q] }
+		<fis a,>4 r8 a~ a cis, e a~
+		a fis a d~ d g,, fis fis'
+		e e, d d' cis cis h h %165
+		a a'4 a a, a8
+		d4 r8 a a d4 cis8
+		<d d,>4\ff r8. d,32( e fis4) r8. fis32( g
+		a4) r8. \tuplet 3/2 16 { a32( h cis } d8) r16 a64( h cis d e8) r16 a,64( h cis d128 e \noBreak
+		fis8) d32( e fis g a8) a a2\fermata \bar "||" %170
 	}
 }
