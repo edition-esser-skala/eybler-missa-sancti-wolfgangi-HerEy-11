@@ -101,5 +101,35 @@ QuoniamTimpani = {
 		c4\ff r8 \tuplet 3/2 8 { c16 c c } c4 r8 \tuplet 3/2 8 { c16 c c }
 		c4 r8 \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c } g8 \tuplet 3/2 8 { g16 g g } \noBreak
 		c8 \tuplet 3/2 8 { c16 c c } c8 c g2\fermata \bar "||" %170 finis
+		R1*4
+		r4 c\fE c r %175
+		r g c r
+		R1*9 %185
+		r4 g c r
+		R1*9 %195
+		r2 g4 g
+		c r r2
+		R1*3 %200
+		r2 r4 g
+		c r r2
+		R1*2
+		r2 r4 g %205
+		c r r2
+		R1*8 %214
+		g4 r r2 %215
+		g4 r r2
+		g4 r r2
+		g4 r g r
+		g r g r
+		g r r2 %220
+		R1*4
+		g4 c c r %225
+		c r g8 c g4
+		c r r2
+		R1*7 %234
+		c4\ff r8 \tuplet 3/2 8 { c16 c c } c4 r8 \tuplet 3/2 8 { c16 c c } %235
+		c4 r8 \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c }
+		c8 \tuplet 3/2 8 { c16 c c } c8 c c c c c
+		c1\fermata \bar "|." %238 FINIS
 	}
 }

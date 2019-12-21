@@ -177,11 +177,11 @@ showLastLength = r1*68
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-							\QuoniamOboeI
+% 							\QuoniamOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
-							\QuoniamOboeII
+% 							\QuoniamOboeII
 						}
 					>>
 				>>

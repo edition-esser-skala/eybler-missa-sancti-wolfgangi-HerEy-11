@@ -109,5 +109,45 @@ QuoniamTrombaII = {
 		c,4\ff r8 c16. c32 e4 r8 e16. e32
 		g4 r8 g16. g32 e8 e16. e32 g8 g16. g32 \noBreak
 		e8 g16. g32 c16 g e c g2\fermata \bar "||" %170
+		R1*4
+		g'4\fE e c r %175
+		r g c r
+		R1*3
+		r2 r4 e8. e16 %180
+		e4 r r2
+		r4 e8. e16 e4 r
+		R1*3 %185
+		g2 c4 r
+		R1*9 %195
+		r2 g,4 g
+		c r r2
+		R1*3 %200
+		r2 r4 \once \tieDashed g~
+		g c c r
+		R1*2
+		r2 r4 g %205
+		c r r2
+		R1*2
+		r2 r4 e8. e16
+		e4 r r2 %210
+		e4 e8. e16 e4 r
+		R1*3
+		g,4 r r2 %215
+		g4 r r2
+		g4 r r2
+		g4 r g r
+		g r g r
+		g r r2 %220
+		r g'4 e
+		c r r2
+		R1*2
+		g'4 c c, r %225
+		c r g'8 c4 g8
+		e4 r r2
+		R1*7 %234
+		c4\ff r8 c16. c32 e4 r8 e16. e32 %235
+		g4 r8 g16. g32 c,4 c
+		c8 c16. c32 c8 c c c c c
+		c1\fermata \bar "|." %238 FINIS
 	}
 }
