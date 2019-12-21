@@ -301,5 +301,73 @@ QuoniamViola = {
 		<d d,>4\ff r8. d,32( e fis4) r8. fis32( g
 		a4) r8. \tuplet 3/2 16 { a32( h cis } d8) r16 a64( h cis d e8) r16 a,64( h cis d128 e \noBreak
 		fis8) d32( e fis g a8) a a2\fermata \bar "||" %170
+		r4 d,\fE g h
+		cis,2\trill d
+		R1
+		r4 e4. fis16 gis a8 g
+		fis e d4 r2 %175
+		r4 a4. h16 cis d8 e
+		fis4 r r fis~
+		fis8 e16 d cis8 h a4 r
+		r fis'4. g16 a h8 a
+		g fis e4. d8 cis4 %180
+		d h e g
+		ais,2\trillE h
+		r r4 d'~
+		d8 cis16 h a8 gis fis4 r
+		r8 fis h a gis8.\trill fis16 e4 %185
+		r8 e a g fis8.\trillE e16 d4
+		r8 d g fis e fis16 g a8 g
+		fis2 g4 e
+		a fis r8 d g fis
+		e fis16 g fis8 e dis2 %190
+		e4 d g e
+		cis fis4. gis16 ais h8 cis
+		d4 e,4. fis16 gis a8 h
+		cis4 d,4. e16 fis gis8 a
+		h4 cis,4. a'16 gis fis8 e! %195
+		d h'16 a gis8 fis e cis'16 h a8 gis
+		fis gis16 a h8 a gis2
+		a8 e a g fis8.\trill e16 d4
+		r8 d g fis e8.\trill d16 cis4
+		r8 cis fis e d8.\trillE cis16 h8 h %200
+		e8. d16 cis8^\critnote e a8. g16 fis8 e
+		<d a'>4 fis h g
+		r8 e a g fis8.\trillE e16 d4
+		r8 g, c h a8. g16 fis8 d'
+		g fis e4. fis16 g a8 g %205
+		fis e d4 r2
+		r4 e4. fis16 g a8 h
+		cis4 d,4. e16 fis g8 a
+		h4 g4. fis16 e d8 cis
+		h4 d g e %210
+		r8 cis fis e d8.\trillE cis16 h4
+		e g ais,2\trillE
+		h8 fis' h a g fis e fis16 g
+		a8 g fis g16 a h8 a g fis
+		e fis16 gis a8 g fis e d e16 fis %215
+		g4. fis8 e d cis d16 e
+		fis4. e8 d cis h cis16 d
+		e8 d cis d16 e fis8 e d e16 fis
+		g8 fis e4. fis16 g a8 g
+		fis e d cis h2\trill %220
+		a4 r a' fis
+		h g r r8 e
+		a g fis8. e16 d8 fis h a
+		g a16 h cis8 a d cis h cis16 d
+		e8 cis d4 r r8 fis, %225
+		h a g a16 h a8 a a4
+		fis8 <d fis>\pE q q <d g> <cis g'> q q
+		<d fis> q q q <d g> <cis g'> q q
+		<d fis> q q q <d g> <cis g'> q q
+		<d fis>\fE d' h, h' g, g' a, a' %230
+		d, <d fis>\pp q q <d g> <cis g'> q q
+		<d fis> q q q <d g> <cis g'> q q
+		<d fis> q q q <d g> <cis g'> q q
+		<d fis> d' h, h' g,\f g' a, a'
+		d,,4 r8. d32(\ff e fis4) r8. fis32( g %235
+		a4) r8. \tuplet 3/2 16 { a32( h cis } d8) a' fis d
+		g <g h>4 q q q8
+		<fis a>1\fermata \bar "|." %238 FINIS
 	}
 }
