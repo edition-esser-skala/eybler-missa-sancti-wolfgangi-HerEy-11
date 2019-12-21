@@ -317,11 +317,11 @@ QuoniamViolinoI = {
 		a a, a a a h g a fis d' d d d e fis d
 		g8 d16 c h c a h g8 e'16 d c d h c
 		a h c a d e c d h c a h g g a h
-		c d e c a a h c d e c d h c a h
+		c d h c a a h c d e c d h c a h
 		g a fis g a c fis e dis e fis dis h cis dis h %190
-		e h a g fis h cis d! e d cis h a h cis d
+		e h a g fis h cis d! e d cis h ais h cis d
 		e cis d e fis g e fis d e cis d h cis d h
-		e e, gis h e fis d e cis d h cis a h cis a
+		e e, gis h e fis d e cis d h cis a! h cis a
 		d d, fis a d e cis d h cis a h gis a h gis
 		cis cis, eis gis cis d h cis a8 a'16 gis fis gis e fis %195
 		d8 h'16 a gis a fis gis e fis d e cis d e cis
@@ -338,7 +338,7 @@ QuoniamViolinoI = {
 		g h cis d e fis d e cis d h cis a h g a
 		fis a h cis d e cis d h cis a h g a fis g
 		e g a h cis h cis d e g fis e fis g e fis
-		d e fis d h8 h'16 a g fis e d cis d h cis %210
+		d e cis d h8 h'16 a g fis e d cis d h cis %210
 		ais h gis ais fis gis ais fis h8 d16 cis h cis d h
 		e8 h'16 a! g! a fis g e fis d e cis d e cis
 		d e cis d h8 h'16 a g a fis g e fis d e
@@ -365,7 +365,7 @@ QuoniamViolinoI = {
 		fis'16 d' d d d, fis' fis fis e\f d' d d a, cis' cis cis
 		<d, d,>4 r8. d,32(\ff e fis4) r8. fis32( g %235
 		a4) r8. \tuplet 3/2 16 { a32( h cis } d8) d32( e fis g a8) d,32( e fis g64 a)
-		h16 g g d d h h g g h h d d g g h
+		\slurDashed h16( g) g( d) d( h) h( g) g( h) h( d) d( g) g( h)
 		a1\fermata \bar "|." %238 FINIS
 	}
 }
