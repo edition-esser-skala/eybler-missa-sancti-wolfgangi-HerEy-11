@@ -79,6 +79,35 @@ QuoniamTrombaII = {
 		\clef treble
 		\key c \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #124
-		
+		R1
+		r2 g4\f r8 g16. g32 %125
+		g4 r8 g16. g32 g4 r8 g16. g32
+		c8 g' e c g4 r
+		c r e c8 r
+		R1*3 %131
+		c4 r e c8 r
+		R1
+		r2 e8 e16. e32 e8 e
+		e4 r r2 %135
+		R1*4
+		r2 r4 r8 g\f %140
+		c4 r8 c g r r4
+		g, r r2
+		R1*4 %146
+		g4 r g r
+		R1*3 %150
+		c4 r c r8 e
+		e e e4 e r
+		R1*7 %159
+		r2 r4 r8 c\f %160
+		c4 c'8 g e c[\ffE e g]
+		c \tuplet 3/2 8 { g16 c g e[ g e] c e c } g8 g16. g32 g16 g g g
+		c4 r r2
+		R1*2 %165
+		r2 g'\fE
+		c4 r r2
+		c,4\ff r8 c16. c32 e4 r8 e16. e32
+		g4 r8 g16. g32 e8 e16. e32 g8 g16. g32 \noBreak
+		e8 g16. g32 c16 g e c g2\fermata \bar "||" %170
 	}
 }

@@ -84,6 +84,35 @@ QuoniamTrombaI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #124
-		
+		R1
+		r2 g'4\f r8 g16. g32 %125
+		g4 r8 g16. g32 g4 r8 g16. g32
+		\pa c8 g e c \pd g'4 r
+		\pao c, r g' e8 r
+		R1*3 %131
+		\pao c4 r g' e8 r
+		R1
+		r2 e8 e16. e32 e8 e
+		e4 r r2 %135
+		R1*4
+		r2 r4 r8 d'\f %140
+		e4 r8 e d r r4
+		g, r r2
+		R1*4 %146
+		g4 r g r
+		R1*3 %150
+		e4 r e r8 e
+		e e e4 e r
+		R1*7 %159
+		r2 r4 r8 c'\f %160
+		c4 e8 d c c,[\ffE e g]
+		c \tuplet 3/2 8 { g16 c g e[ g e] c e c } g'8 g16. g32 g16 g g g
+		e4 r r2
+		R1*2 %165
+		r2 d'\fE
+		e4 r r2
+		c,4\ff r8 c16. c32 e4 r8 e16. e32
+		g4 r8 g16. g32 c8 c16. c32 d8 d16. d32 \noBreak
+		c8 g16. g32 c16 g e c g'2\fermata \bar "||" %170
 	}
 }
