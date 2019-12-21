@@ -5,7 +5,7 @@
 \version "2.18.0"
 
 \include "../definitions.ly"
-
+showFirstLength = r1*47
 \paper { first-page-number = #19 }
 
 #(set-global-staff-size 15.87)
@@ -216,25 +216,25 @@
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
+% 					\new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \QuoniamAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \QuoniamAltoLyrics
+% 					\new Lyrics \lyricsto Alto \QuoniamAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \QuoniamTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \QuoniamTenoreLyrics
+% 					\new Lyrics \lyricsto Tenore \QuoniamTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
 						\new Voice = "Basso" { \dynamicUp \QuoniamBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \QuoniamBassoLyrics
+% 					\new Lyrics \lyricsto Basso \QuoniamBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {

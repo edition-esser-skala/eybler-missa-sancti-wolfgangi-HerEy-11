@@ -611,7 +611,7 @@ QuoniamOrgano = {
 }
 
 QuoniamBassFigures = \figuremode {
-	r2 <[6]> %124
+	r4. <[2]>8 <[6]>2 %124
 	r1 %125
 	r
 	r

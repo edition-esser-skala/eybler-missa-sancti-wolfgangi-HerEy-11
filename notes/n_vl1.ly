@@ -253,7 +253,53 @@ QuoniamViolinoI = {
 		\clef treble
 		\key d \major \time 4/4 \tempoQuoniam
 			\set Score.currentBarNumber = #124
-		
+		g'8.\f a16 h8-! cis-! d8. e16 fis8-! a-!
+		g \tuplet 3/2 8 { fis16 g fis } e8 \tuplet 3/2 8 { d16 e d } cis8 \tuplet 3/2 8 { a,16 cis e } g4 %125
+		fis8 \tuplet 3/2 8 { d16 fis a } d4 cis8 \tuplet 3/2 8 { a16 cis e } g4
+		fis8 a fis8.(\trill e32 d) a'8 a, r4
+		<d fis, a,>8. e16 fis8-! g-! <a a, d,>4 fis8 \tuplet 3/2 8 { d16 e d }
+		cis8 \tuplet 3/2 8 { h16 cis h } a8 \tuplet 3/2 8 { g16 a g } fis8 \tuplet 3/2 8 { d16 fis a } d4
+		cis8 \tuplet 3/2 8 { a16 cis e } g4 fis8 \tuplet 3/2 8 { d16 fis a } d4 %130
+		h8 a g8.(\trill fis32 g) fis8 \tuplet 3/2 8 { d16 cis h } a8 \tuplet 3/2 8 { g16 fis e }
+		\acciaccatura d8 d'8. e16 fis8 g <a a, d,>4 fis8 \tuplet 3/2 8 { d16 e d }
+		cis8 \tuplet 3/2 8 { h16 cis h } a8 \tuplet 3/2 8 { g16 a g } fis8 \tuplet 3/2 8 { d16 fis a } d4
+		cis8 \tuplet 3/2 8 { a16 cis e } g4 fis8 \tuplet 3/2 8 { a,16 d fis } e8 \tuplet 3/2 8 { cis16 e ais }
+		h8 \tuplet 3/2 8 { fis16 e d d[ cis h] h cis d } e8 \tuplet 3/2 8 { a,16 cis e } d8 \tuplet 3/2 8 { h16 d gis } %135
+		a8 \tuplet 3/2 8 { e16 d cis cis[ h a] a h cis } d8 \tuplet 3/2 8 { h16 d fis } h8 \tuplet 3/2 8 { fis16 dis h }
+		e8 \tuplet 3/2 8 { e,16 gis h } d8 \tuplet 3/2 8 { cis16 d e } fis8 \tuplet 3/2 8 { d16 cis h fis'[ e d] cis h a }
+		e'8 e,16. fis32 gis16. a32 h16. gis32 e8\p d4 cis8
+		cis8. d16 h8 e e d4 cis8
+		cis8. d16 h4 r r8 a'\f %140
+		a' \tuplet 3/2 8 { a16 h a gis[ a gis] fis gis fis } e8 \tuplet 3/2 8 { d16 e d } cis8 \tuplet 3/2 8 { h16 cis h }
+		a8 \tuplet 3/2 8 { a16 cis e } a4 fis8 \tuplet 3/2 8 { h,16 d fis } h4
+		gis8 \tuplet 3/2 8 { h16 gis e } d4 cis8 \tuplet 3/2 8 { fis16 gis fis } e8 \tuplet 3/2 8 { e,16 fis e }
+		d8 \tuplet 3/2 8 { d'16 e d } cis8 \tuplet 3/2 8 { cis'16 d cis } h8 \tuplet 3/2 8 { h,16 cis h } a8 \tuplet 3/2 8 { a'16 h a }
+		\tuplet 3/2 8 { gis a gis fis[ gis fis] e fis e d[ e d] cis h a d[ cis h] e d cis fis[ e d] } %145
+		\tuplet 3/2 8 { gis fis e a[ gis fis] h a gis fis[ e d] cis d e fis[ gis a] } h,8 gis'
+		a,8. h16 cis8 d <e a, e a,>4 a,8 \tuplet 3/2 8 { a'16 h a }
+		gis8 \tuplet 3/2 8 { fis16 gis fis } e8 \tuplet 3/2 8 { d16 e d } cis8 \tuplet 3/2 8 { a16 cis e } a4
+		gis8 \tuplet 3/2 8 { e16 gis h } d4 cis8 \tuplet 3/2 8 { e16 cis a } g4
+		fis8 h, cis8.(\trill d32 e) d8 \tuplet 3/2 8 { d,16 cis h } fis'8 \tuplet 3/2 8 { ais16 gis fis } %150
+		h8. cis16 d8 e <fis h, d,>4 d8 \tuplet 3/2 8 { h16 cis h }
+		ais8 h cis8.(\trill d32 e) d8 \tuplet 3/2 8 { h16 d fis } h4
+		ais8 \tuplet 3/2 8 { fis,16 ais cis } e4 d8 \tuplet 3/2 8 { fis16 g fis d[ e d] h cis h }
+		h'8 \tuplet 3/2 8 { h,16 c? h g[ a g] e fis e } e'8 \tuplet 3/2 8 { e16 fis e cis[ d cis] a h a }
+		a'8 \tuplet 3/2 8 { a,16 h a fis[ g fis] d e fis g[ fis g] a g a h[ a h] cis h cis } %155
+		\tuplet 3/2 8 { d cis d e[ d e] fis e fis d[ cis d] h d cis h[ cis d] e fis g fis[ e d] }
+		a'8 a,16. h32 cis16. d32 e16. cis32 a8\p g4 fis8
+		fis8. g16 e8 a a g4 fis8
+		fis8. g16 e4 r r8 a\f
+		h \tuplet 3/2 8 { g'16 a g fis[ g fis] e fis e } a8 \tuplet 3/2 8 { cis,16 h cis d[ cis d] e d e } %160
+		fis8 \tuplet 3/2 8 { g16 a g } fis8 \tuplet 3/2 8 { e16 fis e } d8 \tuplet 3/2 8 { d,16\ff cis d fis[ e fis] a g a }
+		\tuplet 3/2 8 { d cis d fis,[ a d] fis e fis a,[ d fis] <a a,> q q q[ q q] q q q q[ q q] }
+		fis8 \tuplet 3/2 8 { d,16\fE fis a } d4 cis8 \tuplet 3/2 8 { a16 cis e } g4
+		fis8 \tuplet 3/2 8 { d16 fis a } c4 h8 \tuplet 3/2 8 { h,16 cis? h } a8 \tuplet 3/2 8 { a'16 h a }
+		g8 \tuplet 3/2 8 { g,16 a g } fis8 \tuplet 3/2 8 { fis'16 g fis } e8 \tuplet 3/2 8 { e,16 fis e } d8 \tuplet 3/2 8 { d'16 e d } %165
+		\tuplet 3/2 8 { cis h a d[ cis h] e d cis fis[ e d] g fis e d[ cis h] a h a g[ fis e] }
+		fis8 \tuplet 3/2 8 { d16 e fis g[ a h] cis d e fis[ g a] h cis d } e,8 cis'
+		d,,4\ff r8. d32( e fis4) r8. fis32( g
+		a4) r8. \tuplet 3/2 16 { a32( h cis } d8) r16 a64( h cis d e8) r16 a,64( h cis d128 e
+		fis8) d32( e fis g a8) fis <e a,>2\fermata %170
 	}
 }
 
