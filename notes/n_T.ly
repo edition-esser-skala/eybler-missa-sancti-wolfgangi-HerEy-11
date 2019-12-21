@@ -455,7 +455,7 @@ QuoniamTenoreNotes = {
 		R1*4 %167
 		r8 d,\ff d d fis8. fis16 fis8 fis
 		a8. a16 a8 a d d16 d cis8 cis
-		d2 cis\fermata %170
+		d2 cis\fermata \bar "||" %170
 		R1*2
 		r4 a(\f d) fis
 		gis,2 a

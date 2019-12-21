@@ -466,7 +466,7 @@ QuoniamBassoNotes = {
 		R1*4 %167
 		r8 d\ff d d fis8. fis16 fis8 fis
 		a8. a16 a8 a d d16 d a8 a
-		d,2 a\fermata %170
+		d,2 a\fermata \bar "||" %170
 		a'4\f fis h g
 		r8 e([ a)] g fis8.([ e16)] d4
 		R1*2

@@ -538,7 +538,7 @@ QuoniamOrgano = {
 		d r8 a fis d a' a,
 		d4 r8. \mvTr d32(\ff-\unisono e fis4) r8. fis32( g
 		a4) r8. \tuplet 3/2 16 { a32( h cis } d8[) r16 \tuplet 3/2 16 { d32 cis h] } a8[ r16 \tuplet 3/2 16 { g32 fis e] }
-		d4 fis8 d a2\fermata %170
+		d4 fis8 d a2\fermata \bar "||" %170
 		a'4\f fis h g
 		r8 e a g fis8.\trill e16 d4
 		\clef treble d'' \clef "treble_8" a, d fis

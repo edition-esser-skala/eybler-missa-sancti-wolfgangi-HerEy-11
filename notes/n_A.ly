@@ -450,7 +450,7 @@ QuoniamAltoNotes = {
 		R1*4 %167
 		r8 d,\ff d d fis8. fis16 fis8 fis
 		a8. a16 a8 a fis fis16 fis a8 a
-		a2 a\fermata %170
+		a2 a\fermata \bar "||" %170
 		r4 d,(\f g) h
 		cis,2 d
 		R1*2
