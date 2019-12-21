@@ -615,7 +615,7 @@ QuoniamAltoLyrics = \lyricmode {
 	men. Cum San -- cto
 	Spi -- ri -- tu in glo -- ri -- a
 	De -- i, in glo -- ri -- a
-	De -- i Pa --
+	De -- i Pa -- %230
 	tris, a -- men,
 	a -- men, a -- men,
 	a -- men, a -- men,

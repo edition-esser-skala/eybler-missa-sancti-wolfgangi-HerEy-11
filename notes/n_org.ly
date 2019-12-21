@@ -546,7 +546,7 @@ QuoniamOrgano = {
 		d4 \clef bass d, g h %175
 		cis,2 d
 		\clef "treble_8" d'4 cis fis d
-		\clef treble << { gis-\org } \\ { fis8[ e16 d] } >> \clef bass e,4.^\bassi fis16 gis a8 g
+		\clef treble << { gis-\org } \\ { \voiceThree fis8[ e16 d] } \\ { \voiceFour r8 h } >> \clef bass e,4.^\bassi fis16 gis a8 g
 		fis e d4. e16 fis g8 fis
 		e d cis4. d16 e fis8 e %180
 		d cis h4 \clef "treble_8" e' g~
@@ -574,7 +574,7 @@ QuoniamOrgano = {
 		a fis r8 d g fis
 		e e a g fis fis h a
 		g4 \clef treble << { e''8-\org d cis!4 } \\ { e,4. fis16 g } >> \clef "treble_8" a,4~^\bassi %205
-		a8 h16 cis \clef bass d,4. e16 fis g8 a
+		a8 h16 cis! \clef bass d,4. e16 fis g8 a
 		h4 cis,4. d16 e fis8 g
 		a4 h,4. cis16 d e8 fis
 		g4 e cis ais
@@ -662,29 +662,29 @@ QuoniamBassFigures = \figuremode {
 	<6>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>2
 	r4 <3> q <6>
 	<3> <6>8 <5> <3>2
-	r2. <[6]>4 %175
+	<[3]>2. <[6]>4 %175
 	<7 5> <6 4>8 <5 3> r2
 	<1>4 <6> q <10>
-	r <8 6 _+>8 <7 5 \t> <6 4>4. <[2]>8
-	<6>8 q r2.
+	r <8 6 _+>8 <7 5 \t> <6 4>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <[2]>
+	<6>4 <[8]>8 <[7]> <6> r4.
 	<5>4 <5>4. <6>8 <_+>4 %180
 	<6>2 <10>4 <6>
-	<2+> <8 _+>8 <7> <6 4> <\t \t> <5 3>4 \bassFigureExtendersOn
+	<2+> <8 [6] _+>8 <7 [5] \t> <6 4> <\t \t> <5 3>4 \bassFigureExtendersOn
 	q \bassFigureExtendersOff <6> q <10>
 	<6\\ 5!>8 \bassFigureExtendersOn <6\\ 4>16 <6\\ 3> \bassFigureExtendersOff <6 _+>8 <6\\ \t> <6> <6 4>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
-	<6>4 <[_+]> <6 4+>8 <\t \t>4. %185
-	<6>2 <6 4>8 <\t \t>4.
-	<6>2. <6 4!>8 <\l 3>
-	<4 2>8. \bassFigureExtendersOn <4 2>16 <10 2>8 <10! 2> \bassFigureExtendersOff <[6]>2
+	<6>4 <[_+]> <6 4+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff %185
+	<6>2 <6 4>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<6>2. <6! 4>8 <\l 3>
+	<4 2>8. \bassFigureExtendersOn <4 2>16 <10 2>8 <10! 2> \bassFigureExtendersOff r2
 	<_!> <6>
 	r4 <6 _!>8 \bassFigureExtendersOn <5 _!> <4\+ _!> <4\+ 4>16 <4\+ 3> \bassFigureExtendersOff <6 _+>8 <6 \t> %190
-	<6>4 <5> <4 2+>2
-	<7>8 <6> <6 4> <5 3> r2
+	<6>4 <5> <4 2+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<7> <6> <6 4> <5 3> r2
 	<[6 5]>1
 	<6 5>2 <5>
 	<6 5 [_+]> <8 5>4 <\t 6>8 <7! 5> %195
 	<5>4 <8 6>8 <7 5> <5>4 <8 6>8 <7+ 5>
-	r2 <_+>4 <5+>8 <7 _+>
+	r2 <_+>8 <\t> <5+> <7 _+>
 	r4 <5>2 <8 6>8 <7 5>
 	r4 <5> <5> <8 6>8 <7 5>
 	r4 <5> r <10>8 <7> %200
@@ -711,7 +711,7 @@ QuoniamBassFigures = \figuremode {
 	r2 <[1]>4 <[3]>
 	<[10 8]>1
 	r4 <5 3>8 <\t 3> <10 3> <7> <3> <\t>
-	<8> <5> <\t> <7> <3> <\t> <8 6> <5 3>16 <\t \t>
+	<8 [6]> <5> <\t> <7> <3> <\t> <8 6> <5 3>16 <\t \t>
 	<[6]>8 <7>4. <5>4. <\t>8 %225
 	r2 <7>4 <4>8 <3>
 	r4 <[6]> <7> q
