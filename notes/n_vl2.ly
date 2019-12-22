@@ -369,3 +369,11 @@ QuoniamViolinoII = {
 		fis1\fermata \bar "|." %238 FINIS
 	}
 }
+
+CredoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoCredo
+		
+	}
+}

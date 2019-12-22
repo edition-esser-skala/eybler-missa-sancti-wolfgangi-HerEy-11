@@ -151,3 +151,11 @@ QuoniamTrombaII = {
 		c1\fermata \bar "|." %238 FINIS
 	}
 }
+
+CredoTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		
+	}
+}

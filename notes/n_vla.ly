@@ -371,3 +371,11 @@ QuoniamViola = {
 		<fis a>1\fermata \bar "|." %238 FINIS
 	}
 }
+
+CredoViola = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoCredo
+		
+	}
+}

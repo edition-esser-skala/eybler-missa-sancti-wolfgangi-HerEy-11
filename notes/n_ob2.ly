@@ -308,3 +308,11 @@ QuoniamOboeII = {
 		a\fermata \bar "|." %238 FINIS
 	}
 }
+
+CredoOboeII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoCredo
+		
+	}
+}

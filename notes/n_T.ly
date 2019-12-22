@@ -625,6 +625,18 @@ QuoniamTenoreLyrics = \lyricmode {
 	men. %238 FINIS
 }
 
+CredoTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoCredo
+		
+	}
+}
+
+CredoTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

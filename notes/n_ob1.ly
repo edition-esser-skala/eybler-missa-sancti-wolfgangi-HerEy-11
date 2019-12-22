@@ -314,3 +314,11 @@ QuoniamOboeI = {
 		fis\fermata \bar "|." %238 FINIS
 	}
 }
+
+CredoOboeI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoCredo
+		
+	}
+}
