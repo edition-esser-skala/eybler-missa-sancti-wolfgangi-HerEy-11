@@ -629,7 +629,7 @@ CredoSopranoNotes = {
 		fis2 e4 g
 		fis e d e8 e %5
 		cis4 a r2
-		g'4 e cis a8 a
+		g'!4 e cis a8 a
 		a'4. g8 fis4 e8 d
 		cis4 d d( cis8) cis
 		d4 r r2 %10

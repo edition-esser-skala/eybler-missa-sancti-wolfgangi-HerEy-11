@@ -635,7 +635,7 @@ CredoTenoreNotes = {
 		h2 h4 e
 		d cis d h8 h %5
 		a4 cis r2
-		cis4 e g cis,8 cis
+		cis4 e g! cis,8 cis
 		d4 cis d h8 h
 		a4^\critnote a a4. a8
 		a4 r r2 %10

@@ -642,12 +642,138 @@ CredoBassoNotes = {
 	\relative c {
 		\clef bass
 		\key d \major \time 4/4 \autoBeamOff \tempoCredo
-		
+		\mvTr d4\fE^\tuttiE d8 d d4 d
+		cis2 d4 r
+		g g8 fis e4 e
+		dis2 e4 cis
+		d a' h gis8 gis %5
+		a4 a, r2
+		a4 cis e g!8 g
+		fis4 a h g8 g
+		g4 fis8([ g)] a4 a,
+		d r r2 %10
+		R1*3
+		d4 d fis d
+		a'4. a,8 a2 %15
+		e'4 e e2
+		a4 r r2
+		d, d4 d
+		dis2 dis
+		e4 e a4. a8 %20
+		e2 r
+		a4 a a a
+		d,2 a'
+		h gis
+		a4( cis,) d fis %25
+		e2. e4
+		a, r r2
+		R1*3 %30
+		a'2 gis4 gis
+		a a r2
+		fis ais4 fis
+		h8 h, h4 r2
+		e d %35
+		cis d4 d
+		g g g,( gis)
+		a r r2
+		a'4. a8 fis4 d
+		a' a, a' a %40
+		cis,4. d8 e([ fis)] g([ gis)]
+		a4 a, r2
+		fis' e
+		d cis4 h
+		e2 g %45
+		fis4 r ais, ais
+		h2 cis4 d
+		e2 fis4 g
+		fis2 fis
+		h,4 r r2 %50
+		R1*3
+		h2 cis4 cis
+		d2 r4 d %55
+		e2( fis4) fis
+		h, r r d
+		g2( fis4) d
+		g2 fis4 d
+		e2( a,) %60
+		d4 r r fis
+		g( fis) g e
+		a a, r cis'
+		d2 a
+		h fis %65
+		g d
+		h4 cis d d
+		a'1
+		d,4 r r2
+		R1*3 %72
+		R1\fermataMarkup \bar "||" %73 finis
 	}
 }
 
 CredoBassoLyrics = \lyricmode {
+	Cre -- do in u -- num
+	De -- um,
+	Pa -- trem o -- mni -- po --
+	ten -- tem, fa --
+	cto -- rem coe -- li et %5
+	ter -- rae,
+	vi -- si -- bi -- li -- um
+	o -- mni -- um et in --
+	vi -- si -- bi -- li --
+	um. %10
 	
+	Et in u -- num %14
+	Do -- mi -- num %15
+	Je -- sum Chri --
+	stum,
+	Fi -- li -- um
+	De -- i
+	u -- ni -- ge -- ni -- %20
+	tum,
+	et ex Pa -- tre
+	na -- tum
+	an -- te
+	o -- mni -- a %25
+	sae -- cu --
+	la.
+	
+	De -- um de %31
+	De -- o,
+	lu -- men de
+	lu -- mi -- ne,
+	De -- um %35
+	ve -- rum de
+	De -- o ve --
+	ro,
+	ge -- ni -- tum non
+	fa -- ctum, con -- sub -- %40
+	stan -- ti -- a -- lem
+	Pa -- tri,
+	per quem
+	o -- mni -- a
+	fa -- cta %45
+	sunt, per quem
+	o -- mni -- a,
+	o -- mni -- a
+	fa -- cta
+	sunt. %50
+	
+	Qui pro -- pter %54
+	nos, nos %55
+	ho -- mi --
+	nes et
+	pro -- pter
+	no -- stram sa --
+	lu -- %60
+	tem de
+	coe -- lis de --
+	scen -- dit, de --
+	scen -- _
+	_ _ %65
+	_ _
+	_ _ dit de
+	coe --
+	lis. %69 finis
 }
 
 % BassoNotes = {
