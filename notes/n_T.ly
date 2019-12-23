@@ -629,12 +629,138 @@ CredoTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \major \time 4/4 \autoBeamOff \tempoCredo
-		
+		\mvTr d4\fE^\tuttiE d8 d d4 d
+		a2 a4 r
+		h a8 a h4 h
+		h2 h4 e
+		d cis d h8 h %5
+		a4 cis r2
+		cis4 e g cis,8 cis
+		d4 cis d h8 h
+		a4^\critnote a a4. a8
+		a4 r r2 %10
+		R1*3
+		d4 d d d
+		cis4. cis8 cis2 %15
+		h4 h h2
+		a4 r r2
+		a a4 a
+		a2 a
+		gis4 gis a4. a8 %20
+		gis2 r
+		a4 a h cis
+		d2 cis
+		h h
+		a a4 a %25
+		e'2. d4
+		cis r r2
+		R1*3 %30
+		cis2 e4 e
+		e8([ d)] cis4 r2
+		cis cis4 cis
+		h8 cis d4 r2
+		e e %35
+		e d4 d
+		h h h2
+		e,4 r r2
+		cis'4. e8 d4 d
+		cis cis a cis %40
+		e4. d8 h4 h
+		cis e r2
+		d cis
+		d4( fis) ais, h
+		g2 h %45
+		cis4 r cis cis
+		h2 ais4 h
+		h2 h4 h
+		d2 cis
+		h4 r r2 %50
+		R1*3
+		d2 e4 e
+		d2 r4 h %55
+		h2( ais4) ais
+		h r r a
+		a2 a
+		a a4 d
+		h2( cis) %60
+		d4 r r a
+		g( a) h8([ a)] g([ h)]
+		a([ cis)] e4 r e
+		e d2 cis4~
+		cis h2 a4~ %65
+		a g2 \once \tieDashed fis4~
+		fis e d d'
+		d2( cis)
+		d4 r r2
+		R1*3 %72
+		R1\fermataMarkup \bar "||" %73 finis
 	}
 }
 
 CredoTenoreLyrics = \lyricmode {
+	Cre -- do in u -- num
+	De -- um,
+	Pa -- trem o -- mni -- po --
+	ten -- tem, fa --
+	cto -- rem coe -- li et %5
+	ter -- rae,
+	vi -- si -- bi -- li -- um
+	o -- mni -- um et in --
+	vi -- si -- bi -- li --
+	um. %10
 	
+	Et in u -- num %14
+	Do -- mi -- num %15
+	Je -- sum Chri --
+	stum,
+	Fi -- li -- um
+	De -- i
+	u -- ni -- ge -- ni -- %20
+	tum,
+	et ex Pa -- tre
+	na -- tum
+	an -- te
+	o -- mni -- a %25
+	sae -- cu --
+	la.
+	
+	De -- um de %31
+	De -- o,
+	lu -- men de
+	lu -- mi -- ne,
+	De -- um %35
+	ve -- rum de
+	De -- o ve --
+	ro,
+	ge -- ni -- tum non
+	fa -- ctum, con -- sub -- %40
+	stan -- ti -- a -- lem
+	Pa -- tri,
+	per quem
+	o -- mni -- a
+	fa -- cta %45
+	sunt, per quem
+	o -- mni -- a,
+	o -- mni -- a
+	fa -- cta
+	sunt. %50
+	
+	Qui pro -- pter %54
+	nos, nos %55
+	ho -- mi --
+	nes et
+	pro -- pter
+	no -- stram sa --
+	lu -- %60
+	tem de
+	coe -- lis de --
+	scen -- dit, de --
+	scen -- _ _
+	_ _ %65
+	_ _
+	_ dit de
+	coe --
+	lis. %69 finis
 }
 
 % TenoreNotes = {
