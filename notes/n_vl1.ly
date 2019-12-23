@@ -374,7 +374,79 @@ CredoViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \tempoCredo
-		
+		a'16\f fis d a' h8 cis d16 a fis a d8 d
+		e16 cis a cis e8 e d16 a fis a d8 d
+		h16 g d h' cis8 dis  e16 h g h e8 e
+		fis16 dis h dis fis8 fis e16 h e fis g8 g
+		fis16 d a fis' e8 e d16 h fis d' e8 e %5
+		cis16 a e a cis8 cis e16 cis a cis e8 e
+		g!16 a g fis e8 e cis16 d cis h a8 a
+		a'16 a, d fis a8 g fis16 h, cis d e8 d
+		cis16 a h cis d8 d' a,16 e' d' e, a,8 cis'
+		d,16 a d e fis8 e d16 d, fis h-\critnote d8 cis %10
+		h16  h, d g h8 a g16 g, h e g8 fis
+		e16 g fis a g h a cis h d cis e d fis e g
+		fis e d cis d8 d' e, d' a, cis'
+		d,,16 fis a d fis8 fis fis,16 a d fis a8 fis
+		e16 cis a cis e8 e cis,16 e a cis e8 cis %15
+		d16 h gis h d8 d gis,16 h d gis h8 d,
+		cis16 a e a cis8 cis e,16 a cis e a8 cis,
+		h16 fis d fis h8 h h,16 d fis h d8 h
+		fis16 h dis fis a8 a a16 fis dis h a8 a
+		gis16 h e gis h8 d, cis16 a cis e a8 cis, %20
+		h16 e h gis e8 e e16 gis h cis d8 d
+		cis16 a e a cis8 cis d16 h cis d e8 e
+		fis16 d a d fis8 fis e16 cis a cis e8 e
+		dis16 h fis h dis8 dis d16 h fis h d8 d
+		cis16 a cis e a8 a a,16 a, cis fis a8 a %25
+		cis,16 e a cis e8 a gis,16 h e gis h8 d,
+		cis16 e a h cis8 h a16 a, cis fis a8 gis
+		fis16 fis, a d fis8 e d16 d, fis h d8 cis
+		h16 d cis e d fis e gis fis a gis h a cis h d
+		cis h a gis a8 cis, h a' e, gis' %30
+		a16 cis, a cis e8 e h16 e gis e h'8 d,
+		cis16 d cis h a8 a cis,16 e a cis e8 e
+		fis16 cis ais cis fis8 fis cis16 fis ais fis cis'8 e,
+		d16 e d cis h8 h d,16 fis h d fis8 fis
+		g16 e h e g8 g g16 e b e g8 g %35
+		g16 e a, e' g8 g fis16 d a d fis8 fis
+		e16 h g h e8 e e16 fis g a h8 d,
+		cis16 d e cis a8 a cis16 a e a cis8 cis
+		e16 d cis h a8 a a'16 g fis e d8 fis
+		e16 d cis h a8 a cis,16 e a cis e8 e %40
+		g16 e cis e a,8 fis' g,16 h e g h8 d,
+		cis16 a cis e a8 a a,,16 cis e a cis8 cis
+		d16 a fis a d,8 d cis16 e a cis e8 e
+		fis16 h fis d h8 h ais16 cis e cis d8 d
+		cis16 d e d cis8 cis h16 e g e h'8 h %45
+		ais16 fis cis fis ais8 ais fis16 cis fis ais cis8 cis
+		d16 h d, h' d8 d cis16 h ais cis h8 h
+		g16 fis e fis g8 g d16 e fis e d8 cis
+		h16 d fis d h'8 h cis,16 fis ais fis cis'8 e,
+		d16 fis h cis d8 cis h16 h, d^\critnote g h8 a %50
+		g16 g, h e g8 fis e16 e, g cis e8 d
+		cis16 d h cis ais cis h d cis e d fis e g fis e
+		d cis h ais h8 h' cis, h' fis, ais'
+		h16 fis d fis h,8 h e16 d cis h ais8 ais
+		h16 ais h cis d8 cis h16 cis d e fis8 d %55
+		cis16 d e fis g8 g ais,16 h cis d e8 e
+		d16 h fis h d8 e fis16 d a d fis8 fis
+		e16 d cis h a8 cis d16 e fis g a8 fis
+		e16 d cis h a8 cis d16 e d cis d8 h'
+		a16 d, h d a'8 a g16 e a, e' g8 g %60
+		fis16 a fis d a8 a fis16 a d fis a8 a
+		h,16 g d h' cis8 dis e16 h e fis g8 e
+		cis16 d e cis a8 a e16 a cis e g8 g
+		fis16 a, d fis a8 a a16 e cis e a,8 a
+		d16 fis, h d fis8 fis fis16 cis a cis fis,8 fis %65
+		h16 d, g h d8 d d16 a fis a d,8 d
+		g16 g, h d g8 g fis16 a d fis a8 a
+		a,16 e' a e d'8 d a,16 e' a e cis'8 cis
+		d16 a, d e fis8 e d16 d, fis h d8 cis
+		h16 h, d g h8 a g16 g, h e g8 fis %70
+		e16 g fis a g h a cis h d cis e d fis e g
+		fis e d cis d8 d' e, d' a, cis'
+		d4 d, r2\fermata \bar "||" %73 finis
 	}
 }
 
