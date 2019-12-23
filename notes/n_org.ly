@@ -732,7 +732,7 @@ CredoOrgano = {
 	\relative c {
 		\clef bass
 		\key d \major \time 4/4 \tempoCredo
-		\mvTr d8\f^\tutti d'16 cis d8 d d a fis d
+		\mvTr d8\f-\tutti d'16 cis d8 d d a fis d
 		cis e cis a d a' fis d
 		g h16 a g8 fis e h' g e
 		dis fis dis h e d cis a

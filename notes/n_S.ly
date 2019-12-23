@@ -623,12 +623,138 @@ CredoSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoCredo
-		
+		\mvTr a'4\fE^\tutti h8 cis d4 d
+		e2 d4 r
+		h cis8 dis e4 e
+		fis2 e4 g
+		fis e d e8 e %5
+		cis4 a r2
+		g'4 e cis a8 a
+		a'4. g8 fis4 e8 d
+		cis4 d d( cis8) cis
+		d4 r r2 %10
+		R1*3
+		fis4 fis fis fis
+		e4. e8 e2 %15
+		d4 d d2
+		cis4 r r2
+		h2 h4 h
+		fis'2 h,
+		h4 d! cis4. cis8 %20
+		h2 r
+		cis4 cis d e
+		fis2 e
+		dis d
+		cis4( a') gis8([ fis)] e([ d)] %25
+		cis2( h4.) h8
+		a4 r r2
+		R1*3 %30
+		e'2 e4 e
+		cis8([ h)] a4 r2
+		fis' fis4 fis
+		d8 cis h4 r2
+		g' g %35
+		g fis4 fis
+		e e e( d)
+		cis r r2
+		e4. cis8 d4 fis
+		e a, cis e %40
+		g4. fis8 e4 d
+		a' a, r2
+		d e
+		fis e4 d
+		cis2 h %45
+		ais4 r cis fis,
+		d'2 cis4 h
+		g'2 fis8([ e)] d([ cis)]
+		h2( ais4) ais
+		h r r2 %50
+		R1*3
+		fis'2 ais,4 ais
+		h2 r4 d %55
+		cis2. d8([ e)]
+		d4 r r fis
+		e( cis) d( fis)
+		e( cis) e8([ d)] cis([ h)]
+		a2.( g4) %60
+		fis r r a
+		h( cis8[ dis)] e([ fis)] g([ e)]
+		cis4 a r g'
+		fis2 e
+		d cis %65
+		h a
+		g fis4 fis'
+		e1
+		d4 r r2
+		R1*3 %72
+		R1\fermataMarkup \bar "||" %73 finis
 	}
 }
 
 CredoSopranoLyrics = \lyricmode {
+	Cre -- do in u -- num
+	De -- um,
+	Pa -- trem o -- mni -- po --
+	ten -- tem, fa --
+	cto -- rem coe -- li et %5
+	ter -- rae,
+	vi -- si -- bi -- li -- um
+	o -- mni -- um et in --
+	vi -- si -- bi -- li --
+	um. %10
 	
+	Et in u -- num %14
+	Do -- mi -- num %15
+	Je -- sum Chri --
+	stum,
+	Fi -- li -- um
+	De -- i
+	u -- ni -- ge -- ni -- %20
+	tum,
+	et ex Pa -- tre
+	na -- tum
+	an -- te
+	o -- mni -- a __ %25
+	sae -- cu --
+	la.
+	
+	De -- um de %31
+	De -- o,
+	lu -- men de
+	lu -- mi -- ne,
+	De -- um %35
+	ve -- rum de
+	De -- o ve --
+	ro,
+	ge -- ni -- tum non
+	fa -- ctum, con -- sub -- %40
+	stan -- ti -- a -- lem
+	Pa -- tri,
+	per quem
+	o -- mni -- a
+	fa -- cta %45
+	sunt, per quem
+	o -- mni -- a,
+	o -- mni -- a __
+	fa -- cta
+	sunt. %50
+	
+	Qui pro -- pter %54
+	nos, nos %55
+	ho -- mi --
+	nes et
+	pro -- pter __
+	no -- stram sa --
+	lu -- %60
+	tem de
+	coe -- lis de --
+	scen -- dit, de --
+	scen -- _
+	_ _ %65
+	_ _
+	_ dit de
+	coe --
+	lis. %69 finis
 }
 
 % SopranoNotes = {
