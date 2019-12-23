@@ -376,6 +376,78 @@ CredoViola = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \tempoCredo
-		
+		d8\f d'16 cis d8 d d a fis d
+		cis e cis a d a' fis d
+		g h16 a g8 fis e h' g e
+		dis fis dis h e d cis a
+		d fis a a, h h' gis e %5
+		a e' cis a e a e cis
+		a h cis d e fis g! a
+		fis d a a' h a g h
+		g a fis g a g a a,
+		d fis16 a d8 cis h h, h' a %10
+		g g, g' fis e e, e' d
+		cis d e fis g a h cis
+		d e fis h, g e a a,
+		d d' a fis d a' fis d
+		a a' e cis a e' cis a %15
+		e' e' h gis e h' gis e
+		a cis a e cis e cis a8
+		d fis h fis d fis h fis
+		dis fis h fis dis fis h dis
+		e h gis e a e cis a %20
+		e' gis h gis e d cis h
+		a cis e a a, a' a, a'
+		d, a' fis d a e' cis a
+		h fis' h a gis h e, gis
+		a a, h cis d d' fis, fis' %25
+		e cis a cis e d e e,
+		a a, a' gis fis fis' fis, e
+		d d' d, cis h h' h, a
+		gis a h cis d e fis gis?
+		a h cis fis d h e e, %30
+		a e' cis a gis h gis e
+		a a, cis e a h a g
+		fis ais cis h ais cis ais fis
+		h h, d fis h a g! fis
+		e g h e, d g b d, %35
+		cis e a cis d a fis d
+		g g, g g' g g, gis gis'
+		a e' cis a e a e cis
+		a cis e a fis a d d,
+		a' a, cis e a e cis e %40
+		a, h cis d e fis g gis
+		a a, cis e a cis e g,
+		fis a d fis e cis g e
+		d fis h d cis fis, h h,
+		e cis e fis g e h g %45
+		fis ais cis fis ais, cis fis ais
+		h fis d h cis cis' d, d'
+		e h g e fis fis, g g'
+		fis d h d fis e fis fis,
+		h d16 fis h8 a! g g, g' fis %50
+		e e' e, d cis cis' cis, h
+		ais cis fis gis ais h cis ais
+		h cis d g, e cis fis fis,
+		h cis d h cis d e cis
+		d e fis e d cis d h %55
+		e d e cis fis e fis fis,
+		h fis' h cis d a fis d
+		g e a g fis a fis d
+		g e a g fis a fis d
+		e d e e, a h cis a %60
+		d d' fis d a fis d fis
+		g a g fis g fis e g
+		a a, a' h cis d e cis
+		d d, fis d a a' cis a
+		h h, d h fis fis' a fis %65
+		g g, h g d d' fis d
+		h h' cis a d a fis d
+		a h a gis a cis e a
+		d, fis16 a d8 cis h h, h' a
+		g g, g' fis e e, e' d %70
+		cis d e fis g a h cis
+		d e fis h, g e a a,
+		d4 d' r2\fermata \bar "||" %73 finis
 	}
 }

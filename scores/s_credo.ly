@@ -55,31 +55,31 @@
 						\CredoViola
 					}
 				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \CredoSopranoNotes }
-					}
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \CredoSopranoNotes }
+% 					}
 % 					\new Lyrics \lyricsto Soprano \CredoSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \CredoAltoNotes }
-					}
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \CredoAltoNotes }
+% 					}
 % 					\new Lyrics \lyricsto Alto \CredoAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \CredoTenoreNotes }
-					}
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \CredoTenoreNotes }
+% 					}
 % 					\new Lyrics \lyricsto Tenore \CredoTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
-					}
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
+% 					}
 % 					\new Lyrics \lyricsto Basso \CredoBassoLyrics
-				>>
+% 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Violoncello," "Basso e" "Organo" } }
