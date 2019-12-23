@@ -397,8 +397,8 @@ CredoViolinoI = {
 		h16 e h gis e8 e e16 gis h cis d8 d
 		cis16 a e a cis8 cis d16 h cis d e8 e
 		fis16 d a d fis8 fis e16 cis a cis e8 e
-		dis16 h fis h dis8 dis d16 h fis h d8 d
-		cis16 a cis e a8 a a,16 a, cis fis a8 a %25
+		dis16 h fis h dis8 dis d16 h e,-\critnote h' d8 d
+		cis16 a cis e a8 a a,16 a, d fis a8 a %25
 		cis,16 e a cis e8 a gis,16 h e gis h8 d,
 		cis16 e a h cis8 h a16 a, cis fis a8 gis
 		fis16 fis, a d fis8 e d16 d, fis h d8 cis
