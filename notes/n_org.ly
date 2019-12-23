@@ -733,11 +733,155 @@ CredoOrgano = {
 		\clef bass
 		\key d \major \time 4/4 \tempoCredo
 		\mvTr d8\f^\tutti d'16 cis d8 d d a fis d
+		cis e cis a d a' fis d
+		g h16 a g8 fis e h' g e
+		dis fis dis h e d cis a
+		d fis a a, h h' gis e %5
+		a e' cis a e a e cis
+		a h cis d e fis g! a
+		fis d a a' h a g h
+		g a fis g a g a a,
+		d-\solo fis16 a d8 cis h h, h' a %10
+		g g, g' fis e e, e' d
+		cis d e fis g a h cis
+		d e fis h, g e a a,
+		d-\tutti d' a fis d a' fis d
+		a a' e cis a e' cis a %15
+		e' e' h gis e h' gis e
+		a cis a e cis e cis a
+		d fis h fis d fis h fis
+		dis fis h fis dis fis h dis
+		e h gis e a e cis a %20
+		e' gis h gis e d cis h
+		a cis e a a, a' a, a'
+		d, a' fis d a e' cis a
+		h fis' h a gis h e, gis
+		a a, h cis d d' fis, fis' %25
+		e cis a cis e d e e,
+		a-\solo a, a' gis fis fis' fis, e
+		d d' d, cis h h' h, a
+		gis a h cis d e fis gis?
+		a h cis fis d h e e, %30
+		a-\tutti e' cis a gis h gis e
+		a a, cis e a h a g
+		fis ais cis h ais cis ais fis
+		h h, d fis h a g! fis
+		e g h e, d g b d, %35
+		cis e a cis d a fis d
+		g g, g g' g g, gis gis'
+		a e' cis a e a e cis
+		a cis e a fis a d d,
+		a' a, cis e a e cis e %40
+		a, h cis d e fis g gis
+		a a, cis e a cis e g,
+		fis a d fis e cis g e
+		d fis h d cis fis, h h,
+		e cis e fis g e h g %45
+		fis ais cis fis ais, cis fis ais
+		h fis d h cis cis' d, d'
+		e h g e fis fis, fis g'
+		fis d h d fis e fis fis,
+		h-\solo d16 fis h8 a! g g, g' fis %50
+		e e' e, d cis cis' cis, h
+		ais cis fis gis ais h cis ais
+		h cis d g, e cis fis fis,
+		h-\tutti cis d h cis d e cis
+		d e fis e d cis d h %55
+		e d e cis fis e fis fis,
+		h fis' h cis d a fis d
+		g e a g fis a fis d
+		g e a g fis a fis d
+		e d e e, a h cis a %60
+		d d' fis d a fis d fis
+		g a g fis g fis e g
+		a a, a' h cis d e cis
+		d d, fis d a a' cis a
+		h h, d h fis fis' a fis %65
+		g g, h g d d' fis d
+		h h' cis a d a fis d
+		a h a gis a cis e a
+		d,-\solo fis16 a d8 cis h h, h' a
+		g g, g' fis e e, e' d %70
+		cis d e fis g a h cis
+		d e fis h, g e a a,
+		d4 d' r2\fermata \bar "||" %73 finis
 	}
 }
 
 CredoBassFigures = \figuremode {
-	
+	r4 <6 4>8 <7 2> <8 3>2
+	r1
+	r4 <4 2>8 <6\\> r2
+	r1
+	r2 <5> %5
+	r1
+	<7>
+	<6>4. <7>8 <5> <\t> <6> <5>
+	<4 2>4 <6> <4> <3>
+	r1 %10
+	r
+	r
+	r
+	r
+	r %15
+	r2 <7 _+>
+	r1
+	<6 5>
+	r
+	<_+> %20
+	<_+>
+	r2 <4 2>4 <5 3>
+	r1
+	<_+>2 <6 5>
+	r1 %25
+	<6 4>2 <_+>
+	r1
+	r
+	r
+	r %30
+	r
+	r
+	<_+>
+	r
+	r2 <6- 4 2> %35
+	r1
+	<6>2. <7>4
+	r1
+	r
+	r %40
+	<7>4. <3>8 <5>4 <7>
+	r1
+	<6>2 q
+	q <6\\>
+	<6> q %45
+	<_+> <6>
+	r <6\\>4 <6>
+	r2 <6 4>4 <6 4 3>
+	<6 4>2 <[5] _+>
+	r1 %50
+	r
+	r
+	r
+	r2 <6\\>
+	<6>1 %55
+	<6 5>2 <_+>
+	r4. <_!>8 <5>2
+	<4 2> <6>
+	<4 2> <6>4. q8
+	<7 4>2 <7> %60
+	r1
+	r4 <4 2>8 <6\\> <6>2
+	r1
+	<9>4 <6> <4> <6>
+	<9> <6> <4> <6> %65
+	<9> <6> <4> <6>
+	<6 5> q r2
+	<4> <3>
+	r1
+	r %70
+	r
+	r
+	r %73 finis
 }
 
 % Organo = {
