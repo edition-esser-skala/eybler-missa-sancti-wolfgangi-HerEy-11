@@ -630,12 +630,138 @@ CredoAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoCredo
-		
+		\mvTr fis4\f^\tuttiE g8 e fis4 fis
+		g2 fis4 r
+		g a8 a g4 g
+		a2 g4 a
+		a a fis e8 e %5
+		e4 e r2
+		e4 a a e8 e
+		fis4 e d g8 fis
+		e4 fis e4. e8
+		fis4 r r2 %10
+		R1*3
+		a4 a a a
+		a4. a8 a2 %15
+		gis4 gis gis2
+		a4 r r2
+		fis fis4 fis
+		fis2 fis
+		e4 e e4. e8 %20
+		e2 r
+		e4 a a a
+		a2 a
+		fis e
+		e d4 a' %25
+		a2( gis4.) gis8
+		a4 r r2
+		R1*3 %30
+		a2 h4 h
+		a a r2
+		ais fis4 ais
+		h8 ais h4 r2
+		h b %35
+		a a4 a
+		g g g( fis)
+		e r r2
+		a4. a8 a4 a
+		a a a a %40
+		a4. a8 g4 fis
+		e cis r2
+		a' g
+		fis fis4 fis
+		e2 e %45
+		fis4 r fis fis
+		fis2 fis4 fis
+		e2 d4 e
+		fis2. fis4
+		d r r2 %50
+		R1*3
+		fis2 fis4 fis
+		fis2 r4 fis %55
+		g2( fis4) fis
+		fis r r d
+		cis( e) d2
+		cis4( e) fis fis
+		d2( e) %60
+		d4 r r d
+		d( a') g8([ a)] h([ g)]
+		e4 cis r a'
+		a1
+		fis %65
+		d~
+		d4 a a a'
+		a1
+		fis4 r r2
+		R1*3 %72
+		R1\fermataMarkup \bar "||" %73 finis
 	}
 }
 
 CredoAltoLyrics = \lyricmode {
+	Cre -- do in u -- num
+	De -- um,
+	Pa -- trem o -- mni -- po --
+	ten -- tem, fa --
+	cto -- rem coe -- li et %5
+	ter -- rae,
+	vi -- si -- bi -- li -- um
+	o -- mni -- um et in --
+	vi -- si -- bi -- li --
+	um. %10
 	
+	Et in u -- num %14
+	Do -- mi -- num %15
+	Je -- sum Chri --
+	stum,
+	Fi -- li -- um
+	De -- i
+	u -- ni -- ge -- ni -- %20
+	tum,
+	et ex Pa -- tre
+	na -- tum
+	an -- te
+	o -- mni -- a %25
+	sae -- cu --
+	la.
+	
+	De -- um de %31
+	De -- o,
+	lu -- men de
+	lu -- mi -- ne,
+	De -- um %35
+	ve -- rum de
+	De -- o ve --
+	ro,
+	ge -- ni -- tum non
+	fa -- ctum, con -- sub -- %40
+	stan -- ti -- a -- lem
+	Pa -- tri,
+	per quem
+	o -- mni -- a
+	fa -- cta %45
+	sunt, per quem
+	o -- mni -- a,
+	o -- mni -- a
+	fa -- cta
+	sunt. %50
+	
+	Qui pro -- pter %54
+	nos, nos %55
+	ho -- mi --
+	nes et
+	pro -- pter
+	no -- stram sa --
+	lu -- %60
+	tem de
+	coe -- lis de --
+	scen -- dit, de --
+	scen --
+	_ %65
+	_
+	_ dit de
+	coe --
+	lis. %69 finis
 }
 
 % AltoNotes = {
