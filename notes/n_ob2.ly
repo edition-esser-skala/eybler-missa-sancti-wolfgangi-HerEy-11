@@ -372,19 +372,19 @@ CredoOboeII = {
 		h4 r r a
 		a2 a
 		a2. d,8 fis
-		e1
+		e1 %60
 		d4 r r d
 		d a' g8 a h g
 		e2 r4 e'~
 		e d2 cis4
-		cis h2 a4~
+		cis h2 a4~ %65
 		a g2 fis4~
 		fis e d d'
 		d2 cis
 		d4 fis8 e d4 d8 cis
-		h4 h8 a g4 g8 fis
+		h4 h8 a g4 g8 fis %70
 		e fis g a h cis d e
 		fis cis d2 cis4
-		d d, r2\fermata \bar "||"
+		d d, r2\fermata \bar "||" %73 finis
 	}
 }

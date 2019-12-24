@@ -21,11 +21,11 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-							\CredoOboeI
+% 							\CredoOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
-							\CredoOboeII
+% 							\CredoOboeII
 						}
 					>>
 				>>

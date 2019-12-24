@@ -156,6 +156,50 @@ CredoTrombaII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoCredo
-		
+		e4\f r e e
+		g2 e4 r
+		R1
+		r2 r4 g
+		c g e r %5
+		g,8 g16 g g8 g g g g g
+		g'4 g8. g16 g4 g
+		c r r2
+		r4 c2 g4
+		c, r c r %10
+		c r r2
+		R1*2
+		e4 e8. e16 e4 e
+		g r r2 %15
+		R1*6 %21
+		r2 r4 g
+		c2 g
+		R1*3 %26
+		g,4 r g r
+		g r r2
+		R1*2 %30
+		g4 r r2
+		R1
+		e'4 e8. e16 e4 e
+		e r r2
+		R1 %35
+		g2 c4 r
+		R1*2
+		g4. g8 e4 c'
+		g r r2 %40
+		R1
+		g4 g8. g16 g4 g
+		c r r2
+		R1*13 %56
+		r2 r4 e,
+		g2 c4 e,
+		g2 c4 r
+		R1*7 %66
+		r2 r4 c
+		c2 g
+		e4 r c r
+		c r r2 %70
+		R1
+		r2 r4 g8. g16
+		c4 r r2\fermata \bar "||" %73 finis
 	}
 }
