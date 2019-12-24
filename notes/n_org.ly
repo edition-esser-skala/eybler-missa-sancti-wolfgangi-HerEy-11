@@ -890,11 +890,111 @@ EtIncarnatusOrgano = {
 		\key b \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #74
 		\mvTr b8\p-\solo b b b b b
+		r a a a b b %75
+		es es es es c c
+		f f f f f f
+		es es es es es es
+		d d f f g g
+		es es f f f, f %80
+		b b' b b b b
+		a a a a a a
+		g g c, c e e
+		f f f f a a
+		b b b b g g %85
+		c c c c c c
+		b b b b b b
+		a a a a a a
+		e e e e e e
+		f f f f f f %90
+		b, b' b b b b
+		b b b b b b
+		c c c c c, c
+		f f f f es! es
+		d d d d d d %95
+		d\sf d d d d d
+		es\pp es es es es es
+		as,\f as as as as as
+		ces ces ces ces f, f
+		ges ges ges b' ges es %100
+		d! d d d d d
+		es es es es es es
+		as, as as as as as
+		des des des des c b
+		a! a a a a a %105
+		b b b b b b
+		h h h h h h
+		c c c c c c
+		cis cis cis cis cis cis
+		d d d d c c %110
+		b b b b b b
+		b b b b b b
+		a a a a a a
+		a a a a a a
+		a a a a a a %115
+		a\sf a a a a a
+		a a a a a a
+		g4 \clef treble es'''^\org b
+		g \clef bass g,,8^\bassi g g g
+		a a a a a a %120
+		a a a a a a
+		d,4 r r
+		R2.
+		R\fermataMarkup \bar "||" %124 finis
 	}
 }
 
 EtIncarnatusBassFigures = \figuremode {
-	
+	r2. %74
+	r8 <6 5> r2 %75
+	<6>2.
+	<6 4>4 <5 3>2
+	<4 2>2.
+	<6>4 <8 6>8 <7 5> <5 3>4
+	<6> <6 4> <5 [3]> %80
+	r2.
+	<6>
+	<7>4 <7 _!> <6 5>
+	<9 4> <5 3> <[6]>
+	<6>2. %85
+	<6 4>4 <5 _!>2
+	<4!>2.
+	<[6]>
+	<[6 5]>
+	<9 4>4 <5 3>2 %90
+	<5>2 <5+>4
+	<6>2.
+	<6 4>2 <[5 _!]>4
+	<7! 4 2> <8 3> <[\t \t]>
+	<6>2. %95
+	<6! 5->
+	<6 4->2 <7- [3]>4
+	<7->2.
+	<4 2->4 <6\\> <5->
+	<5->2 <_->4 %100
+	<6>2 <5->4
+	<7->2.
+	r
+	<5- 3>4 <6!> <6->
+	<6>2. %105
+	<6- _->
+	<7- _!>2 <5 \t>4
+	<6- _!>2 <5 \t>4
+	<7>2.
+	<6- _+>2 <5! \t>4 %110
+	<8 6>2 <7! 5!>4
+	<6\\>2.
+	<_+>
+	<9 7 _+>2 <\t \t 4>4
+	<6 4>2 <\l 3>4 %115
+	<9 7 _+>2 <\t \t 4>4
+	<6 4>2 <\t 5>4
+	<6 3>2.
+	r4 <6-> <5>
+	<9 7 _+>2 <8 \t \t>4 %120
+	<6 4> <5! 4> <\t _+>
+	r2.
+	r
+	r %125 finis
 }
 
 % Organo = {
