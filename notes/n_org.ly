@@ -788,7 +788,7 @@ CredoOrgano = {
 		h-\tutti cis d h cis d e cis
 		d e fis e d cis d h %55
 		e d e cis fis e fis fis,
-		h fis' h cis d a fis d
+		h fis' h cis d a! fis d
 		g e a g fis a fis d
 		g e a g fis a fis d
 		e d e e, a h cis a %60
@@ -820,9 +820,9 @@ CredoBassFigures = \figuremode {
 	<4 2>4 <6> <4> <3>
 	r1 %10
 	r
-	r
-	r
-	r
+	<[3]>8 q q q q q q q
+	r <[6]> q4 <[6 5]>2
+	r1
 	r %15
 	<7 _+>
 	r
@@ -837,8 +837,8 @@ CredoBassFigures = \figuremode {
 	<6 4>2 <[5] _+>
 	r1
 	r
-	r
-	r %30
+	<[3]>8 q q q q <[3+]> <[3]> q
+	r <[6\\]> <[6]>4 <[6 5]> <[_+]> %30
 	r2 <[6]>4. <[_+]>8
 	r1
 	<_+>
@@ -860,8 +860,8 @@ CredoBassFigures = \figuremode {
 	<6 4>2 <[5] _+>
 	r1 %50
 	r
-	r
-	r
+	<[6]>4 <[3+]>8 <[3]> q q q <[6]>
+	r <[6\\]> <[6]>4 <[6 5]> <[_+]>
 	r2 <6\\>
 	<6>1 %55
 	<6 5>2 <_+>
@@ -879,9 +879,9 @@ CredoBassFigures = \figuremode {
 	<4> <3>
 	r1
 	r %70
-	r
-	r
-	r %73 finis
+	<[3]>8 q q q q q q q
+	r <[6]> q4 <[6 5]>2
+	r1 %73 finis
 }
 
 % Organo = {

@@ -21,11 +21,11 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-% 							\CredoOboeI
+							\CredoOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
-% 							\CredoOboeII
+							\CredoOboeII
 						}
 					>>
 				>>
@@ -47,39 +47,39 @@
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-% 							\CredoViolinoII
+							\CredoViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-% 						\CredoViola
+						\CredoViola
 					}
 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \CredoSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \CredoSopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \CredoAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \CredoAltoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \CredoTenoreNotes }
-% 					}
-% 					\new Lyrics \lyricsto Tenore \CredoTenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \CredoBassoLyrics
-% 				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \CredoSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \CredoSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \CredoAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \CredoAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \CredoTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \CredoTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \CredoBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Violoncello," "Basso e" "Organo" } }
@@ -91,7 +91,7 @@
 				}
 			>>
 			\layout { }
-% 			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

@@ -753,7 +753,7 @@ CredoTenoreLyrics = \lyricmode {
 	no -- stram sa --
 	lu -- %60
 	tem de
-	coe -- lis de --
+	coe -- lis __ de --
 	scen -- dit, de --
 	scen -- _ _
 	_ _ %65

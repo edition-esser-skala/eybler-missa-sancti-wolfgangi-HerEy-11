@@ -374,7 +374,7 @@ QuoniamViola = {
 
 CredoViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 4/4 \tempoCredo
 		d8\f d'16 cis d8 d d a fis d
 		cis e cis a d a' fis d
@@ -432,7 +432,7 @@ CredoViola = {
 		h cis d h cis d e cis
 		d e fis e d cis d h %55
 		e d e cis fis e fis fis,
-		h fis' h cis d a fis d
+		h fis' h cis d a! fis d
 		g e a g fis a fis d
 		g e a g fis a fis d
 		e d e e, a h cis a %60
