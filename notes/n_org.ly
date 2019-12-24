@@ -913,7 +913,7 @@ EtIncarnatusOrgano = {
 		d d d d d d %95
 		d\sf d d d d d
 		es\pp es es es es es
-		as,\f as as as as as
+		\mvTr as,\f-\tuttiE as as as as as
 		ces ces ces ces f, f
 		ges ges ges b' ges es %100
 		d! d d d d d
@@ -926,14 +926,14 @@ EtIncarnatusOrgano = {
 		c c c c c c
 		cis cis cis cis cis cis
 		d d d d c c %110
-		b b b b b b
+		b! b b b b b
 		b b b b b b
 		a a a a a a
 		a\sfE a a a a a
 		a a a a a a %115
 		a\sf a a a a a
 		a a a a a a
-		g4 \clef treble es'''^\org\pE b
+		g4 \clef treble es'''!^\org\pE b!
 		g \clef bass g,,8^\bassi g g g
 		a a a a a a %120
 		a a a a a a
@@ -950,7 +950,7 @@ EtIncarnatusBassFigures = \figuremode {
 	<6 4>4 <5 3>2
 	<4 2>2.
 	<6>4 <8 6>8 <7 5> <5 3>4
-	<6> <6 4> <5 [3]> %80
+	<6> <6 4>4. <5 [3]>8 %80
 	r2.
 	<6>
 	<7>4 <7 _!> <6 5>
@@ -969,19 +969,19 @@ EtIncarnatusBassFigures = \figuremode {
 	<6! 5->
 	<6 4->2 <7- [3]>4
 	<7->2.
-	<4 2->4 <6\\> <5->
-	<5->2 <_->4 %100
+	<[6-] 4 2->2 <6- [_-]>8 <5- \t>
+	<5->2 \bassFigureExtendersOn q8 \bassFigureExtendersOff <_-> %100
 	<6>2 <5->4
-	<7->2.
-	r
-	<5- 3>4 <6!> <6->
+	<7- [_!]>2.
+	<[7-]>
+	<5- 3>4 <6-> <6!>8 <[_-]>
 	<6>2. %105
-	<6- _->
-	<7- _!>2 <5 \t>4
-	<6- _!>2 <5 \t>4
-	<7>2.
+	<[5] _->4 \bassFigureExtendersOn <6- _->2
+	q8 q \bassFigureExtendersOff <7- 5 _!>2
+	<6- _!>4 <5 \t>2
+	<7 \t>2.
 	<6- _+>2 <5! \t>4 %110
-	<8 6>2 <7! 5!>4
+	<[6]> <8 6> <7! 5!>
 	<6\\>2.
 	<_+>
 	<9 7 _+>2 <\t \t 4>4
@@ -990,8 +990,8 @@ EtIncarnatusBassFigures = \figuremode {
 	<6 4>2 <\t 5>4
 	<6 3>2.
 	r4 <6-> <5>
-	<9 7 _+>2 <8 \t \t>4 %120
-	<6 4> <5! 4> <\t _+>
+	<9 7 _+> <8 \t \t> <6 4> %120
+	<5! 4>2 <\t _+>4
 	r2.
 	r
 	r %125 finis

@@ -769,12 +769,112 @@ EtIncarnatusAltoNotes = {
 		\clef treble
 		\key b \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
 			\set Score.currentBarNumber = #74
-		
+		\mvTr f4\pE^\solo f f
+		f8. f16 f4 r8 f %75
+		g2 g8 g
+		f4 f r
+		f4. f8 f f
+		f4 a b8 r16 b
+		g8 g f( d4) es8 %80
+		d4 r8 f f f
+		f4 f f8 f
+		g4~ g8 b4 g8
+		g4( f) r8 f
+		d2 d8 b' %85
+		a8.([\trill b16)] g4 r
+		g4. g8 g g
+		a8. f16 f4 r8 f
+		b2 g8 g
+		\acciaccatura a g4 f r8 f %90
+		f8.([ b16)] b4 r8 b
+		b8.([ g16]) g4 r
+		c,2 e4
+		g( f) r8 a
+		b8.([ f16)] f4 r8 f %95
+		f8.([\sf as16)] as4 r
+		as2\pp es4
+		es8 \mvTr es'4\fE^\tutti c8 as ges
+		f8. ges16 as4 r
+		r8 b b8.([ ges16)] es4 %100
+		r r b'8 b
+		des2 g,!4
+		as8. b16 c4 r
+		r8 f, f b c des
+		c4 f, r %105
+		r ges ges
+		ges?( f) f
+		e2 e4
+		r g! g
+		fis2 fis4 %110
+		g8. a!16 b4 a
+		gis2.
+		a4 r r
+		b2.\sf
+		a4 r r %115
+		b2.\sf
+		a4 r r
+		R2.
+		r4 es!\p d
+		cis2 d4 %120
+		d d cis8 cis
+		d4 a a
+		b2 b4
+		a2.\fermata \bar "||" %124 finis
 	}
 }
 
 EtIncarnatusAltoLyrics = \lyricmode {
+	Et in -- car -- %74
+	na -- tus est de %75
+	Spi -- ri -- tu
+	San -- cto
+	ex Ma -- ri -- a
+	Vir -- gi -- ne, et
+	ho -- mo fa -- ctus %80
+	est. Et in -- car --
+	na -- tus, in -- car --
+	na -- _ tus
+	est __ de
+	Spi -- ri -- tu %85
+	San -- cto
+	ex Ma -- ri -- a
+	Vir -- gi -- ne, de
+	Spi -- ri -- tu
+	San -- cto, et %90
+	ho -- mo, et
+	ho -- mo
+	fa -- ctus
+	est, __ et
+	ho -- mo, et %95
+	ho -- mo
+	fa -- ctus
+	est. Cru -- ci -- fi -- xus
+	e -- ti -- am
+	pro no -- bis, %100
+	cru -- ci --
+	fi -- xus
+	e -- ti -- am,
+	sub Pon -- ti -- o Pi --
+	la -- to, %105
+	pas -- sus,
+	pas -- sus,
+	pas -- sus,
+	cru -- ci --
+	fi -- xus %110
+	e -- ti -- am pro
+	no --
+	bis,
+	pas --
+	sus, %115
+	pas --
+	sus
 	
+	et se --
+	pul -- tus %120
+	est, se -- pul -- tus
+	est, et se --
+	pul -- tus
+	est. %124 finis
 }
 
 % AltoNotes = {

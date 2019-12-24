@@ -778,7 +778,7 @@ EtIncarnatusSopranoNotes = {
 		c4. c8 c c
 		c16([ d)] e([ f)] c4 r8 c
 		g'4~ g8[ e] c b
-		\appoggiatura c8 b4 a r8 f' %90
+		\acciaccatura c8 b4 a r8 f' %90
 		f8.([ d16)] d4 r8 d
 		d8.[( b16)] b4 r
 		f2 g8.([\trill c16)]
