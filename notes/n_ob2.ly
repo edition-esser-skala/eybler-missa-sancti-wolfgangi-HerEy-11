@@ -388,3 +388,12 @@ CredoOboeII = {
 		d d, r2\fermata \bar "||" %73 finis
 	}
 }
+
+EtIncarnatusOboeII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #74
+		
+	}
+}

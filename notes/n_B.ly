@@ -776,6 +776,19 @@ CredoBassoLyrics = \lyricmode {
 	lis. %69 finis
 }
 
+EtIncarnatusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
+			\set Score.currentBarNumber = #74
+		
+	}
+}
+
+EtIncarnatusBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

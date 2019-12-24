@@ -450,6 +450,15 @@ CredoViolinoI = {
 	}
 }
 
+EtIncarnatusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #74
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

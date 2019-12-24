@@ -451,3 +451,12 @@ CredoViola = {
 		d4 d' r2\fermata \bar "||" %73 finis
 	}
 }
+
+EtIncarnatusViola = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #74
+		
+	}
+}
