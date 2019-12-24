@@ -47,12 +47,12 @@
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\CredoViolinoII
+% 							\CredoViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\CredoViola
+% 						\CredoViola
 					}
 				>>
 % 				\new ChoirStaff <<

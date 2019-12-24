@@ -319,6 +319,78 @@ CredoOboeI = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \tempoCredo
-		
+		a'4\f h8 cis d4 d
+		e2 d4 r
+		h cis8 dis e4 e
+		fis2 e4 g
+		fis e d e %5
+		cis a8. h16 cis8.[ d16 e8. fis16]
+		g!2 cis,
+		a'4. g8 fis4 e8 d
+		cis4 d2 cis4
+		d4 fis8 e d4 d8 cis %10
+		h4 h8 a g4 g8 fis
+		e fis g a h cis d e
+		fis cis d fis e2
+		fis4 fis fis fis
+		e1 %15
+		d4 d d2
+		cis4 r r2
+		h2 h4 h
+		fis'2^\critnote h,
+		h4 d! cis2 %20
+		h r
+		cis4 cis d e
+		fis2 e
+		dis d
+		cis4 a' gis8 fis e d %25
+		cis2 h\trill
+		a4 cis8 h a4 a'8 gis
+		fis4 fis8 e d4 d8 cis
+		h cis d e fis gis, a h
+		cis d e cis h2 %30
+		cis e4 e
+		cis8 h a4 r2
+		fis' fis4 fis
+		d8 cis h4 r2
+		g'1~ %35
+		g2 fis4 fis
+		e e e d
+		cis r r2
+		e fis
+		e4 a,8. h16 cis8.[ d16 e8. fis16] %40
+		g4. fis8 e4 d
+		a' a, r2
+		d e
+		fis e4 d
+		cis2 h %45
+		ais4 r cis fis,
+		d'2 cis4 h
+		g'2 fis8 e d cis
+		h2 ais
+		h4 d8 cis h4 h'8 a %50
+		g4 g8 fis e4 e8 d
+		cis h ais h cis d e4
+		d8 ais h d cis2
+		d ais
+		h4 r r d %55
+		cis2. d8 e
+		d4 r r fis
+		e cis d fis
+		e cis e8 d cis h
+		a2. g4 %60
+		fis r r a
+		h cis8 dis e fis g e
+		cis4 a r g'
+		fis2 e
+		d cis %65
+		h a
+		g fis4 fis'
+		e1\trill
+		d4 fis8 e d4 d8 cis
+		h4 h8 a g4 g8 fis %70
+		e fis g a h cis d e
+		fis cis d fis e2
+		d4 d, r2\fermata \bar "||" %73 finis
 	}
 }
