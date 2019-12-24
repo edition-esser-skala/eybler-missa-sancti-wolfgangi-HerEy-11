@@ -929,11 +929,11 @@ EtIncarnatusOrgano = {
 		b b b b b b
 		b b b b b b
 		a a a a a a
-		a a a a a a
+		a\sfE a a a a a
 		a a a a a a %115
 		a\sf a a a a a
 		a a a a a a
-		g4 \clef treble es'''^\org b
+		g4 \clef treble es'''^\org\pE b
 		g \clef bass g,,8^\bassi g g g
 		a a a a a a %120
 		a a a a a a
