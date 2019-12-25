@@ -537,7 +537,7 @@ EtResurrexitViolinoII = {
 		fis e d cis d8 fis, e d' a, cis' %145
 		d,16\sf d cis cis d d e e f\sfE f e e f f fis fis
 		g\sf g fis! fis g g gis gis a\sf a gis gis a a b b
-		a a d d f f e e d d c c b b a a
+		a\sf a d d f f e e d d c c b b a a
 		b b f f d' d c c b b a a g g f f
 		e e g g b b a a g g f f e e d d %150
 		cis! cis d d e e f f g g b b a a g g

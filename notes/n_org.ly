@@ -1025,7 +1025,7 @@ EtResurrexitOrgano = {
 		d e fis h, g e a a, %145
 		\mvTrh d-\sf-\unisono-\tuttiE cis d e f\sf e f fis
 		g\sf fis! g gis a\sf gis a b
-		a d f e d c b a
+		a\sfE d f e d c b a
 		b f d' c b a g f
 		e g b a g f? e d %150
 		cis! d e f g b a g

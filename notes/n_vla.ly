@@ -516,6 +516,107 @@ EtResurrexitViola = {
 		\clef treble
 		\key d \major \time 4/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #125
-		
+		d8\f d' a fis d d' d, d' %125
+		d, d' a fis d a' fis d
+		a a' e cis a a' a, a'
+		d, d' a fis d a' fis d
+		a cis e a h, h' cis, cis'
+		d, fis h^\critnote d h, h' d, d' %130
+		e cis a cis e d e e,
+		a cis e cis a e cis e
+		a, a' cis a e a cis, e
+		a, h cis a d e fis d
+		g e h g gis h d gis %135
+		a a, cis e a h a g
+		fis d e fis g a h g^\critnote
+		gis e fis gis a h cis h
+		ais fis gis ais h cis d h
+		e, fis g e cis' a d d, %140
+		g fis g e a g a a,
+		d fis16 a d8 cis h h, h' a
+		g g, g' fis e e, e' d
+		cis d e fis g a h cis
+		d e fis h, g e a a, %145
+		d\sf cis d e f\sf e f fis
+		g\sf fis! g gis a\sf gis a b
+		a\sf d f e d c b a
+		b f d' c b a g f
+		e g b a g f? e d %150
+		cis! d e f g b a g
+		f e d cis! d c h! b
+		a\ff cis e a a, d f a
+		a, cis! e a a, d f a
+		a,4 r r2 %155
+		R1*9 %164
+		d8\f fis'! e d cis h a g %165
+		fis a d fis, e cis' d, d'
+		g, h e h g e a g
+		fis a fis d a' g a a,
+		d fis16 a d8 cis d d, d e
+		fis fis, fis' g a a, a' g %170
+		fis e d c h a g fis
+		g' a h a g d h g
+		c d e fis g a h g
+		a h a g fis d g g,
+		d' d' fis d a fis d d' %175
+		g, h d f, e g e c
+		h d h g c c' d e
+		d h g h d c? d d,
+		g g, g' fis e e' e, d
+		c c' c, h a a' a, g %180
+		fis g a h c d e fis
+		g a h e c a d d,
+		g d' h g fis a fis d
+		g fis g a h a h g
+		c h c a d c d d, %185
+		g h d c h a g f
+		e g c? g e g e c?
+		g' g, h d g d h g
+		c e g c h, h' ais, ais'
+		h, h' dis h fis dis h h' %190
+		e, g h g e' h g e
+		fis g a fis g h g e
+		dis h e g h a h h,
+		e g16 h e8 d c c, c' h
+		a a, a' g fis fis, fis' e %195
+		dis cis! dis ais h cis dis h
+		e fis g c a fis h h,
+		e e' h gis e fis d e
+		cis! d h cis a h cis a
+		d cis d h e d e e, %200
+		a cis e a cis a e cis
+		d e fis d g! e a g
+		fis a d cis h a g fis
+		g fis g e a g a a,
+		d d, d' e fis fis, fis' g %205
+		a g fis e d c h a
+		g g' h g e, e' g e
+		c c' a c d c d d,
+		g g, g' h a g fis e
+		dis\p fis h, a g h g e %210
+		dis fis h a g h g e
+		a h c h a g e fis
+		g fis g a h a h g
+		fis g fis e dis e fis dis
+		e dis e fis g fis g e %215
+		h' cis! dis cis h\f dis fis h
+		e, g h g e gis h e
+		a, a, a' h cis! d e cis
+		d d, fis e d cis d h
+		a4 r r2 %220
+		r4 f\p f f
+		f? e a'8\f g! fis! e
+		d fis a d a, a' cis a
+		cis, e a cis d, fis a d
+		g,, h d g g, g' gis, gis' %225
+		a, a' cis h a g! fis e
+		d fis d a e' a, fis' a,
+		g' fis e d cis  a h cis
+		d fis a d a g a a,
+		d a' fis d cis e a cis %230
+		d, fis a d a, a' cis a
+		d, a' fis d cis e a cis
+		d, fis a d a, cis e a
+		d,4 d' r2\fermata \bar "|." %234 FINIS
 	}
 }
