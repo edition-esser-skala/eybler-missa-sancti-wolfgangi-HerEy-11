@@ -1274,14 +1274,14 @@ SanctusBassFigures = \figuremode {
 	r
 	r
 	r
-	<[6 5]>2 <6>
+	<[6 5]>2 <6>8 <[6]> <[8]> <[6]>
 	<6 4>4 <7 [3]>2. %15
 	r1
 	<7!>
 	<6>4. q8 <6 4>4 <[5] _+>
 	r2.. <6>8
 	<2> <6> q4 <6 5> <5 3> %20
-	r2.. <2>8
+	r2 <[7]>4. <2>8
 	<6> q <8 3> <6> q4. <6 3>8
 	<6 4> \bassFigureExtendersOn <6 4\!> q <6\! 3> q \bassFigureExtendersOff <6> q <6 3>
 	<6 4> \bassFigureExtendersOn <6 4\!> q <6\! 3> q \bassFigureExtendersOff <6> q4
