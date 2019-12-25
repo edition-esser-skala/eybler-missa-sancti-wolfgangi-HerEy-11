@@ -419,3 +419,12 @@ EtIncarnatusOboeII = {
 		R2.\fermataMarkup \bar "||" %124 finis
 	}
 }
+
+EtResurrexitOboeII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #125
+		
+	}
+}

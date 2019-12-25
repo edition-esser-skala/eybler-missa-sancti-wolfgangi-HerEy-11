@@ -508,3 +508,12 @@ EtIncarnatusViolinoII = {
 		R\fermataMarkup \bar "||"
 	}
 }
+
+EtResurrexitViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #125
+		
+	}
+}

@@ -994,7 +994,20 @@ EtIncarnatusBassFigures = \figuremode {
 	<5! 4>2 <\t _+>4
 	r2.
 	r
-	r %125 finis
+	r %124 finis
+}
+
+EtResurrexitOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #125
+		\mvTr d8\f-\tuttiE d' a fis d d' d, d' %125
+	}
+}
+
+EtResurrexitBassFigures = \figuremode {
+	
 }
 
 % Organo = {

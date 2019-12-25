@@ -244,6 +244,7 @@ tempoGloria = \tempoMarkup "Allegro con fuoco"
 	tempoQuoniam = \tempoMarkup "Allegro con fuoco"
 tempoCredo = \tempoMarkup "Allegro vivace"
 	tempoEtIncarnatus = \tempoMarkup "Adagio"
+	tempoEtResurrexit = \tempoMarkup "Allegro vivace"
 
 
 

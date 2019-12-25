@@ -208,3 +208,12 @@ CredoTrombaI = {
 		\pao c,4 r r2\fermata \bar "||" %73 finis
 	}
 }
+
+EtResurrexitTrombaI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #125
+		
+	}
+}

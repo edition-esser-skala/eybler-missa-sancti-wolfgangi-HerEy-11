@@ -877,6 +877,19 @@ EtIncarnatusAltoLyrics = \lyricmode {
 	est. %124 finis
 }
 
+EtResurrexitAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #125
+		
+	}
+}
+
+EtResurrexitAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

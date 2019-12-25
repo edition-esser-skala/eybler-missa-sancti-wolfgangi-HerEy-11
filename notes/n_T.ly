@@ -876,6 +876,19 @@ EtIncarnatusTenoreLyrics = \lyricmode {
 	est. %124 finis
 }
 
+EtResurrexitTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #125
+		
+	}
+}
+
+EtResurrexitTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

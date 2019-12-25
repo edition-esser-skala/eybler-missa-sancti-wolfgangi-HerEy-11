@@ -870,6 +870,19 @@ EtIncarnatusSopranoLyrics = \lyricmode {
 	est. %124 finis
 }
 
+EtResurrexitSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #125
+		
+	}
+}
+
+EtResurrexitSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
