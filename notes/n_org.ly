@@ -1238,7 +1238,7 @@ SanctusOrgano = {
 		} >>
 		a4 r8 a-\unisono a a \noBreak
 		a2 r4\fermata \bar "||"
-		\time 4/4 \tempoPleni \mvTr a'8\f-\tutti a, r a' a a, r a' \noBreak %10
+		\time 4/4 \tempoPleni a'8\f a, r a' a a, r a' \noBreak %10
 		a a, r a' d d, r d'
 		d d, r d' d d, r d'
 		d d, r d a' a, r a'
@@ -1274,7 +1274,7 @@ SanctusBassFigures = \figuremode {
 	r
 	r
 	r
-	<[6]>2 <6>
+	<[6 5]>2 <6>
 	<6 4>4 <7 [3]>2. %15
 	r1
 	<7!>
