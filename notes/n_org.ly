@@ -1091,7 +1091,7 @@ EtResurrexitOrgano = {
 		g fis g a h a h g
 		fis g fis e dis e fis dis
 		e dis e fis g fis g e %215
-		h\f cis! dis cis h dis fis h
+		h cis! dis cis h\f dis fis h
 		e, g h g e gis h e
 		a, a, a' h cis! d e cis
 		d d, fis' e d cis d h
@@ -1174,7 +1174,7 @@ EtResurrexitBassFigures = \figuremode {
 	<_+>1 %190
 	r
 	<6\\>2 <6>
-	<[6]> <4>4 <_+>
+	<[6 5]> <4>4 <_+>
 	r1
 	<[_!]>2 <[5!]> %195
 	<6 5>1
@@ -1200,7 +1200,7 @@ EtResurrexitBassFigures = \figuremode {
 	<_+>1
 	r2 <_+>
 	q <6 5!>
-	r4. <6>8 r q r q
+	r4. <6>8 r q r <6\\>
 	r1 %220
 	<7!>
 	<6! 4>4 <5 _+>2.
