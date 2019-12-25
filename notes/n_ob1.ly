@@ -451,6 +451,102 @@ EtResurrexitOboeI = {
 		\clef treble
 		\key d \major \time 4/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #125
-		
+		a'2\f h4 cis
+		d2 d
+		e d4 e
+		fis d r fis
+		e2 d4 cis
+		h2 d4 fis %130
+		a,2. \acciaccatura cis8 h4
+		a r a a
+		cis a cis e
+		g!2 fis4 fis
+		e2 fis4 d %135
+		a' a, r2
+		d h4 h
+		e2 cis4 cis
+		fis2 d4 h
+		g'2. fis4 %140
+		e1\trill
+		d4 fis8 e d4 d8 cis
+		h4 h8 a g4 g8 fis
+		e fis g a h cis d e
+		fis cis d fis e2 %145
+		d4.\ffE d8 d4 d
+		d4. d8 d4 d
+		f2. f4
+		d2 r
+		cis!2\sfE e\sfE %150
+		g\sfE cis,!\sfE
+		d4\sfE e f g
+		e2 f
+		e f
+		e4 r r2 %155
+		R1*9 %164
+		r2 a,4\f a %165
+		a'2 g4 fis!
+		e g r cis,
+		d fis e2
+		d4 d8 e fis4 fis8 g
+		a4 a8 h c4 c8 h %170
+		a g fis e d c h a
+		h4 d h g
+		e'2 d4 r
+		r c4. c8 c h
+		h4 a r a8 a %175
+		h2 c
+		d4 g \appoggiatura fis8 e4 d8 c
+		h2 a
+		g4 h'8 a g4 g8 fis
+		e4 e8 d c4 c8 h %180
+		a h c d e fis g a
+		h fis g2 fis4
+		g2 d
+		h g
+		a2. h8 c %185
+		h4 r r2
+		c1
+		d
+		e
+		dis %190
+		e
+		dis2 e
+		a,4 g fis2
+		e4 g'8 fis e4 e8 d
+		c4 c8 h a4 a8 g
+		fis ais h cis dis e fis a
+		g4 e2 dis4
+		e e, fis gis
+		a2 a4 a
+		h2. h4 %200
+		a2 r
+		r4 a h cis
+		d4. d8 d4 d
+		e2. e4
+		d2 r %205
+		r4 d e fis
+		g2 g4 g
+		a1
+		g4 r r2
+		R1*6 %215
+		r2 h,4\f h
+		e1
+		e4 r a, a
+		d4. cis8 d e fis gis
+		a4 a, r2 %220
+		R1
+		r2 r4 a\fE
+		fis'!2 e4 a,
+		g'2 fis4 fis
+		e e e fis8 d %225
+		cis4 e r a,
+		a fis' e d
+		cis e g2
+		g8 fis e d e2\trill
+		d4 a' r g %230
+		r fis r e
+		r a2 g4
+		fis fis e2\trill
+		d4 r r2\fermata \bar "|." %234 FINIS
 	}
 }

@@ -917,7 +917,7 @@ EtResurrexitSopranoNotes = {
 		r c4. c8 c h
 		h4 a r a8 a %175
 		h2 c
-		d4 g e d8 c
+		d4 g \appoggiatura fis8 e4^\critnote d8 c
 		h2( a)
 		g4 r r2
 		R1*3 %182
