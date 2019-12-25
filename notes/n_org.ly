@@ -974,7 +974,7 @@ EtIncarnatusBassFigures = \figuremode {
 	<6>2 r8 <5->
 	<7- [_!]>2.
 	<[7-]>
-	<5- 3>4 <6-> <6!>8 <[_-]>
+	<5- 3>4. <6->8 <6!> <[_-]>
 	<6>2. %105
 	<6- _->2 \bassFigureExtendersOn q8 q
 	<6- _!> q \bassFigureExtendersOff <7- 5>2

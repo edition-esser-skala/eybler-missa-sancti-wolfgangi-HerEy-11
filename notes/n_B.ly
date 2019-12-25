@@ -781,12 +781,112 @@ EtIncarnatusBassoNotes = {
 		\clef bass
 		\key b \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
 			\set Score.currentBarNumber = #74
-		
+		\mvTr b'4\pE^\solo b b
+		a8. a16 a4 r8 b %75
+		es,4( g) c,8 es
+		f4 f, r
+		es'4. es8 es es
+		d4 f g8 r16 g
+		es8 c f4 f, %80
+		b r8 b' b b
+		a4 a a8 a
+		g4( c,) e
+		f2 r8 a
+		b8[( b, d f)] b g %85
+		c4 c, r
+		b'4. b8 b b
+		a8. a16 a4 r8 a
+		e4( c) e8 e
+		f4 f, r8 f' %90
+		b,4 b' r8 b
+		b4 b, r
+		c2 c'4
+		c( f,) r8 es!
+		d4 d r8 d' %95
+		d4\sfE d, r
+		es2\pp es4
+		as, r \mvTr as'8\f^\tutti as
+		ces2 f,4
+		ges4. b8 ges es %100
+		d!4 b' r
+		r8 b4 g!8 es des
+		c8. des16 es4 r8 as
+		des4. des8 c b
+		a!4 c r %105
+		r b, b
+		h2 h4
+		c2 c4
+		cis2 cis4
+		d4. fis8 a! c %110
+		b!4 g r
+		b, b b
+		a4. a8 a4
+		a2.\sf
+		a4 r r %115
+		cis2.\sf
+		d4 r r
+		R2.
+		r4 g,\p g
+		a2 a4 %120
+		a a a
+		d d d
+		g,2 g4
+		d'2.\fermata \bar "||" %124 finis
 	}
 }
 
 EtIncarnatusBassoLyrics = \lyricmode {
+	Et in -- car -- %74
+	na -- tus est de %75
+	Spi -- ri -- tu
+	San -- cto
+	ex Ma -- ri -- a
+	Vir -- gi -- ne, et
+	ho -- mo fa -- ctus %80
+	est. Et in -- car --
+	na -- tus, in -- car --
+	na -- tus
+	est de
+	Spi -- ri -- tu %85
+	San -- cto
+	ex Ma -- ri -- a
+	Vir -- gi -- ne, de
+	Spi -- ri -- tu
+	San -- cto, et %90
+	ho -- mo, et
+	ho -- mo
+	fa -- ctus
+	est, __ et
+	ho -- mo, et %95
+	ho -- mo
+	fa -- ctus
+	est. Cru -- ci --
+	fi -- xus
+	e -- ti -- am pro %100
+	no -- bis,
+	cru -- ci -- fi -- xus
+	e -- ti -- am, sub
+	Pon -- ti -- o Pi --
+	la -- to, %105
+	pas -- sus,
+	pas -- sus,
+	cru -- ci --
+	fi -- xus
+	e -- ti -- am pro %110
+	no -- bis,
+	pro no -- bis
+	et -- i -- am,
+	pas --
+	sus, %115
+	pas --
+	sus
 	
+	et se --
+	pul -- tus, %120
+	se -- pul -- tus
+	est, et se --
+	pul -- tus
+	est. %124 finis
 }
 
 % BassoNotes = {
