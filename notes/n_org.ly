@@ -1223,11 +1223,72 @@ SanctusOrgano = {
 		\clef bass
 		\key d \major \time 3/4 \tempoSanctus
 		\mvTr d16.(\f-\tuttiE e32 fis g a h64 cis) d8 d, d d
+		cis16.( d32 e fis g a64 h) cis8 cis, cis cis
+		c16.( d32 e fis g a64 h) c8 c, c c
+		<< {
+			h2.^\org
+			b %5
+			a4 a' g
+			f d b
+		} \\ {
+			h8..[_\markup { \remark "Vlc. e Bassi staccato e forte"  } h32 h8.. h32 h8.. h32]
+			b8..[ b32 b8.. b32 b8.. b32]
+			a8..[ a32 a'8.. a32 g8.. g32]
+			f8..[ f32 d8.. d32 b8.. b32]
+		} >>
+		a4 r8 a-\unisono a a \noBreak
+		a2 r4\fermata \bar "||"
+		\time 4/4 \tempoPleni \mvTr a'8\f-\tutti a, r a' a a, r a' \noBreak %10
+		a a, r a' d d, r d'
+		d d, r d' d d, r d'
+		d d, r d a' a, r a'
+		cis cis, d' d, g fis e g
+		a a, a a' d, d' r d-\solo %15
+		d d, r d' d d, r d'
+		d d, e fis g g, r g'
+		g g, r g' a a a, a
+		d'-\tutti d, r d' d d, r fis
+		g fis e d cis e a cis %20
+		a a, r a' a a, r g'
+		fis e d e fis a d \noBeam \clef "treble_8" fis
+		e d cis \noBeam \clef bass cis, d e fis \noBeam \clef "treble_8" fis'
+		e d cis \noBeam \clef bass cis d e fis fis,
+		g g, a' a, h' h, cis' cis, %25
+		d' d, a' a, d4 r8 d
+		fis d a' a, d4 r8 d
+		fis d a' a, d4 r\fermata \bar "|." %28 FINIS
 	}
 }
 
 SanctusBassFigures = \figuremode {
-	
+	r2.
+	<6>
+	<4 2>
+	<6>
+	q %5
+	<7>4 <6! 4> <4 2>
+	<6>2 <6\\>4
+	<_+>2.
+	r
+	r1 %10
+	r
+	r
+	r
+	<[6]>2 <6>
+	<6 4>4 <7 [3]>2. %15
+	r1
+	<7!>
+	<6>4. q8 <6 4>4 <[5] _+>
+	r2.. <6>8
+	<2> <6> q4 <6 5> <5 3> %20
+	r2.. <2>8
+	<6> q <8 3> <6> q4. <6 3>8
+	<6 4> \bassFigureExtendersOn <6 4\!> q <6\! 3> q \bassFigureExtendersOff <6> q <6 3>
+	<6 4> \bassFigureExtendersOn <6 4\!> q <6\! 3> q \bassFigureExtendersOff <6> q4
+	<5>8 <6> <5> <6> <5> <6> <6 5>4 %25
+	r1
+	<[6]>
+	q %28 FINIS
 }
 
 % Organo = {
