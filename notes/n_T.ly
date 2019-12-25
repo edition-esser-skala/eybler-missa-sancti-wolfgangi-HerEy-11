@@ -881,12 +881,202 @@ EtResurrexitTenoreNotes = {
 		\clef "treble_8"
 		\key d \major \time 4/4 \autoBeamOff \tempoEtResurrexit
 			\set Score.currentBarNumber = #125
-		
+		\mvTr d2\fE^\tuttiE d4 g
+		fis2 d
+		cis h4 cis
+		d d r d
+		cis2 d4 e
+		d2 fis4 fis %130
+		e2. gis,4
+		a r cis cis
+		a( cis) e g!
+		e2 d4 d
+		h2 h4 h %135
+		cis a r2
+		r4 d2 h4~
+		h e2 cis4~
+		cis fis2 d8 d
+		e4 e8 e e4 d %140
+		d2( cis)
+		d4 r r2
+		R1*2
+		r2 r4 a\ff %145
+		d4. d8 d4 d
+		d4. d8 d4 d
+		f2. f4
+		d2 r
+		cis!\sf e\sf %150
+		g\sf cis,!\sf
+		d4\f e f d
+		\once \tieDashed a1~
+		a2 a
+		R1*10 %164
+		r2 cis4\fE cis %165
+		d2 cis4 d
+		h e r e
+		a, d d( cis)
+		d r r2
+		R1 %170
+		r2 d4 d
+		g d8 d h4 g
+		c4. c8 h4 r
+		r c( a8) d d d
+		d4 d r d8 d %175
+		d2 e
+		d4 d c h8 c
+		d1
+		h4 r r2
+		R1*3 %182
+		d2 r4 d
+		d h r d
+		e2( d4) d %185
+		d r r2
+		c4 c c e
+		d h r h
+		c c e g
+		fis dis r2 %190
+		e r4 h
+		h4. h8 h4 r
+		h h h2
+		h4 r r2
+		R1*3 %197
+		r4 e, fis gis
+		a2 a4 a
+		h2. h4 %200
+		a2 r
+		r4 a h cis
+		d4. d8 d4 d
+		e2. e4
+		d2 r %205
+		r4 d e fis8 fis
+		g2 g4 g
+		e2( d)
+		h4 r r2
+		h\p h %210
+		h h
+		c1
+		h2 r
+		a h
+		g( e) %215
+		h' r
+		e4\f e d!2
+		cis!4 cis8 d e([ fis)] g!([ e)]
+		fis4.( e8 d[ cis d h])
+		a4 r r2 %220
+		r4 d,2\p e8([ f)]
+		f?4 e r a\f
+		d2 cis4 cis
+		e2 d4 d
+		h h g' fis8 fis %225
+		e4 cis r a
+		d2 cis4 d
+		e( cis) e2
+		d4 cis8 d d4( cis)
+		d r r e( %230
+		d) d cis2
+		d4 r r e(
+		d) d cis2
+		d4 r r2\fermata \bar "|." %234 FINIS
 	}
 }
 
 EtResurrexitTenoreLyrics = \lyricmode {
+	Et re -- sur -- %125
+	re -- xit
+	ter -- ti -- a
+	di -- e se --
+	cun -- dum Scri --
+	ptu -- ras, Scri -- %130
+	ptu -- _
+	ras, et a --
+	scen -- dit in
+	coe -- lum, in
+	coe -- lum, in %135
+	coe -- lum,
+	se -- _
+	_ _
+	_ det ad
+	dex -- te -- ram De -- i %140
+	Pa --
+	tris.
 	
+	Et %145
+	i -- te -- rum ven --
+	tu -- rus est cum
+	glo -- ri --
+	a
+	iu -- di -- %150
+	ca -- re,
+	iu -- di -- ca -- re
+	vi --
+	vos
+	
+	cu -- ius %165
+	re -- gni non
+	e -- rit, non
+	e -- rit fi --
+	nis.
+	%170
+	Et in
+	Spi -- ri -- tum San -- ctum,
+	Do -- mi -- num
+	et __ vi -- vi -- fi --
+	can -- tem, qui ex %175
+	Pa -- tre
+	Fi -- li -- o -- que pro --
+	ce --
+	dit.
+	
+	Qui cum %183
+	Pa -- tre et
+	Fi -- li -- %185
+	o
+	si -- mul ad -- o --
+	ra -- tur et
+	con -- glo -- ri -- fi --
+	ca -- tur: %190
+	qui lo --
+	cu -- tus est
+	per Pro -- phe --
+	tas.
+	
+	Et u -- nam %198
+	san -- ctam ca --
+	tho -- li -- %200
+	cam
+	et a -- po --
+	sto -- li -- cam Ec --
+	cle -- si --
+	am. %205
+	Con -- fi -- te -- or
+	u -- num ba --
+	ptis --
+	ma
+	in re -- %210
+	mis -- si --
+	o --
+	nem
+	pec -- ca --
+	to -- %215
+	rum.
+	Et ex -- pe --
+	cto re -- sur -- re -- cti --
+	o --
+	nem %220
+	mor -- tu --
+	o -- rum, et
+	vi -- tam ven --
+	tu -- ri, ven --
+	tu -- ri sae -- cu -- li, %225
+	a -- men, et
+	vi -- tam ven --
+	tu -- ri
+	sae -- cu -- li, a --
+	men, a -- %230
+	men, a --
+	men, a --
+	men, a --
+	men. %234 FINIS
 }
 
 % TenoreNotes = {

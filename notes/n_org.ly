@@ -1122,8 +1122,8 @@ EtResurrexitBassFigures = \figuremode {
 	q2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff %130
 	<6 4>2. <[7 _+]>4
 	r1
-	r
-	<7!>
+	r2. <[6 5!]>4
+	<7!>1
 	<6>2 <7> %135
 	r1
 	<6>
@@ -1157,7 +1157,7 @@ EtResurrexitBassFigures = \figuremode {
 	r
 	<_!>2 <5!>8 <\t> <9 4!> <8 3>
 	<6 4>4 <6>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %175
-	r4. <[2]>8 <6!>2
+	r4. <\t>8 <6!>2
 	<6>2. <6 4>8 <6!>
 	<6 4>2 <5 [3]>
 	r1
@@ -1168,8 +1168,8 @@ EtResurrexitBassFigures = \figuremode {
 	r <[6]>
 	<6 5> <_+> %185
 	r1
-	<6!>
-	r
+	<6!>2 <\t>
+	r1
 	r2 <6 4>4 <7 _+>
 	<_+>1 %190
 	r
@@ -1198,8 +1198,8 @@ EtResurrexitBassFigures = \figuremode {
 	<5!> <6>
 	r <[6]> %215
 	<_+>1
-	r2 <_+>
-	q <6 5!>
+	r2 <[7!] _+>
+	<_+> <6 5!>
 	r4. <6>8 r q r <6\\>
 	r1 %220
 	<7!>
@@ -1210,7 +1210,7 @@ EtResurrexitBassFigures = \figuremode {
 	r1
 	r2 <6>4 q
 	<4 2>2 <6 5>
-	r <4>4 <3>
+	r4 <[5 3]> <4> <3>
 	r2 <[6 5]> %230
 	r1
 	r2 <[6 5]>
