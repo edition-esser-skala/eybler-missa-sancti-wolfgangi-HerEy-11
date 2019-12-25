@@ -1218,6 +1218,18 @@ EtResurrexitBassFigures = \figuremode {
 	r %234 FINIS
 }
 
+SanctusOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \tempoSanctus
+		\mvTr d16.(\f-\tuttiE e32 fis g a h64 cis) d8 d, d d
+	}
+}
+
+SanctusBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

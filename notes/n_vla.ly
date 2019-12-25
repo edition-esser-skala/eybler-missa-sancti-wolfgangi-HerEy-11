@@ -620,3 +620,11 @@ EtResurrexitViola = {
 		d,4 d' r2\fermata \bar "|." %234 FINIS
 	}
 }
+
+SanctusViola = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoSanctus
+		
+	}
+}

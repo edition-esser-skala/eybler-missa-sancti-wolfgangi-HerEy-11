@@ -261,3 +261,11 @@ EtResurrexitTrombaI = {
 		c4 r r2\fermata \bar "|." %234 FINIS
 	}
 }
+
+SanctusTrombaI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoSanctus
+		
+	}
+}

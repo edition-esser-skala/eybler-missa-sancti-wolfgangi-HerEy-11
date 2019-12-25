@@ -620,3 +620,11 @@ EtResurrexitViolinoII = {
 		d4 d, r2\fermata \bar "|." %234 FINIS
 	}
 }
+
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoSanctus
+		
+	}
+}

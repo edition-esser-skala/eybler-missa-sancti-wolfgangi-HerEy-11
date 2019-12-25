@@ -550,3 +550,11 @@ EtResurrexitOboeI = {
 		d4 r r2\fermata \bar "|." %234 FINIS
 	}
 }
+
+SanctusOboeI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoSanctus
+		
+	}
+}
