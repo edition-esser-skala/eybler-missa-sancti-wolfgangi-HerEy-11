@@ -910,9 +910,9 @@ EtIncarnatusOrgano = {
 		b b b b b b
 		c c c c c, c
 		f f f f es! es
-		d d d d d d %95
+		d\crescE d d d d d %95
 		d\sf d d d d d
-		es\pp es es es es es
+		es!\pp es es es es es
 		\mvTr as,\f-\tuttiE as as as as as
 		ces ces ces ces f, f
 		ges ges ges b' ges es %100
@@ -976,8 +976,8 @@ EtIncarnatusBassFigures = \figuremode {
 	<[7-]>
 	<5- 3>4. <6->8 <6!> <[_-]>
 	<6>2. %105
-	<6- _->2 \bassFigureExtendersOn q8 q
-	<6- _!> q \bassFigureExtendersOff <7- 5>2
+	<6- _->2.
+	<7- 6- _!>4 <\t 5 \t>2
 	<6- _!>4 <5 \t>2
 	<7 [_!]>2.
 	<6- _+>4 \bassFigureExtendersOn <5! _+>4. q8 \bassFigureExtendersOff %110

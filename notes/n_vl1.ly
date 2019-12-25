@@ -478,7 +478,7 @@ EtIncarnatusViolinoI = {
 		g g a a c c
 		d\cresc d d d d d %95
 		f\sf f f f f f
-		es\pp es es es g, g
+		es!\pp es es es g, g
 		as\f as as as as as
 		as as as as ces ces
 		b b b b b b %100
