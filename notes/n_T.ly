@@ -797,7 +797,7 @@ EtIncarnatusTenoreNotes = {
 		des?8.([ b16)] ges4 r %100
 		r8 f'4 d8 b as
 		g!8. as16 b4 r
-		r8 as as c es ges
+		r8 as as c! es ges
 		f4 des, r
 		r f f %105
 		ges b des

@@ -781,7 +781,7 @@ EtIncarnatusSopranoNotes = {
 		\acciaccatura c8 b4 a r8 f' %90
 		f8.([ d16)] d4 r8 d
 		d8.[( b16)] b4 r
-		f2 g8.([\trill c16)]
+		f!2 g8.([\trill c16)]
 		b4( a) r8 f'
 		f8.([ d16)] b4 r8 f' %95
 		as8.([\sfE f16)] f4 r
@@ -791,12 +791,12 @@ EtIncarnatusSopranoNotes = {
 		b8. ces16 des4 r8 ges %100
 		f4 b, r
 		r r es8 es
-		ges2 c,4
+		ges2 c,!4
 		des8. es16 f4 r8 f,
 		f'4. es8 des c %105
 		b4 des r
 		r as as
-		as?( g) g
+		as?( g!) g
 		r b b
 		b( a!) a %110
 		R2.

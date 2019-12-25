@@ -810,7 +810,7 @@ EtIncarnatusBassoNotes = {
 		ges4. b8 ges es %100
 		d!4 b' r
 		r8 b4 g!8 es des
-		c8. des16 es4 r8 as
+		c!8. des16 es4 r8 as
 		des4. des8 c b
 		a!4 c r %105
 		r b, b

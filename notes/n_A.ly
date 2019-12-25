@@ -798,7 +798,7 @@ EtIncarnatusAltoNotes = {
 		r8 b b8.([ ges16)] es4 %100
 		r r b'8 b
 		des2 g,!4
-		as8. b16 c4 r
+		as8. b16 c!4 r
 		r8 f, f b c des
 		c4 f, r %105
 		r ges ges
