@@ -1084,12 +1084,62 @@ SanctusAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \autoBeamOff \tempoSanctus
-		
+		r4 \mvTr fis\f^\tuttiE fis
+		r e e
+		r d fis
+		g4. g8 g4
+		g2 g4 %5
+		g( f) cis!
+		d2 f4
+		a r r \noBreak
+		R2.\fermataMarkup \bar "||"
+		\time 4/4 \tempoPleni e4 e8e  a4 a8 a \noBreak %10
+		a4 a8 a a4 a
+		a a8 a a4 a8 a
+		a4 a8 a a4 a
+		a a8 a g([ a)] h g
+		fis4( g) fis r %15
+		R1*3
+		r2 r4 r8 a
+		a a a a a4 a8 r %20
+		r2 r4 r8 a
+		a a a a a4 a8 a
+		a4 a8 a a4 a8 a
+		a a a a a4 a8 a
+		g([ h)] e, a d,([ h')] a4 %25
+		a8 a a4 fis8 a, d fis
+		a a a4 a8 a, d fis
+		a a a4 fis r\fermata \bar "|." %28 FINIS
 	}
 }
 
 SanctusAltoLyrics = \lyricmode {
+	San -- ctus,
+	San -- ctus,
+	San -- ctus
+	Do -- mi -- nus
+	De -- us, %5
+	De -- us
+	Sa -- ba --
+	oth.
 	
+	Ple -- ni sunt coe -- li, sunt %10
+	coe -- li et ter -- ra,
+	ple -- ni sunt coe -- li, sunt
+	coe -- li et ter -- ra
+	glo -- ri -- a, glo -- ri -- a
+	tu -- a. %15
+	
+	O -- %19
+	san -- na in ex -- cel -- sis, %20
+	o --
+	san -- na in ex -- cel -- sis, o --
+	san -- na, o -- san -- na, o --
+	san -- na in ex -- cel -- sis,
+	o -- san -- na, o -- san -- na %25
+	in ex -- cel -- sis, o -- san -- na
+	in ex -- cel -- sis, o -- san -- na
+	in ex -- cel -- sis. %28 FINIS
 }
 
 % AltoNotes = {
