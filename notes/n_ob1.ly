@@ -555,6 +555,33 @@ SanctusOboeI = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \tempoSanctus
-		
+		d'2.\f
+		e
+		fis
+		g
+		g~ %5
+		g4 f e
+		d2.
+		cis4 r r \noBreak
+		R2.\fermataMarkup \bar "||"
+		\time 4/4 \tempoPleni a4.\f h8 cis4. d8 \noBreak %10
+		e fis g e fis4 d
+		d4. e8 fis4. g8
+		a4 fis8 d cis4 a
+		g' fis e8 fis g e
+		d4 \appoggiatura fis8 e4 d4 r %15
+		R1
+		fis4 a g8 h4 g8~
+		g e4 g8 fis4 e
+		d r r r8 d
+		cis d e fis g4 e8 r %20
+		r2 r4 r8 cis
+		d e fis g a4 fis8 d
+		cis h a g' fis e d d
+		cis h a g' fis e d d
+		d e4 fis g a16 g %25
+		fis8 fis e4\trill d8 r r4
+		a'4 g fis8 r r4
+		a cis d r\fermata \bar "|." %28 FINIS
 	}
 }

@@ -528,6 +528,33 @@ SanctusOboeII = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \tempoSanctus
-		
+		fis2.\f
+		a
+		a
+		g
+		d'( %5
+		cis4) d e
+		f2 gis,4
+		a r r \noBreak
+		R2.\fermataMarkup \bar "||"
+		\time 4/4 \tempoPleni r2 a4.\f h8 \noBreak %10
+		cis d e cis d2
+		r d4. e8
+		fis4 d a2
+		e'4 d h8 a g h
+		a4 cis d r %15
+		R1
+		a4 c h8 d4 h8~
+		h g4 h8 a4 cis
+		d r r r8 a
+		a a cis d e4 cis8 r %20
+		r2 r4 r8 a
+		a cis d cis d4 d8 a
+		a4. e'8 d cis d a
+		a4. e'8 d cis d a
+		h4 cis d e %25
+		d8 d cis4\trill d8 r r4
+		a cis d8 r r4
+		a4 g' fis r\fermata \bar "|." %28 FINIS
 	}
 }
