@@ -513,7 +513,7 @@ EtIncarnatusViola = {
 
 EtResurrexitViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 4/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #125
 		d8\f d' a fis d d' d, d' %125

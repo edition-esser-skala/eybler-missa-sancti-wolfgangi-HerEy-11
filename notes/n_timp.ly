@@ -226,10 +226,10 @@ EtResurrexitTimpani = {
 		c4 c8. c16 g4 c
 		g g8. g16 g4 g
 		c r r g
-		c r r g
+		c r r g %230
 		c c g g
 		c r r g
 		c c8. c16 g4 g8. g16
-		c4 r r2\fermata \bar "|."
+		c4 r r2\fermata \bar "|." %234 FINIS
 	}
 }

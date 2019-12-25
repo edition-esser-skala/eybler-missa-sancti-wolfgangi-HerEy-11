@@ -177,11 +177,11 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-% 							\EtResurrexitOboeI
+							\EtResurrexitOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
-% 							\EtResurrexitOboeII
+							\EtResurrexitOboeII
 						}
 					>>
 				>>
@@ -199,16 +199,16 @@
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-% 							\EtResurrexitViolinoI
+							\EtResurrexitViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-% 							\EtResurrexitViolinoII
+							\EtResurrexitViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-% 						\EtResurrexitViola
+						\EtResurrexitViola
 					}
 				>>
 				\new ChoirStaff <<
@@ -216,25 +216,25 @@
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \EtResurrexitSopranoNotes }
 					}
-% 					\new Lyrics \lyricsto Soprano \EtResurrexitSopranoLyrics
+					\new Lyrics \lyricsto Soprano \EtResurrexitSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \EtResurrexitAltoNotes }
 					}
-% 					\new Lyrics \lyricsto Alto \EtResurrexitAltoLyrics
+					\new Lyrics \lyricsto Alto \EtResurrexitAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \EtResurrexitTenoreNotes }
 					}
-% 					\new Lyrics \lyricsto Tenore \EtResurrexitTenoreLyrics
+					\new Lyrics \lyricsto Tenore \EtResurrexitTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
 						\new Voice = "Basso" { \dynamicUp \EtResurrexitBassoNotes }
 					}
-% 					\new Lyrics \lyricsto Basso \EtResurrexitBassoLyrics
+					\new Lyrics \lyricsto Basso \EtResurrexitBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
@@ -247,7 +247,7 @@
 				}
 			>>
 			\layout { }
-% 			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }
