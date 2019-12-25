@@ -177,11 +177,11 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-							\EtResurrexitOboeI
+% 							\EtResurrexitOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
-							\EtResurrexitOboeII
+% 							\EtResurrexitOboeII
 						}
 					>>
 				>>
