@@ -959,7 +959,7 @@ EtIncarnatusBassFigures = \figuremode {
 	<6 4>4 <5 _!>2
 	<4!>2.
 	<[6]>
-	<[6 5]>
+	q2 r8 <[5]>
 	<9 4>4 <5 3>2 %90
 	<5>2 <5+>4
 	<6>2.
@@ -970,23 +970,23 @@ EtIncarnatusBassFigures = \figuremode {
 	<6 4->2 <7- [3]>4
 	<7->2.
 	<[6-] 4 2->2 <6- [_-]>8 <5- \t>
-	<5->2 \bassFigureExtendersOn q8 \bassFigureExtendersOff <_-> %100
-	<6>2 <5->4
+	<5->4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <[6]> <_-> %100
+	<6>2 r8 <5->
 	<7- [_!]>2.
 	<[7-]>
 	<5- 3>4 <6-> <6!>8 <[_-]>
 	<6>2. %105
-	<[5] _->4 \bassFigureExtendersOn <6- _->2
-	q8 q \bassFigureExtendersOff <7- 5 _!>2
+	<6- _->2 \bassFigureExtendersOn q8 q
+	<6- _!> q \bassFigureExtendersOff <7- 5>2
 	<6- _!>4 <5 \t>2
-	<7 \t>2.
-	<6- _+>2 <5! \t>4 %110
-	<[6]> <8 6> <7! 5!>
+	<7 [_!]>2.
+	<6- _+>4 \bassFigureExtendersOn <5! _+>4. q8 \bassFigureExtendersOff %110
+	<[6]>4 <8 6> <7! 5!>
 	<6\\>2.
 	<_+>
-	<9 7 _+>2 <\t \t 4>4
+	<9 7 [5!] _+>
 	<6 4>2 <\l 3>4 %115
-	<9 7 _+>2 <\t \t 4>4
+	<9 7 [5!] _+>2 <\t \t 4>4
 	<6 4>2 <\t 5>4
 	<6 3>2.
 	r4 <6-> <5>

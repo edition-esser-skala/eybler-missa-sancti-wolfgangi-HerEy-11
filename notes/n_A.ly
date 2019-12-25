@@ -781,7 +781,7 @@ EtIncarnatusAltoNotes = {
 		g4~ g8 b4 g8
 		g4( f) r8 f
 		d2 d8 b' %85
-		a8.([\trill b16)] g4 r
+		a8.(_[^\critnote \grace{ b32[ a g a] } b16)] g4 r
 		g4. g8 g g
 		a8. f16 f4 r8 f
 		b2 g8 g
