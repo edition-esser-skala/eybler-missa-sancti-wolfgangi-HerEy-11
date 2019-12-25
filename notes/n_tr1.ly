@@ -266,6 +266,33 @@ SanctusTrombaI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoSanctus
-		
+		c4\f r8 c16. c32 c8 c
+		g'4 r8 g16. g32 g8 g
+		e4 r8 e16. e32 e8 e
+		c'8..[-\markup { \remark "staccato" } c32 c8.. c32 c8.. c32]
+		c8..[ c32 c8.. c32 c8.. c32] %5
+		g8..[ g32 g8.. g32 g8.. g32]
+		c8..[ c32 c8.. c32 c8.. c32]
+		g4 r r \noBreak
+		R2.\fermataMarkup \bar "||"
+		\time 4/4 \tempoPleni g4\f r g r \noBreak %10
+		d' d8 d e4 r
+		c r c r
+		c e8 c g4 r
+		d' e \pao d8 r r4
+		c4 d c r %15
+		c r c c8 c
+		c c16 c c8 c c4 r
+		r2 e4 d
+		c r r2
+		r8 c d e d4 r %20
+		R1
+		r8 d e f e4 r
+		r r8 d e d c r
+		r4 r8 d e d c r
+		r2 r4 d %25
+		e8 e d4 c8 r r4
+		c8 c d4 e8 r r4
+		e8 e d4 c r\fermata \bar "|." %28 FINIS
 	}
 }
