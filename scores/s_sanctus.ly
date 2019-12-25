@@ -83,14 +83,14 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Violoncello," "Basso e" "Organo" } }
-						\SanctusOrgano
+						\transpose c c,\SanctusOrgano
 					}
 				>>
 				\new FiguredBass {
 					\SanctusBassFigures
 				}
 			>>
-			\layout { }
+% 			\layout { }
 			\midi { \tempo 4 = 120 }
 		}
 	}

@@ -1104,12 +1104,62 @@ SanctusBassoNotes = {
 	\relative c {
 		\clef bass
 		\key d \major \time 3/4 \autoBeamOff \tempoSanctus
-		
+		r4 \mvTr d'\f^\tuttiE d,
+		r cis' cis,
+		r c' c,
+		R2.
+		b'4. b8 b4 %5
+		a2 g4
+		f( d) b
+		a r r \noBreak
+		R2.\fermataMarkup \bar "||"
+		\time 4/4 \tempoPleni a'4 a8 a a4 a8 a \noBreak %10
+		a4 a8 a d4 d,
+		d' d8 d d4 d8 d
+		d4 d,8 fis a4 a
+		cis d8 d g,([ fis)] e g
+		a4( a,) d r %15
+		R1*3
+		r2 r4 r8 fis
+		g fis e d cis4 a'8^\critnote r %20
+		r2 r4 r8 g
+		fis e d e fis4 d'8 r
+		r4 r8 cis, d([ e)] fis r
+		r4 a8 cis, d([ e)] fis fis
+		g4 a8 a h4 cis %25
+		d8 d a4 d, r
+		fis8 fis a4 d8 a, d fis
+		a a a,4 d r\fermata \bar "|." %28 FINIS
 	}
 }
 
 SanctusBassoLyrics = \lyricmode {
+	San -- ctus,
+	San -- ctus,
+	San -- ctus
 	
+	Do -- mi -- nus %5
+	De -- us
+	Sa -- ba --
+	oth.
+	
+	Ple -- ni sunt coe -- li, sunt %10
+	coe -- li et ter -- ra,
+	ple -- ni sunt coe -- li, sunt
+	coe -- li et ter -- ra
+	glo -- ri -- a, glo -- ri -- a
+	tu -- a. %15
+	
+	O -- %19
+	san -- na in ex -- cel -- sis, %20
+	o --
+	san -- na in ex -- cel -- sis,
+	o -- san -- na
+	in ex -- cel -- sis, o --
+	san -- na, o -- san -- na %25
+	in ex -- cel -- sis,
+	in ex -- cel -- sis, o -- san -- na
+	in ex -- cel -- sis. %28 FINIS
 }
 
 % BassoNotes = {
