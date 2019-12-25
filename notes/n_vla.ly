@@ -454,7 +454,7 @@ CredoViola = {
 
 EtIncarnatusViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #74
 		f8\p f f f f f
