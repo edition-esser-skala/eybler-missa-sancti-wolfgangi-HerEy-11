@@ -906,7 +906,7 @@ EtResurrexitSopranoNotes = {
 		a2 a,
 		R1*10 %164
 		r2 a4\fE a %165
-		a'2 g4 fis
+		a'2 g4 fis!
 		e g r cis,
 		d fis e2
 		d4 r r2

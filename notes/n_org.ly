@@ -1120,7 +1120,7 @@ EtResurrexitBassFigures = \figuremode {
 	r1
 	r2 <6\\>4 <6>
 	q2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff %130
-	<6 4>2. <[5 _+]>4
+	<6 4>2. <[7 _+]>4
 	r1
 	r
 	<7!>
