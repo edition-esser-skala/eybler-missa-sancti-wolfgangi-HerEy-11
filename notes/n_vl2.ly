@@ -514,6 +514,109 @@ EtResurrexitViolinoII = {
 		\clef treble
 		\key d \major \time 4/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #125
-		
+		a'16\f fis d fis a8 a h16 g d h' cis8 cis
+		d16 a fis a d,8 d fis16 d fis a d8 d
+		e16 cis a cis e8 e d16 h cis d e8 e
+		fis16 g a fis d8 d fis,16 a d fis a8 fis
+		e16 a gis fis e8 e d16 h e, d' cis8 cis
+		h16 cis d cis h8 h d,16 fis h d fis8 d %130
+		cis16 e, a cis e8 a cis,16 e a cis, h8 gis'
+		a16 e cis e a,8 a cis,16 a cis e a8 a
+		cis16 e cis a e8 e cis16 e a cis e8 e
+		e,16 a cis e g!8 g fis16 d a fis d8 fis'
+		e16 h g h e8 e fis16 d h d d,8 d' %135
+		cis16 a' e cis a8 a cis,16 e a cis e8 cis
+		d16 a fis a d8 d h16 g d h g8 h'
+		e16 h gis h e8 e cis16 a e cis a8 cis'
+		fis16 cis ais cis fis8 fis d16 h fis d h8 d'
+		g16 e h e g8 g g16 e a, g' fis8 fis %140
+		e16 d h d e8 e cis16 a e a cis8 cis
+		d16 fis, a d fis8 e d16 d, fis h d8 cis
+		h16 h, d g h8 a g16 g, h e g8 fis
+		e16 g fis a g h a cis h d cis e d fis e g
+		fis e d cis d8 fis, e d' a, cis' %145
+		d,16\sf d cis cis d d e e f\sfE f e e f f fis fis
+		g\sf g fis! fis g g gis gis a\sf a gis gis a a b b
+		a a d d f f e e d d c c b b a a
+		b b f f d' d c c b b a a g g f f
+		e e g g b b a a g g f f e e d d %150
+		cis! cis d d e e f f g g b b a a g g
+		f f e e d d cis! cis d d c c h! h b b
+		a\ffE a cis cis e e a a a, a d d f f a a
+		a, a cis! cis e e a a a, a d d f f a a
+		a,4 r16 a( h! cis!) d4 r8 d32( e f g) %155
+		a4 r16 a( h! cis!) d4 r8 d32( e f g)
+		a4 r r2
+		R1*7 %164
+		d,16\f a fis! a d8 d e16 cis a cis e8 e %165
+		fis16 a, d fis a8 a g16 e a, g' fis8 fis
+		e16 h e fis g8 g h,16 e g e cis8 cis
+		d16 a fis a d8 fis e,16 d' e d e,8 cis'
+		d16 a fis d d'8 e fis16 d a fis fis'8 g
+		a16 fis d a a'8 h c16 a fis d c'8 h %170
+		a16 h g a fis g e fis d e c d h c a h
+		h g h c d8 d h16 g h d g8 g
+		e16 c g e c8 e' d16 c h a g8 h
+		c16 d c h c8 c d,16 c' a' c, d,8 h'
+		g16 h d h a8 a fis16 d fis a d8 a %175
+		h16 g d g h8 h c16 g e g c8 c
+		d16 h g h d8 d e16 c g e' d8 c
+		h16 d g h d8 d a,16 d fis a c8 c
+		h16 g d g h8 a g 16 g, h e g8 fis
+		e16 e, g c e8 d c16 c, e a c8 h %180
+		a16 c h d c e d fis e g fis a g h a c
+		h a g fis g8 h, a g' d, fis'
+		g16 d h d g,8 g d'16 a fis a d,8 d
+		h'16 a h c d8 d g,16 h d h g8 g
+		a16 e c e a8 a fis16 a d fis a8 c, %185
+		h16 g d g h8 h g16 a h c d8 h
+		c16 g e g c,8 c g16 c e g c8 c
+		h16 d, g h d8 d h16 c d h g8 g
+		e'16 c g c e,8 e g,16 e' g h e8 e
+		dis16 fis, h dis fis8 fis dis16 h dis fis a8 a %190
+		g16 e h e g8 g g,16 h e g h8 h
+		a16 g fis e dis8 dis e16 fis g e h8 h
+		a16 dis fis a, g8 e' h,16 fis' e' fis, h,8 dis'
+		e16 h e fis g8 fis e16 e, g c e8 d
+		c16 c, e a c8 h a16 a, c fis a8 g %195
+		fis16 h ais cis h dis cis e dis fis e g fis a h a
+		g fis e dis e8 g, fis e' h, dis'
+		e16 h gis h e,8 e fis16 a h a gis8 gis
+		a16 e cis! e a8 a cis16 a cis e a8 a
+		fis16 e d cis h8 h d16 cis h a gis8 gis %200
+		a16 cis e cis a8 a e16 a cis e g!8 g
+		fis16 g a fis d8 d h16 d e d cis8 cis
+		d16 a fis a d,8 d d16 fis h-\critnote fis d'8 d
+		h16 a g fis e8 e g'16 fis e d cis8 cis
+		d,16 fis a d fis8 g a16 fis d fis a8 h %205
+		c16 d h c a h g a fis g e fis d e c d
+		h g h d g8 g g,16 h e g h8 h
+		a,16 c e c a'8 a fis16 d fis a c8 c
+		h16 g d h g8 g16 h \slurDashed h( a) a( g) g( fis) fis( e) \slurSolid
+		dis\p e fis dis h8 h e16 fis g e h8 h %210
+		fis'16 g a fis h,8 h e16 fis g e h8 h
+		c16 d c d e8 e a16 h a h c8 c
+		h,16 c d e d8 d g16 a h c h8 h
+		a,16 h a h c8 c fis16 g fis g a8 a
+		g,16 a h c h8 h e16 fis g a h8 h %215
+		h16 fis dis fis h,8 h h'16\f dis fis dis h'8 h
+		g16 e h g e8 e e'16 gis h gis d'!8 d
+		cis!16 a e cis a8 a a16 cis e fis g8 g
+		fis16 a, d fis a8 g fis16 g e fis d e fis gis
+		a4 a, r2 %220
+		r4 h,\p h h
+		a2 a'16\f h g a fis! g e fis
+		d fis a d fis8 fis e16 cis a cis e8 e
+		e,16 a cis e g8 g fis16 d a d fis8 fis
+		e16 fis g fis e8 e h16 e g h d,8 d %225
+		cis16 a cis e a8 a a16 e cis e a,8 a
+		fis16 a d a fis'8 fis e16 d cis e d8 d
+		cis16 h cis d e8 e a,16 cis e cis g'8 g
+		a,16 cis d fis e8 d e16 d e, d' e,8 cis'
+		d16 a d fis a8 a e,16 a cis e g8 g %230
+		d,16 fis a d fis8 fis cis,16 e a cis e8 e
+		fis,16 a d fis a8 a e,16 a cis e g8 g
+		d,16 fis a d fis8 fis a,16 cis e a cis8 cis
+		d4 d, r2\fermata \bar "|." %234 FINIS
 	}
 }
