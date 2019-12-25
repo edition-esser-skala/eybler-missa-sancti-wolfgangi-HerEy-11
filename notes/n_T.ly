@@ -808,7 +808,7 @@ EtIncarnatusTenoreNotes = {
 		d4. c8 d e
 		f2( d4)
 		cis r r
-		g'2.\sfE
+		g'!2.\sfE
 		f4 r r %115
 		e2.\sf
 		f4 r r

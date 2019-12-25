@@ -495,7 +495,7 @@ EtIncarnatusViolinoII = {
 		g g g g f e
 		d f gis gis gis gis
 		a a a a a a
-		<g b>\sf q q q q q
+		<g! b>\sf <g b> q q q q
 		<f a> q q q q q %115
 		cis'\sf cis cis cis cis cis
 		d d d d d d

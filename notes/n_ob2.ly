@@ -394,6 +394,28 @@ EtIncarnatusOboeII = {
 		\clef treble
 		\key b \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #74
-		
+		R2.*24 %97
+		r8 es'4\f c8 as ges
+		f8. ges16 as4 r
+		r8 b b8. ges16 es4 %100
+		r r b'8 b
+		des2 g,!4
+		as8. b16 c!4 r
+		r8 f, f b c des
+		c4 f, r %105
+		r ges ges
+		ges f f
+		e2 e4
+		r g! g
+		fis2 fis4 %110
+		g8. a!16 b4 a
+		gis2.
+		a4 r r
+		g!2.\sfE
+		f4 r r %115
+		e'?2.\sfE
+		d4 r r
+		R2.*6 %123
+		R2.\fermataMarkup \bar "||" %124 finis
 	}
 }
