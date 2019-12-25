@@ -457,6 +457,56 @@ EtIncarnatusViola = {
 		\clef treble
 		\key b \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #74
-		
+		f8\p f f f f f
+		r f f f f f %75
+		es es es es es es
+		d d c c c c
+		a a a a a a
+		b b c c b b
+		es es d d es es %80
+		d d d b es d
+		c c c c c c
+		d d c c c c
+		c c c c c c
+		b b b b d d %85
+		c c c c c c
+		e e e e e e
+		f f f f f f
+		c c c c c c
+		c c c c c c %90
+		d d d d d d
+		d d d d b b
+		a a a a c c
+		c c c c f f
+		f\cresc f f f f f %95
+		as\sf as as as as as
+		as?\pp as as as b, b
+		as\f c c c c c
+		des des des des des des
+		des? des des des es es %100
+		b b b b f' f
+		es es es es es es
+		es es es es ges ges
+		f f f f f f
+		f c c c c c %105
+		ges b des des des des
+		d d d d d d
+		c c c c c c
+		e e e e e e
+		d d d d d d %110
+		d d d c d e
+		f d d d d d
+		e e e e e e
+		e\sfE e e e e e
+		f f f f f f %115
+		e\sfE e e e e e
+		f f f f f f
+		g4 r r
+		r b,8\pE b b b
+		b b a a a a %120
+		a a a a a a
+		d,4 r r
+		R2.
+		R\fermataMarkup \bar "||" %124 finis
 	}
 }
