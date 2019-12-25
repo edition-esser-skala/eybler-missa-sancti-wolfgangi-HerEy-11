@@ -899,8 +899,8 @@ EtResurrexitSopranoNotes = {
 		d4. d8 d4 d
 		f2. f4
 		d2 r
-		cis!2 e %150
-		g cis,!
+		cis!2\sfE e\sfE %150
+		g\sfE cis,!\sfE
 		d4 e f g
 		a1~
 		a2 a,

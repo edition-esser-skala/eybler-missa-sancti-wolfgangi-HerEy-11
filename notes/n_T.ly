@@ -907,7 +907,7 @@ EtResurrexitTenoreNotes = {
 		d2 r
 		cis!\sf e\sf %150
 		g\sf cis,!\sf
-		d4\f e f d
+		d4 e f d
 		\once \tieDashed a1~
 		a2 a
 		R1*10 %164

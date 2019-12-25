@@ -1024,14 +1024,14 @@ EtResurrexitOrgano = {
 		cis d e fis g a h cis
 		d e fis h, g e a a, %145
 		\mvTrh d-\sf-\unisono-\tuttiE cis d e f\sf e f fis
-		g\sf fis g gis a\sf gis a b
+		g\sf fis! g gis a\sf gis a b
 		a d f e d c b a
 		b f d' c b a g f
 		e g b a g f? e d %150
 		cis! d e f g b a g
 		f e d cis! d c h! b
 		a\ff cis e a a, d f a
-		a, cis e a a, d f a
+		a, cis! e a a, d f a
 		a,4 r r2 %155
 		R1*3
 		r4 \mvTr a\p-\senzaOrg-\solo a a
@@ -1150,10 +1150,10 @@ EtResurrexitBassFigures = \figuremode {
 	q q
 	q2. <_+>4
 	<6>2 <4>4 <3>
+	r4. <[3]>8 q4 q8 q
+	q4 q8 q <[3!]>4 q8 <[3]> %170
+	q q q q q <[3!]> <[3]> q
 	r1
-	r %170
-	r
-	r
 	r
 	<_!>2 <5!>8 <\t> <9 4!> <8 3>
 	<6 4>4 <6>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %175
@@ -1161,9 +1161,9 @@ EtResurrexitBassFigures = \figuremode {
 	<6>2. <6 4>8 <6!>
 	<6 4>2 <5 [3]>
 	r1
-	r %180
+	r2 <[_!]> %180
 	<[3]>8 q <[3!]> <[3]> q q q q
-	r <[6]> q4 <[6 5]>2
+	q <[6]> q4 <[6 5]>2
 	r2 <6>
 	r <[6]>
 	<6 5> <_+> %185
@@ -1177,18 +1177,18 @@ EtResurrexitBassFigures = \figuremode {
 	<[6 5]> <4>4 <_+>
 	r1
 	<[_!]>2 <[5!]> %195
-	<6 5>1
-	r2 <[6 5 _!]>4 <_+>
+	<6 5>4. <[6]>8 <[_+]>4 <[6 5]>
+	r8 <[6\\]> <[6]>4 <[6 5 _!]> <_+>
 	<_+>2 <6\\ 4 2>4 <4\+ 2>
 	<6>1
 	<6 5>2 <_+> %200
-	r <[6]>
-	<6 4 _!>1
-	<6>
+	r <[6 5!]>
+	r4 <[6]> <[6 5]>2
+	<6>1
 	<6 5>2 <_+>
 	r <[6]> %205
-	<6 4 _!>1
-	r
+	<6 4 _!>2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r1
 	<6 5>
 	r
 	<6>2 q %210
