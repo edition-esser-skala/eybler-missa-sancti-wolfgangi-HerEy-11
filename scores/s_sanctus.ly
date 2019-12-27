@@ -211,13 +211,13 @@
 % 						\OsannaViola
 % 					}
 % 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \OsannaSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \OsannaSopranoLyrics
-% 					
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \OsannaSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \OsannaSopranoLyrics
+					
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Alto"
 % 						\new Voice = "Alto" { \dynamicUp \OsannaAltoNotes }
@@ -235,7 +235,7 @@
 % 						\new Voice = "Basso" { \dynamicUp \OsannaBassoNotes }
 % 					}
 % 					\new Lyrics \lyricsto Basso \OsannaBassoLyrics
-% 				>>
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Violoncello," "Basso e" "Organo" } }

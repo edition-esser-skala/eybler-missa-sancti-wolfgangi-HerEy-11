@@ -1141,22 +1141,80 @@ BenedictusSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \autoBeamOff \tempoBenedictus
-		
+		R1*12 %12
+		\mvTr d4.\pE^\solo g8 g([ fis)] g a
+		h([ g)] e c' h a r d,
+		d'4 c8 h e4 d16([ c)] h([ a)] %15
+		g4. \acciaccatura h16 a8 g d'4 fis,8
+		a g r h a4 h8 c
+		d16([ c)] h8 r4 d,~ d16[ fis] a([ fis)]
+		g8 d r g g([ g')] fis16([ e)] d([ c)]
+		h8( d4) fis,8 g4 r %20
+		r8 a4 c8 \tuplet 3/2 8 { h16([ c d)] } d8 r4
+		r8 a a16([ e')] d c h([ d)] d8 r g,
+		g'4 fis16([ e)] d([ c)] h16. a32 a8 r4
+		d,4. g8 g([ fis)] g a
+		h g r4 r2 %25
+		r8 d'([ h)] g d([ c')] h a
+		g([ h)] d h a d, r d
+		d'4 c8 h e4 d16([ c)] h([ a)]
+		g4. a8 a([ h)] r g
+		d'4 c16([ h)] a([ g)] g'4\f fis16([ e)] d([ c)] %30
+		h8( d4) fis,8 g4 r
+		R1*9 %40
+		r2 r4 r8\fermata \bar "||" %41 finis
 	}
 }
 
 BenedictusSopranoLyrics = \lyricmode {
-	
+	Be -- ne -- di -- ctus, qui %13
+	ve -- nit, qui ve -- nit in
+	no -- mi -- ne, no -- mi -- ne %15
+	Do -- mi -- ni, be -- ne --
+	di -- ctus, qui ve -- nit, qui
+	ve -- nit, be -- ne --
+	di -- ctus, in no -- mi -- ne
+	Do -- mi -- ni, %20
+	be -- ne -- di -- ctus,
+	qui ve -- nit, qui ve -- nit in
+	no -- mi -- ne Do -- mi -- ni,
+	be -- ne -- di -- ctus, qui
+	ve -- nit, %25
+	be -- ne -- di -- ctus, qui
+	ve -- nit, qui ve -- nit in
+	no -- mi -- ne, no -- mi -- ne
+	Do -- mi -- ni, in
+	no -- mi -- ne, no -- mi -- ne %30
+	Do -- mi -- ni. %31 finis
 }
 
-SopranoNotes = {
+OsannaSopranoNotes = {
 	\relative c' {
 		\clef treble
-		
-		
+		\key d \major \time 4/4 \autoBeamOff \tempoOsanna
+			\set Score.currentBarNumber = #42
+		\partial 8 \mvTr a'8\fE^\tutti a([ d)] d a a([ fis')] fis d
+		cis d e fis g4 e8 a,
+		a([ e')] e a, a([ g')] g cis,
+		d e fis g a4 fis8 d %45
+		cis([ h)] a g' fis([ e)] d d
+		cis h a g' fis([ e)] d d
+		d([ e)] e fis fis([ g)] g4
+		fis8 fis e4 d r
+		d8 d e4 fis r %50
+		fis8 fis e4 d r\fermata \bar "|." %51 FINIS
 	}
 }
 
-SopranoLyrics = \lyricmode {
-	
+OsannaSopranoLyrics = \lyricmode {
+	O -- san -- na, o -- san -- na, o -- %42
+	san -- na in ex -- cel -- sis, o --
+	san -- na, o -- san -- na, o --
+	san -- na in ex -- cel -- sis, o -- %45
+	san -- na, o -- san -- na, o --
+	san -- na in ex -- cel -- sis,
+	o -- san -- na, o -- san -- na
+	in ex -- cel -- sis,
+	in ex -- cel -- sis, %50
+	in ex -- cel -- sis. %51 FINIS
 }
