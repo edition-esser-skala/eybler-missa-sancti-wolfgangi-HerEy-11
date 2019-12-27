@@ -133,7 +133,7 @@ tenutoE = \markup { \remarkE ten. }
 unisono = \markup { \remark "unisono" }
 unisonoE = \markup { \remarkE "unisono" }
 pizz = \markup { \remark "pizz." }
-arco = \markup { \remark "col‘arco" }
+arco = \markup { \remark "col’arco" }
 
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
@@ -250,6 +250,7 @@ tempoCredo = \tempoMarkup "Allegro vivace"
 tempoSanctus = \tempoMarkup "Maestoso"
 	tempoPleni = \tempoMarkup "Allegro"
 tempoBenedictus = \tempoMarkup "Andante"
+	tempoOsanna = \tempoMarkup "Allegro"
 
 
 

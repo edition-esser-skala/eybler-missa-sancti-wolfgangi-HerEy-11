@@ -1149,14 +1149,14 @@ BenedictusSopranoLyrics = \lyricmode {
 	
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+SopranoNotes = {
+	\relative c' {
+		\clef treble
+		
+		
+	}
+}
+
+SopranoLyrics = \lyricmode {
+	
+}

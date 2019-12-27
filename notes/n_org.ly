@@ -1296,11 +1296,92 @@ BenedictusOrgano = {
 		\clef bass
 		\key g \major \time 4/4 \tempoBenedictus
 		\mvTr g'4\p-\soloE r d r8 fis
+		g h c a d d, d'4
+		r8 h,( d g) r c,( e a)
+		r d, d' d, g d g,4
+		r8 h'-\senzaOrg-\pizz a g r a g fis %5
+		g r c, r r d d' c
+		r h a g r c, a' c
+		r d, d' d, g r d r
+		g, r r g'(-\arco d) r r d'(
+		g,) r r a,( d) r r \once \slurDashed c'( %10
+		h) r r g( c) r r c,
+		d r d' r g, g, d' d,
+		<< {
+			r16 g^\vlc h d c h a g r d' fis a g fis e d
+			r g a h c a h c r d,, fis a d fis a a,
+			r h d g d g h d r c, e g e a c e
+			r d, g d h' g d' c h8 r d,
+		} \\ {
+			g,4._\bassi h8 d4. d'8
+			g, h c a d d, r c
+			h4. g8 c4. a8 %15
+			d4. d,8 g r d'
+		} >> r
+		g d' h g d c' h a
+		g h, c a d d' d, c
+		h d g h c, e a c
+		d d, d, d' g, g' g, g' %20
+		r d d' d, r g g, g'
+		r d d' d, r g d' h
+		c c, r c r d d' c
+		h d h g d' d, r d
+		g g, r h d d, r d' %25
+		g,4 h d d,
+		g h d d'8 c
+		h h, r g'\cresc c c, r c'
+		d(\p cis d d,) g g, r g'
+		h,\cresc d g h c,\f e a c %30
+		d d d, d g4 r8 gis\f
+		a a, r fis' g g, r h'
+		c c,4 a8 d8. e16 fis( g a c,)
+		h8\p d' h g d fis a fis
+		g d' h g d fis a fis %35
+		g\cresc \once \slurDashed h,( d g) r c,( e a)
+		r d,\p d' d, g4 r16c,\cresc h a
+		g8\f h d g c, e a c
+		d d d, d g r r gis
+		a r r cis, d r r a''16\f fis %40
+		d a fis d h8 h a4 r8\fermata \bar "||" %41 finis
 	}
 }
 
 BenedictusBassFigures = \figuremode {
-	
+	r2 <4>8 <3> <6 4> <6>
+	r4 <6> <6 4>8 <5 3>4.
+	r8 <6>4. <5> <5>8
+	<6 4>4. <7 [3]>8 <\t \t>4 <8 3>
+}
+
+OsannaOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoOsanna
+			\set Score.currentBarNumber = #42
+		\partial 8 r8 \mvTr d'\fE-\tutti d, r d' d d, r fis
+		g fis e d cis e a cis
+		a a, r a' a a, r g'
+		fis e d e fis a d \noBeam \clef "treble_8" fis %45
+		e d cis \noBeam \clef bass cis, d e fis \noBeam \clef "treble_8" fis'
+		e d cis \noBeam \clef bass cis d e fis fis,
+		g g, a' a, h' h, cis' cis,
+		d' d, a' a, d4 r8 d
+		fis d a' a, d4 r8 d %50
+		fis d a' a, d4 r\fermata \bar "|." %51 FINIS
+	}
+}
+
+OsannaBassFigures = \figuremode {
+	r8 r2.. <6>8 %42
+	<2> <6> q4 <6 5> <5 3>
+	r2 <[7]>4. <2>8
+	<6> q <8 3> <6> q4. <6 3>8 %45
+	<6 4> \bassFigureExtendersOn <6 4\!> q <6\! 3> q \bassFigureExtendersOff <6> q <6 3>
+	<6 4> \bassFigureExtendersOn <6 4\!> q <6\! 3> q \bassFigureExtendersOff <6> q4
+	<5>8 <6> <5> <6> <5> <6> <6 5>4
+	r4 <[7]>2.
+	<[6]>1 %50
+	q %51 FINIS
 }
 
 % Organo = {

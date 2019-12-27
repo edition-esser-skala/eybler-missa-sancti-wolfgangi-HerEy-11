@@ -1154,14 +1154,14 @@ BenedictusAltoLyrics = \lyricmode {
 	
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+AltoNotes = {
+	\relative c' {
+		\clef treble
+		
+		
+	}
+}
+
+AltoLyrics = \lyricmode {
+	
+}

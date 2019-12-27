@@ -167,4 +167,87 @@
 			\midi { \tempo 4 = 120 } % 4 = 72
 		}
 	}
+	\bookpart {
+		\header {
+			movement = "5.2 OSANNA"
+		}
+		\score {
+			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\OsannaOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\OsannaOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in D" } }
+% 						\partcombine \OsannaTrombaI \OsannaTrombaII
+% 					>>
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Timpani" "in d–A" } }
+% 					\OsannaTimpani
+% 				}
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\OsannaViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\OsannaViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\OsannaViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \OsannaSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \OsannaSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \OsannaAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \OsannaAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \OsannaTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \OsannaTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \OsannaBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \OsannaBassoLyrics
+% 				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Violoncello," "Basso e" "Organo" } }
+						\OsannaOrgano
+					}
+				>>
+				\new FiguredBass {
+					\OsannaBassFigures
+				}
+			>>
+			\layout { }
+			\midi { \tempo 4 = 120 } % 4 = 72
+		}
+	}
 }
