@@ -1153,14 +1153,14 @@ BenedictusTenoreLyrics = \lyricmode {
 	
 }
 
-TenoreNotes = {
-	\relative c' {
-		\clef "treble_8"
-		
-		
-	}
-}
-
-TenoreLyrics = \lyricmode {
-	
-}
+% TenoreNotes = {
+% 	\relative c' {
+% 		\clef "treble_8"
+% 		
+% 		
+% 	}
+% }
+% 
+% TenoreLyrics = \lyricmode {
+% 	
+% }

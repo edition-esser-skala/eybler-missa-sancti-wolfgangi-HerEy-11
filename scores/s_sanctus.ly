@@ -218,12 +218,12 @@
 					}
 					\new Lyrics \lyricsto Soprano \OsannaSopranoLyrics
 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \OsannaAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \OsannaAltoLyrics
-% 					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \OsannaAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \OsannaAltoLyrics
+					
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Tenore"
 % 						\new Voice = "Tenore" { \dynamicUp \OsannaTenoreNotes }
