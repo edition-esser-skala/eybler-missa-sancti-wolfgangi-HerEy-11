@@ -654,6 +654,14 @@ SanctusViolinoI = {
 	}
 }
 
+BenedictusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoBenedictus
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

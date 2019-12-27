@@ -558,3 +558,11 @@ SanctusOboeII = {
 		a4 g' fis r\fermata \bar "|." %28 FINIS
 	}
 }
+
+BenedictusOboeII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoBenedictus
+		
+	}
+}

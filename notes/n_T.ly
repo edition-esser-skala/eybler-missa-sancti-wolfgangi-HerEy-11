@@ -1141,6 +1141,18 @@ SanctusTenoreLyrics = \lyricmode {
 	in ex -- cel -- sis. %28 FINIS
 }
 
+BenedictusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 4/4 \autoBeamOff \tempoBenedictus
+		
+	}
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

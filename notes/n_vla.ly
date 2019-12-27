@@ -655,3 +655,11 @@ SanctusViola = {
 		a a e'8.(\trill d32 e) d4 r\fermata \bar "|." %28 FINIS
 	}
 }
+
+BenedictusViola = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoBenedictus
+		
+	}
+}
