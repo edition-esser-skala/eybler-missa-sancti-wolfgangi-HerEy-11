@@ -1303,7 +1303,7 @@ BenedictusOrgano = {
 		g r c, r r d d' c
 		r h a g r c, a' c
 		r d, d' d, g r d r
-		g, r r g'(-\arco d) r r d'(
+		g, r r g'(-\arco^\critnote d) r r d'(
 		g,) r r a,( d) r r \once \slurDashed c'( %10
 		h) r r g( c) r r c,
 		d r d' r g, g, d' d,
@@ -1313,7 +1313,7 @@ BenedictusOrgano = {
 			r h d g d g h d r c, e g e a c e
 			r d, g d h' g d' c h8 r d,
 		} \\ {
-			g,4._\bassi h8 d4. d'8
+			\mvTr g,4._\bassi h8 d4. d'8
 			g, h c a d d, r c
 			h4. g8 c4. a8 %15
 			d4. d,8 g r d'
@@ -1329,10 +1329,10 @@ BenedictusOrgano = {
 		g g, r h d d, r d' %25
 		g,4 h d d,
 		g h d d'8 c
-		h h, r g'\cresc c c, r c'
-		d(\p cis d d,) g g, r g'
+		h\cresc h, r g' c\fE c, r c'\p
+		d( cis d d,) g g, r g'
 		h,\cresc d g h c,\f e a c %30
-		d d d, d g4 r8 gis\f
+		d d d, d g4 r8 gis
 		a a, r fis' g g, r h'
 		c c,4 a8 d8. e16 fis( g a c,)
 		h8\p d' h g d fis a fis
@@ -1351,6 +1351,33 @@ BenedictusBassFigures = \figuremode {
 	r4 <6> <6 4>8 <5 3>4.
 	r8 <6>4. <5> <5>8
 	<6 4>4. <7 [3]>8 <\t \t>4 <8 3>
+	r1 %5
+	r
+	r
+	r
+	r2 <4>8 <3> r <7>
+	r2 <6 4>8 <5 3> r <2> %10
+	<6>2.. <6>8
+	<6 4>4 <\t \t>8 <5 3> r2
+	<7 2>8 <8 3> r <6> <4> <3> <6 4> <7 5>
+	r <6>4. <6 4>8 <5 3> r <2>
+	<6>1 %15
+	<6 4>4. <5 3>8 r2
+	<7 2>8 <6 4> <6>4 <4>8 <2> <6> q
+	r q4. <6 4>8 <5 3> r <2>
+	<6>1
+	<6 4>4. <5 3>8 r2 %20
+	r8 <7>4. r2
+	r8 <7>4. r4 <6 4>8 <6 5!>
+	r4. <6>8 <6 4> <5 3> r <2>
+	<6>2 <4>8 <3>4.
+	r4. <6>8 <4> <3>4. %25
+	r4 <6> <7> <6 4>8 <5 3>
+	r4 <6> <7> <6 4>8 <2>
+	<6>2.. <6>8
+	<6 4> <6\\> <6 4> <7 3> <\t \t> <8 3>4.
+	<6>2.. q8 %30
+	<6 4>4. <5 3>8 r2
 }
 
 OsannaOrgano = {

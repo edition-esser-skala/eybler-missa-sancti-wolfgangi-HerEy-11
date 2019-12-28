@@ -230,11 +230,11 @@
 					}
 					\new Lyrics \lyricsto Tenore \OsannaTenoreLyrics
 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \OsannaBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \OsannaBassoLyrics
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \OsannaBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \OsannaBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {

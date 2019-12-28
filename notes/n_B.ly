@@ -1166,12 +1166,90 @@ BenedictusBassoNotes = {
 	\relative c {
 		\clef bass
 		\key g \major \time 4/4 \autoBeamOff \tempoBenedictus
-		
+		R1*8 %8
+		\mvTr d4.\pE^\solo g8 g([ fis)] g a
+		h([ g)] e c' h a r d, %10
+		d'4 c8 h e4 d16([ c)] h([ a)]
+		g4. \acciaccatura h16 a8 g d'4 fis,8
+		a g r h a4 h8 c
+		d16([ c)] h8 r4 d,~ d16[ fis] a([ fis)]
+		g8 d r g g([ g')] fis16([ e)] d([ c)] %15
+		h8( d4) fis,8 g r d d
+		fis([ g)] h g d([ c')] h a
+		g h c a d d, r c
+		h([ d)] g h c,([ e)] a c
+		d4 d, g8 h4 g8 %20
+		\tuplet 3/2 8 { fis16([ g a)] } a8 r4 r8 h c16([ h)] a g
+		fis([ a)] a8 r4 r2
+		r8 c, c c16 c d16. d32 d8 r4
+		R1
+		r8 d'([ h)] g d([ c')] h a %25
+		g([ h)] d h a d, r4
+		d4. g8 g([ fis)] g a
+		h\crescE g r g c4\fE c8\pE c
+		d([ cis d)] d, g4 r8 g
+		h,([\crescE d)] g h c,([\fE e)] a c %30
+		d4 d, g r
+		R1*9 %40
+		r2 r4 r8\fermata \bar "||" %41 finis
 	}
 }
 
 BenedictusBassoLyrics = \lyricmode {
+	Be -- ne -- di -- ctus, qui %9
+	ve -- nit, qui ve -- nit in %10
+	no -- mi -- ne, no -- mi -- ne
+	Do -- mi -- ni, be -- ne --
+	di -- ctus, qui ve -- nit, qui
+	ve -- nit, be -- ne --
+	di -- ctus, in no -- mi -- ne %15
+	Do -- mi -- ni, be -- ne --
+	di -- ctus, qui ve -- nit, qui
+	ve -- nit, be -- ne -- di -- ctus, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, be -- ne -- %20
+	di -- ctus, qui ve -- nit, qui
+	ve -- nit
+	in no -- mi -- ne Do -- mi -- ni,
 	
+	be -- ne -- di -- ctus, qui %25
+	ve -- nit, qui ve -- nit,
+	be -- ne -- di -- ctus, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, in
+	no -- mi -- ne, [no -- mi -- ne] %30
+	Do -- mi -- ni. %31 finis
+}
+
+OsannaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \autoBeamOff \tempoOsanna
+			\set Score.currentBarNumber = #42
+		\partial 8 r8 r2 r4 r8 \mvTr fis\fE^\tutti
+		g fis e d cis4 cis'8 r
+		r2 r4 r8 g
+		fis e d e fis4 d'8 r %45
+		r4 r8 cis, d([ e)] fis r
+		r4 a8 cis, d([ e)] fis fis
+		g4 a8 a h4 cis
+		d8 d a4 d, r
+		fis8 fis a4 d8 a, d fis %50
+		a a a,4 d r\fermata \bar "|." %51 FINIS
+	}
+}
+
+OsannaBassoLyrics = \lyricmode {
+	O -- %42
+	san -- na in ex -- cel -- sis,
+	o --
+	san -- na in ex -- cel -- sis, %45
+	o -- san -- na
+	in ex -- cel -- sis, o --
+	san -- na, o -- san -- na
+	in ex -- cel -- sis,
+	in ex -- cel -- sis, o -- san -- na %50
+	in ex -- cel -- sis. %51 FINIS
 }
 
 % BassoNotes = {
