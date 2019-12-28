@@ -1218,3 +1218,15 @@ OsannaSopranoLyrics = \lyricmode {
 	in ex -- cel -- sis, %50
 	in ex -- cel -- sis. %51 FINIS
 }
+
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }
