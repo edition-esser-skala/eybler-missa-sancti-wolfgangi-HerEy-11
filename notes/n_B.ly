@@ -1186,8 +1186,8 @@ BenedictusBassoNotes = {
 		r8 d'([ h)] g d([ c')] h a %25
 		g([ h)] d h a d, r4
 		d4. g8 g([ fis)] g a
-		h\crescE g r g c4\fE c8\pE c
-		d([ cis d)] d, g4 r8 g
+		h\crescE g r g c4\fE c8 c
+		d([\pE cis d)] d, g4 r8 g
 		h,([\crescE d)] g h c,([\fE e)] a c %30
 		d4 d, g r
 		R1*9 %40

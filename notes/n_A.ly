@@ -1158,8 +1158,8 @@ BenedictusAltoNotes = {
 		d4. g8 g([ fis)] g a %25
 		h g r4 r2
 		r8 d'([ h)] g d([ c')] h a
-		g4\crescE a8 h c4\fE c,8\pE e
-		d([ e d)] fis fis([ g)] r g
+		g4\crescE a8 h c4\fE c,8 e
+		d([\pE e d)] fis fis([ g)] r g
 		g4\crescE g8 g g4\f a8 a %30
 		g4. \acciaccatura h16 a8 g4 r
 		R1*9 %40

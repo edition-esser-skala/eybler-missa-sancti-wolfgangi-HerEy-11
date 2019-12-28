@@ -1297,9 +1297,9 @@ BenedictusOrgano = {
 		\key g \major \time 4/4 \tempoBenedictus
 		\mvTr g'4\p-\soloE r d r8 fis
 		g h c a d d, d'4
-		r8 h,( d g) r c,( e a)
-		r d, d' d, g d g,4
-		r8 h'-\senzaOrg-\pizz a g r a g fis %5
+		r8 h,(\crescE d g) r c,( e a)
+		r d,\fE d' d, g d g,4
+		r8 \mvTr h'\pE-\senzaOrg-\pizz a g r a g fis %5
 		g r c, r r d d' c
 		r h a g r c, a' c
 		r d, d' d, g r d r

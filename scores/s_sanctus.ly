@@ -195,22 +195,22 @@
 % 					\set Staff.instrumentName = \markup { \center-column { "Timpani" "in d–A" } }
 % 					\OsannaTimpani
 % 				}
-% 				\new StaffGroup <<
-% 					\new GrandStaff \with { \violinGroupDistance } <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino I"
-% 							\OsannaViolinoI
-% 						}
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\OsannaViolinoI
+						}
 % 						\new Staff {
 % 							\set Staff.instrumentName = "Violino II"
 % 							\OsannaViolinoII
 % 						}
-% 					>>
+					>>
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Viola"
 % 						\OsannaViola
 % 					}
-% 				>>
+				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"

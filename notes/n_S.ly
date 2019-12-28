@@ -1157,8 +1157,8 @@ BenedictusSopranoNotes = {
 		h g r4 r2 %25
 		r8 d'([ h)] g d([ c')] h a
 		g([ h)] d h a d, r d
-		d'4\crescE c8 h e4\fE d16([\pE c)] h([ a)]
-		g4. a8 a([ h)] r g
+		d'4\crescE c8 h e4\fE d16([ c)] h([ a)]
+		g4.\pE a8 a([ h)] r g
 		d'4\crescE c16([ h)] a([ g)] g'4\f fis16([ e)] d([ c)] %30
 		h8( d4) fis,8 g4 r
 		R1*9 %40

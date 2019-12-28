@@ -1169,8 +1169,8 @@ BenedictusTenoreNotes = {
 		g([ h)] d h a d, r4 %25
 		d4. g8 g([ fis)] g a
 		h g r4 r r8 fis
-		g([\crescE h)] d g g4\f fis16([\pE e)] d([ c)]
-		h8([ ais h)] \acciaccatura d16 c8 c([ h)] r g
+		g([\crescE h)] d g g4\f fis16([ e)] d([ c)]
+		h8([\pE ais h)] \acciaccatura d16 c8 c([ h)] r g
 		g([\cresc h)] d d e4\f c8 e %30
 		d( h4) \acciaccatura d16 c8 h4 r
 		R1*9 %40
