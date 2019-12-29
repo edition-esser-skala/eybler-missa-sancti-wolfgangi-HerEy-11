@@ -1256,12 +1256,37 @@ AgnusDeiBassoNotes = {
 	\relative c {
 		\clef bass
 		\key d \minor \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		R2.*10 %10
+		\mvTr f2\p^\tutti f4
+		d2\f d4
+		f2\pp( c!4)
+		f, r r
+		R2.*13 %27
+		\mvTr c'2\p^\tuttiE c'4
+		gis2\f a4
+		c2(\pp g4) %30
+		c, r r
+		R2.*15 %46
+		\mvTr b'!2.\pE^\tuttiE
+		a4 r r
+		R2.*2 %50
+		R2.\fermataMarkup \bar "||" %51 finis
 	}
 }
 
 AgnusDeiBassoLyrics = \lyricmode {
+	Mi -- se -- %11
+	re -- re
+	no --
+	bis.
 	
+	Mi -- se -- %28
+	re -- re
+	no -- %30
+	bis.
+	
+	Pa -- %47
+	cem. %48 finis
 }
 
 % BassoNotes = {
