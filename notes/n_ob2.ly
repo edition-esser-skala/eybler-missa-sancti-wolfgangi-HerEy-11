@@ -605,7 +605,7 @@ OsannaOboeII = {
 		a4. e'8 d cis d a
 		a4. e'8 d cis d a
 		h4 cis d e
-		d8 d cis4\trill d8 r r4
+		d8 d cis4\trillE d8 r r4
 		a cis d8 r r4 %50
 		a4 g' fis r\fermata \bar "|." %51 FINIS
 	}

@@ -291,3 +291,21 @@ SanctusTrombaII = {
 		c8 c g4 e r\fermata \bar "|." %28 FINIS
 	}
 }
+
+OsannaTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoOsanna
+			\set Score.currentBarNumber = #42
+		\partial 8 r8 R1
+		r8 e\fE g c g4 r
+		R1
+		r8 g c g c4 r %45
+		r r8 g c g e r
+		r4 r8 g c g e r
+		r2 r4 g
+		c8 c g4 e8 r r4
+		e8 e g4 c8 r r4 %50
+		c8 c g4 e r\fermata \bar "|." %51 FINIS
+	}
+}

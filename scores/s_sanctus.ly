@@ -185,16 +185,16 @@
 						}
 					>>
 				>>
-% 				\new StaffGroup <<
-% 					\new Staff <<
-% 						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in D" } }
-% 						\partcombine \OsannaTrombaI \OsannaTrombaII
-% 					>>
-% 				>>
-% 				\new Staff {
-% 					\set Staff.instrumentName = \markup { \center-column { "Timpani" "in d–A" } }
-% 					\OsannaTimpani
-% 				}
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in D" } }
+						\partcombine \OsannaTrombaI \OsannaTrombaII
+					>>
+				>>
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "Timpani" "in d–A" } }
+					\OsannaTimpani
+				}
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
