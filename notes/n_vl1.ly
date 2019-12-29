@@ -842,7 +842,7 @@ DonaNobisViolinoI = {
 		e( d cis h)
 		a4. d8
 		cis( d e fis) %110
-		fis4 e
+		\once \slurDashed fis4( e)
 		r8 a, a h
 		r cis cis cis
 		r cis cis d
