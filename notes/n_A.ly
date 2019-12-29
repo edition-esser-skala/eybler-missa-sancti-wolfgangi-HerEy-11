@@ -1231,7 +1231,7 @@ AgnusDeiAltoNotes = {
 		e8.([ a16)] a4 r8 a %25
 		gis8.([ h16)] d8 f, e d
 		\acciaccatura d8 c4 h r
-		c2^\tutti e4
+		\mvTr c2\p^\tutti e4
 		e2\f e4
 		e2(\pp d4) %30
 		c r r
@@ -1258,7 +1258,6 @@ AgnusDeiAltoLyrics = \lyricmode {
 	re -- re
 	no -- %30
 	bis.
-	
 	
 	Pa -- %47
 	cem. %48 finis

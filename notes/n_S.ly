@@ -1241,7 +1241,7 @@ AgnusDeiSopranoNotes = {
 		e8.([ d16)] d4 r
 		f2 d4 %45
 		b!2 a4
-		gis2.^\tutti
+		\mvTr gis2.\pE^\tutti
 		a4 r r
 		R2.*2 %50
 		R2.\fermataMarkup \bar "||" %51 finis

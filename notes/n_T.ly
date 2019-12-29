@@ -1243,12 +1243,47 @@ AgnusDeiTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \minor \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		R2.*5 %5
+		\mvTr g'2\pE^\solo d4
+		b g r8 b
+		a8.([ d16)] d4 r8 d
+		cis8.([ e16)] g8 b,! a g
+		\acciaccatura g f4 e r %10
+		\mvTr d'2\p^\tutti d4
+		d2\fE a4
+		a2(\pp g4)
+		f r r
+		R2.*13 %27
+		\mvTr a2\p^\tuttiE a4
+		h2\f c4
+		c2(\pp h4) %30
+		c r r
+		R2.*15 %46
+		\mvTr d2.\p^\tuttiE
+		e4 r r
+		R2.*2 %50
+		R2.\fermataMarkup \bar "||" %51 finis
 	}
 }
 
 AgnusDeiTenoreLyrics = \lyricmode {
+	A -- gnus %6
+	De -- i, qui
+	tol -- lis, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di: %10
+	Mi -- se --
+	re -- re
+	no --
+	bis.
 	
+	Mi -- se -- %28
+	re -- re
+	no -- %30
+	bis.
+	
+	Pa -- %47
+	cem. %48 finis
 }
 
 % TenoreNotes = {
