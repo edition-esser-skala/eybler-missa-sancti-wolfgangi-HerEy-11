@@ -1289,7 +1289,7 @@ AgnusDeiTenoreLyrics = \lyricmode {
 DonaNobisTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
-		\twofourtime \key d \major \time 2/4 \tempoDonaNobis
+		\twofourtime \key d \major \time 2/4 \autoBeamOff \tempoDonaNobis
 			\set Score.currentBarNumber = #52
 		
 	}

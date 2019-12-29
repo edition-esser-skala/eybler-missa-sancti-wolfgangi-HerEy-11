@@ -1593,7 +1593,7 @@ DonaNobisOrgano = {
 			a r
 		} >>
 		\clef "treble_8" d' e
-		cis d
+		d e
 		\clef bass d, h
 		e e, %75
 		<< {
@@ -1621,12 +1621,12 @@ DonaNobisOrgano = {
 			r a a a
 			r a a a
 		} \\ {
-			a4_\bassi r
+			a4_\bassi_\soloE r
 			a r
 			a r %90
 			a r
 		} >>
-		cis,8\f cis' d, d'
+		\mvTr cis,8\f-\tuttiE cis' d, d'
 		g,,! g'! fis, fis'
 		e d cis d
 		a a'16 gis a8 a, %95
@@ -1677,7 +1677,7 @@ DonaNobisOrgano = {
 		d( fis a d,)
 		a cis e a
 		d,4 r %135
-		d4.\ff d8
+		d4.\f d8
 		g4 fis
 		g2
 		g,
@@ -1699,8 +1699,8 @@ DonaNobisBassFigures = \figuremode {
 	<6 4>
 	<5 3>
 	r4 <5>
-	<7> <6> %65
-	<6 4> <7 [3]>
+	<7>8 <6>4. %65
+	<6 4>4 <7 [3]>
 	r2
 	r
 	<6>
@@ -1714,8 +1714,8 @@ DonaNobisBassFigures = \figuremode {
 	q
 	r
 	r
-	r %80
-	r4 <6>
+	r4 <[6]> %80
+	r <6>
 	<6 4> <[7] _+>
 	r2
 	<6 5>

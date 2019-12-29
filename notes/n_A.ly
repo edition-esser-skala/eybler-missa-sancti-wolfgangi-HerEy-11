@@ -1266,7 +1266,7 @@ AgnusDeiAltoLyrics = \lyricmode {
 DonaNobisAltoNotes = {
 	\relative c' {
 		\clef treble
-		\twofourtime \key d \major \time 2/4 \tempoDonaNobis
+		\twofourtime \key d \major \time 2/4 \autoBeamOff \tempoDonaNobis
 			\set Score.currentBarNumber = #52
 		
 	}

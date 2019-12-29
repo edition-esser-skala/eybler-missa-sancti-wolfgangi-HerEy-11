@@ -1273,12 +1273,188 @@ AgnusDeiSopranoLyrics = \lyricmode {
 DonaNobisSopranoNotes = {
 	\relative c' {
 		\clef treble
-		\twofourtime \key d \major \time 2/4 \tempoDonaNobis
+		\twofourtime \key d \major \time 2/4 \autoBeamOff \tempoDonaNobis
 			\set Score.currentBarNumber = #52
-		
+		\mvTr fis4.\pE^\solo g8
+		h([ a)] a4
+		d4. h8
+		a([ g)] fis4 %55
+		\mvTr fis'\fE^\tutti e
+		g4. fis8
+		e d cis d
+		fis([ e)] e4
+		\mvTr fis,4.\pE^\solo g8 %60
+		h([ a)] a4
+		d4. h8
+		a([ g)] fis4
+		\mvTr fis'\fE^\tutti fis
+		fis8([ e)] fis([ g)] %65
+		d4( \slashedGrace fis8 e4)
+		d r
+		\mvTr fis,4.\pE^\solo a8
+		a([ e)] e4
+		e'4. d8 %70
+		d([ cis)] cis4
+		h8([ d)] cis([ ais)]
+		h([ d)] cis([ ais)]
+		h([ fis')] d([ h)]
+		a!4 gis %75
+		h4. cis8
+		cis([ d)] d4
+		cis4. d8
+		fis([ e)] e4
+		\mvTr a\fE^\tutti fis %80
+		e8([ cis)] d([ h)]
+		a4( \slashedGrace cis8 h4)
+		a r
+		d2\pE
+		cis4 r %85
+		gis2
+		a4 r
+		cis4.^\solo h8
+		h([ a)] a4
+		e'4. d8 %90
+		d([ cis)] cis4
+		\mvTr g'!\f^\tutti fis
+		e d
+		cis8 d e fis
+		fis4 e %95
+		d4. d8
+		d4 d
+		d4. d8
+		d4 d
+		fis d %100
+		h g'
+		fis( e)
+		d r
+		\mvTr cis4.\pE^\solo cis8
+		e([ d)] d4 %105
+		e4. e8
+		g([ fis)] fis4
+		e8([ d)] cis([ h)]
+		a4 a
+		a2 %110
+		a4 r
+		a4. h8
+		his([ cis)] cis4
+		cis4. d8
+		dis([ e)] e4 %115
+		\mvTr fis\f^\tutti g
+		fis e
+		d( cis)
+		d r
+		d4. d8 %120
+		fis4 d
+		d4. d8
+		fis4 d
+		h4. e8
+		cis4. fis8 %125
+		d4. g8
+		g8.([\fermata e16)] e4\fermata
+		g4 fis
+		e d
+		fis( e) %130
+		d r
+		a2\p
+		fis4 r
+		e2
+		d4 r %135
+		d'4.\f d8
+		d4 d
+		d2~
+		d
+		d,\fermata \bar "|." %140 FINIS
 	}
 }
 
 DonaNobisSopranoLyrics = \lyricmode {
+	Do -- na %52
+	no -- bis
+	pa -- cem,
+	pa -- cem, %55
+	do -- na
+	no -- bis,
+	do -- na no -- bis
+	pa -- cem,
+	do -- na %60
+	no -- bis
+	pa -- cem,
+	pa -- cem,
+	do -- na
+	no -- bis %65
+	pa --
+	cem,
+	do -- na
+	no -- bis
+	pa -- cem, %70
+	pa -- cem,
+	do -- na
+	no -- bis,
+	no -- bis
+	pa -- cem, %75
+	do -- na
+	no -- bis,
+	no -- bis
+	pa -- cem,
+	do -- na %80
+	no -- bis
+	pa --
+	cem,
+	pa --
+	cem, %85
+	pa --
+	cem,
+	do -- na
+	no -- bis,
+	no -- bis %90
+	pa -- cem,
+	do -- na
+	no -- bis,
+	do -- na no -- bis
+	pa -- cem, %95
+	do -- na
+	no -- bis
+	pa -- cem,
+	pa -- cem,
+	do -- na
+	no -- bis
+	pa --
+	cem,
+	do -- na
+	no -- bis
+	pa -- cem,
+	pa -- cem,
+	do -- na
+	no -- bis
+	pa --
+	cem,
+	do -- na
+	no -- bis
+	pa -- cem,
+	pa -- cem,
+	do -- na
+	no -- bis
+	pa --
+	cem,
+	do -- na
+	no -- bis
+	pa -- cem,
+	pa -- cem,
+	do -- na
+	no -- bis
+	pa -- cem,
+	pa -- cem,
+	do -- na
+	no -- bis
+	pa --
+	cem,
+	pa --
+	cem,
+	pa --
+	cem,
+	do -- na
+	no -- bis
+	pa --
 	
+	cem.
 }

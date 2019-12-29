@@ -1292,7 +1292,7 @@ AgnusDeiBassoLyrics = \lyricmode {
 DonaNobisBassoNotes = {
 	\relative c {
 		\clef bass
-		\twofourtime \key d \major \time 2/4 \tempoDonaNobis
+		\twofourtime \key d \major \time 2/4 \autoBeamOff \tempoDonaNobis
 			\set Score.currentBarNumber = #52
 		
 	}
