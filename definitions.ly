@@ -133,6 +133,7 @@ tenutoE = \markup { \remarkE ten. }
 unisono = \markup { \remark "unisono" }
 unisonoE = \markup { \remarkE "unisono" }
 pizz = \markup { \remark "pizz." }
+pizzE = \markup { \remarkE "pizz." }
 arco = \markup { \remark "col’arco" }
 
 

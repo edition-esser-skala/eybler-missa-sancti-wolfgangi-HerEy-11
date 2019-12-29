@@ -1425,12 +1425,139 @@ AgnusDeiOrgano = {
 	\relative c {
 		\clef bass
 		\key d \minor \time 3/4 \tempoAgnusDei
-		\mvTr d4\fE-\solo r r8 f
+		\mvTr d4\p-\solo r r8 f(
+		g4) r r8 g(
+		gis4) r r8 gis(
+		a4) r r8 g-\parenthesize-!\f
+		f-! e-! d-! c-! b-! a-! %5
+		g4 r r
+		g'\p r r8 g(
+		f4) r r8 f(
+		e4) r8 d cis e
+		gis,4 a8 b! a g %10
+		f[ f'] f-\tutti f f f
+		d\f d d d d d
+		f\pp f f f c! c
+		<< {
+			f,8^\vlc f'^\pizz f f f f
+			fis fis fis fis fis fis %15
+			g g g g g g
+			gis gis gis gis gis gis
+			a4
+		} \\ {
+			f,4_\bassi_\senzaOrg r r
+			r r d' %15
+			g r r
+			r r e
+			a
+		} >> r r8 c(-\arco
+		d4) r r8 d(
+		dis4) r r8 dis( %20
+		e4) r r8 d\f-\parenthesize-!
+		c-! h-! a-! g-! f-! e-!
+		d4 r r
+		d'\p r r8 d(
+		c!4) r r8 \once \slurDashed c( %25
+		h4) r8 a gis h
+		dis,4 e8 f!( e d)
+		c c c-\tutti c c c
+		gis\f gis gis gis a a
+		c\pp c c c g g %30
+		<< {
+			c,8^\vlc c'^\pizz c c c c
+			cis cis cis cis cis cis
+			d d d d d d
+			dis dis dis dis dis dis
+			e4
+		} \\ {
+			c,4_\bassi_\senzaOrg r r
+			r r a'
+			d r r
+			r r h
+			e
+	} >> r r8 gis?(-\arco %35
+		a4) r r8 a(
+		ais4) r r8 ais(
+		h4) r r8 a-!\f
+		g-! fis-! e-! d-! c-! h-!
+		a4 r r %40
+		<< {
+			r8 a'^\vlc^\pizzE a a a a
+			r g g g g g
+			r g g g g g
+			r f f f f f
+			r d d d d d %45
+			r d d d d d
+			r b b b b b
+			a4
+		} \\ {
+			\mvTr a4\p_\bassi r r
+			g r r
+			g' r r
+			f r r
+			d r r %45
+			d r r
+			b r r
+			a
+		} >> r r
+		a r r
+		a8-\arco gis'(^\unisono a dis, e gis,) %50
+		a2.\fermata \bar "||" %51 finis
 	}
 }
 
 AgnusDeiBassFigures = \figuremode {
-	
+	r2 r8 <6>
+	<6>2 r8 <6>
+	<7 _!>2 r8 <\t \t>
+	<_+>2.
+	r %5
+	r
+	r
+	<6>2 r8 <6>
+	<6\\>4. <6!>8 <6> <6\\>
+	<7 _!>4 <_+>2 %10
+	<6>2.
+	r
+	<5>2 <7>4
+	r2.
+	r %15
+	r
+	r
+	r2 r8 <[6]>
+	r2.
+	<[7 _+]>2 r8 <[\t \t]> %20
+	<[6 4]>2.
+	r
+	r
+	r
+	<6>2 r8 <[6]> %25
+	<6\\>4. <6>8 <6 _!> <6\\>
+	<7 _+>4 <[5!] _+>2
+	<6>2.
+	<6 [_!]>
+	<5!>2 <7 _!>4 %30
+	r2.
+	r
+	r
+	r
+	r2 r8 <[6 _!]> %35
+	r2.
+	<[7 _+]>2 r8 <[\t \t]>
+	<[6 4]>2.
+	r
+	r %40
+	<3>
+	<6 4>
+	<6 4\+ _->
+	<6>
+	r %45
+	<6>
+	<6 5>
+	<_+>
+	<[\t]>
+	r %50
+	r %51 finis
 }
 
 % Organo = {
