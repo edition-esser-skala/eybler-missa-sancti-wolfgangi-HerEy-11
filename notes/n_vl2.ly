@@ -684,7 +684,7 @@ BenedictusViolinoII = {
 		fis8 a4 fis8 g g g16 h d f
 		f( e) e-! e-! d( c) h-! a-! g8 fis r4
 		g,16( h d h) h( d g d) a( d fis d) d( g, fis' d)
-		d( g h g) d( g d h) a8 e' d16( c h a) %25
+		d( g h g) d( g d h) a8 d-\critnote d16( c h a) %25
 		g( h d h) h( d g d) a( d fis d) d( g, fis' d)
 		d4 d16( g h g) g( fis a fis) g( d a' d,)
 		h'\crescE h,( d g) h( a) a( g) c\fE c,( e g) fis( e d c)

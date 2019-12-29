@@ -277,12 +277,12 @@ OsannaTimpani = {
 		\partial 8 r8 R1
 		r8 c\fE g c g4 r
 		R1
-		r8 g c g c4 r
+		r8 g c g c4 r %45
 		r r8 g c4 r
 		r r8 g c4 r
 		r2 r4 g
 		c8 c g4 c8 r r4
-		c8 c16 c g8 g c4 r
-		c8 c16 c g8 g c4 r\fermata \bar "|." %28 FINIS
+		c8 c16 c g8 g c4 r %50
+		c8 c16 c g8 g c4 r\fermata \bar "|." %51 FINIS
 	}
 }
