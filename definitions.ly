@@ -253,6 +253,7 @@ tempoSanctus = \tempoMarkup "Maestoso"
 tempoBenedictus = \tempoMarkup "Andante"
 	tempoOsanna = \tempoMarkup "Allegro"
 tempoAgnusDei = \tempoMarkup "Adagio"
+	tempoDonaNobis = \tempoMarkup "Allegro"
 
 
 

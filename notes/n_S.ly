@@ -1270,14 +1270,15 @@ AgnusDeiSopranoLyrics = \lyricmode {
 	cem. %48 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+DonaNobisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key d \major \time 2/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #52
+		
+	}
+}
+
+DonaNobisSopranoLyrics = \lyricmode {
+	
+}

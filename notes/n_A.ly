@@ -1263,14 +1263,15 @@ AgnusDeiAltoLyrics = \lyricmode {
 	cem. %48 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+DonaNobisAltoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key d \major \time 2/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #52
+		
+	}
+}
+
+DonaNobisAltoLyrics = \lyricmode {
+	
+}

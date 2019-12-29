@@ -1560,14 +1560,15 @@ AgnusDeiBassFigures = \figuremode {
 	r %51 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+DonaNobisOrgano = {
+	\relative c {
+		\clef bass
+		\twofourtime \key d \major \time 2/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #52
+		\mvTr d4\p-\solo r
+	}
+}
+
+DonaNobisBassFigures = \figuremode {
+	
+}

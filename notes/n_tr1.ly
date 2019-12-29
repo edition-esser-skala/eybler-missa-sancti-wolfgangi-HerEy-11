@@ -314,3 +314,12 @@ OsannaTrombaI = {
 		e8 e d4 c r\fermata \bar "|." %51 FINIS
 	}
 }
+
+DonaNobisTrombaI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key c \major \time 2/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #52
+		
+	}
+}

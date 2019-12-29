@@ -635,3 +635,12 @@ AgnusDeiOboeII = {
 		R2.\fermataMarkup \bar "||" %51 finis
 	}
 }
+
+DonaNobisOboeII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key d \major \time 2/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #52
+		
+	}
+}

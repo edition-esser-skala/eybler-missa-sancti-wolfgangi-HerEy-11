@@ -286,3 +286,12 @@ OsannaTimpani = {
 		c8 c16 c g8 g c4 r\fermata \bar "|." %51 FINIS
 	}
 }
+
+DonaNobisTimpani = {
+	\relative c {
+		\clef bass
+		\twofourtime \key c \major \time 2/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #52
+		
+	}
+}
