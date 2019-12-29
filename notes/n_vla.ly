@@ -724,7 +724,7 @@ OsannaViola = {
 
 AgnusDeiViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \minor \time 3/4 \tempoAgnusDei
 		<f, a>4\pE r r8 \once \slurDashed a(
 		b4) r r8 b(
