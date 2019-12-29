@@ -1432,7 +1432,7 @@ AgnusDeiOrgano = {
 		f-! e-! d-! c-! b-! a-! %5
 		g4 r r
 		g'\p r r8 g(
-		f4) r r8 f(
+		f!4) r r8 f(
 		e4) r8 d cis e
 		gis,4 a8 b! a g %10
 		\mvTr f\p-\tutti f' f f f f
@@ -1475,7 +1475,7 @@ AgnusDeiOrgano = {
 			d r r
 			r r h
 			e
-	} >> r r8 gis?(-\arco %35
+	} >> r r8 g(-\arco %35
 		a4) r r8 a(
 		ais4) r r8 ais(
 		h4) r r8 a-!\f
@@ -1508,11 +1508,11 @@ AgnusDeiOrgano = {
 
 AgnusDeiBassFigures = \figuremode {
 	r2 r8 <6>
-	<6>2 r8 <6>
+	r2.
 	<7 _!>2 r8 <\t \t>
-	<_+>2.
-	r %5
-	r
+	<_+>2 r8 <[4\+ 2]>
+	<[6]> <[6\\]> r <[4\+]> <[6]> <[6\\]> %5
+	r2.
 	r
 	<6>2 r8 <6>
 	<6\\>4. <6->8 <6> <6\\>
@@ -1527,9 +1527,9 @@ AgnusDeiBassFigures = \figuremode {
 	r2 r8 <[6]>
 	r2.
 	<[7 _+]>2 r8 <[\t \t]> %20
-	<[6 4]>2.
-	r
-	r
+	<[5! _+]>2 r8 <[6! 4\+ 2]>
+	<[6]> <[6\\]> r <[4\+]> <[6]> <[6\\]>
+	r2.
 	r
 	<6>2 r8 <[6]> %25
 	<6\\>4. <6>8 <6 _!> <6\\>
@@ -1544,9 +1544,9 @@ AgnusDeiBassFigures = \figuremode {
 	r2 r8 <[6 _!]> %35
 	r2.
 	<[7 _+]>2 r8 <[\t \t]>
-	<[6 4]>2.
-	r
-	r %40
+	<[5+ _+]>2 r8 <[6+ 4+ 2!]>
+	<[6 _!]> <[6\\]> <[5!]> <[6! 4\+ 2]> <[6]> <[6\\]>
+	r2. %40
 	<3>
 	<6 _!>
 	<6 4\+ _->

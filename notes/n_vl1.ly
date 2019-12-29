@@ -724,7 +724,57 @@ AgnusDeiViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 3/4 \tempoAgnusDei
-		
+		r8 a''(\p f cis) d4
+		r8 b'( g cis,) d4
+		r8 f( e d) f,4
+		r8 \once \slurDashed e( gis a) a,[ r16 \tuplet 3/2 16 { a'32(\f h cis)] }
+		d8-! e-! f-! fis-! g-! a-! %5
+		b4 r r
+		r8 d,(\p b fis) g4
+		r8 a'( f cis) d4
+		r8 g( e b! a g)
+		\acciaccatura g f4\trill e r %10
+		a8 a a a a a
+		<f' a, a,>\f f[ f f d d]
+		c!\pp c c c b b
+		a4 r8 c( a f)
+		es4 d8-! a''( fis c) %15
+		b4 r8 d( b g)
+		f!4 e8-! h''( gis d)
+		c-! e( c gis) a4
+		r8 f'( d gis,) a4
+		r8 c( h a) c,4 %20
+		r8 \once \slurDashed h( dis e) e'[ r16 \tuplet 3/2 16 { e,32(\f fis gis)] }
+		a8-! h-! c-! cis-! d-! e-!
+		f4 r r
+		r8 a,(\p f cis) d4
+		r8 e'( c! gis) a4 %25
+		r8 \once \slurDashed d( h f e d)
+		\acciaccatura d c4\trill h r
+		e8 e e e e e
+		e'\f e e e c c
+		g!\pp g g g f f %30
+		e4 r8 g'( e c)
+		b!4 a8-! e'( cis g)
+		f4 r8 a'( f d)
+		c!4 h8-! fis'( dis a)
+		g-\parenthesize-! h'( g dis) e4 %35
+		r8 c'( a dis,) e4
+		r8 g( fis e) g,4
+		r8 \once \slurDashed fis( ais h) h,[ r16 \tuplet 3/2 16 { h'32(\f cis dis)] }
+		e8-! fis-! g-! gis-! a-! h-!
+		c4 r r %40
+		r8 c,\p c c c c
+		r e e e e e
+		r cis cis cis cis cis
+		r d d d d d
+		r f f f d d %45
+		r b! b b a a
+		r gis gis gis gis gis
+		a e'( f cis d gis,)
+		a e( f cis d gis,)
+		a4 a a %50
+		a2.\fermata \bar "||" %51 finis
 	}
 }
 
