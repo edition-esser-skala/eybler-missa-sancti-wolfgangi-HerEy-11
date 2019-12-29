@@ -1297,7 +1297,7 @@ BenedictusOrgano = {
 		\key g \major \time 4/4 \tempoBenedictus
 		\mvTr g'4\p-\soloE r d r8 fis
 		g h c a d d, d'4
-		r8 h,( d g) r c,(\crescE e a)
+		r8 h,(\crescE d g) r c,( e a)
 		r d,\fE d' d, g d g,4
 		r8 \mvTr h'\pE-\senzaOrg-\pizz a g r a g fis %5
 		g r c, r r d d' c
@@ -1362,14 +1362,14 @@ BenedictusBassFigures = \figuremode {
 	<7 2>8 <8 3> r <6> <4> <3> <6 4> <7 5>
 	r <6>4. <6 4>8 <5 3> r <2>
 	<6>1 %15
-	<6 4>4. <5 3>8 r2
-	<7 2>8 <6 4> <6>4 <4>8 <2> <6> q
+	<6 4>4. <5 3>8 r4 <8 6>8 <7 5>
+	<\t \t> <6 4> <6>4 <4>8 <2> <6> q
 	r q4. <6 4>8 <5 3> r <2>
-	<6>1
-	<6 4>4. <5 3>8 r2 %20
+	<6>2.. q8
+	<6 4>4. <7 3>8 r2 %20
 	r8 <7>4. r2
 	r8 <7>4. r4 <6 4>8 <6 5!>
-	r4. <6>8 <6 4> <5 3> r <2>
+	r4. <6>8 <6 4> <5 3> <6 4> <2>
 	<6>2 <4>8 <3>4.
 	r4. <6>8 <4> <3>4. %25
 	r4 <6> <4>8 <3> <6 4> <5 3>
@@ -1377,7 +1377,17 @@ BenedictusBassFigures = \figuremode {
 	<6>2.. <6>8
 	<6 4> <6\\> <6 4> <7 3> <\t \t> <8 3>4.
 	<6>2.. q8 %30
-	<6 4>4. <5 3>8 r2
+	<6 4>4. <7 3>8 r4. <6>8
+	r4. <6>8 r4. q8
+	q8 <\t>4. <6 4>8 <5 3>4.
+	<6>2 <4>8 <6>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<2+>8 <6 4>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <4>8 <6>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff %35
+	r1
+	<6 4>8 <\t \t>4 <5 3>8 r2
+	r2.. <6>8
+	<6 4>4. <5 3>8 r4. <6>8
+	r4. q8 r4. <6 4>8 \bassFigureExtendersOn %40
+	q8. q16 \bassFigureExtendersOff <6\\>4 <_+>4. %41 finis
 }
 
 OsannaOrgano = {

@@ -660,6 +660,64 @@ BenedictusViola = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \tempoBenedictus
-		
+		r8 h(\p a g) r a( g d)~
+		d g4 e'8 d4~ d16 c( h a)
+		g2\cresc <e' g>4 <d fis>16 <c e> <h d> <a c>
+		<g h>8\fE <h d>4 << { c16[ a] } \\ { a8 } >> \appoggiatura fis4 g2
+		r8 \mvTr d\pE-\pizz fis g r c h a %5
+		g r e' r r d d d
+		r d d d r g e c
+		r h h fis g h r fis
+		r g(-\arco h) r r a( g) r
+		r h( c) r r d( fis,) r %10
+		r g( d') r r \once \slurDashed g,( e') r
+		r h4 fis8 g16 g'( fis e) d( c h a)
+		a8 g r d' d d, r d'
+		d d, r c' d d, r d'
+		d d, r d' e e, r e' %15
+		d d, r c' h h4 a8
+		fis g r g a4 h8 c
+		h g c e d d4 d8
+		d d4 d8 c c4 e8
+		d h4 \acciaccatura d16 c8 h8 g4 g8 %20
+		d a'4 fis8 g g4 g8
+		d fis4 a8 g d'4 d8
+		c <e g> <d fis!>16 <c e> <h d> <a c> <g h>8 <fis a> <g h> <a c>
+		<h d> g4 h8 r a( g fis)
+		g( h d h) a( c h fis) %25
+		g h d g d( c' h fis)
+		g d h g d( c' h fis)
+		g\crescE g'4 g8 r g,\fE c e
+		d(\p ais h d) \once \slurDashed d(\cresc <g, h> <a c> <ais cis>)
+		<h d>16 q q q q q q q c\f c c c c c e e %30
+		d d d d d\sf d c c h8 r r e
+		e r r d d r r d
+		c16( gis a h) c8. e16 d8 d,16( e fis g a fis)
+		g d h' d, d' d, h' d, c' d, a' d, fis d a' d,
+		g d h' d, d' d, h' d, c' d, a' d, fis d a' d, %35
+		g\cresc h8 d d d16 g, c8 e e e16
+		d(\p h g h) d8 d d16 <h d> <c e> <d fis> <e g>\cresc <fis a> <g h> <a c>
+		<h d>8\fE r r g, g' e <d fis>16 <c e> <h d> <a c>
+		<g h>8 <h d>4 <a c>8 <g h>^\critnote r r e'\p
+		e r r a, a r16 d d'16\fE a fis d %40
+		a8 a d d <a e'>4 r8\fermata \bar "||" %41 finis
+	}
+}
+
+OsannaViola = {
+	\relative c' {
+		\clef alto
+		\key d \major \time 4/4 \tempoOsanna
+			\set Score.currentBarNumber = #42
+		\partial 8 r8 r d\f d, d' r d d, d'
+		e fis g fis e a cis, e
+		a, a' a, a' r a a, a'
+		a g fis e d fis a, \once \tieDashed a~ %45
+		a a4 a' a a,8~
+		a a4 a' a \once \slurDashed a,8(
+		h) h' cis, cis' d, d' e, e'
+		a, a g4 fis8 r r a
+		a a cis8.(\trill h32 cis) d8 r r a,~ %50
+		a a e'8.(\trill d32 e) d4 r\fermata \bar "|." %51 FINIS
 	}
 }

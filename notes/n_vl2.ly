@@ -662,15 +662,15 @@ BenedictusViolinoII = {
 		\key g \major \time 4/4 \tempoBenedictus
 		r8 d(\p c h) r \once \slurDashed c( h c)
 		\once \slurDashed h( d c a') g fis r4
-		r8 g, a16( h c d) e8\cresc e' d16(  c h a)
+		r8 g,\cresc a16( h c d) e8 e' d16(  c h a)
 		g8\fE h4 c,8 \appoggiatura c4 h2
 		r8 \mvTr g\pE-\pizz c h r d d d %5
 		d r a' r r fis g a
 		r g fis g r c a e
 		r h h c h4 r
 		r8 d-\arco c h h d r c
-		r d e r r fis a r %10
-		r h, g' r r c, a' r
+		r \slurDashed d( e) r r fis( a) r %10
+		r h,( g') r r c,( a') \slurSolid r
 		r d, d16 e c d h h'( a g) fis( e d c)
 		c8 h r16. h32 h16.([\trill a64 h)] \once \slurDashed a8( d) r16. c32 c16.([\trill h64 c)]
 		\once \slurDashed h8( d) r16. e32 e16.([\trill d64 e)] \once \slurDashed g8( fis) r16. fis32 fis16.([\trill e64 fis)]
@@ -688,14 +688,14 @@ BenedictusViolinoII = {
 		g( h d h) h( d g d) a( d fis d) d( g, fis' d)
 		d4 d16( g h g) g( fis a fis) g( d a' d,)
 		h'\crescE h,( d g) h( a) a( g) c\fE c,( e g) fis( e d c)
-		h8\p e( d fis) fis(\cresc g a ais)
+		h8(\p e d fis) fis(\cresc g a ais)
 		h16 g g g g g g g g\f g g g a a a a %30
 		g g h h h\sf h a a g8 g'16-! fis-! e-! d-! c-! h-!
 		h( a) fis'-! e-! d-! c-! h-! a-! a( g) h-! d-! c-! h-! a-! g-!
 		e8. d16 c( d e c) \once \slurDashed h8( a) r4
 		r2 \once \tieDashed \mvTr a4~\p-\markup { \remark "dolce" } a16 e'( d c)
 		ais8 h r4 a'~ a16 e'( d c) %35
-		h( g d h) g(\cresc h d g) c( g e c) g( c e c)
+		h(\cresc g d h) g( h d g) c( g e c) g( c e c)
 		h(\p g h d) g( fis e fis) g-! h-! c-! d-! e-!\cresc fis-! g-! a-!
 		h(\f g d h) g( h d h) c( g c e) d( c h a)
 		g( h g d) h d c d h8 r r h'\p

@@ -206,10 +206,10 @@
 							\OsannaViolinoII
 						}
 					>>
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Viola"
-% 						\OsannaViola
-% 					}
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\OsannaViola
+					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
