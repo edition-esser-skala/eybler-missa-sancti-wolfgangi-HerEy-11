@@ -783,6 +783,94 @@ DonaNobisViolinoI = {
 		\clef treble
 		\twofourtime \key d \major \time 2/4 \tempoDonaNobis
 			\set Score.currentBarNumber = #52
-		
+		r8 fis\p fis g
+		r a a a
+		r h h h
+		a g fis16 fis a d %55
+		fis\f a, d fis e a, cis e
+		g g, g' g g a fis g
+		e a, d a cis a d a
+		fis' e dis e d cis h a
+		r8 fis\p fis g %60
+		r a a a
+		r h h h
+		a g fis16 fis a d
+		fis\f a, fis' fis fis d fis fis
+		fis e dis e fis g a h %65
+		h a g fis fis e d cis
+		d fis e d cis h a g
+		fis8\p a a a
+		r a a a
+		r e' e d %70
+		r cis cis cis
+		h( d cis ais)
+		h( d cis ais)
+		r h( d h)
+		r a! gis gis %75
+		r h h cis
+		r d d d
+		r cis cis d
+		r e e e
+		<a a, d,>4\f fis %80
+		e16 dis e cis d cis d h
+		cis h cis a h a h gis
+		a( gis a h) cis( d e fis)
+		fis(\p e dis e) dis( e h d)
+		cis( h a h) cis( d e fis) %85
+		fis( e dis e) dis( e h cis)
+		a cis, d e fis gis a h
+		cis8 cis cis h
+		r a a a
+		r e' e d %90
+		r cis cis cis
+		g'!16\f e a, g' fis d a fis'
+		e cis a e' d a fis d'
+		cis a d a e' a, fis' a,
+		fis' d a fis' e cis a g' %95
+		fis d a d fis d g e
+		h' a gis a gis a fis d
+		cis d g h d d, h' d,
+		a' a, g' a, fis' a, d e
+		fis g a fis d e fis d %100
+		h cis d dis e fis g e
+		d! e fis d cis d e cis
+		d a h cis d e fis d
+		cis8\p cis cis cis
+		r d d d %105
+		r e e e
+		r fis fis fis
+		e( d cis h)
+		a4. d8
+		cis( d e fis) %110
+		fis4 e
+		r8 a, a h
+		r cis cis cis
+		r cis cis d
+		r e e e %115
+		e16\f d cis h a cis e g
+		fis g a fis e fis g e
+		d e fis d cis d e cis
+		d d fis fis d d a a
+		h h d d g g h h %120
+		a a fis fis d d a a
+		h h d d g g h h
+		a a fis fis d d a a
+		h h g g h h e e
+		cis cis a a cis cis fis fis %125
+		d d h h d d g g
+		<g a,>4\fermata r\fermata
+		g16 fis g a fis e fis g
+		e dis e fis d cis d e
+		fis d a fis' e cis a e' %130
+		d( cis d e) fis( g a h)
+		h(\p a gis a) gis( a e g)
+		fis( a g fis) e( d cis h)
+		h( a gis a) gis( a g e)
+		d(\ff cis d cis) d( cis d cis) %135
+		d( cis d cis) d( cis d cis)
+		d( cis d cis) d( cis d cis)
+		d( cis d cis) d( cis d cis)
+		d( cis d cis) d( cis d cis)
+		d2\fermata \bar "|." %140 FINIS
 	}
 }
