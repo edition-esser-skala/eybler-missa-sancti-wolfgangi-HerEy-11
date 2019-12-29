@@ -1566,9 +1566,213 @@ DonaNobisOrgano = {
 		\twofourtime \key d \major \time 2/4 \tempoDonaNobis
 			\set Score.currentBarNumber = #52
 		\mvTr d4\p-\solo r
+		d r
+		d r
+		d r %55
+		\mvTr d'8\f-\tutti d, cis cis'
+		h h, a a'
+		g fis e d
+		a a'16 gis a8 a,
+		\mvTr d4\p-\solo r %60
+		d r
+		d r
+		d r
+		\mvTr d'8\f-\tutti d, h' h,
+		g' g, e' e, %65
+		a a'16 gis a8 a,
+		d16-! d'-! cis-! h-! a-! g-! fis-! e-!
+		<< {
+			r8 d^\vlc d d
+			r cis cis cis
+			r gis' gis gis %70
+			r a a a
+		} \\ {
+			\mvTr d,4\p_\solo_\bassi r
+			cis r
+			gis r %70
+			a r
+		} >>
+		\clef "treble_8" d' e
+		cis d
+		\clef bass d, h
+		e e, %75
+		<< {
+			r8 e'^\vlc e e
+			r e e e
+			r a a a
+			r a a a
+		} \\ {
+			e4_\bassi r
+			e r
+			a r
+			a r
+		} >>
+		\mvTr d,16(\f-\tutti cis d e) \once \slurDashed fis( e fis gis) %80
+		a8 a, d d,
+		e' e, e' e,
+		a( cis e a,)
+		gis(\p h e gis,)
+		a( cis e a,) %85
+		e( gis h e)
+		a, h16 cis d e fis gis
+		<< {
+			r8 a^\vlc a a
+			r a a a
+			r a a a
+			r a a a
+		} \\ {
+			a4_\bassi r
+			a r
+			a r %90
+			a r
+		} >>
+		cis,8\f cis' d, d'
+		g,,! g'! fis, fis'
+		e d cis d
+		a a'16 gis a8 a, %95
+		d d'16 cis d8 d
+		d, d'16 cis d8 d
+		d, d'16 cis d8 d
+		d, d'16 cis d8 d
+		d, d' fis,, fis' %100
+		g, g' e, e'
+		a, a'16 g a8 a,
+		d a' fis d
+		<< {
+			a8^\vlc a' a a
+			r a a a %105
+			r a a a
+			r d, d d
+		} \\ {
+			\mvTr a4\p_\solo_\bassi r
+			a r %105
+			a r
+			d r
+		} >>
+		g, h
+		d fis
+		a2 %110
+		a,4 r
+		a' r
+		a, r
+		a' r
+		a, r %115
+		\mvTr a'8\f-\tutti e cis a
+		d fis g e
+		a g a a,
+		d a' fis d
+		g d' h g %120
+		d a' fis d
+		g d' h g
+		d a' fis d
+		g h g e
+		a cis a fis %125
+		h d h g
+		cis4\fermata r\fermata
+		cis,8 cis' d d,
+		g, g' h h,
+		a a' a a, %130
+		d( fis a d,)
+		cis(\p e a cis,)
+		d( fis a d,)
+		a cis e a
+		d,4 r %135
+		d4.\ff d8
+		g4 fis
+		g2
+		g,
+		d'\fermata \bar "|." %140 FINIS
 	}
 }
 
 DonaNobisBassFigures = \figuremode {
-	
+	r2 %52
+	r
+	<6 4>
+	<5 [3]> %55
+	r4 <6>
+	q <8 7 4>8 <\t 6 \t>
+	<2> <6> q <8>
+	<6 4>4 <5 3>
+	r2 %60
+	r
+	<6 4>
+	<5 3>
+	r4 <5>
+	<7> <6> %65
+	<6 4> <7 [3]>
+	r2
+	r
+	<6>
+	q %70
+	r
+	q4 <4\+ _!>
+	<6> <4\+ 3>
+	<6>2
+	<6 4>4 <[5] _+> %75
+	<[_+]>2
+	q
+	r
+	r
+	r %80
+	r4 <6>
+	<6 4> <[7] _+>
+	r2
+	<6 5>
+	r %85
+	<7 _+>
+	r
+	r
+	r
+	<7!> %90
+	<6 4>8 <5 3>4.
+	<6 5>2
+	<4 2>4 <6>
+	<6>8 <8> <6> <8>
+	<6 4>4 <[5] _+> %95
+	<1>4. <4 2>8
+	<6 4>4. <2>8
+	<6 4>2
+	<5 3>
+	r4 <6> %100
+	r2
+	<6 4>4 <[5] _+>
+	r2
+	r
+	<6 4> %105
+	<5 [3]>
+	r
+	r4 <[6]>
+	r q
+	<7 3>8 <6 4> <5 3> <6 4> %110
+	<6 4>4 <5 3>
+	r2
+	r
+	r
+	r %115
+	r4 <6 5>
+	r <6>
+	<6 4> <5 3>
+	r2
+	r %120
+	r
+	r
+	r
+	<5>4 <[6]>8 <8>
+	<5>4 <[6]>8 <8> %125
+	<5>4 <[6]>8 <8>
+	<6 5>2
+	q
+	<6>4 <6\\>
+	<6 4> <5 3> %130
+	r2
+	<6>
+	r
+	r
+	r %135
+	r
+	r4 <6 5!>
+	<9 4!>2
+	<8 3>
+	r %140 FINIS
 }
