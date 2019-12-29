@@ -1219,6 +1219,18 @@ OsannaSopranoLyrics = \lyricmode {
 	in ex -- cel -- sis. %51 FINIS
 }
 
+AgnusDeiSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/4 \autoBeamOff \tempoAgnusDei
+		
+	}
+}
+
+AgnusDeiSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

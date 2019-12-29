@@ -721,3 +721,11 @@ OsannaViolinoII = {
 		a8 a e'8.(\trill d32 e) d4 r\fermata \bar "|." %51 FINIS
 	}
 }
+
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/4 \tempoAgnusDei
+		
+	}
+}

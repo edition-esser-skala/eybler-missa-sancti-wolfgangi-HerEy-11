@@ -1216,6 +1216,18 @@ OsannaAltoLyrics = \lyricmode {
 	in ex -- cel -- sis. %51 FINIS
 }
 
+AgnusDeiAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/4 \autoBeamOff \tempoAgnusDei
+		
+	}
+}
+
+AgnusDeiAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

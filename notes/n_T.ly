@@ -1239,6 +1239,18 @@ OsannaTenoreLyrics = \lyricmode {
 	in ex -- cel -- sis. %51 FINIS
 }
 
+AgnusDeiTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 3/4 \autoBeamOff \tempoAgnusDei
+		
+	}
+}
+
+AgnusDeiTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

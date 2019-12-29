@@ -637,3 +637,11 @@ OsannaOboeI = {
 		a cis d r\fermata \bar "|." %28 FINIS
 	}
 }
+
+AgnusDeiOboeI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/4 \tempoAgnusDei
+		
+	}
+}

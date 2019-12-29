@@ -1421,6 +1421,18 @@ OsannaBassFigures = \figuremode {
 	q %51 FINIS
 }
 
+AgnusDeiOrgano = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 3/4 \tempoAgnusDei
+		\mvTr d4\fE-\solo r r8 f
+	}
+}
+
+AgnusDeiBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

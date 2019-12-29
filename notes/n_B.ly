@@ -1252,6 +1252,18 @@ OsannaBassoLyrics = \lyricmode {
 	in ex -- cel -- sis. %51 FINIS
 }
 
+AgnusDeiBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 3/4 \autoBeamOff \tempoAgnusDei
+		
+	}
+}
+
+AgnusDeiBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

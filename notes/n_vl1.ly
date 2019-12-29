@@ -720,6 +720,14 @@ OsannaViolinoI = {
 	}
 }
 
+AgnusDeiViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 3/4 \tempoAgnusDei
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
