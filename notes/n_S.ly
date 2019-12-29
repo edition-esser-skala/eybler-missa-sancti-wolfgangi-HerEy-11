@@ -1339,7 +1339,7 @@ DonaNobisSopranoNotes = {
 		his([ cis)] cis4
 		cis4. d8
 		dis([ e)] e4 %115
-		\mvTr fis\f^\tutti g
+		\mvTr e\f^\tutti g
 		fis e
 		d( cis)
 		d r

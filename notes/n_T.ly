@@ -1324,11 +1324,11 @@ DonaNobisTenoreNotes = {
 		a4 r %85
 		h2
 		a4 r
-		\mvTr e'4.\pE^\solo d8
+		e'4.^\solo d8
 		d([ cis)] cis4
 		g'!4. fis8 %90
 		fis([ e)] e4
-		\mvTr e\f^\tutti e
+		\mvTr e\f^\tutti d
 		cis d
 		g8 fis e d
 		d4 cis %95
