@@ -615,6 +615,23 @@ AgnusDeiOboeII = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 3/4 \tempoAgnusDei
-		
+		R2.*3
+		r4 r r8 a'\f
+		a cis d d d fis %5
+		g4 r r
+		R2.*5 %11
+		a,2\f f4
+		R2.*8 %20
+		r4 r r8 e\f
+		e gis a a a cis
+		d4 r r
+		R2.*5 %28
+		h2\f a4
+		R2.*8 %37
+		r4 r r8 h\fE
+		h dis e e e gis
+		a4 r r %40
+		R2.*10 %50
+		R2.\fermataMarkup \bar "||" %51 finis
 	}
 }
