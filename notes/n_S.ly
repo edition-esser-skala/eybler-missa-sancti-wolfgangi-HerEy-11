@@ -1223,12 +1223,51 @@ AgnusDeiSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		R2.*10 %10
+		\mvTr a'2\p^\tutti a4
+		f'2\f d4
+		\once \tieDashed c!2~\pp c8.[ b16]
+		a4 r r
+		R2.*13 %27
+		c,2\p c4
+		e'2\f c4
+		\once \tieDashed g!2~\pp g8.[ f16] %30
+		e4 r r
+		R2.*8 %39
+		\mvTr a'2\pE^\solo e4 %40
+		c a r8 c
+		h8.([ e16)] e4 r8 e
+		\acciaccatura d8 cis4 cis8 e g cis,
+		e8.([ d16)] d4 r
+		f2 d4 %45
+		b!2 a4
+		gis2.^\tutti
+		a4 r r
+		R2.*2 %50
+		R2.\fermataMarkup \bar "||" %51 finis
 	}
 }
 
 AgnusDeiSopranoLyrics = \lyricmode {
+	Mi -- se -- %11
+	re -- re
+	no --
+	bis.
 	
+	Mi -- se -- %28
+	re -- re
+	no -- %30
+	bis.
+	
+	A -- gnus %40
+	De -- i, qui
+	tol -- lis, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di:
+	Do -- na %45
+	no -- bis
+	pa --
+	cem. %48 finis
 }
 
 % SopranoNotes = {

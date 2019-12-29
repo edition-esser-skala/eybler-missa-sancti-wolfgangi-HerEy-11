@@ -1435,7 +1435,7 @@ AgnusDeiOrgano = {
 		f4) r r8 f(
 		e4) r8 d cis e
 		gis,4 a8 b! a g %10
-		f[ f'] f-\tutti f f f
+		f-\tutti f' f f f f
 		d\f d d d d d
 		f\pp f f f c! c
 		<< {
@@ -1460,7 +1460,7 @@ AgnusDeiOrgano = {
 		c!4) r r8 \once \slurDashed c( %25
 		h4) r8 a gis h
 		dis,4 e8 f!( e d)
-		c c c-\tutti c c c
+		c-\tutti c c c c c
 		gis\f gis gis gis a a
 		c\pp c c c g g %30
 		<< {
@@ -1497,7 +1497,7 @@ AgnusDeiOrgano = {
 			f r r
 			d r r %45
 			d r r
-			b r r
+			b! r r
 			a
 		} >> r r
 		a r r
@@ -1548,12 +1548,12 @@ AgnusDeiBassFigures = \figuremode {
 	r
 	r %40
 	<3>
-	<6 4>
+	<6 _!>
 	<6 4\+ _->
-	<6>
-	r %45
-	<6>
-	<6 5>
+	<[7]>4 <6>2
+	r2. %45
+	<6->2 <[5]>4
+	<6\\ 5>2.
 	<_+>
 	<[\t]>
 	r %50
