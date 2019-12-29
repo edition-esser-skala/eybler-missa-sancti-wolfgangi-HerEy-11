@@ -164,7 +164,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 } % 4 = 72
+			\midi { \tempo 4 = 60 } % 4 = 72
 		}
 	}
 	\bookpart {
@@ -201,10 +201,10 @@
 							\set Staff.instrumentName = "Violino I"
 							\OsannaViolinoI
 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino II"
-% 							\OsannaViolinoII
-% 						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\OsannaViolinoII
+						}
 					>>
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Viola"

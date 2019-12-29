@@ -1297,7 +1297,7 @@ BenedictusOrgano = {
 		\key g \major \time 4/4 \tempoBenedictus
 		\mvTr g'4\p-\soloE r d r8 fis
 		g h c a d d, d'4
-		r8 h,(\crescE d g) r c,( e a)
+		r8 h,( d g) r c,(\crescE e a)
 		r d,\fE d' d, g d g,4
 		r8 \mvTr h'\pE-\senzaOrg-\pizz a g r a g fis %5
 		g r c, r r d d' c
@@ -1340,7 +1340,7 @@ BenedictusOrgano = {
 		g\cresc \once \slurDashed h,( d g) r c,( e a)
 		r d,\p d' d, g4 r16c,\cresc h a
 		g8\f h d g c, e a c
-		d d d, d g r r gis
+		d d d, d g r r gis\pE
 		a r r cis, d r r a''16\f fis %40
 		d a fis d h8 h a4 r8\fermata \bar "||" %41 finis
 	}
@@ -1348,7 +1348,7 @@ BenedictusOrgano = {
 
 BenedictusBassFigures = \figuremode {
 	r2 <4>8 <3> <6 4> <6>
-	r4 <6> <6 4>8 <5 3>4.
+	r8 <[6]> <6>4 <6 4>8 <5 3>4.
 	r8 <6>4. <5> <5>8
 	<6 4>4. <7 [3]>8 <\t \t>4 <8 3>
 	r1 %5
@@ -1372,8 +1372,8 @@ BenedictusBassFigures = \figuremode {
 	r4. <6>8 <6 4> <5 3> r <2>
 	<6>2 <4>8 <3>4.
 	r4. <6>8 <4> <3>4. %25
-	r4 <6> <7> <6 4>8 <5 3>
-	r4 <6> <7> <6 4>8 <2>
+	r4 <6> <4>8 <3> <6 4> <5 3>
+	r4 <6> <4>8 <3> <6 4> <2>
 	<6>2.. <6>8
 	<6 4> <6\\> <6 4> <7 3> <\t \t> <8 3>4.
 	<6>2.. q8 %30
