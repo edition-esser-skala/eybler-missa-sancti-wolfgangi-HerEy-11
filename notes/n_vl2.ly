@@ -690,7 +690,7 @@ BenedictusViolinoII = {
 		h'\crescE h,( d g) h( a) a( g) c\fE c,( e g) fis( e d c)
 		h8(\p e d fis) fis(\cresc g a ais)
 		h16 g g g g g g g g\f g g g a a a a %30
-		g g h h h\sf h a a g8 g'16-! fis-! e-! d-! c-! h-!
+		g g h\sf h h h a a g8 g'16-! fis-! e-! d-! c-! h-!
 		h( a) fis'-! e-! d-! c-! h-! a-! a( g) h-! d-! c-! h-! a-! g-!
 		e8. d16 c( d e c) \once \slurDashed h8( a) r4
 		r2 \once \tieDashed \mvTr a4~\p-\markup { \remark "dolce" } a16 e'( d c)
@@ -698,9 +698,9 @@ BenedictusViolinoII = {
 		h(\cresc g d h) g( h d g) c( g e c) g( c e c)
 		h(\p g h d) g( fis e fis) g-! h-! c-! d-! e-!\cresc fis-! g-! a-!
 		h(\f g d h) g( h d h) c( g c e) d( c h a)
-		g( h g d) h d c d h8 r r h'\p
-		a r r e d r r16 fis\f a d
-		fis8 fis d, d cis4 r8\fermata \bar "||"
+		g( h g\sfE d) h d c d h8 r r h'\p
+		a r r e d r r16 fis\f a d %40
+		fis8 fis d, d cis4 r8\fermata \bar "||" %41 finis
 	}
 }
 

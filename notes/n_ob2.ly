@@ -563,6 +563,50 @@ BenedictusOboeII = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \tempoBenedictus
-		
+		R1
+		r2 r8 fis(\pE\crescE g a)
+		h2 c
+		r8 h4\fE a8 \appoggiatura a4 g2-\critnote
+		R1*13 %17
+		r4 r8 a'\pE g fis16 e d( c h a)
+		g4 r8 g e'4 d16( c h a)
+		g8 h4 a8 g r r4 %20
+		a2( g8) r r4
+		a2( g8) r r4
+		r2 r8 fis( g a)
+		h r r4 r2
+		R1 %25
+		d,4. g8 g( fis g a)
+		h d g, h a c h a
+		g4 r r2
+		r r8 g(\cresc a ais)
+		h4. d8 e4\f d16( c h a) %30
+		g4. fis8 g r r e16( h')
+		h( a) r8 r d,16( a') a( g) r8 r4
+		r8 e4 a8 \once \slurDashed g( fis) r4
+		R1*3 %36
+		r2 r16 h-!\pE c-! d-! e-!\crescE fis-! g-! a-!
+		h8\fE r r g, g'4 fis16( e d c)
+		h8 d4\sfE fis,8 g r r4
+		R1 %40
+		r8 a\fE d d cis4 r8\fermata \bar "||" %41 finis
+	}
+}
+
+OsannaOboeII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoOsanna
+			\set Score.currentBarNumber = #42
+		\partial 8 r8 r2 r4 r8 a'~\f
+		a a cis d e4 cis8 r
+		r2 r4 r8 a~
+		a cis d cis d4 d8 a %45
+		a4. e'8 d cis d a
+		a4. e'8 d cis d a
+		h4 cis d e
+		d8 d cis4\trill d8 r r4
+		a cis d8 r r4 %50
+		a4 g' fis r\fermata \bar "|." %51 FINIS
 	}
 }

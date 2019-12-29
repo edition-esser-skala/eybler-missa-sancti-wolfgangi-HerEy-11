@@ -690,7 +690,7 @@ BenedictusViola = {
 		g\crescE g'4 g8 r g,\fE c e
 		d(\p ais h d) \once \slurDashed d(\cresc <g, h> <a c> <ais cis>)
 		<h d>16 q q q q q q q c\f c c c c c e e %30
-		d d d d d\sf d c c h8 r r e
+		d d d\sf d d d c c h8 r r e
 		e r r d d r r d
 		c16( gis a h) c8. e16 d8 d,16( e fis g a fis)
 		g d h' d, d' d, h' d, c' d, a' d, fis d a' d,
@@ -698,7 +698,7 @@ BenedictusViola = {
 		g\cresc h8 d d d16 g, c8 e e e16
 		d(\p h g h) d8 d d16 <h d> <c e> <d fis> <e g>\cresc <fis a> <g h> <a c>
 		<h d>8\fE r r g, g' e <d fis>16 <c e> <h d> <a c>
-		<g h>8 <h d>4 <a c>8 <g h>^\critnote r r e'\p
+		<g h>8 <h d>4\sfE <a c>8 <g h>^\critnote r r e'\p
 		e r r a, a r16 d d'16\fE a fis d %40
 		a8 a d d <a e'>4 r8\fermata \bar "||" %41 finis
 	}

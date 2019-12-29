@@ -164,7 +164,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 } % 4 = 72
+			\midi { \tempo 4 = 60 }
 		}
 	}
 	\bookpart {
@@ -173,18 +173,18 @@
 		}
 		\score {
 			<<
-% 				\new StaffGroup <<
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Oboe I"
-% 							\OsannaOboeI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Oboe II"
-% 							\OsannaOboeII
-% 						}
-% 					>>
-% 				>>
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\OsannaOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\OsannaOboeII
+						}
+					>>
+				>>
 % 				\new StaffGroup <<
 % 					\new Staff <<
 % 						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in D" } }
@@ -247,7 +247,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 } % 4 = 72
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

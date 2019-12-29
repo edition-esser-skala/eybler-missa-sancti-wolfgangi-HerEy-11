@@ -688,7 +688,7 @@ BenedictusViolinoI = {
 		d'4\cresc d16( c) c( h) e4\fE d16( c h a)
 		g4.\p a8 a(\cresc h c cis)
 		d16 d d d d d d d e\f e e e c c c c %30
-		h h d d d\sf d fis, fis g8 h'16-! a-! g-! fis-! e-! d-!
+		h h d\sf d d d fis, fis g8 h'16-! a-! g-! fis-! e-! d-!
 		d( c) a'-! g-! fis-! e-! d-! c-! c( h) g'-! fis-! e-! d-! c-! h-!
 		a( h c d) e( h c a) g8( fis) r4
 		\mvTr d4~\p-\markup { \remark "dolce" } d16 \once \slurDashed e( fis g) g8 fis r4
