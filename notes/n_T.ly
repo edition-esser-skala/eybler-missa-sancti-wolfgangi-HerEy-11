@@ -1291,10 +1291,180 @@ DonaNobisTenoreNotes = {
 		\clef "treble_8"
 		\twofourtime \key d \major \time 2/4 \autoBeamOff \tempoDonaNobis
 			\set Score.currentBarNumber = #52
-		
+		\mvTr d4.\pE^\solo d8
+		d4 d
+		g,4. g8
+		a([ cis)] d4 %55
+		\mvTr d\f^\tutti e
+		d4. d8
+		cis d g fis
+		e([ d)] cis4
+		\mvTr d4.\pE^\solo d8 %60
+		d4 d
+		g,4. g8
+		a([ cis)] d4
+		\mvTr d\f^\tutti d
+		h h %65
+		a( cis)
+		d r
+		R2*4 %71
+		\mvTr d4\pE^\solo e
+		d e
+		d d
+		cis h %75
+		gis4. a8
+		ais([ h)] h4
+		a4. h8
+		d([ cis)] cis4
+		\mvTr d\f^\tutti d %80
+		cis8([ e)] fis([ d)]
+		cis4( d)
+		cis r
+		h2\p
+		a4 r %85
+		h2
+		a4 r
+		\mvTr e'4.\pE^\solo d8
+		d([ cis)] cis4
+		g'!4. fis8 %90
+		fis([ e)] e4
+		\mvTr e\f^\tutti e
+		cis d
+		g8 fis e d
+		d4 cis %95
+		d4. e8
+		g([ fis)] fis4
+		g4. g8
+		fis([ e)] d4
+		d d %100
+		d e
+		d( cis)
+		d r
+		\mvTr e4.\pE^\solo e8
+		cis([ d)] d4 %105
+		a4. e'8
+		cis([ d)] d4
+		h g
+		d' a
+		g'8([ fis)] e([ d)] %110
+		d4 cis
+		cis4. d8
+		dis([ e)] e4
+		e4. fis8
+		fis([ g)] g4 %115
+		\mvTr cis,\f^\tutti e
+		d h
+		a2
+		a4 r
+		d4. d8 %120
+		fis4 d
+		d4. d8
+		fis4 d
+		d4. e8
+		e4. fis8 %125
+		fis4. g8
+		e8.([\fermata g16)] g4\fermata
+		e d
+		h d
+		d( cis) %130
+		d r
+		a2\p
+		a4 r
+		g2
+		fis4 r %135
+		a4.\f a8
+		h4 c
+		c?2(
+		h)
+		a\fermata \bar "|." %140 FINIS
 	}
 }
 
 DonaNobisTenoreLyrics = \lyricmode {
+	Do -- na %52
+	no -- bis
+	pa -- cem,
+	pa -- cem. %55
+	Do -- na
+	no -- bis,
+	do -- na no -- bis
+	pa -- cem.
+	Do -- na %60
+	no -- bis
+	pa -- cem,
+	pa -- cem.
+	Do -- na
+	no -- bis %65
+	pa --
+	cem.
 	
+	Do -- na, %72
+	do -- na
+	no -- bis
+	pa -- cem, %75
+	do -- na
+	no -- bis,
+	no -- bis
+	pa -- cem.
+	Do -- na %80
+	no -- bis
+	pa --
+	cem,
+	pa --
+	cem, %85
+	pa --
+	cem.
+	Do -- na,
+	do -- na
+	no -- bis %90
+	pa -- cem.
+	Do -- na
+	no -- bis,
+	do -- na no -- bis
+	pa -- cem, %95
+	do -- na
+	no -- bis
+	pa -- cem,
+	pa -- cem,
+	do -- na %100
+	no -- bis
+	pa --
+	cem.
+	Do -- na
+	no -- bis %105
+	pa -- cem,
+	pa -- cem,
+	do -- na,
+	do -- na
+	no -- bis %110
+	pa -- cem,
+	do -- na
+	no -- bis,
+	no -- bis
+	pa -- cem. %115
+	Do -- na
+	no -- bis
+	pa --
+	cem,
+	do -- na %120
+	no -- bis
+	pa -- cem,
+	pa -- cem,
+	do -- na
+	no -- bis %125
+	pa -- cem,
+	pa -- cem.
+	Do -- na
+	no -- bis
+	pa -- %130
+	cem,
+	pa --
+	cem,
+	pa --
+	cem. %135
+	Do -- na
+	no -- bis
+	pa --
+	
+	cem. %140 FINIS
 }
