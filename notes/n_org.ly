@@ -1454,7 +1454,7 @@ AgnusDeiOrgano = {
 		d4) r r8 d(
 		dis4) r r8 dis( %20
 		e4) r r8 d\f
-		c-! h-! a-! g-! f-! e-!
+		c-! h-! a-! g-! f!-! e-!
 		d4 r r
 		d'\p r r8 d(
 		c!4) r r8 \once \slurDashed c( %25

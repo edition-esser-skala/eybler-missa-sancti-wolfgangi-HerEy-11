@@ -726,6 +726,56 @@ AgnusDeiViola = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 3/4 \tempoAgnusDei
-		
+		<f, a>4\pE r r8 \once \slurDashed a(
+		b4) r r8 b(
+		h4) r r8 \once \slurDashed h(
+		e,4) r r8 a\f
+		a'-\parenthesize-! cis-\parenthesize-! d-\parenthesize-! <d, a'>-\parenthesize-! <d b'>-\parenthesize-! <d c'>-\parenthesize-! %5
+		<d b'>4 r r
+		b\p r r8 b(
+		a4) r r8 a(
+		g4) r8 f( e a)
+		h4 e, r %10
+		d'8 d d d d d
+		<d d'>\f q q q f f
+		f\pp f f f e e
+		f a, a a a a
+		a a a a a a %15
+		b b b b b b
+		h h h h h h
+		c4 r r8 \once \slurDashed e,(
+		f4) r r8 f(
+		fis4) r r8 \once \slurDashed fis( %20
+		gis4) r r8 e\f
+		e'-\parenthesize-! gis-\parenthesize-! a-\parenthesize-! e-\parenthesize-! f!-\parenthesize-! g?-\parenthesize-!
+		<f a,>4 r r
+		f,\p r r8 f(
+		e4) r r8 e( %25
+		d4) r8 c( d d)
+		dis4 e r
+		a8 a a a a a
+		h\f h h h c c
+		c\ppE c c c h h %30
+		c e, e e e e
+		e e e e e e
+		f f f f f f
+		fis fis fis fis fis fis
+		g4 r r8 h( %35
+		c4) r r8 c(
+		cis4) r r8 cis(
+		fis,4) r r8 h\f
+		h'-\parenthesize-! dis-\parenthesize-! e-\parenthesize-! <e, h'>-\parenthesize-! <e c'>-\parenthesize-! <e d'>-\parenthesize-!
+		<e c'>4 r r %40
+		r8 e\p e e e e
+		r e e e e e
+		r e e e e e
+		r f f f f f
+		r f f f f f %45
+		r d d d d d
+		r d d d d d
+		e4 r \once \slurDashed d'(
+		cis) r \once \slurDashed d,(
+		cis) cis cis %50
+		cis2.\fermata \bar "||" %51 finis
 	}
 }
