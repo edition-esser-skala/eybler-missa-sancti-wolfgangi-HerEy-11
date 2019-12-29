@@ -1359,7 +1359,7 @@ DonaNobisSopranoNotes = {
 		fis4 r
 		e2
 		d4 r %135
-		d'4.\f d8
+		d'4.\ffE d8
 		d4 d
 		d2~
 		d
@@ -1371,20 +1371,20 @@ DonaNobisSopranoLyrics = \lyricmode {
 	Do -- na %52
 	no -- bis
 	pa -- cem,
-	pa -- cem, %55
-	do -- na
+	pa -- cem. %55
+	Do -- na
 	no -- bis,
 	do -- na no -- bis
-	pa -- cem,
-	do -- na %60
+	pa -- cem.
+	Do -- na %60
 	no -- bis
 	pa -- cem,
-	pa -- cem,
-	do -- na
+	pa -- cem.
+	Do -- na
 	no -- bis %65
 	pa --
-	cem,
-	do -- na
+	cem.
+	Do -- na
 	no -- bis
 	pa -- cem, %70
 	pa -- cem,
@@ -1395,20 +1395,20 @@ DonaNobisSopranoLyrics = \lyricmode {
 	do -- na
 	no -- bis,
 	no -- bis
-	pa -- cem,
-	do -- na %80
+	pa -- cem.
+	Do -- na %80
 	no -- bis
 	pa --
 	cem,
 	pa --
 	cem, %85
 	pa --
-	cem,
-	do -- na
+	cem.
+	Do -- na
 	no -- bis,
 	no -- bis %90
-	pa -- cem,
-	do -- na
+	pa -- cem.
+	Do -- na
 	no -- bis,
 	do -- na no -- bis
 	pa -- cem, %95
@@ -1416,45 +1416,45 @@ DonaNobisSopranoLyrics = \lyricmode {
 	no -- bis
 	pa -- cem,
 	pa -- cem,
-	do -- na
+	do -- na %100
 	no -- bis
 	pa --
+	cem.
+	Do -- na
+	no -- bis %105
+	pa -- cem,
+	pa -- cem,
+	do -- na
+	no -- bis
+	pa -- %110
 	cem,
 	do -- na
 	no -- bis
 	pa -- cem,
-	pa -- cem,
-	do -- na
+	pa -- cem. %115
+	Do -- na
 	no -- bis
 	pa --
 	cem,
-	do -- na
+	do -- na %120
 	no -- bis
 	pa -- cem,
 	pa -- cem,
 	do -- na
-	no -- bis
-	pa --
-	cem,
-	do -- na
-	no -- bis
+	no -- bis %125
 	pa -- cem,
-	pa -- cem,
-	do -- na
+	pa -- cem.
+	Do -- na
 	no -- bis
-	pa -- cem,
-	pa -- cem,
-	do -- na
-	no -- bis
-	pa --
+	pa -- %130
 	cem,
 	pa --
 	cem,
 	pa --
-	cem,
-	do -- na
+	cem. %135
+	Do -- na
 	no -- bis
 	pa --
 	
-	cem.
+	cem. %140 FINIS
 }
