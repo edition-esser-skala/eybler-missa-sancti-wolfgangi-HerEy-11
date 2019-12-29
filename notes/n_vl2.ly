@@ -726,6 +726,56 @@ AgnusDeiViolinoII = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 3/4 \tempoAgnusDei
-		
+		d4\p r r8 d
+		d4 r r8 d
+		d4 r r8 d
+		cis4 r r8 e\f
+		f-! g-! a-! d-! d-! fis-! %5
+		g4 r r
+		d,\p r r8 d
+		d4 r r8 d
+		cis4 r8 d e cis
+		d4 cis r %10
+		f8 f f f f f
+		a\f a a a a a
+		a\pp a a a g g
+		f f c c c c
+		c c c c d es? %15
+		d d d d d d
+		d d d d e! e
+		e4 r r8 a,
+		a4 r r8 a
+		a4 r r8 a %20
+		gis4 r r8 h\f
+		c-! d-! e-! a-! a-! cis-!
+		d4 r r
+		a,\p r r8 a
+		a4 r r8 a %25
+		gis4 r8 c h gis
+		a4 gis r
+		a8 a a a a a
+		<e' h'>\f q q q <e a> q
+		e\pp e e e d d %30
+		c g g g g g
+		g g g g a a
+		a a a a a a
+		a a a a h h
+		h?4 r r8 e %35
+		e4 r r8 e
+		e4 r r8 e
+		dis4 r r8 fis\f
+		g-! a-! h-! e-! e-! gis-!
+		a4 r r %40
+		r8 a,\p a a a a
+		r h h h h h
+		r b b b b b
+		r a a a a a
+		r a a a a a %45
+		r f f f f f
+		r f f f d d
+		cis4 r f'(
+		e) r f,(
+		e) e e %50
+		e2.\fermata \bar "||" %51 finis
 	}
 }

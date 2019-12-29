@@ -1428,7 +1428,7 @@ AgnusDeiOrgano = {
 		\mvTr d4\p-\solo r r8 f(
 		g4) r r8 g(
 		gis4) r r8 gis(
-		a4) r r8 g-\parenthesize-!\f
+		a4) r r8 g\f
 		f-! e-! d-! c-! b-! a-! %5
 		g4 r r
 		g'\p r r8 g(
@@ -1453,7 +1453,7 @@ AgnusDeiOrgano = {
 		} >> r r8 c(-\arco
 		d4) r r8 d(
 		dis4) r r8 dis( %20
-		e4) r r8 d\f-\parenthesize-!
+		e4) r r8 d\f
 		c-! h-! a-! g-! f-! e-!
 		d4 r r
 		d'\p r r8 d(
@@ -1478,7 +1478,7 @@ AgnusDeiOrgano = {
 	} >> r r8 g(-\arco %35
 		a4) r r8 a(
 		ais4) r r8 ais(
-		h4) r r8 a-!\f
+		h4) r r8 a\f
 		g-! fis-! e-! d-! c-! h-!
 		a4 r r %40
 		<< {
