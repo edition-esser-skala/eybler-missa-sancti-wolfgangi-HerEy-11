@@ -1497,7 +1497,7 @@ AgnusDeiOrgano = {
 			f r r
 			d r r %45
 			d r r
-			b! r r
+			b!_\tuttiE r r
 			a
 		} >> r r
 		a r r

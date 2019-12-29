@@ -1229,7 +1229,7 @@ AgnusDeiSopranoNotes = {
 		\once \tieDashed c!2~\pp c8.[ b16]
 		a4 r r
 		R2.*13 %27
-		c,2\p c4
+		\mvTr c,2\p^\tuttiE c4
 		e'2\f c4
 		\once \tieDashed g!2~\pp g8.[ f16] %30
 		e4 r r

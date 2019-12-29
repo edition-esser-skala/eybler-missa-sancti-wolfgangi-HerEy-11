@@ -1220,12 +1220,48 @@ AgnusDeiAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		R2.*10 %10
+		\mvTr f2\p^\tutti f4
+		a2\fE f4
+		f2(\ppE e4)
+		f r r
+		R2.*8 %22
+		\mvTr d'2\pE^\solo a4
+		f d r8 f
+		e8.([ a16)] a4 r8 a %25
+		gis8.([ h16)] d8 f, e d
+		\acciaccatura d8 c4 h r
+		c2^\tutti e4
+		e2\f e4
+		e2(\pp d4) %30
+		c r r
+		R2.*15 %46
+		\mvTr f'2(\p^\tutti d4)
+		cis r r
+		R2.*2 %50
+		R2.\fermataMarkup \bar "||" %51 finis
 	}
 }
 
 AgnusDeiAltoLyrics = \lyricmode {
+	Mi -- se -- %11
+	re -- re
+	no --
+	bis.
 	
+	A -- gnus %23
+	De -- i, qui
+	tol -- lis, qui %25
+	tol -- lis pec -- ca -- ta
+	mun -- di:
+	Mi -- se --
+	re -- re
+	no -- %30
+	bis.
+	
+	
+	Pa -- %47
+	cem. %48 finis
 }
 
 % AltoNotes = {
