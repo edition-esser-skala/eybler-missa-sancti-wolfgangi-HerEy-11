@@ -315,6 +315,52 @@ DonaNobisTrombaII = {
 		\clef treble
 		\twofourtime \key c \major \time 2/4 \tempoDonaNobis
 			\set Score.currentBarNumber = #52
-		
+		R2*4 %55
+		c'4\f g
+		c, r
+		r g
+		g r
+		R2*4 %63
+		e'4\fE c
+		R2 %65
+		c'4 g
+		e r
+		R2*12 %79
+		e4\f c %80
+		g' r
+		R2*10 %91
+		g4\f c
+		g e
+		R2*2 %95
+		c4 c8. c16
+		c4 r
+		c8 c16 c c8 c
+		c4 r
+		c c %100
+		c r
+		c' g
+		e r
+		R2*12 %115
+		g2\f
+		c4 r
+		R2
+		c,8 c16 c c8 c
+		c4 r %120
+		c8 c16 c c8 c
+		c4 r
+		c8 c16 c c8 c
+		c4 r
+		R2*2 %126
+		r4\fermata r\fermata
+		g' c
+		d c
+		c g %130
+		e r
+		R2*4 %135
+		c4.\ffE c8
+		c4 c
+		c8 c16 c c8 c
+		c c c c
+		c2\fermata \bar "|." %140 FINIS
 	}
 }
