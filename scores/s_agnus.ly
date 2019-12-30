@@ -11,79 +11,79 @@
 #(set-global-staff-size 15.87)
 
 \book {
-% 	\bookpart {
-% 		\header {
-% 			movement = "6.1 AGNUS DEI"
-% 		}
-% 		\score {
-% 			<<
-% 				\new StaffGroup <<
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Oboe I"
-% 							\AgnusDeiOboeI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Oboe II"
-% 							\AgnusDeiOboeII
-% 						}
-% 					>>
-% 				>>
-% 				\new StaffGroup <<
-% 					\new GrandStaff \with { \violinGroupDistance } <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino I"
-% 							\AgnusDeiViolinoI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino II"
-% 							\AgnusDeiViolinoII
-% 						}
-% 					>>
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Viola"
-% 						\AgnusDeiViola
-% 					}
-% 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \AgnusDeiSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \AgnusDeiSopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
-% 					}
-% 					\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
-% 				>>
-% 				\new StaffGroup <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = \markup { \center-column { "Violoncello," "Basso e" "Organo" } }
-% 						\AgnusDeiOrgano
-% 					}
-% 				>>
-% 				\new FiguredBass {
-% 					\AgnusDeiBassFigures
-% 				}
-% 			>>
-% 			\layout { }
-% 			\midi { \tempo 4 = 60 }
-% 		}
-% 	}
+	\bookpart {
+		\header {
+			movement = "6.1 AGNUS DEI"
+		}
+		\score {
+			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\AgnusDeiOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\AgnusDeiOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\AgnusDeiViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\AgnusDeiViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\AgnusDeiViola
+					}
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \AgnusDeiSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \AgnusDeiSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Violoncello," "Basso e" "Organo" } }
+						\AgnusDeiOrgano
+					}
+				>>
+				\new FiguredBass {
+					\AgnusDeiBassFigures
+				}
+			>>
+			\layout { }
+			\midi { \tempo 4 = 60 }
+		}
+	}
 	\bookpart {
 		\header {
 			movement = "6.2 DONA NOBIS"
@@ -164,7 +164,7 @@
 				}
 			>>
 			\layout { }
-% 			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }
