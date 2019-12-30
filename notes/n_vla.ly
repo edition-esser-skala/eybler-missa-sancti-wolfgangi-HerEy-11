@@ -785,6 +785,94 @@ DonaNobisViola = {
 		\clef treble
 		\twofourtime \key d \major \time 2/4 \tempoDonaNobis
 			\set Score.currentBarNumber = #52
-		
+		r8 d\p d d
+		r d d d
+		r d d d
+		a cis d4 %55
+		d'8\f d, cis cis'
+		h h, a a'
+		g fis e d
+		a a'16 gis a8 a,
+		r d\p d d %60
+		r d d d
+		r d d d
+		a cis d4
+		d'8\f d, h' h,
+		g' g, e'^\critnote e, %65
+		a a'16 gis a8 a,
+		d16 d' cis h a g fis e
+		d8\p d d d
+		r a a a
+		r e h'-\critnote e %70
+		r e e e
+		d4 e
+		d e
+		r8 d d d
+		r cis h h %75
+		r e e e
+		r gis, gis gis
+		r a a a
+		r a a a
+		d16\f cis d e fis e fis gis %80
+		a8 a, d d,
+		e' e, e' e,
+		a4 r
+		e'2\p
+		e4 r %85
+		d2
+		cis16 a h cis d e fis gis
+		a8\p a, a d
+		r cis cis cis
+		r cis cis d %90
+		r a a a
+		cis\f cis' d, d'
+		g,,! g'! fis, fis'
+		e d cis d
+		a a'16 gis a8 a, %95
+		d d'16 cis d8 d
+		d, d'16 cis d8 d
+		d, d'16 cis d8 d
+		d, d'16 cis d8 d
+		d, d' fis,, fis' %100
+		g, g' e, e'
+		a, a'16 g a8 a,
+		d a' fis d
+		a\p e' e e
+		r d d d %105
+		r a' a a
+		r a a a
+		h4 g
+		d r
+		g8 fis e d %110
+		a'4 a,
+		r8 a a a
+		r a a a
+		r a a a
+		r cis cis cis %115
+		a'\f e cis a
+		d fis g e
+		a g a a,
+		d a' fis d
+		g d' h g %120
+		d a' fis d
+		g d' h g
+		d a' fis d
+		g h g e
+		a cis a fis %125
+		h d h g
+		<e a,>4\fermata r\fermata
+		e,8 e' d, d'
+		h h' gis, gis'
+		a4 a, %130
+		d r
+		<a e'>2\pE\>
+		<a fis'>4\! r
+		<g a>2\>
+		<fis a>4\! r %135
+		d'4.\ff d8
+		g4 fis
+		g8 d' h g
+		d h g h
+		d2\fermata \bar "|." %140 FINIS
 	}
 }
