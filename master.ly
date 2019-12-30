@@ -10,7 +10,7 @@
 % \include "scores/s_gloria.ly"
 % \include "scores/s_credo.ly"
 % \include "scores/s_sanctus.ly"
-\include "scores/s_agnus.ly"
+% \include "scores/s_agnus.ly"
 
 % \include "parts/p_ob1.ly"
 % \include "parts/p_ob2.ly"

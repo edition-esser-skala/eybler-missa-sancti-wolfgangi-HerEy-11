@@ -169,7 +169,7 @@
 	}
 	\bookpart {
 		\header {
-			movement = "3.3 ET RESURREXIT"
+			movement = "3.3 ET RESURREXIT – ET VITAM"
 		}
 		\score {
 			<<
