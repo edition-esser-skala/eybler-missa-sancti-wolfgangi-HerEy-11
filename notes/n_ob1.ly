@@ -668,6 +668,60 @@ DonaNobisOboeI = {
 		\clef treble
 		\twofourtime \key d \major \time 2/4 \tempoDonaNobis
 			\set Score.currentBarNumber = #52
-		
+		R2*4 %55
+		fis'4\f e
+		g4. fis8
+		e d cis d
+		fis( e) e4
+		R2*4 %63
+		d4\fE fis
+		fis8 e fis g %65
+		d4 e
+		d r
+		R2*12 %79
+		a'4\f fis %80
+		e d
+		cis h
+		a r
+		R2*8 %91
+		g'!4\f fis
+		e d
+		cis8 d e fis
+		fis4 e %95
+		fis,4. g8
+		h a a4
+		d4. h8
+		a g fis4
+		fis' d %100
+		h g'
+		fis e
+		d r
+		R2*5 %108
+		a'2\p
+		g8 fis e d %110
+		d4 cis
+		R2*4 %115
+		e4\f g
+		fis e
+		d cis
+		d r
+		h2 %120
+		a
+		h
+		a
+		h4. e8
+		cis4. fis8 %125
+		d4. g8
+		g4\fermata r\fermata
+		g fis
+		e d
+		fis e %130
+		d r
+		R2*4 %135
+		a4.\ffE a8
+		h4 c
+		c2
+		h
+		a\fermata \bar "|." %140 FINIS
 	}
 }
