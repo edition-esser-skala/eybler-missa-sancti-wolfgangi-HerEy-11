@@ -8,7 +8,7 @@ project = Eybler_Missa_Sancti_Wolfgangi_HerEy_11
 zipname = Eybler_Missa_Sancti_Wolfgangi_HerEy_11_Engraving_files
 notes = ob1 ob2 tr1 tr2 timp vl1 vl2 vla S A T B org
 parts = ob1 ob2 ottoni vl1 vl2 vla coro b org
-movements = kyrie gloria credo sanctus
+movements = kyrie gloria credo sanctus agnus
 
 
 .DEFAULT_GOAL := info
