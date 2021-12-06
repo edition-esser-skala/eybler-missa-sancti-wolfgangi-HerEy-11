@@ -1351,7 +1351,7 @@ BenedictusBassFigures = \figuremode {
   r
   r
   r
-  r2 <4>8 <3> r <7>
+  r2 \bo <[4 \l]>8 <3> r <7>
   r2 <6 4>8 <5 3> r <2> %10
   <6>2.. <6>8
   <6 4>4 <\t \t>8 <5 3> r2
@@ -1383,7 +1383,7 @@ BenedictusBassFigures = \figuremode {
   r2.. <6>8
   <6 4>4. <5 3>8 r4. <6>8
   r4. q8 r4. <6 4>8 \bassFigureExtendersOn %40
-  q8. q16 \bassFigureExtendersOff <6\\>4 <_+>4. %41 finis
+  q8. q16 \bassFigureExtendersOff <6\\>4 \bc <[_+ \l]>4. %41 finis
 }
 
 OsannaOrgano = {
