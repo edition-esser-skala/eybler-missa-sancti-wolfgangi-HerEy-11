@@ -4,9 +4,15 @@ composer:
 title: Missa Sancti Wolfgangi
 id: HerEy 11
 genre: mass
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 clno (D), timp (D–A), 2 vl, 2 vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 clno (D), timp (D–A), 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 567 (2)
+    date: 1800-08
+    license: public domain
+    principal: true
   B1:
     siglum: D-NATk
     shelfmark: NA/SP (E-21)
@@ -14,8 +20,7 @@ sources:
     rism: 455039870
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_E21/
     license: public domain
-    principal: true
 imslp: Missa_Sancti_Wolfgangi_HV_11_(Eybler,_Joseph)
 parts:
   ottoni: Clarino I, II in D\\Timpani in D–A
-  vla12: Viola I, II
+  b: Violoncello \& Bassi

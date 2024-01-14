@@ -1,10 +1,10 @@
-\version "2.22.0"
+\version "2.24.2"
 
 KyrieSopranoNotes = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/4 \autoBeamOff \tempoKyrie
-    \mvTr d'8.\f^\tutti d,16 d4 r
+    \mvTr d'8.\f^\tuttiE d,16 d4 r
     d'8. d,16 d4 r
     e\pp e2
     e4 r r
@@ -17,87 +17,87 @@ KyrieSopranoNotes = {
     b c d
     f, e r
     R2.*2
-    \mvTr g'4.\pE^\solo e8 c b %15
-    gis([ a)] a4 r
+    g'4.\pE e8 c b %15
+    gis8.([ a16)] a4 r
     f'4..\f e16 d4
     c4.. b16 a4
-    g8([\pp d')] c([ a)] b g
+    g8([\p d')] c([ a)] b g
     e([ f)] f4 r %20
-    \mvTr c'8.\f^\tutti b16 a8 f'([ e d)]
+    c'8.\f b16 a8 f'([ e d)]
     c8.([ b16)] a4 r
     f'2\ff f4
-    << { \voiceOne f8 } \\ \context Voice = "Soprano" { \voiceTwo \mvTr f16([\p^\solo e f e] g[ f e d]) c[( b a g]) \oneVoice } >>
+    f16([\p e f e] g[ f e d]) c[( b a g])
     f2(\pp \grace a8 g4) %25
     f r r
     R2.*3
-    \mvTr f'4\f^\tutti f, r %30
+    f'4\f f, r %30
     f' f, r
     g\pp g2
     g4 r r
     as4 as2
-    as?4 r r %35
-    b\crescE des c!
+    as4 r r %35
+    b \after 8 \cresc des c!
     es d d~
-    d c\pE b
+    d\p c b
     b a r
-    d2\fE fis4 %40
+    d2\f fis4 %40
     g r f
     es d c
     b8.([ a16)] g4 r
-    es'2\pE es4
+    es'2 es4
     c r r %45
     f2 f4
     d r r
     g2\sf f4
-    e!\decrescE es d
+    e! es\decresc d
     des\p c b %50
     a8.([ b16)] c4 r
-    c(\crescE d!) es
+    c( d!) es\cresc
     f4. es8 d4
     d16([\p c es c)] b4( a)
-    b d\fE b %55
+    b d\f b %55
     r d8. b16 b4
     r8. b16 d4 b
-    r f'8. d16 b4
-    R2.*2 %60
-    ges2(\pp f4)
+    r f'8. d16 b8 r\fermata \markCritnote
+    R2.
+    ges2(\pp f4) %60
     e! f r
     as as g!
     fis g r
-    b!2 a!4 %65
-    gis( a) g
+    b!2\cresc a!4
+    gis( a) g %65
     f e! d
     a'2.
     a,4 r r
-    R2. %70
-    d'8.\f d,16 d4 r
+    R2.
+    d'8.\f d,16 d4 r %70
     d'8. d,16 d4 r
-    e\ppE e2
+    e\pp e2
     e4 r r
-    R2.*2 %76
-    \mvTr g'4.\pE^\solo e8 cis g
+    R2.*2 %75
+    g'4.\pE e8 cis g
     e8.([ f16)] f4 r
     d'4..\f c16 b4
-    a4.. g16 f4 %80
-    e8([\p b')] a([ f')] e cis
-    cis?([ d)] d4 r
-    \mvTrr f4..\sf^\tutti es16 c4
+    a4.. g16 f4
+    e8([\p b')] a([ f')] e cis %80
+    cis([ d)] d4 r
+    f4..\sf es16 c4
     f4..\sf d16 b4
-    r8 b\pp b([ a)] a gis %85
-    gis([ a)] a4 r
-    g'!(\fE e) cis
+    r8 b\pp b([ a)] a gis
+    gis([ a)] a4 r %85
+    g'!(\f e) cis
     a'4.\sf f8 d4
     r8 b\p a([ f)] g e
-    e([ d)] d4 r %90
-    d'8.\f d,16 d4 r8 d'
+    e([ d)] d4 r
+    d'8.\f d,16 d4 r8 d' %90
     d4 d, r
     d'4.\ff d8 d d
     f4 e d
-    a'2.~ %95
-    a
+    a'2.~
+    a %95
     d,4 r r
     R2.*2
-    R2.\fermata \bar "|." %100 finis
+    R2.\fermata \bar "|." %99 finis
   }
 }
 
@@ -158,42 +158,42 @@ KyrieSopranoLyrics = \lyricmode {
   e -- lei -- son,
   Ky -- ri -- e
 
-  e -- %61
+  e -- %60
   lei -- son,
   Chri -- ste e --
   lei -- son,
-  Ky -- ri -- %65
-  e __ e --
+  Ky -- ri --
+  e __ e -- %65
   lei -- son, e --
   lei --
   son.
-  %70
-  Ky -- ri -- e,
+
+  Ky -- ri -- e, %70
   Ky -- ri -- e
   e -- lei --
   son,
 
-  Ky -- ri -- e e -- %77
-  lei -- son,
-  Ky -- ri -- e,
-  Ky -- ri -- e %80
-  e -- lei -- son, e --
+  Ky -- ri -- e e -- %76
   lei -- son,
   Ky -- ri -- e,
   Ky -- ri -- e
-  e -- lei -- son, e -- %85
+  e -- lei -- son, e -- %80
   lei -- son,
+  Ky -- ri -- e,
+  Ky -- ri -- e
+  e -- lei -- son, e --
+  lei -- son, %85
   Chri -- ste,
   Ky -- ri -- e
   e -- lei -- son, e --
-  lei -- son, %90
-  Ky -- ri -- e e --
+  lei -- son,
+  Ky -- ri -- e e -- %90
   lei -- son,
   Ky -- ri -- e e --
   lei -- son, e --
-  lei -- %95
-
-  son. %97 finis
+  lei --
+  %95
+  son. %96 finis
 }
 
 GloriaSopranoNotes = {

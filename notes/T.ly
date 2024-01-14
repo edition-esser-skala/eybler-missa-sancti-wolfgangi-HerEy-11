@@ -1,10 +1,10 @@
-\version "2.22.0"
+\version "2.24.2"
 
 KyrieTenoreNotes = {
   \relative c' {
     \clef "treble_8"
     \key d \minor \time 3/4 \autoBeamOff \tempoKyrie
-    \mvTr a8.\f^\tutti f16 f4 r
+    \mvTr a8.\f^\tuttiE f16 f4 r
     f8. f16 f4 r
     b\pp a( gis)
     a r r
@@ -17,17 +17,17 @@ KyrieTenoreNotes = {
     g, a b
     a g r
     R2.
-    \mvTr c4.\p^\solo f8 e d
+    c4.\pE f8 e d
     c8.([ h16)] b4 r %15
     R2.*2
     a4..\f b16 c4
-    d8([\ppE b)] a([ c)] g c
+    d8([\p b)] a([ c)] g c
     b([ a)] a4 r %20
-    \mvTr f8.\f^\tutti g16 a8 r r f
+    f8.\f g16 a8 r r f
     f8.([ g16)] a4 r
     c2\ff cis4
-    d8 r r4 d8([\pE b)]
-    a2(\ppE \grace c8 \once \stemUp b4) %25
+    d8 r r4 d8([\p b)]
+    a2(\pp \grace c8 \once \stemUp b4) %25
     a4 r r
     R2.*3
     c8.([\f a16)] a4 r %30
@@ -36,67 +36,67 @@ KyrieTenoreNotes = {
     c r r
     c as( c)
     des r r %35
-    as\crescE g! b
+    as \after 8 \cresc g! b
     a! c b~
-    b as\pE g
+    b\p as g
     g fis r
     g2\f es'4 %40
     d r d
     c b a
     g8.([ a16)] b4 r
     R2.
-    c2\pE c4 %45
+    c2 c4 %45
     f r r
     d2 d4
-    g\sfE es? d
-    c\decresc c b
+    g es? d
+    c c\decresc b
     b\p c des %50
     c8.([ b16)] a4 r
-    a(\crescE b) c
+    a( b) c\cresc
     d4. c8 b4
     es\p d( c)
     b r8 g'([\f f es)] %55
     d8.([ c16)] b8 g' f es
     d8.([ c16)] b8 g'16 g f8 es
-    d8.([ c16)] b4 r
-    R2.*2 %60
-    b2.\pp
+    d8.([ c16)] b4 r\fermata \markCritnote
+    R2.
+    b\pp %60
     g4 c r
     c c c
     a! d! r
-    d2 d4 %65
-    h!( e!) a,
+    d2\cresc d4
+    h!( e!) a, %65
     a a gis
     a8([ d cis d cis d)]
     cis4 r r
-    R2. %70
-    a8.\f f16 f4 r
+    R2.
+    a8.\f f16 f4 r %70
     f8. f16 f4 r
     b\pp a( gis)
     a r r
-    \mvTr e'4.\pE^\solo f8 g cis, %75
-    e8.([ d16)] d4 r
+    e'4.\pE f8 g cis,
+    e8.([ d16)] d4 r %75
     R2.*3
-    f,!4..\f g16 a4 %80
-    b8([\p d)] a([ d)] cis e
+    f,!4..\f g16 a4
+    b8([\p d)] a([ d)] cis e %80
     e([ d)] d4 r
-    \mvTrr c!4..\sf^\tutti c16 es4
+    c!4..\sf c16 es4
     d4..\sf b16 d4
-    r8 d\pp d4 d8 d %85
-    d([ cis)] cis4 r
+    r8 d\pp d4 d8 d
+    d([ cis)] cis4 r %85
     e,4(\f g) b
-    a4.\sfE d8 f4
+    a4.\sf d8 f4
     r8 d\p d([ a)] a g
-    g([ f)] f4 r %90
-    d'4.\f d8 d d
+    g([ f)] f4 r
+    d'4.\f d8 d d %90
     d8.([ e16)] f4 r
     d4.\ff d8 d d
     f4 e d
-    \once \tieDashed a2.~ %95
-    a
+    a2.~
+    a %95
     d,4 r r
     R2.*2
-    R2.\fermata \bar "|." %100 finis
+    R2.\fermata \bar "|." %99 finis
   }
 }
 
@@ -157,41 +157,41 @@ KyrieTenoreLyrics = \lyricmode {
   lei -- son, Ky -- ri -- e e --
   lei -- son,
 
-  e -- %61
+  e -- %60
   lei -- son,
   Chri -- ste e --
   lei -- son,
-  Ky -- ri -- %65
-  e __ e --
+  Ky -- ri --
+  e __ e -- %65
   lei -- son, e --
   lei --
   son.
-  %70
-  Ky -- ri -- e,
+
+  Ky -- ri -- e, %70
   Ky -- ri -- e
   e -- lei --
   son,
-  Ky -- ri -- e e -- %75
-  lei -- son,
+  Ky -- ri -- e e --
+  lei -- son, %75
 
-  Ky -- ri -- e %80
-  e -- lei -- son, e --
+  Ky -- ri -- e %79
+  e -- lei -- son, e -- %80
   lei -- son,
   Ky -- ri -- e,
   Ky -- ri -- e
-  e -- lei -- son, e -- %85
-  lei -- son,
+  e -- lei -- son, e --
+  lei -- son, %85
   Chri -- ste,
   Ky -- ri -- e
   e -- lei -- son, e --
-  lei -- son, %90
-  Ky -- ri -- e e --
+  lei -- son,
+  Ky -- ri -- e e -- %90
   lei -- son,
   Ky -- ri -- e e --
   lei -- son, e --
-  lei -- %95
-
-  son. %97 finis
+  lei --
+  %95
+  son. %96 finis
 }
 
 GloriaTenoreNotes = {

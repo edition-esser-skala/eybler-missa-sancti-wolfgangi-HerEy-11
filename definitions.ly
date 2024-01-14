@@ -1,12 +1,19 @@
-\version "2.22.0"
+\version "2.24.2"
 
 #(define option-movement-title-format "number-title")
-#(define option-init-toc #t)
-#(define option-print-all-bar-numbers #f)
+#(define option-print-all-bar-numbers #t)
 \include "ees.ly"
+\include "ees_articulate.ly"
 
 
-tempoKyrie = \tempoMarkup "Andante"
+acc = \markup \remark "acc."
+markCritnote = {
+  \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \mark \markup \normalsize \critnote
+}
+
+
+tempoKyrie = \tempoMarkup "Andante con moto"
 tempoGloria = \tempoMarkup "Allegro con fuoco"
   tempoQuiTollis = \tempoMarkup "Adagio"
   tempoQuoniam = \tempoMarkup "Allegro con fuoco"

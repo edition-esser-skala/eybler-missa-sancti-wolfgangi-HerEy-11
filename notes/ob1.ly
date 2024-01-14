@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.2"
 
 KyrieOboeI = {
   \relative c' {
@@ -22,14 +22,14 @@ KyrieOboeI = {
     c4..\sfp b16 a4
     R2.
     r4 r8 f'(\f e d) %20
-    c8. b16 a8( f' e d)
-    c8. b16 a8( f' e d)
+    c8. b16 a8 f'( e d)
+    c8. b16 a8 f'( e d)
     c2\ff cis4
     d8 r r4 r
     R2.*2 %26
-    b2.(\sfE
-    a8) r r4 r
-    c!2\sfpE e,4
+    b2.\sfp
+    a8 r r4 r
+    c!2 e,4
     f2\f r4 %30
     f'2 r4
     R2.*8 %39
@@ -38,43 +38,43 @@ KyrieOboeI = {
     es d c
     b r8 fis16( g a b c d)
     es2.
-    c4 r8 gis16( a b c d es) %45
+    c4 r8 gis16( a b! c d es) %45
     f2.
     d4 r8 a16( b c d es f)
-    g2\sfE f4
+    g2 f4
     e! r r
     R2.*5 %54
     b'2.~\f %55
     b~
     b~
-    b
-    R2.*12 %70
-    d,2\f r4
+    b2~ b8 r\fermata \markCritnote
+    R2.*11 %69
+    d,2\f r4 %70
     d2 r4
     R2.*2
-    e2.\sfp %75
-    f
+    e2.\sfp
+    f %75
     g
     f4 r r
     R2.
-    a4..\sfp g16 f4 %80
-    R2.*2
-    f4..\sfE es16 d4
-    f4..\sfE d16 b4
-    R2.*2 %86
+    a4..\sfp g16 f4
+    R2.*2 %81
+    f4..\sf es16 c4
+    f4..\sf d16 b4
+    R2.*2 %85
     g'2\f e4
-    a2\sfE f4
-    R2.*2 %90
+    a2 f4
+    R2.*2
     d2.~\f
     d~
     d~
     d4 r r
-    a'2.\f %95
+    a'2.\f
     cis\ff
     d4 a f
     d a f
-    \once \tieDashed d2.~\pE
-    d2 r4\fermata \bar "|." %100 finis
+    d2.~\p
+    d2 r4\fermata \bar "|." %99 finis
   }
 }
 

@@ -1,10 +1,10 @@
-\version "2.22.0"
+\version "2.24.2"
 
 KyrieAltoNotes = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/4 \autoBeamOff \tempoKyrie
-    \mvTr f8.\f^\tutti d16 d4 r
+    \mvTr f8.\f^\tuttiE d16 d4 r
     d8. b16 b4 r
     d\pp d2
     cis4 r r
@@ -16,14 +16,14 @@ KyrieAltoNotes = {
     g r f %10
     d c! b8([ d)]
     c!4 c r
-    \mvTr c'4.\pE^\solo e,8 e e
+    c'4.\pE e,8 e e
     g8.([ f16)] f4 r
     R2.*2 %16
     d'4..\f c16 b4
     a4.. g16 f4
-    r8 g\ppE a([ f)] g e
+    r8 g\p a([ f)] g e
     c4 c r %20
-    \mvTr f8.\f^\tutti f16 f4 f
+    f8.\f f16 f4 f
     f f r
     f2\ff f4
     f8 r r4 r
@@ -36,7 +36,7 @@ KyrieAltoNotes = {
     e4 r r
     e f( ges)
     f r r %35
-    f\crescE es g!
+    f \after 8 \cresc es g!
     f( a!) b
     es,\p es e
     d d r
@@ -44,61 +44,61 @@ KyrieAltoNotes = {
     b r g
     g fis fis
     g8([ d)] d4 r
-    c'2\pE c4
+    c'2 c4
     a r r %45
     d2 d4
     b r r
     b2\sf h4
-    c\decrescE a b
+    c a\decresc b
     g\p g g %50
     f f r
-    f2\crescE f4
+    f2 f4\cresc
     f4. f8 b4
     g\p f4.( es8)
     d4 r8 b'([\f a g)] %55
     f8.([ es16)] d8 b' a g
     f8.([ es16)] d8 b'16 b a8 g
-    f8.([ es16)] d4 r
-    R2.*2 %60
-    des2.\pp
-    des?4 c r
+    f8.([ es16)] d4 r\fermata \markCritnote
+    R2.
+    des\pp %60
+    des4 c r
     es es es
     es d! r
-    f2 f4 %65
-    f( e!) cis
+    f2\cresc f4
+    f( e!) cis %65
     d e f8([ d)]
     cis([ f e f e f)]
     e4 r r
-    R2. %70
-    f8.\f d16 d4 r
+    R2.
+    f8.\f d16 d4 r %70
     d8. b16 b4 r
     d\pp d2
     cis4 r r
-    R2. %75
-    \mvTr a'4.\pE^\solo f8 e d
+    R2.
+    a'4.\pE f8 e d %75
     f8.([ e16)] e4 r
     R2.
     b'4..\f a16 g4
-    f!4.. e16 d4 %80
-    d8([\pE e)] f([ d)] a' g
+    f!4.. e16 d4
+    d8([\p e)] f([ d)] a' g %80
     g([ f)] f4 r
-    \mvTrr f4..\sf^\tutti f16 f4
     f4..\sf f16 f4
-    r8 f\pp f4 f8 f %85
-    f([ e!)] e4 r
+    f4..\sf f16 f4
+    r8 f\pp f4 f8 f
+    f([ e!)] e4 r %85
     b'4(\f g) e
     d4.\sf f8 a4
     r8 g\p f([ d)] e cis
-    cis?([ d)] d4 r %90
-    a'8.\f g16 f8 d'([ c b)]
+    cis([ d)] d4 r
+    a'8.\f g16 f8 d'([ c b)] %90
     a8.([ g16)] f4 r
     d4.\ff d8 d d
     f4 e d
-    a'2.~ %95
-    a
+    a'2.~
+    a %95
     d,4 r r
     R2.*2
-    R2.\fermata \bar "|." %100 finis
+    R2.\fermata \bar "|." %99 finis
   }
 }
 
@@ -159,43 +159,43 @@ KyrieAltoLyrics = \lyricmode {
   lei -- son, Ky -- ri -- e e --
   lei -- son,
 
-  e -- %61
+  e -- %60
   lei -- son,
   Chri -- ste e --
   lei -- son,
-  Ky -- ri -- %65
-  e __ e --
+  Ky -- ri --
+  e __ e -- %65
   lei -- son, e --
   lei --
   son.
-  %70
-  Ky -- ri -- e,
+
+  Ky -- ri -- e, %70
   Ky -- ri -- e
   e -- lei --
   son,
-  %75
-  Ky -- ri -- e e --
+
+  Ky -- ri -- e e -- %75
   lei -- son,
 
   Ky -- ri -- e,
-  Ky -- ri -- e %80
-  e -- lei -- son, e --
+  Ky -- ri -- e
+  e -- lei -- son, e -- %80
   lei -- son,
   Ky -- ri -- e,
   Ky -- ri -- e
-  e -- lei -- son, e -- %85
-  lei -- son,
+  e -- lei -- son, e --
+  lei -- son, %85
   Chri -- ste,
   Ky -- ri -- e
   e -- lei -- son, e --
-  lei -- son, %90
-  Ky -- ri -- e e --
+  lei -- son,
+  Ky -- ri -- e e -- %90
   lei -- son,
   Ky -- ri -- e e --
   lei -- son, e --
-  lei -- %95
-
-  son. %97 finis
+  lei --
+  %95
+  son. %96 finis
 }
 
 GloriaAltoNotes = {

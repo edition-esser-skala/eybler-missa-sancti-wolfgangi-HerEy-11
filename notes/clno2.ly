@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.2"
 
 KyrieClarinoII = {
   \relative c' {
@@ -12,23 +12,25 @@ KyrieClarinoII = {
     R2.*33 %39
     c4\fE r r %40
     c r r
-    R2.*29 %70
-    c4\f r r
+    R2.*16 %57
+    R2.\fermata \markCritnote
+    R2.*11 %69
+    c4\f r r %70
     c r r
-    R2.*6 %78
-    c4\sfpE r r
-    c\sfpE r r %80
-    R2.*10 %90
-    c4\f r8 \tuplet 3/2 8 { c16 c c } c8 c
+    R2.*6 %77
+    c4\fE r r
+    c r r
+    R2.*10 %89
+    c4\f r8 \tuplet 3/2 8 { c16 c c } c8 c %90
     c4 r8 \tuplet 3/2 8 { c16 c c } c8 c
     c4 r8 \tuplet 3/2 8 { c16 c c } c8 c
     c4 r r
-    R2. %95
-    g8\ff g16 g g8 g g g
+    R2.
+    g8\ff g16 g g8 g g g %95
     c4 r r
     c r r
     R2.
-    R2.\fermata \bar "|." %100 finis
+    R2.\fermata \bar "|." %99 finis
   }
 }
 
