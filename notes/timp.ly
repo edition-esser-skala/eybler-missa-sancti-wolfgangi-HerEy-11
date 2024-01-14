@@ -54,15 +54,15 @@ GloriaTimpani = {
     c c c c
     r2 r4 g\sf
     R1*3 %56
-    r2 g4\sfE r
+    r2 g4\fE r
     R1*12 %69
-    g8\fE g16 g g8 g c4 r %70
+    g8\f g16 g g8 g c4 r %70
     r2 g4 c
     g8 g16 g g8 g c4 r
     R1*2
-    c4\fE g c r %75
+    c4\f g c r %75
     R1*5 %80
-    g8\ffE \tuplet 3/2 8 { g16 g g } g8 g c4 r
+    g8\ff \tuplet 3/2 8 { g16 g g } g8 g c4 r
     g8 \tuplet 3/2 8 { g16 g g } g8 g g g g g
     c4 r r2
     R1*2 %85

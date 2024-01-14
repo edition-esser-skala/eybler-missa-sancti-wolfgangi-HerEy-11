@@ -198,27 +198,27 @@ GloriaTenoreNotes = {
   \relative c' {
     \clef "treble_8"
     \key d \major \time 4/4 \autoBeamOff \tempoGloria
-    \mvTr d8\f^\tutti d16 d d8 d e8.([ cis16)] cis4
+    \mvTr d8\f^\tuttiE d16 d d8 d e8.([ cis16)] cis4
     cis8 cis cis e fis8.([ d16)] d4
-    \mvTr d4.\p^\solo cis8 \acciaccatura cis8 h4. a8
-    \acciaccatura a g4. fis8 a8. fis16 e4
+    d4.\p cis8 \appoggiatura cis8 h4. a8
+    \appoggiatura a g4. fis8 a8. fis16 e4
     e'4. cis8 e16([ d cis d] cis[ h)] a([ g)] %5
-    fis4( e) d r
+    fis4( e)\trill d r
     R1*2
-    r2 r8 \mvTr d'\f^\tutti d cis
+    r2 r8 d'\f d cis
     cis h h a a g g([ fis)] %10
     g h a e' d4 r
     R1
-    r2 r8 a4\pp a8
+    r2 r8 \mvDlll a4\pp a8
     a8. a16 a4 r8 d4 d8
     h4 h r8 a4 a8 %15
-    a4 a r8 a\p d cis
+    a4 a r8 \mvDl a\f d cis
     d([ e)] fis([ a,)] gis4 r
-    h\f a8 cis h e r h
+    h a8 cis h e r h
     cis e cis a e'4 r
-    r2 r8 a,4\pp a8 %20
+    r2 r8 \mvDlll a,4\pp a8 %20
     h4 h r8 a4 a8
-    a8. a16 a4 r8 cis\p d d
+    a8. a16 a4 r8 \mvDl cis\f d d
     e4 e cis r
     R1*3 %26
     a4\p a8 a h([ a)] gis fis
@@ -243,10 +243,10 @@ GloriaTenoreNotes = {
     cis4. cis8 d4 d
     d d d d
     r r8 d a8. a16 a4
-    r8 e4\ppE e8 e8. fis16 e4
+    r8 e4\p e8 e8. fis16 e4
     d'4. d8 cis4 r %55
     R1
-    r2 a4 a8 a
+    r2 a4\f a8 a
     a8([ gis)] gis4 gis4. h8
     h8. a16 a4 cis2
     cis4 r cis4. cis8 %60
@@ -269,7 +269,7 @@ GloriaTenoreNotes = {
     R1
     r2 g'4 f
     e2 e
-    \once \tieDashed e1~\cresc %80
+    e1~\cresc %80
     e2\ff a,4 d
     d2( cis)
     d4 r r2
@@ -318,7 +318,7 @@ GloriaTenoreLyrics = \lyricmode {
   tu -- am, pro -- pter
   tu -- am glo -- ri -- am
   ma --
-  gnam,
+  gnam.
 
   Do -- mi -- ne De -- us, %50
   Rex coe -- le -- stis,

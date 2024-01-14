@@ -110,20 +110,20 @@ GloriaViolinoI = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoGloria
-    <a fis' d'>8\f r8 <d a' fis'> r <a' e'> a,16.[ h32] cis16. d32 e16. cis32
-    <a e' a e'>8 r <e' a g'> r <d a' fis'> d16.[ e32] fis16. g32 a16. fis32
-    d8\p d'4 cis8 r h4 a8
+    <a fis' d'>8\f r8 <d a' fis'> r <a' cis e> a,16.[ h32] cis16. d32 e16. cis32
+    <a e' cis' e>8 r <e' a g'> r <d a' fis'> d16.[ e32] fis16. g32 a16. fis32
+    d8 d'4\p cis8 r h4 a8
     r g4 fis8 a8. fis16 e4
     r8 e'4 cis8 r d cis16( h a g) %5
     fis8 fis e e d fis16.\f g32 a16. h32 cis16. d32
     h8 g16. a32 h16. cis32 d16. e32 cis8 e16. d32 cis16. h32 a16. g'32
     fis16. a32 d16. d,32 e8 cis' d, a\pp d4~
-    d8 d cis cis d16 d32\f e fis16 d e16 a, a' cis,
+    d8 d cis cis d16\f d32 e fis16 d e16 a, a' cis,
     d h32 cis d16 h cis fis, fis' a, h g32 a h16 g a d, d' a %10
     h e32 fis g16 e fis d' e, cis' d,8 a\pp d4~
     d8[ \appoggiatura { e16[ d] } cis( d] e fis g cis,) d8 a a a
     h h h h a a a a
-    a a a a a a a a
+    a a a a fis fis fis fis
     a gis gis gis a a a a %15
     a a a a <d, a' fis'>16\f d d fis' fis fis, e e'
     d d, cis cis' h h, a! a'! gis16 e32 fis gis16 e h' gis e' h
@@ -131,16 +131,16 @@ GloriaViolinoI = {
     a8:32 e': cis: a: e8 e,16. fis32 gis16. a32 h16. cis32
     d8\pp gis, gis gis a a a a %20
     gis gis gis gis a a a a
-    a a a a a a16\pE a' fis, fis' d, d'
-    cis e a a, h8 gis' a, cis16.\fE d32 e16. fis32 gis16. a32
+    a a a a a a16\f a' fis, fis' d, d'
+    cis e a a, h8 gis' a, cis16. d32 e16. fis32 gis16. a32
     fis8 d16. e32 fis16. gis32 a16. h32 gis8 h16. a32 gis16. fis32 e16. d32
     cis16. e32 a16. a,32 h8 gis' a,16. cis32 fis16. fis,32 gis8 eis' %25
-    fis d(\p cis h) a( gis fis eis)
-    fis fis fis fis gis a h cis
+    fis( d\p cis h) a( gis fis eis)
+    fis fis fis fis gis( a h cis)
     d d cis cis h h a a
     gis gis gis gis gis gis gis gis
-    a4 r8 a gis( fis e! d) %30
-    \once \slurDashed cis( a') a a h cis d e
+    a4 r8 a( gis fis e! d) %30
+    cis( a') a a h( cis d e)
     fis fis e e d d cis cis
     h h h h h h h h
     a e4 e e e8~
@@ -154,16 +154,16 @@ GloriaViolinoI = {
     e16 e e e e e e e eis eis eis eis eis eis eis eis
     d h' d, h' d, h' d, h' cis, ais' cis, ais' cis, ais' cis, ais'
     h,8 fis'(\p e d) cis( h ais g'!)
-    fis( e dis c') h( a! g fis) %45
+    \slurDashed fis( e dis c') h( a! g fis) \slurSolid %45
     e( g c, h) ais( g! fis e)
-    d16 h cis\cresc d e fis gis ais h fis gis ais h cis d e
+    d16\cresc h cis d e fis gis ais h fis gis ais h cis d e
     fis h, cis d e fis gis ais h fis d h cis8 ais'
     h, r16. d32\f cis16. h32 a!16. g!32 fis8 r16. h32 a16. g32 fis16. e32
     d16 d' d d fis, d' d d e cis cis cis cis a a a %50
     a e' e e cis e e e fis d d d a d d d
     g8 g,16 g' fis8 fis,16 fis' h8 h,16 h' a8 a,16 a'
-    g a fis g e fis d e cis8 r <a, e' cis' a'>4\sf
-    d8\pp^\critnote d d d cis cis cis cis
+    g a fis g e fis d e cis8 r \mvDll <a, e' cis' a'>4\sf
+    d8\pp d d d cis cis cis cis
     gis' gis gis gis a e'16.\f d32 cis16. h32 a16. gis32 %55
     fis8 fis'16. e32 d16. cis32 h16. a32 gis8 h'16. a32 gis16. fis32 e16. d32
     cis16. e32 a16. a,32 h8 gis' a,16 cis cis cis e, cis' cis cis
@@ -172,7 +172,7 @@ GloriaViolinoI = {
     cis eis eis eis gis eis eis eis cis gis' gis gis h gis gis gis %60
     cis, h' h h a fis fis fis fis d d d h d d d
     cis fis fis fis d h h h a fis' fis fis gis,8 eis'
-    fis16( cis') cis( a) a( fis) fis( cis) cis8 cis,\pp cis cis
+    fis16( cis') cis( a) a( fis) fis( cis) cis8\pp cis, cis cis
     cis cis cis cis eis eis eis eis
     fis8 cis'16.\f h32 a16. gis32 fis16. e!32 d8 d'16. cis32 h16. a32 gis16. fis32 %65
     eis8 h''16. gis32 eis16. cis32 gis'16. h,32 a16. cis32 fis16. a,32 gis8 eis'
@@ -180,12 +180,12 @@ GloriaViolinoI = {
     a cis e e a, e' g g a, e' g g a, d fis fis
     d h' h h g h h h d, a' a a a, a' a a
     cis, e g g a, g' g g a, d fis fis a, fis' fis fis %70
-    h, e e e d e e e cis e g g a, d fis fis
-    e a d d a,8 cis' \slurDashed d,16( a') a( fis) fis( d) d( h)-\critnote \slurSolid
-    a8 a\pp a a a a a a
-    cis cis cis cis d16 fis,\f g a h cis d e
+    h, e e e d e e e cis e g! g a, d fis fis
+    e a d d a,8 cis' d,16( a') a( fis) fis( d) d( a)
+    a8\pp a a a a a a a
+    cis cis cis cis d16\f fis, g a h cis d e
     fis8 fis,16 fis' e8 e,16 e' d8 d,16 d' cis8 cis,16 cis' %75
-    h8 d,16 h' e8 g16 e cis8.(\trill h32 cis) d4
+    h8 d,16 h' e8 g16 e cis8.\trill h32 cis d4
     h8 h d d g g g g
     g g g g g g g g
     g16 g g g g g g g g g g g g g g g
@@ -193,7 +193,7 @@ GloriaViolinoI = {
     a\ff a a a a a a a a a a a g g g g
     fis d' fis, d' fis, d' fis, d' e, cis' e, cis' e, cis' e, cis'
     d,8 a'16. g32 fis16. e32 d16. cis32 h8 h'16. a32 g16. fis32 e16. d32
-    cis8 e16. d32 cis16. h32 a16. g32 fis8 g16.-\critnote a32 h16. a32 h16. cis32
+    cis8 e16. d32 cis16. h32 a16. g32 fis8 g16. a32 h16. a32 h16. cis32
     d16. cis32 d16. e32 fis16. e32 fis16. g32 a8 r <d,, d' d'>4 %85
     <d h' h'> <a e' cis'> <a fis' d'> r\fermata \bar "||" %86 finis
   }

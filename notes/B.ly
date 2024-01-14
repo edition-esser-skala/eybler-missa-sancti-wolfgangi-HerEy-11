@@ -198,29 +198,29 @@ GloriaBassoNotes = {
     \key d \major \time 4/4 \autoBeamOff \tempoGloria
     \mvTr d'8\f^\tutti d16 d d,8 fis a4 a
     a8 a a a d4 d,
-    \mvTr fis4.\p^\solo a8 \acciaccatura a g4. fis8
-    \acciaccatura fis e4. d8 fis8. d16 cis4
+    fis4.\p a8 \appoggiatura a g4. fis8
+    \appoggiatura fis e4. d8 fis8. d16 cis4
     g'4. e8 g16([ fis e fis] a[ g)] fis([ e)] %5
     d4( cis) d r
     R1*2
-    r2 r8 \mvTr d'\f^\tutti a a
+    r2 r8 \mvDl d'\f a a
     h h fis fis g g d4 %10
     g8 e a a, d4 r
     R1
-    r2 r8 d4\pp d8
+    r2 r8 \mvDlll d4\pp d8
     cis8. cis16 cis4 r8 d4 d8
     e4 e r8 a,4 a8 %15
-    cis4 cis r8 d\p d ais
+    cis4 cis r8 \mvDl d\f d ais
     h([ cis)] d([ dis)] e4 r
-    e'\f cis8 a e' e, r e
+    e' cis8 a e' e, r e
     a e cis a e'4 r
-    r2 r8 a4\pp a8 %20
+    r2 r8 \mvDlll a4\pp a8 %20
     gis4 e r8 a4 a8
-    d8. d,16 d4 r8 a\p d fis
+    d8. d,16 d4 r8 \mvDl a\f d fis
     e4 e a, r
     R1*3 %26
     fis'4\p fis8 fis fis4 fis8 fis
-    eis4 fis h fis
+    eis4 fis cis' fis,
     d' h gis cis8 cis
     a4 fis r2 %30
     a4 a8 a a4 a8 a
@@ -231,7 +231,7 @@ GloriaBassoNotes = {
     e e e e8 e
     e4. e8 e4 r
     d\f h g'! g
-    fis8([ gis)] ais h cis4 e,! %40
+    fis8([ gis)] ais h cis4 e, %40
     d cis h a!
     gis2 g4 g
     fis1
@@ -241,15 +241,15 @@ GloriaBassoNotes = {
     a4. a8 d4 d,
     h' a g fis
     r r8 d a'8. a,16 a4
-    r8 e'4\ppE e8 e8. fis16 e4
+    r8 e'4\p e8 e8. fis16 e4
     e4. e8 a,4 r %55
     R1
     r2 a4\f a8 a
     e'4 e e e
     a8. a16 a4 fis2
-    gis4 r eis4. eis8 %60
-    fis4 fis h, h
-    a! h cis cis
+    gis4 r eis eis %60
+    fis fis h, h
+    a h cis cis
     fis, r r8 cis'4\pp cis8
     cis8. d16 cis4 cis4. cis8
     fis,4 r r2 %65
@@ -262,13 +262,13 @@ GloriaBassoNotes = {
     a2 d,4 r
     r8 a4\pp a8 a8. h16 a4
     a4. a8 d4 r
-    d'\f a h fis %75
+    \mvDl d'\f a h fis %75
     g e8 e fis4 h,
     R1
     r2 e'4 d
     c2 b
-    a(\cresc gis %80
-    g)\ff fis4 h
+    a\cresc gis %80
+    g\ff fis4 h
     a2( a,)
     d4 r r2
     R1*2 %85
@@ -313,10 +313,10 @@ GloriaBassoLyrics = \lyricmode {
   a -- gi -- mus
   pro -- pter ma -- gnam
   glo -- ri -- am tu -- am, %40
-  pro -- pter \xE tu -- am \x
+  pro -- pter tu -- am
   glo -- ri -- am
-  \xE ma --
-  gnam, \x
+  ma --
+  gnam.
 
   Do -- mi -- ne De -- us, %50
   Rex coe -- le -- stis,
@@ -348,8 +348,8 @@ GloriaBassoLyrics = \lyricmode {
 
   pro -- pter
   ma -- gnam
-  glo -- %80
-  ri -- am
+  glo -- _ %80
+  _ ri -- am
   tu --
   am. %83 finis
 }

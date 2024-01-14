@@ -202,26 +202,42 @@ GloriaAltoNotes = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \autoBeamOff \tempoGloria
-    \mvTr fis8\f^\tutti fis16 fis a8 a a8.([ e16)] e4
+    \mvTr fis8\f^\tuttiE fis16 fis a8 a a8.([ e16)] e4
     a8 a a a a8.([ fis16)] fis4
     R1*6 %8
-    r2 r8 \mvTr a\f^\tuttiE a a
+    r2 r8 a\f a a
     fis fis fis fis d d d4 %10
     d8 e d g fis4 r
     R1
-    r2 r8 d4\pp d8
-    e8. e16 e4^\critnote r8 fis4 fis8
-    d4 d r8 cis4 e8 %15
-    e4 e r8 d\p d fis
-    fis([ e)] d([ cis)] h4 r
-    gis'4\f a8 a gis gis r gis
+    r2^\markup \remark "S tutti"_\markup \remark "A" r8 << { \autoBeamOff
+      \mvDlll fis4^\pp a8
+      a8. e16 e4 r8 d'4 h8
+      a8.([ gis16)] gis4 r8 e'4 cis8 %15
+      h8.([ a16)] a4 r8 \mvDl fis'^\f fis e
+      d([ cis)] h([ a)] e'4
+    } \\ \context Voice = "Alto" {
+      \voiceTwo \mvDlll d,4_\pp d8
+      e8. e16 e4 r8 fis4 fis8
+      d4 d r8 cis4 e8 %15
+      e4 e r8 \mvDl d_\f d fis
+      fis([ e)] d([ cis)] h4 \oneVoice
+    } >> r
+    gis'4^\markup \remark "A" a8 a gis gis r gis
     a e' cis a e4 r
-    r2 r8 cis4\pp cis8 %20
-    e8.([ d16)] d4 r8 cis4 cis8
-    d8. e16 fis4 r8 a\p a a
-    a4 gis a r
+    r2^\markup \remark "S tutti"_\markup \remark "A" r8 << { \autoBeamOff
+      \mvDlll e4^\pp e8
+      e4 e r8 e4 e8
+      fis8. g!16 a4 r8 \mvDl e'^\f fis d
+      cis4 h a
+    } \\ \context Voice = "Alto" {
+      \voiceTwo
+      \mvDlll cis,4_\pp cis8 %20
+      e8.([ d16)] d4 r8 cis4 cis8
+      d8. e16 fis4 r8 \mvDl a_\f a a
+      a4 gis a \oneVoice
+    } >> r
     R1*3 %26
-    cis,4\p cis8 cis cis([ fis)] gis a
+    \mvTr cis,4\p^\markup \remark "A" cis8 cis cis([ fis)] gis a
     gis4 a r2
     R1*2 %30
     e4 e8 e e([ a)] a a
@@ -242,7 +258,7 @@ GloriaAltoNotes = {
     a4. a8 a4 fis
     g fis h a
     r r8 d, a'8. a,16 a4
-    r8 e'4\ppE e8 e8. fis16 e4
+    r8 e'4\p e8 e8. fis16 e4
     e4. e8 e4 r %55
     R1
     r2 e4\f e8 e
@@ -256,7 +272,7 @@ GloriaAltoNotes = {
     cis4 r r2 %65
     R1
     a'4\f a8 a a4 a
-    g4. e8 e4 d
+    g!4. e8 e4 d
     d4. d8 d4 r
     a'2 a4 r %70
     h h8 h a4 a
@@ -268,8 +284,8 @@ GloriaAltoNotes = {
     R1
     r2 g4 h
     c2 c
-    cis1~\crescE %80
-    cis2\ffE d4 g,!
+    cis1~\cresc %80
+    cis2\ff d4 g,!
     a1
     fis4 r r2
     R1*2 %85
@@ -313,7 +329,7 @@ GloriaAltoLyrics = \lyricmode {
   glo -- ri -- am tu -- am,
   glo -- ri -- am tu -- am
   ma --
-  gnam,
+  gnam.
 
   Do -- mi -- ne De -- us, %50
   Rex coe -- le -- stis,

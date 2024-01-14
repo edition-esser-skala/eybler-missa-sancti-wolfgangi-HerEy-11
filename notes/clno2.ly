@@ -56,7 +56,7 @@ GloriaClarinoII = {
     c, c c c
     r2 r4 g\sf
     R1*3 %56
-    r2 g4\sf r
+    r2 g4\fE r
     R1*12 %69
     g'2\f c4 r %70
     r2 g4 c~

@@ -11,6 +11,8 @@ markCritnote = {
   \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
   \mark \markup \normalsize \critnote
 }
+mvDlll = \once \override DynamicText.X-offset = #-4
+mvTll = \once \override TextScript.X-offset = #-3
 
 
 tempoKyrie = \tempoMarkup "Andante con moto"

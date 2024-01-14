@@ -93,14 +93,14 @@ GloriaOboeI = {
     h8 g' fis e d r r4
     R1*4 %15
     r2 fis4.\f e8
-    d cis h fis' h, gis? h e
+    d cis h fis' h, gis h e
     gis e a cis, h h' gis e
     a e cis a e'4 r
     R1*2 %21
     r2 r8 a\f fis d
     cis4 h a8 e' a4
     fis8 d h'4 gis8 h d,4
-    cis8 a' h, gis' cis, fis^\critnote gis, eis' %25
+    cis8 a' h, gis' a, fis' gis, eis' %25
     fis4 r r2
     R1*7 %33
     cis1\p
@@ -111,11 +111,11 @@ GloriaOboeI = {
     fis' fis e8 d cis h
     ais4 fis r2 %40
     h4 cis d dis
-    e2 eis4 eis
-    fis2 ais
+    e2 eis
+    fis ais
     h4 r r2
     R1*2 %46
-    d,1~\crescE
+    d,1~\pE\crescE
     d2. cis4
     h r r2
     d2\f e %50
@@ -123,18 +123,18 @@ GloriaOboeI = {
     g4 fis h a
     g8 fis e d cis r a'4\sf
     R1
-    r2 r4 r8 a,\fE %55
+    r2 r4 r8 a,\f %55
     fis'4. h,8 gis'4. h8
     e, a4 gis8 a cis, cis cis
     cis h h4 d4. d8
     d cis cis4 fis2
-    eis? h'4. h,8 %60
+    eis h'4. h,8 %60
     h4 a d2
     cis4 h a gis
     fis r r2
     R1
-    r8 cis'\fE fis4~ fis8 d gis4~ %65
-    gis8 eis cis'4 a8 fis4 eis8
+    r8 cis'\f fis4~ fis8 d gis4~ %65
+    gis8 eis h'4 a8 fis4 eis8
     fis2 g
     g2. fis4
     h2 a

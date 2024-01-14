@@ -85,8 +85,8 @@ GloriaOboeII = {
     fis2\f e4 r
     g2 fis4 r
     R1*3 %5
-    r2 r4 r8 d\sfE
-    h'4. e,8 cis'4. a8
+    r2 r4 r8 d
+    h'4. e,8 cis'4. a8~
     a d4 cis8 d r r4
     r2 r8 d4\f cis8~
     cis h4 a g fis8 %10
@@ -103,11 +103,11 @@ GloriaOboeII = {
     a e' fis d cis4 d8 h %25
     a4 r r2
     R1*7 %33
-    a1\pE
+    a1\p
     h %35
     a
     h
-    a4 r e'\fE a,
+    a4 r e'\f a,
     fis' fis e8 d cis h
     ais4 fis r2 %40
     r h4 h
@@ -115,15 +115,15 @@ GloriaOboeII = {
     d2 cis
     h4 r r2
     R1*2 %46
-    h1~\crescE
+    h1~\pE\crescE
     h2. ais4
     h r r2
-    d2\fE cis %50
+    d2\f cis %50
     cis d
     d4 d2 d4
-    e8 d h h a r cis4\sfE
+    e8 d h h a r cis4\sf
     R1
-    r2 r8 e,\fE a4~ %55
+    r2 r8 e,\f a4~ %55
     a8 fis h4~ h8 gis d'4
     cis h a a8 a
     a gis gis4 h4. h8
@@ -133,7 +133,7 @@ GloriaOboeII = {
     fis4. gis8 fis4 eis
     fis r r2
     R1
-    r4 r8 fis\fE d'4. gis,8 %65
+    r4 r8 fis\f d'4. gis,8 %65
     eis'4. gis8 fis fis, gis4
     a2. cis4
     e2. d4
@@ -142,13 +142,13 @@ GloriaOboeII = {
     d cis4 d~
     d cis d r
     R1*2
-    d4\fE cis h a %75
+    d4\f cis h a %75
     g h ais h
     R1
     r2 g'4 f
-    \once \tieDashed e1~
-    e\crescE %80
-    cis2\ffE d~
+    e1~
+    e\cresc %80
+    cis2\ff d~
     d cis
     d4 r8 d, h'4. e,8
     cis' e4 e,8 d e16. fis32 g16. fis32 g16. a32

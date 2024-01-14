@@ -200,27 +200,27 @@ GloriaSopranoNotes = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \autoBeamOff \tempoGloria
-    \mvTr d'8\f^\tutti d16 d fis8 d cis8.([ e16)] g4
+    \mvTr d'8\f^\tuttiE d16 d fis8 d cis8.([ e16)] g4
     e8 e g cis, d8.([ fis16)] a4
     R1*5 %7
-    r2 r8 \mvTrr a,\ppE^\solo d4~
-    d8[ \appoggiatura { e16[ d] } cis d] e[ fis] g([ cis,)] d8 \mvTr fis\fE^\tutti e e
+    r2 r8 \mvTr a,\pE^\solo d4~
+    d8[ \appoggiatura { e16[ d] } cis d] e[ fis] g([ cis,)] d8 \mvTr fis\f^\tutti e e
     d d cis cis h h a4 %10
     h8 g' fis cis d4 r
-    \mvTr g4.\fE^\solo cis,8 d8. a16 a4
+    \mvTr g4.\pE^\solo cis,8 d8. a16 a4
     h e16([ d)] cis([ h)] a8. g16 fis8 r
-    e'4. d16([ cis)] ais8.([ h16]) d4
-    fis e8 d his8.([ cis16)] cis4 %15
-    r8 a cis e fis4 d8 e
+    e'4. d16([ cis)] ais8.([ h16]) h4
+    fis' e8 d his8.([ cis16)] cis4 %15
+    r8 a\f cis e fis4 d8 e
     d cis h a! e'4 r
-    \mvTr e\fE^\tutti e8 e e e r e
+    \mvTr e\fE^\markup \remark "S tutti" e8 e e e r e
     a e cis a e'4 r
-    \mvTrr d4\fE^\solo h8 gis a8.([ e16)] e4 %20
-    \acciaccatura e'8 d4 cis16([ h)] a([ gis)] a8. e16 e4
-    a d8 fis e([ g! fis d]
+    \mvTr d4\pE^\solo h8 gis a8.([ e16)] e4 %20
+    \appoggiatura e'8 d4 cis16([ h)] a([ gis)] a8. e16 e4
+    a\f d8 fis e([ a fis d]
     cis4) h a r
     R1*3 %26
-    \mvTr fis4\pE^\tutti fis8 fis gis([ a)] h cis
+    \mvTr fis4\p^\markup \remark "S tutti" fis8 fis gis([ a)] h cis
     d4 cis r2
     R1*2 %30
     a4 a8 a h([ cis)] d e
@@ -242,7 +242,7 @@ GloriaSopranoNotes = {
     e'4. e8 fis4 d
     d d d d
     r r8 d a'8. a,16 a4
-    r8 e4\ppE e8 e8. fis16 e4
+    r8 e4\p e8 e8. fis16 e4
     gis4. gis8 a4 r %55
     R1
     r2 cis4\f cis8 cis
@@ -263,13 +263,13 @@ GloriaSopranoNotes = {
     e2 d4 r
     r8 a4\pp a8 a8. h16 a4
     cis4. cis8 d4 r
-    fis\fE e d cis %75
+    fis\f e d cis %75
     h e8 e cis4 d
     h d g g
     g1~
     g~
-    g2\crescE gis %80
-    a\ffE d,4 g
+    g2\cresc gis %80
+    a\ff d,4 g
     fis2( e)
     d4 r r2
     R1*2 %85
@@ -314,7 +314,7 @@ GloriaSopranoLyrics = \lyricmode {
   pro -- pter tu -- am
   glo -- ri -- am
   ma --
-  gnam,
+  gnam.
 
   Do -- mi -- ne De -- us, %50
   Rex coe -- le -- stis,
