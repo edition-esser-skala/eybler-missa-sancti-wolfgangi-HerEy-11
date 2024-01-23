@@ -357,11 +357,11 @@ QuiTollisSopranoNotes = {
     \clef treble
     \key h \minor \time 4/4 \autoBeamOff \tempoQuiTollis
       \set Score.currentBarNumber = #87
-    \partial 4 r4 R1*7 %93
-    \mvTr fis4.\p^\tutti e8 e8.([ d16]) d4
+    \partial 16*3 r16 r8 R1*7 %93
+    \mvTr fis4.\p^\tuttiE e8 e8.([ d16]) d4
     g4. fis8 fis8.([ e16)] e4 %95
     a4. ais8 ais8([ cis16 h] a_[ g)] fis([ e)]
-    d4.( \slashedGrace fis8 e) d4 r
+    d4.( \grace fis16 e8) d4 r
     R1*8 %105
     cis4\p cis8 cis cis8. d16 cis4
     cis8 cis cis cis cis8.([ d16)] cis4
@@ -372,8 +372,8 @@ QuiTollisSopranoNotes = {
     c4. h8 h8.([ ais16)] ais4
     ais8([ cis)] e([ g!)] g([ fis)] e([ d)] %120
     d4( cis) h h8 h
-    c([ h)] a([ g)] fis4.( \slashedGrace a!8 g)
-    fis4 r r\fermata \bar "||" %123 finis
+    c([ h)] a([ g)] fis4.( \grace a!16 g8)
+    fis4 r r r16\fermata \bar "||" %123 finis
   }
 }
 
@@ -392,7 +392,7 @@ QuiTollisSopranoLyrics = \lyricmode {
   mi -- se -- re -- re,
   mi -- se -- re -- re __ %120
   no -- bis, mi -- se --
-  re -- re no --
+  re -- re __ no --
   bis. %123 finis
 }
 

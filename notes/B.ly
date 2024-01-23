@@ -359,9 +359,9 @@ QuiTollisBassoNotes = {
     \clef bass
     \key h \minor \time 4/4 \autoBeamOff \tempoQuiTollis
       \set Score.currentBarNumber = #87
-    \partial 4 r4 R1*3 %89
+    \partial 16*3 r16 r8 R1*3 %89
     r2 r4 r8 r16 \mvTr h'\pE^\solo %90
-    ais8 cis r r16 cis h8 d r r16 h
+    ais8-! cis-! r r16 cis h8-! d-! r r16 h
     g4 d8 h g4. g8
     h'2 ais4 r
     \mvTr d,\p^\tutti ais h h
@@ -370,16 +370,16 @@ QuiTollisBassoNotes = {
     a4( a,) d r
     R1*4 %101
     r2 r4 r8 r16 \mvTr fis \pE^\solo
-    eis8 gis r r16 gis fis8 a r r16 fis
+    eis8-! gis-! r r16 gis fis8-! a-! r r16 fis
     d'4 a8 fis d4. d8
     d'2 cis4 r %105
     \mvTr a,4\p^\tutti a8 a gis8. gis16 gis4
-    fis8 fis fis' fis e4 e
+    fis8 fis fis' fis e!4 e
     d8 d d d g!4 c,
     g2 c4 r
     R1*4 %113
     r2 r4 r8 r16 \mvTr e\pE^\solo
-    dis8 fis r r16 fis e8 g r r16 e %115
+    dis8-! fis-! r r16 fis e8-! g-! r r16 e %115
     c4 e8 g c4 e8 c
     ais2 h4 r
     \mvTr g\p^\tutti dis e e
@@ -387,7 +387,7 @@ QuiTollisBassoNotes = {
     g!8([ e)] cis!([ ais)] h4 g' %120
     fis2 h,4 h8 h
     h4 h h2
-    h4 r r\fermata \bar "||" %123 finis
+    h4 r r r16\fermata \bar "||" %123 finis
   }
 }
 

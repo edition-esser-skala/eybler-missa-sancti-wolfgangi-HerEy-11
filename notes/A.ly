@@ -372,8 +372,8 @@ QuiTollisAltoNotes = {
     \clef treble
     \key h \minor \time 4/4 \autoBeamOff \tempoQuiTollis
       \set Score.currentBarNumber = #87
-    \partial 4 r4 R1*7 %93
-    \mvTr d4.\p^\tutti cis8 cis8.([ h16)] h4
+    \partial 16*3 r16 r8 R1*7 %93
+    \mvTr d4.\p^\tuttiE cis8 cis8.([ h16)] h4
     cis d d8.([ cis16)] cis4 %95
     d4. d8 d4( e8) h
     a4.( cis8) d4 r
@@ -388,7 +388,7 @@ QuiTollisAltoNotes = {
     e4. cis8 h([ d)] e([ eis)] %120
     fis2 fis4 a!8 a
     g4 e dis( e)
-    dis r r\fermata \bar "||" %123 finis
+    dis r r r16\fermata \bar "||" %123 finis
   }
 }
 

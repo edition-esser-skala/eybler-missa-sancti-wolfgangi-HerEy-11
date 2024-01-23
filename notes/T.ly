@@ -361,11 +361,11 @@ QuiTollisTenoreNotes = {
     \clef "treble_8"
     \key h \minor \time 4/4 \autoBeamOff \tempoQuiTollis
       \set Score.currentBarNumber = #87
-    \partial 4 r4 R1*7 %93
-    \mvTr a4\p^\tutti fis fis8.([ h16]) h4
-    g a a a %95
+    \partial 16*3 r16 r8 R1*7 %93
+    \mvTr a4\p^\tuttiE fis fis8.([ h16]) h4
+    g a! a a %95
     a4. d8 d([ g,)] h([ g)]
-    fis4.( \slashedGrace a8 g) fis4 r
+    fis4.( \grace a16 g8) fis4 r
     R1*8 %105
     e4\p e8 e eis8. eis16 eis4
     fis8 fis fis fis g!4 g
@@ -377,7 +377,7 @@ QuiTollisTenoreNotes = {
     cis4. e8 e([ d)] cis([ h)] %120
     h4( ais) h dis8 dis
     e4 h h( ais)
-    h r r\fermata \bar "||" %123 finis
+    h r r r16\fermata \bar "||" %123 finis
   }
 }
 

@@ -4,93 +4,93 @@
 \include "score_settings/full-score.ly"
 
 \book {
-  \bookpart {
-    \section "1" "Kyrie"
-    \addTocEntry
-    \paper { indent = 3\cm }
-    \score { %\articulate
-      <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "Oboe"
-            \new Staff {
-              \set Staff.instrumentName = "I"
-              \KyrieOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "II"
-              \KyrieOboeII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new Staff <<
-            \set Staff.instrumentName = \transposedName "Clarino I, II" "D" ""
-            \set Staff.soloText = \markup \remark \medium "clno 1"
-            % \transpose c d
-            \partCombine \KyrieClarinoI \KyrieClarinoII
-          >>
-        >>
-        \new Staff {
-          \set Staff.instrumentName = \transposedTimp "D" "" "A" ""
-          % \transpose c d
-          \KyrieTimpani
-        }
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "Violino"
-            \new Staff {
-              \set Staff.instrumentName = "I"
-              \KyrieViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "II"
-              \KyrieViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "Viole"
-            \KyrieViola
-          }
-        >>
-        \new ChoirStaff <<
-          \new Staff {
-            \incipitSoprano
-            \new Voice = "Soprano" { \dynamicUp \KyrieSopranoNotes }
-          }
-          \new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
+  % \bookpart {
+  %   \section "1" "Kyrie"
+  %   \addTocEntry
+  %   \paper { indent = 3\cm }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "Oboe"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "I"
+  %             \KyrieOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "II"
+  %             \KyrieOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \transposedName "Clarino I, II" "D" ""
+  %           \set Staff.soloText = \markup \remark \medium "clno 1"
+  %           % \transpose c d
+  %           \partCombine \KyrieClarinoI \KyrieClarinoII
+  %         >>
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = \transposedTimp "D" "" "A" ""
+  %         % \transpose c d
+  %         \KyrieTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "Violino"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "I"
+  %             \KyrieViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "II"
+  %             \KyrieViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Viole"
+  %           \KyrieViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \incipitSoprano
+  %           \new Voice = "Soprano" { \dynamicUp \KyrieSopranoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
 
-          \new Staff {
-            \incipitAlto
-            \new Voice = "Alto" { \dynamicUp \KyrieAltoNotes }
-          }
-          \new Lyrics \lyricsto Alto \KyrieAltoLyrics
+  %         \new Staff {
+  %           \incipitAlto
+  %           \new Voice = "Alto" { \dynamicUp \KyrieAltoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Alto \KyrieAltoLyrics
 
-          \new Staff {
-            \incipitTenore
-            \new Voice = "Tenore" { \dynamicUp \KyrieTenoreNotes }
-          }
-          \new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
+  %         \new Staff {
+  %           \incipitTenore
+  %           \new Voice = "Tenore" { \dynamicUp \KyrieTenoreNotes }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
 
-          \new Staff {
-            \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \KyrieBassoNotes }
-          }
-          \new Lyrics \lyricsto Basso \KyrieBassoLyrics
-        >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Organo," "Violoncello" "e Bassi" }
-            % \transpose c c,
-            \KyrieOrgano
-          }
-        >>
-        \new FiguredBass { \KyrieBassFigures }
-      >>
-      \layout { }
-      \midi { \tempo 4 = 85 }
-    }
-  }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Basso"
+  %           \new Voice = "Basso" { \dynamicUp \KyrieBassoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Basso \KyrieBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Organo," "Violoncello" "e Bassi" }
+  %           % \transpose c c,
+  %           \KyrieOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \KyrieBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 85 }
+  %   }
+  % }
   % \bookpart {
   %   \section "2" "Gloria"
   %   \addTocEntry
@@ -176,79 +176,79 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
-  % \bookpart {
-  %   \subsection "Qui tollis"
-  %   \addTocEntry
-  %   \score { %\articulate
-  %     <<
-  %       \new StaffGroup <<
-  %         \new GrandStaff <<
-  %           \set GrandStaff.instrumentName = "ob"
-  %           \new Staff {
-  %             \set Staff.instrumentName = "1"
-  %             \QuiTollisOboeI
-  %           }
-  %           \new Staff {
-  %             \set Staff.instrumentName = "2"
-  %             \QuiTollisOboeII
-  %           }
-  %         >>
-  %       >>
-  %       \new StaffGroup <<
-  %         \new GrandStaff \with { \smallGroupDistance } <<
-  %           \set GrandStaff.instrumentName = "vl"
-  %           \new Staff {
-  %             \set Staff.instrumentName = "1"
-  %             \QuiTollisViolinoI
-  %           }
-  %           \new Staff {
-  %             \set Staff.instrumentName = "2"
-  %             \QuiTollisViolinoII
-  %           }
-  %         >>
-  %         \new Staff {
-  %           \set Staff.instrumentName = "vla"
-  %           \QuiTollisViola
-  %         }
-  %       >>
-  %       \new ChoirStaff <<
-  %         \new Staff {
-  %           \set Staff.instrumentName = "S"
-  %           \new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
-  %         }
-  %         \new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
+  \bookpart {
+    \subsection "Qui tollis"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \QuiTollisOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \QuiTollisOboeII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \QuiTollisViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \QuiTollisViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \QuiTollisViola
+          }
+        >>
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
+          }
+          \new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
 
-  %         \new Staff {
-  %           \set Staff.instrumentName = "A"
-  %           \new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
-  %         }
-  %         \new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
+          }
+          \new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
 
-  %         \new Staff {
-  %           \set Staff.instrumentName = "T"
-  %           \new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
-  %         }
-  %         \new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
 
-  %         \new Staff {
-  %           \set Staff.instrumentName = "B"
-  %           \new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
-  %         }
-  %         \new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
-  %       >>
-  %       \new StaffGroup <<
-  %         \new Staff {
-  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
-  %           % \transpose c c,
-  %           \QuiTollisOrgano
-  %         }
-  %       >>
-  %       \new FiguredBass { \QuiTollisBassFigures }
-  %     >>
-  %     \layout { }
-  %     \midi { \tempo 4 = 40 }
-  %   }
-  % }
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
+          }
+          \new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
+            % \transpose c c,
+            \QuiTollisOrgano
+          }
+        >>
+        \new FiguredBass { \QuiTollisBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 40 }
+    }
+  }
   % \bookpart {
   %   \subsection "Quoniam"
   %   \addTocEntry

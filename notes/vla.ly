@@ -211,14 +211,14 @@ QuiTollisViola = {
     \clef alto
     \key h \minor \time 4/4 \tempoQuiTollis
       \set Score.currentBarNumber = #87
-    \partial 4 r16 d(\p cis h) ais8 e'\sfz r16 e(\p d cis) h8 d\sfz r16 fis(\f d h)
+    \partial 16*3 d16(\p cis h) ais8-! e'-!\sfz r16 e(\p d cis) h8-! d-!\sfz r16 fis(\f d h)
     g\p g' g g d d h h g g g g g g g g
     <d' d'>\ff q q q q q <d h'> q fis8 r r4
-    r r16 g,!(\p fis e) d8 r r16 d'( cis h) %90
-    ais8 e'\sfz r16 e(\p d cis) h8 d\sfz r16 fis(\f d h)
+    r r16 g,!(\p fis e d8) r r16 d'( cis h) %90
+    ais8-! e'-!\sfz r16 e(\p d cis) h8-! d-!\sfz r16 fis(\f d h)
     g\p g' g g d d h h g g g g g g g g
     <d' d'>\ff q q q q q <d h'> q fis4 r
-    a,16\pE a a a fis fis fis fis fis fis fis fis fis fis fis fis
+    a,16\p a a a fis fis fis fis fis fis fis fis fis fis fis fis
     g g g g a! a a a a a a a a a a a %95
     a a a a a a d, d g g g g h h g g
     fis fis fis fis fis fis g g fis8 r r d'16 d
@@ -226,10 +226,10 @@ QuiTollisViola = {
     d d h h g g h' h e, e e e e e e e
     d d d d gis, gis gis gis fis fis fis fis fis fis fis fis %100
     <fis' a>\ff q q q q q fis fis <cis gis'>8 r r4
-    r r16 d!(\p cis h) a8 r r16 a( gis fis)
-    eis8 h''\sfz r16 h,(\p a gis) fis8 a'\sfz r16 cis(\f a fis)
+    r r16 \once \slurDashed d!(\p cis h) a8 r r16 a( gis fis)
+    eis8 h''-!\fz r16 h,(\p a gis) fis8 a'-!\fz r16 cis(\f a fis)
     d\p d d d a a fis fis d d d d d d d d
-    <fis' a>\ff q q q q q q q <cis gis'>4 r %105
+    <fis' a>\ff q q q q q fis fis <cis gis'>4 r %105
     e,16\p e e e e e e e eis eis eis eis eis eis eis eis
     fis fis fis fis fis fis fis fis g! g g g g g g g
     fis fis fis fis <fis a> q q q g! g g g g g g g
@@ -239,15 +239,15 @@ QuiTollisViola = {
     c c c c fis, fis fis fis e e e e e e e e
     g'\ff g g g g g e e h8 r r4
     r r16 c(\p h a) g8 r r16 g( fis e)
-    dis8 a''\sfz r16 a,(\p g fis) e8 g'\sfz r16 h(\f g e) %115
+    dis8 a''-!\fz r16 a,(\p g fis) e8 g'-!\fz r16 h(\f g e) %115
     c\p c c c g g e e c c c c c c c c
-    <e' e'>\ff q q q q q q q <fis dis'>4 r
+    <e' e'>\ff q q q q q q q <fis! dis'>4 r
     d!16\p d d d h h h h h h h h h h h h
     e e e e d d d d cis! cis cis cis cis cis cis cis
-    e\sfpE e e e e e cis cis h h d d e e eis eis %120
-    fis fis fis fis fis fis e e d4 dis
+    e\sfp e e e e e cis cis h h d d e e eis eis %120
+    fis fis fis fis fis fis e e d4( dis)
     e h2 ais4
-    h2 r4\fermata \bar "||" %123 finis
+    h2 r4 r16\fermata \bar "||" %123 finis
   }
 }
 

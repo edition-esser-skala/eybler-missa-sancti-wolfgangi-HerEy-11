@@ -395,90 +395,90 @@ QuiTollisOrgano = {
     \clef bass
     \key h \minor \time 4/4 \tempoQuiTollis
       \set Score.currentBarNumber = #87
-    \partial 4 r16 \mvTr d(\p-\solo cis h) ais8 ais'\sfz r16 e16(\p d cis) h8 h'\sfz r16 fis'(\f d h)
+    \partial 16*3 \mvTr d16(\p-\soloE cis h) ais8 ais'-!\sfz r16 e16(\p d cis) h8 h'-!\sfz r16 fis'(\f d h)
     g\p g g g d d h h g g g g g g g g
     g'\ff g g g g g g g fis8 r r4
-    r4 r16 \mvTr g!(\p-\vlc fis e) d8 r r16 d(-\bassi cis h) %90
-    ais8 ais'\sfz r16 e(\p d cis) h8 h'\sfz r16 fis'(\f d h)
+    r4 r16 \mvTr g!(\p-\vlc fis e) d8 r r16 \mvTr d(\p-\bassi cis h) %90
+    ais8 ais'-!\sfz r16 e(\p d cis) h8 h'-!\sfz r16 fis'(\f d h)
     g\p g g g d d h h g g g g g g g g
     g'\ff g g g g g g g fis4 r
-    \mvTr d16\p-\tutti d d d ais ais ais ais h h h h h h h h
+    \mvTr d16\p-\tuttiE d d d ais ais ais ais h h h h h h h h
     e, e e e d d d d a' a a a a a g g %95
     fis fis fis fis fis' fis fis fis g g g g e e g g
-    a a a a a, a a a d8 r r16 fis(-\solo e d)
-    e8 e' r16 g,( fis e) fis8 fis' r16 a,( g fis)
-    g8 g' r16 e,( fis g) a a a a ais ais ais ais
+    a a a a a, a a a d8 r r16 fis-\soloE e d
+    e8 e' r16 g, fis e fis8 fis' r16 a, g fis
+    g8 g' r16 e, fis g a a a a ais ais ais ais
     h h h h cis cis cis cis d d d d d d d d %100
     d,\ff d d d d d d d cis8 r r4
-    r r16 \mvTr d'!(\p-\vlc cis h) a8 r r16 a,(-\bassi gis fis)
-    eis8 eis'\sfz r16 h(\p a gis) fis8 fis'\sfz r16 cis'16(\f a fis)
+    r r16 \mvTr d'!(\p-\vlc cis h a8) r r16 \mvTr a,(\p-\bassi gis fis)
+    eis8 eis'-!\sfz r16 h(\p a gis) fis8 fis'-!\sfz r16 cis'16(\f a fis)
     d\p d d d a a fis fis d d d d d d d d
     d''\ff d d d d d d d cis4 r %105
-    \mvTr a16\p-\tutti a a a a a a a gis gis gis gis gis gis gis gis
-    fis fis fis fis fis fis fis fis e e e e e e e e
+    \mvTr a16\p-\tuttiE a a a a a a a gis gis gis gis gis gis gis gis
+    fis fis fis fis fis fis fis fis e! e e e e e e e
     d d d d d d d d g! g g g c, c c c
-    g g g g g g g g c8 r r16 \once \slurDashed e(-\solo d c)
-    d8 d' r16 f,( e d) e8 e' r16 g,( f? e) %110
-    f8 f' r16 d,( e f?) g g g g gis gis gis gis
+    g g g g g g g g c8 r r16 e-\solo d c
+    d8 d' r16 f, e d e8 e' r16 g,! f e %110
+    f8 f' r16 d, e f g g g g gis gis gis gis
     a a a a h h h h c c c c c c c c
-    c,\ffE c c c c c c c h8 r r4
-    r r16 \mvTr c'(\pE-\vlcE h a) g8 r r16 g(-\bassiE fis e)
-    dis8 dis'\sfz r16 a(\p g fis) e8 e'\sfz r16 h(\f g e) %115
+    c,\ff c c c c c c c h8 r r4
+    r r16 \mvTr c'(\p-\vlc h a) g8 r r16 \mvTr g(\p-\bassi fis e)
+    dis8 dis'-!\fz r16 a(\p g fis) e8 e'-!\fz r16 h(\f g e) %115
     c\p c c c g g e e c c c c c c c c
     c''\ff c c c c c c c h4 r
-    \mvTr g16\p-\tutti g g g dis dis dis dis e e e e e e e e
+    \mvTr g16\p-\tuttiE g g g dis dis dis dis e e e e e e e e
     e e e e eis eis eis eis fis fis fis fis fis fis fis fis
-    ais,\sfpE ais ais ais ais ais ais ais h h h h g' g g g %120
+    ais,\sfp ais ais ais ais ais ais ais h h h h g' g g g %120
     fis fis fis fis fis, fis fis fis << {
       h4^\vlc r
-      r e8 g h4 ais
+      r e8 g h4( ais)
       h2
     } \\ {
-      \once \tieDashed h,2~-\tasto-\bassi
+      h,2~-\tasto-\markup \remark "b, org"
       h1~
       h2
-    } >> r4\fermata \bar "||" %123 finis
+    } >> r4 r16\fermata \bar "||" %123 finis
   }
 }
 
 QuiTollisBassFigures = \figuremode {
-  r4 r8 \bo <[7! _]> r4. \bc <[5 3]> %87
+  r8. r8 \bo <[7!]>2.. %87
   r1
-  \bo <[6\\]>2 \bc <[_+]>
+  <6\\>2 <_+>
   r1 %90
-  r8 \bo <[7! _]> r4. \bc <[5 3]>
+  r8 <7!>2..
   r1
-  \bo <[6\\]>2 \bc <[_+]>
+  <6\\>2 \bc <[_+]>
   r4 <6 4>8 <5 3> <9 4>4 <8 3>
   <6> <4>8 <3> <6 4>4 <5 3>8 <\t \t> %95
-  <6 3>4 \bassFigureExtendersOn q16 q <6 _+>8. q16 <6 3> q16 <6 5>8. q16 \bassFigureExtendersOff
-  <6 4>4. <7 3>8 r2
+  <6 3>4 \bassFigureExtendersOn q16 q <6 _+>8. q16 <6 3>8 \bassFigureExtendersOff <5>16 <\t> <6> <\t>
+  <6 4>4 <\t \t>8 <7 3>16 <\t \t> r2
   \bo <[7 _ _]>8 <6>4. <7>8 <6>4.
   <7>8 <6>4. <7>4 <6 5>
   r <7 5\+ _+> r2 %100
-  <6\\> \bc <[5\+ _+ _]>
+  <6\\> <5\+ _+>
   r1
-  r8 \bo <[7! 5 _+]> r4. \bc <[5 3 _]>
+  r8 <7! 5 _+>2..
   r1
-  \bo <[6\\ _]>2 \bc <[5\+ _+]> %105
+  <6\\>2 \bc <[5\+ _+ _]> %105
   r <6\\ 4 3>
   r <6 4 _!>
-  r4 <7!> q <8 3>
-  <4!> <3> r2
+  r4 <7!> q2
+  <4!>4 <3>2.
   \bo <[7 _! _]>8 <6 \t>4. <7>8 <6!>4. %110
-  <7 5!>8 <6>4. <7!>4 <6 5>
+  <7 5!>8 <6>8. <_!> <7!>4 <6 5>
   <_!> <7 5\+ _+> r2
-  <6\\> \bc <[_+ _ _]>
+  <6\\> <5\+ _+>
   r1
-  r8 \bo <[7! _]> r4. \bc <[5 3]> %115
+  r8 <7!>2.. %115
   r1
-  \bo <[6\\]>2 \bc <[_+]>
+  <6\\>2 \bc <[5\+ _+ _]>
   r4 <6 4>8 <5 3> <9 4>4 <8 3>
-  <6!>4 <7 \t [_+]>8 <\t 5 \t> <5 4>4 <_ _+>
+  <_ 6!>4 <7 \t>8 <\t 5> <5\+ 4>4 <\t _+>
   <7!>2 <6 4>8 <5 3> <6 4> <6\\ 5 3> %120
   <6 4>4 <5 _+> r2
   r1
-  r2. %123 finis
+  r2 r4 r16 %123 finis
 }
 
 QuoniamOrgano = {
