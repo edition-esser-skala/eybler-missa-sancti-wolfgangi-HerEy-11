@@ -402,14 +402,14 @@ QuoniamSopranoNotes = {
     \key d \major \time 4/4 \autoBeamOff \tempoQuoniam
       \set Score.currentBarNumber = #124
     R1*4 %127
-    \mvTr d'8.\f^\tutti e16 fis8 g a4 fis8 d
+    \mvTr d'8.\fE^\tuttiE e16 fis8 g a4 fis8 d
     cis h a([ g)] fis4 r
     R1*2 %131
     d'8. e16 fis8 g a4 fis8 d
     cis h a g fis4 r
     r2 fis'4 ais,8 ais
     h8.([ cis16)] d4 e gis,8 gis %135
-    a8. h16 cis4 d dis8 dis
+    a!8. h16 cis4 d dis8 dis
     e4 d8 cis h( fis'4) a,8
     a gis r4 r2
     e4\p e r2
@@ -428,15 +428,15 @@ QuoniamSopranoNotes = {
     d([ e)] fis d h( e4) d8
     d cis r4 r2
     a4\p a8 a a8.([ h16)] a4
-    a a8 a d8.\f a16 a8 a
+    a a8 a d8. a16 a8 a\f
     h([ g')] fis e a([ cis,)] d e %160
     fis g fis([ e)] d d,\ff fis a
     d4 fis8 d a'4. a8
     d,4 r r2
     R1*4 %167
-    r8 d,\ff d d fis8. fis16 fis8 fis
+    r8 d,\f d d fis8. fis16 fis8 fis
     a8. a16 a8 a d d16 d e8 e \noBreak
-    fis2 e\fermata \bar "||" %170
+    fis2 e\fermata %170
     R1*2
     d4\f cis fis d
     r8 h([ e)] d cis8.([ h16)] a4
@@ -445,17 +445,17 @@ QuoniamSopranoNotes = {
     r a'( d) fis
     gis,2 a
     R1*2 %180
-    fis'4 d g e
+    fis'4 d g! e
     r8 cis([ fis)] e d8.([ cis16)] h4
     r fis( h) d
     eis,2 fis
     R1*2 %186
-    d'4 h e c
+    d'4 h e! c
     r8 a([ d)] c h[ a] g[ a16 h]
     c8[ h] a[ h16 c] d8[ c h a]
     g[ a16 h] c4. h16[ a] g8[ fis] %190
     e4 r r g'~
-    g8[ fis16 e] d8[ cis!] h4 r
+    g8[ fis16 e] d!8[ cis!] h4 r
     R1*3 %195
     r2 e4 cis
     fis d r8 h([ e)] d
@@ -488,18 +488,18 @@ QuoniamSopranoNotes = {
     e8 cis([ fis)] e d([ e16 fis)] g8 e(
     a) g fis4. e8 d4~ %225
     d8[ e16 fis] g4. fis8 e4
-    d r8 \mvTr a(\pE^\solo g'4. cis,8)
+    d r8 \mvTr a(\p^\solo g'4. cis,8)
     d4 r8 a( g'4. cis,8)
     d4 r8 a( g'4. cis,8)
     d4 r r2 %230
-    r8 a\ppE d4. cis16[ d] e[ fis g e]
+    r8 a\pp d4. cis16[ d] e[ fis g e]
     fis8 a, d4. cis16[ d] e[ fis g e]
     fis8 a, d4. cis16[ d] e[ fis g e]
-    fis4 fis \mvTr e2\f^\tutti
+    fis4 fis e2^\markup \remark "S tutti"
     d8 d,\ff d d fis8. fis16 fis8 fis %235
     a a16 a a8 a d4 c
     h1
-    a\fermata \bar "|." %238 FINIS
+    a\fermata \bar "|." %238 finis
   }
 }
 
@@ -601,7 +601,7 @@ QuoniamSopranoLyrics = \lyricmode {
   men. Cum San -- cto Spi -- ri -- tu in %235
   glo -- ri -- a De -- i Pa -- tris,
   a --
-  men. %238 FINIS
+  men. %238 finis
 }
 
 CredoSopranoNotes = {
@@ -955,7 +955,7 @@ EtResurrexitSopranoNotes = {
     fis) fis e2
     fis4 r r g(
     fis) fis e2
-    d4 r r2\fermata \bar "|." %234 FINIS
+    d4 r r2\fermata \bar "|." %234 finis
   }
 }
 
@@ -1055,7 +1055,7 @@ EtResurrexitSopranoLyrics = \lyricmode {
   men, a --
   men, a --
   men, a --
-  men. %234 FINIS
+  men. %234 finis
 }
 
 SanctusSopranoNotes = {
@@ -1088,7 +1088,7 @@ SanctusSopranoNotes = {
     d([ e)] e fis fis([ g)] g4 %25
     fis8 fis e4 d r
     d8 d e4 fis r
-    fis8 fis e4 d r\fermata \bar "|." %28 FINIS
+    fis8 fis e4 d r\fermata \bar "|." %28 finis
   }
 }
 
@@ -1119,7 +1119,7 @@ SanctusSopranoLyrics = \lyricmode {
   o -- san -- na, o -- san -- na %25
   in ex -- cel -- sis,
   in ex -- cel -- sis,
-  in ex -- cel -- sis. %28 FINIS
+  in ex -- cel -- sis. %28 finis
 }
 
 BenedictusSopranoNotes = {
@@ -1187,7 +1187,7 @@ OsannaSopranoNotes = {
     d([ e)] e fis fis([ g)] g4
     fis8 fis e4 d r
     d8 d e4 fis r %50
-    fis8 fis e4 d r\fermata \bar "|." %51 FINIS
+    fis8 fis e4 d r\fermata \bar "|." %51 finis
   }
 }
 
@@ -1201,7 +1201,7 @@ OsannaSopranoLyrics = \lyricmode {
   o -- san -- na, o -- san -- na
   in ex -- cel -- sis,
   in ex -- cel -- sis, %50
-  in ex -- cel -- sis. %51 FINIS
+  in ex -- cel -- sis. %51 finis
 }
 
 AgnusDeiSopranoNotes = {
@@ -1348,7 +1348,7 @@ DonaNobisSopranoNotes = {
     d4 d
     d2~
     d
-    d,\fermata \bar "|." %140 FINIS
+    d,\fermata \bar "|." %140 finis
   }
 }
 
@@ -1441,5 +1441,5 @@ DonaNobisSopranoLyrics = \lyricmode {
   no -- bis
   pa --
 
-  cem. %140 FINIS
+  cem. %140 finis
 }

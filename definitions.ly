@@ -7,10 +7,12 @@
 
 
 acc = \markup \remark "acc."
+fivehatnatural = \markup { \concat { \raise #.3 \fontsize #-5 \natural \combine \figured-bass 5 \path #.15 #'((rmoveto 0 1.2) (rlineto .5 .5) (rlineto .5 -.5)) } }
 markCritnote = {
   \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
   \mark \markup \normalsize \critnote
 }
+mvDlh = \once \override DynamicText.X-offset = #-1
 mvDlll = \once \override DynamicText.X-offset = #-4
 mvTll = \once \override TextScript.X-offset = #-3
 

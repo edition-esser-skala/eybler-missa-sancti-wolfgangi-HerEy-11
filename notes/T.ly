@@ -406,7 +406,7 @@ QuoniamTenoreNotes = {
     \key d \major \time 4/4 \autoBeamOff \tempoQuoniam
       \set Score.currentBarNumber = #124
     R1*4 %127
-    \mvTr d8.\f^\tutti cis16 d8 e fis4 d8 d
+    \mvTr d8.\fE^\tuttiE cis16 d8 e fis4 d8 d
     e fis a,([ cis)] d4 r
     R1*2 %131
     d8. cis16 d8 e fis4 d8 d
@@ -417,7 +417,7 @@ QuoniamTenoreNotes = {
     h,4 h8 a d4 h
     h8 h r4 d\p d8 cis
     cis8.([ h16)] h4 d d8 cis
-    cis8. h16 h4 e\fE d8 cis %140
+    cis8. h16 h4 e\f d8 cis %140
     fis4 e8 d a d e4
     cis r r2
     R1*4 %146
@@ -438,9 +438,9 @@ QuoniamTenoreNotes = {
     fis([ a)] d fis e4. e8
     d4 r r2
     R1*4 %167
-    r8 d,\ff d d fis8. fis16 fis8 fis
+    r8 d,\f d d fis8. fis16 fis8 fis
     a8. a16 a8 a d d16 d cis8 cis \noBreak
-    d2 cis\fermata \bar "||" %170
+    d2 cis\fermata %170
     R1*2
     r4 a(\f d) fis
     gis,2 a
@@ -459,7 +459,7 @@ QuoniamTenoreNotes = {
     e8[ d16 c] h8[ a] g[ a16 h] c8[ h]
     a[ h16 c] d8[ c] h4 r
     R1 %190
-    e4 d g e
+    e4 d! g e
     r8 cis!([ fis)] e d8.[( cis16)] h4
     r8 h([ e)] d cis8.([ h16)] a!4
     r8 a([ d)] cis h8.[ a16] gis4~
@@ -493,18 +493,18 @@ QuoniamTenoreNotes = {
     cis8 a4 cis8 h([ cis16 d)] e8 cis~
     cis[ e] d a d[ cis] h4~ %225
     h8[ cis16 d] e8[ d] cis d d([ cis)]
-    d \mvTr a\pE^\solo d4. cis16[ d] e[ fis g e]
+    d \mvTr a\p^\solo d4. cis16[ d] e[ fis g e]
     fis8 a, d4. cis16[ d] e[ fis g e]
     fis8 a, d4. cis16[ d] e[ fis g e]
     fis4 r r2 %230
-    r4 r8 a,(\ppE g'4. cis,8)
+    r4 r8 a,(\pp g'4. cis,8)
     d4 r8 a( g'4. cis,8)
-    d4 r8 a( g'4. cis,8)
-    d4 d \mvTr d(\fE^\tutti cis)
+    d4 r8 a( g'4. cis,8
+    d4) d d(^\markup \remark "T tutti" cis)
     d8 d,\ff d d fis8. fis16 fis8 fis %235
     a a16 a a8 a d4 d
     d1
-    d\fermata \bar "|." %238 FINIS
+    d\fermata \bar "|." %238 finis
   }
 }
 
@@ -603,11 +603,11 @@ QuoniamTenoreLyrics = \lyricmode {
   a --
   men, a --
   men, a --
-  _ men, a --
+  men, a --
   men. Cum San -- cto Spi -- ri -- tu in %235
   glo -- ri -- a De -- i Pa -- tris,
   a --
-  men. %238 FINIS
+  men. %238 finis
 }
 
 CredoTenoreNotes = {
@@ -961,7 +961,7 @@ EtResurrexitTenoreNotes = {
     d) d cis2
     d4 r r e(
     d) d cis2
-    d4 r r2\fermata \bar "|." %234 FINIS
+    d4 r r2\fermata \bar "|." %234 finis
   }
 }
 
@@ -1061,7 +1061,7 @@ EtResurrexitTenoreLyrics = \lyricmode {
   men, a --
   men, a --
   men, a --
-  men. %234 FINIS
+  men. %234 finis
 }
 
 SanctusTenoreNotes = {
@@ -1093,7 +1093,7 @@ SanctusTenoreNotes = {
     h4 cis8 cis d4 e %25
     d8 d cis4 d r
     d8 d cis4 d r
-    d8 d cis4 d r\fermata \bar "|." %28 FINIS
+    d8 d cis4 d r\fermata \bar "|." %28 finis
   }
 }
 
@@ -1123,7 +1123,7 @@ SanctusTenoreLyrics = \lyricmode {
   o -- san -- na, o -- san -- na %25
   in ex -- cel -- sis,
   in ex -- cel -- sis,
-  in ex -- cel -- sis. %28 FINIS
+  in ex -- cel -- sis. %28 finis
 }
 
 BenedictusTenoreNotes = {
@@ -1207,7 +1207,7 @@ OsannaTenoreNotes = {
     h4 cis8 cis d4 e
     d8 d cis4 d r
     d8 d cis4 d r %50
-    d8 d cis4 d r\fermata \bar "|." %51 FINIS
+    d8 d cis4 d r\fermata \bar "|." %51 finis
   }
 }
 
@@ -1221,7 +1221,7 @@ OsannaTenoreLyrics = \lyricmode {
   o -- san -- na, o -- san -- na
   in ex -- cel -- sis,
   in ex -- cel -- sis, %50
-  in ex -- cel -- sis. %51 FINIS
+  in ex -- cel -- sis. %51 finis
 }
 
 AgnusDeiTenoreNotes = {
@@ -1361,7 +1361,7 @@ DonaNobisTenoreNotes = {
     h4 c
     c?2(
     h)
-    a\fermata \bar "|." %140 FINIS
+    a\fermata \bar "|." %140 finis
   }
 }
 
@@ -1451,5 +1451,5 @@ DonaNobisTenoreLyrics = \lyricmode {
   no -- bis
   pa --
 
-  cem. %140 FINIS
+  cem. %140 finis
 }

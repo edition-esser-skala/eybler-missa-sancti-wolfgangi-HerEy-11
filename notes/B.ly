@@ -428,14 +428,14 @@ QuoniamBassoNotes = {
     \key d \major \time 4/4 \autoBeamOff \tempoQuoniam
       \set Score.currentBarNumber = #124
     R1*4 %127
-    \mvTr fis8.\f^\tutti a16 d8 d d4 d,8 fis
+    \mvTr fis8.\fE^\tuttiE a16 d8 d d4 d,8 fis
     e d cis([ a)] d4 r
     R1*2 %131
     fis8. a16 d8 d d4 d,8 fis
     e d cis a d4 r
     r2 d4 fis8 fis
     d4 h cis e8 e %135
-    cis8. h16 a4 h h'8 a!
+    cis8. h16 a4 h h'8 a
     gis4 a8 a d,4. dis8
     e e r4 h'\p h8 a
     a8.([ gis16)] gis4 h h8 a
@@ -460,9 +460,9 @@ QuoniamBassoNotes = {
     d([ a)] fis d a'4. a8
     d,4 r r2
     R1*4 %167
-    r8 d\ff d d fis8. fis16 fis8 fis
+    r8 d\f d d fis8. fis16 fis8 fis
     a8. a16 a8 a d d16 d a8 a \noBreak
-    d,2 a\fermata \bar "||" %170
+    d,2 a\fermata %170
     a'4\f fis h g \noBreak
     r8 e([ a)] g fis8.([ e16)] d4
     R1*2
@@ -482,7 +482,7 @@ QuoniamBassoNotes = {
     R1
     r2 h'4 g
     c a r8 fis([ h)] a %190
-    g[ fis16 e] h'4~ h8[ cis16 d] cis8[ h]
+    g[ fis16 e] h'4. cis16[ d] cis8[ h]
     ais2 h
     gis a
     fis gis
@@ -506,7 +506,7 @@ QuoniamBassoNotes = {
     g e r8 cis[ fis e]
     d[ e16 fis] g8[ fis] e[ d] cis[ d16 e]
     fis8[ e d cis] h[ cis16 d] e8[ d]
-    cis[ h] a4 a2~ %215
+    cis[ h] a4~ a2~ %215
     a1~
     a1~
     a1~
@@ -518,18 +518,29 @@ QuoniamBassoNotes = {
     e([ fis16 g)] a8 fis([ h)] a g([ a16 h)]
     cis8 a([ d)] cis h4. a8 %225
     g[ fis] e[ fis16 g] a8 d a4
-    d, r r8 \mvTr a'\p^\soloE a a
-    a8. h16 a4 r8 a a a16 a
-    a8.([ h16)] a4 r8 a a a16 a
-    d4\f h g( a) %230
-    d, r r8 a'4\pp a8
-    d4 d, r8 a'4 a8
-    d4 d, r8 a'4 a8
-    d4 h \mvTr g(\f^\tuttiE a)
+    d, << { \autoBeamOff
+      r^\markup \remark "T tutti"_\markup \remark "B" r8 a' a a
+      a8. h16 a4 r8 a a a16 a
+      a8.([ h16)] a4 r8 a a a16 a
+      d4 d d( cis)
+      d r r8 e4 e8
+      d4 fis r8 e4 e8
+      d4 fis r8 e4 e8
+      d4 d
+    } \\ \context Voice = "Basso" { \voiceTwo
+      r4 r8 a\p a a
+      a8. h16 a4 r8 a a a16 a
+      a8.([ h16)] a4 r8 a a a16 a
+      \mvDlh d4\f h g( a) %230
+      d, r r8 \mvDlll a'4\pp a8
+      d4 d, r8 a'4 a8
+      d4 d, r8 a'4 a8
+      \mvDlh d4\f h \oneVoice
+    } >> g(^\markup \remark "B" a)
     d,8 d\ff d d fis8. fis16 fis8 fis %235
     a a16 a a8 a d4 d,
     g1
-    d\fermata \bar "|." %238 FINIS
+    d\fermata \bar "|." %238 finis
   }
 }
 
@@ -588,7 +599,7 @@ QuoniamBassoLyrics = \lyricmode {
 
   a -- men,
   a -- men, a -- men, %190
-  a -- _ _
+  a -- _ _ _
   _ men,
   a -- men,
   a -- men,
@@ -612,7 +623,7 @@ QuoniamBassoLyrics = \lyricmode {
   a -- men, a --
   _ _ _ _
   _ _ _
-  _ men, a -- %215
+  _ _ %215
 
   men, %221
   a -- men, a --
@@ -631,7 +642,7 @@ QuoniamBassoLyrics = \lyricmode {
   men. Cum San -- cto Spi -- ri -- tu in %235
   glo -- ri -- a De -- i Pa -- tris,
   a --
-  men. %238 FINIS
+  men. %238 finis
 }
 
 CredoBassoNotes = {
@@ -989,7 +1000,7 @@ EtResurrexitBassoNotes = {
     d) d a2
     d4 r r cis(
     d) d a2
-    d,4 r r2\fermata \bar "|." %234 FINIS
+    d,4 r r2\fermata \bar "|." %234 finis
   }
 }
 
@@ -1093,7 +1104,7 @@ EtResurrexitBassoLyrics = \lyricmode {
   men, a --
   men, a --
   men, a --
-  men. %234 FINIS
+  men. %234 finis
 }
 
 SanctusBassoNotes = {
@@ -1125,7 +1136,7 @@ SanctusBassoNotes = {
     g4 a8 a h4 cis %25
     d8 d a4 d, r
     fis8 fis a4 d8 a, d fis
-    a a a,4 d r\fermata \bar "|." %28 FINIS
+    a a a,4 d r\fermata \bar "|." %28 finis
   }
 }
 
@@ -1155,7 +1166,7 @@ SanctusBassoLyrics = \lyricmode {
   san -- na, o -- san -- na %25
   in ex -- cel -- sis,
   in ex -- cel -- sis, o -- san -- na
-  in ex -- cel -- sis. %28 FINIS
+  in ex -- cel -- sis. %28 finis
 }
 
 BenedictusBassoNotes = {
@@ -1231,7 +1242,7 @@ OsannaBassoNotes = {
     g4 a8 a h4 cis
     d8 d a4 d, r
     fis8 fis a4 d8 a, d fis %50
-    a a a,4 d r\fermata \bar "|." %51 FINIS
+    a a a,4 d r\fermata \bar "|." %51 finis
   }
 }
 
@@ -1245,7 +1256,7 @@ OsannaBassoLyrics = \lyricmode {
   san -- na, o -- san -- na
   in ex -- cel -- sis,
   in ex -- cel -- sis, o -- san -- na %50
-  in ex -- cel -- sis. %51 FINIS
+  in ex -- cel -- sis. %51 finis
 }
 
 AgnusDeiBassoNotes = {
@@ -1373,7 +1384,7 @@ DonaNobisBassoNotes = {
     g4 a
     a2(
     g)
-    fis\fermata \bar "|." %140 FINIS
+    fis\fermata \bar "|." %140 finis
   }
 }
 
@@ -1461,5 +1472,5 @@ DonaNobisBassoLyrics = \lyricmode {
   no -- bis
   pa --
 
-  cem. %140 FINIS
+  cem. %140 finis
 }

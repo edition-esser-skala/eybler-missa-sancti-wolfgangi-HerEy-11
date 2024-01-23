@@ -28,7 +28,7 @@
   %           \set Staff.instrumentName = \transposedName "Clarino I, II" "D" ""
   %           \set Staff.soloText = \markup \remark \medium "clno 1"
   %           % \transpose c d
-  %           \partCombine \KyrieClarinoI \KyrieClarinoII
+  %           \partCombine #'(0 . 10) \KyrieClarinoI \KyrieClarinoII
   %         >>
   %       >>
   %       \new Staff {
@@ -113,7 +113,7 @@
   %         \new Staff <<
   %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
   %           % \transpose c d
-  %           \partCombine \GloriaClarinoI \GloriaClarinoII
+  %           \partCombine #'(0 . 10) \GloriaClarinoI \GloriaClarinoII
   %         >>
   %       >>
   %       \new Staff {
@@ -176,81 +176,8 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
-  \bookpart {
-    \subsection "Qui tollis"
-    \addTocEntry
-    \score { %\articulate
-      <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \QuiTollisOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \QuiTollisOboeII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \QuiTollisViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \QuiTollisViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \QuiTollisViola
-          }
-        >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
-          }
-          \new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
-          }
-          \new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
-          }
-          \new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
-          }
-          \new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
-        >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \QuiTollisOrgano
-          }
-        >>
-        \new FiguredBass { \QuiTollisBassFigures }
-      >>
-      \layout { }
-      \midi { \tempo 4 = 40 }
-    }
-  }
   % \bookpart {
-  %   \subsection "Quoniam"
+  %   \subsection "Qui tollis"
   %   \addTocEntry
   %   \score { %\articulate
   %     <<
@@ -259,81 +186,154 @@
   %           \set GrandStaff.instrumentName = "ob"
   %           \new Staff {
   %             \set Staff.instrumentName = "1"
-  %             \QuoniamOboeI
+  %             \QuiTollisOboeI
   %           }
   %           \new Staff {
   %             \set Staff.instrumentName = "2"
-  %             \QuoniamOboeII
+  %             \QuiTollisOboeII
   %           }
   %         >>
   %       >>
-  %       \new StaffGroup <<
-  %         \new Staff <<
-  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-  %           % \transpose c d
-  %           \partCombine \QuoniamClarinoI \QuoniamClarinoII
-  %         >>
-  %       >>
-  %       \new Staff {
-  %         \set Staff.instrumentName = "timp"
-  %         % \transpose c d
-  %         \QuoniamTimpani
-  %       }
   %       \new StaffGroup <<
   %         \new GrandStaff \with { \smallGroupDistance } <<
   %           \set GrandStaff.instrumentName = "vl"
   %           \new Staff {
   %             \set Staff.instrumentName = "1"
-  %             \QuoniamViolinoI
+  %             \QuiTollisViolinoI
   %           }
   %           \new Staff {
   %             \set Staff.instrumentName = "2"
-  %             \QuoniamViolinoII
+  %             \QuiTollisViolinoII
   %           }
   %         >>
   %         \new Staff {
   %           \set Staff.instrumentName = "vla"
-  %           \QuoniamViola
+  %           \QuiTollisViola
   %         }
   %       >>
   %       \new ChoirStaff <<
   %         \new Staff {
   %           \set Staff.instrumentName = "S"
-  %           \new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
+  %           \new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
   %         }
-  %         \new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
+  %         \new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
 
   %         \new Staff {
   %           \set Staff.instrumentName = "A"
-  %           \new Voice = "Alto" { \dynamicUp \QuoniamAltoNotes }
+  %           \new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
   %         }
-  %         \new Lyrics \lyricsto Alto \QuoniamAltoLyrics
+  %         \new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
 
   %         \new Staff {
   %           \set Staff.instrumentName = "T"
-  %           \new Voice = "Tenore" { \dynamicUp \QuoniamTenoreNotes }
+  %           \new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
   %         }
-  %         \new Lyrics \lyricsto Tenore \QuoniamTenoreLyrics
+  %         \new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
 
   %         \new Staff {
   %           \set Staff.instrumentName = "B"
-  %           \new Voice = "Basso" { \dynamicUp \QuoniamBassoNotes }
+  %           \new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
   %         }
-  %         \new Lyrics \lyricsto Basso \QuoniamBassoLyrics
+  %         \new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
   %       >>
   %       \new StaffGroup <<
   %         \new Staff {
   %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
   %           % \transpose c c,
-  %           \QuoniamOrgano
+  %           \QuiTollisOrgano
   %         }
   %       >>
-  %       \new FiguredBass { \QuoniamBassFigures }
+  %       \new FiguredBass { \QuiTollisBassFigures }
   %     >>
   %     \layout { }
-  %     \midi { \tempo 4 = 100 }
+  %     \midi { \tempo 4 = 40 }
   %   }
   % }
+  \bookpart {
+    \subsection "Quoniam"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \QuoniamOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \QuoniamOboeII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+            % \transpose c d
+            \partCombine #'(0 . 10) \QuoniamClarinoI \QuoniamClarinoII
+          >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "timp"
+          % \transpose c d
+          \QuoniamTimpani
+        }
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \QuoniamViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \QuoniamViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \QuoniamViola
+          }
+        >>
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
+          }
+          \new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \QuoniamAltoNotes }
+          }
+          \new Lyrics \lyricsto Alto \QuoniamAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \QuoniamTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \QuoniamTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \QuoniamBassoNotes }
+          }
+          \new Lyrics \lyricsto Basso \QuoniamBassoLyrics
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
+            % \transpose c c,
+            \QuoniamOrgano
+          }
+        >>
+        \new FiguredBass { \QuoniamBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 90 }
+    }
+  }
   % \bookpart {
   %   \section "3" "Credo"
   %   \addTocEntry
@@ -356,7 +356,7 @@
   %         \new Staff <<
   %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
   %           % \transpose c d
-  %           \partCombine \CredoClarinoI \CredoClarinoII
+  %           \partCombine #'(0 . 10) \CredoClarinoI \CredoClarinoII
   %         >>
   %       >>
   %       \new Staff {
@@ -514,7 +514,7 @@
   %         \new Staff <<
   %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
   %           % \transpose c d
-  %           \partCombine \EtResurrexitClarinoI \EtResurrexitClarinoII
+  %           \partCombine #'(0 . 10) \EtResurrexitClarinoI \EtResurrexitClarinoII
   %         >>
   %       >>
   %       \new Staff {
@@ -599,7 +599,7 @@
   %         \new Staff <<
   %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
   %           % \transpose c d
-  %           \partCombine \SanctusClarinoI \SanctusClarinoII
+  %           \partCombine #'(0 . 10) \SanctusClarinoI \SanctusClarinoII
   %         >>
   %       >>
   %       \new Staff {
@@ -757,7 +757,7 @@
   %         \new Staff <<
   %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
   %           % \transpose c d
-  %           \partCombine \OsannaClarinoI \OsannaClarinoII
+  %           \partCombine #'(0 . 10) \OsannaClarinoI \OsannaClarinoII
   %         >>
   %       >>
   %       \new Staff {
@@ -915,7 +915,7 @@
   %         \new Staff <<
   %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
   %           % \transpose c d
-  %           \partCombine \DonaNobisClarinoI \DonaNobisClarinoII
+  %           \partCombine #'(0 . 10) \DonaNobisClarinoI \DonaNobisClarinoII
   %         >>
   %       >>
   %       \new Staff {

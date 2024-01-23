@@ -203,75 +203,75 @@ QuoniamOboeI = {
     g'8.\f a16 h8 cis d8. e16 fis8 a
     g fis e d cis r r g( %125
     fis) r r d'( cis) r r g'(
-    fis) a fis8.(\trill e32 d) a'8 a, r4
+    fis) a fis8.\trill e32 d a'8 a, r4
     d8. e16 fis8 g a4 fis8 d
     cis h a g fis4 r8 d'(
-    cis) r r g'( fis) r r a( %130
-    h) a g8.(\trill fis32 g) fis8 r r4
+    cis) r r \once \slurDashed g'( fis) r r a %130
+    h a g8.\trill fis32 g fis8 r r4
     d8. e16 fis8 g a4 fis8 d
-    cis h a g fis4 r8 d'(
-    cis) r r g' fis4 e
+    cis h a g fis4 r8 d'
+    cis r r g' fis4 e
     d r e d %135
     cis r d dis
-    e d8 cis h4. a8~
+    e d8 cis h4. a8
     a gis r4 r2
     R1
     r2 r4 r8 a\f %140
     a'4 gis8 fis e d cis h
-    a4 r8 a'( fis) r r \once \slurDashed h(
-    gis) r r d cis fis e4
+    a4 r8 a' fis r r h
+    gis r r d cis fis e4
     r8 d cis4 r8 h a[ a']
     gis fis e d cis d e fis %145
     gis a h d, cis4 h\trill
     a8. h16 cis8 d e4 cis8 a'
-    gis fis e d cis4 r8 \once \slurDashed a'(
-    gis) r r h( a) r r g
-    fis h, cis8.(\trill d32 e) d8 r r4 %150
+    gis fis e d cis4 r8 a'
+    gis r r h a r r g
+    fis h, cis8.\trill d32 e d8 r r4 %150
     h8. cis16 d8 e fis4 d8 h
-    ais h cis8.(\trillE d32 e) d4 r8 \once \slurDashed h'(
-    ais) r r e( d) r r4
+    ais h cis8.\trillE d32 e d4 r8 h'
+    ais r r e d r r4
     h'4 a16 g fis e \appoggiatura d4 cis2
     r4 r8 fis, g a h cis %155
     d e fis d h g'4 fis8
     fis e r4 r2
     R1
-    r4 r8 a,\fE a'4 g8 fis
+    r4 r8 a,\f a'4 g8 fis
     h g fis e a cis, d e %160
-    fis g fis e d d,\ffE fis-\critnote a
+    fis g fis e d d,\ff fis a
     d4 fis8 d a'4. a8
-    fis4 r8 d(\fE cis) r r \once \slurDashed g'(
-    fis) r r \once \slurDashed c'( h) r r a
+    fis4 r8 d cis r r g'
+    fis r r c' h r r a
     g4 r8 fis e4 r8 d %165
     cis d e fis g2
     fis4 r r2
     d,2\ff fis
     a d4 e \noBreak
-    fis2 e\fermata \bar "||" %170
+    fis2 e\fermata %170
     R1*2
     d4\f cis fis d
-    r8 h e d cis8.\trillE h16 a4
+    r8 h e d cis8. h16 a4
     r2 r4 h~ %175
     h8 a16 g fis8 e d4 r
     r a' d fis
-    gis,2\trillE a
+    gis,2 a
     R1*2 %180
-    fis'4 d g e
-    r8 cis fis e d8.\trillE cis16 h4
+    fis'4 d g! e
+    r8 cis fis e d8. cis16 h4
     r fis h d
-    eis,2\trillE fis
+    eis,2 fis
     R1*2 %186
-    d'4 h e c
+    d'4 h e! c
     r8 a d c h a g a16 h
     c8 h a h16 c d8 c h a
     g a16 h c4. h16 a g8 fis %190
     e4 r r g'~
-    g8 fis16 e d8 cis! h4 r
+    g8 fis16 e d!8 cis! h4 r
     R1*3 %195
     r2 e4 cis
     fis d r8 h e d
-    cis8.\trillE h16 a4 r8 a d cis
-    h8.\trillE a16 g!4 r8 g cis h
-    a8.\trillE g16 fis4 r8 fis h a %200
+    cis8. h16 a4 r8 a d cis
+    h8. a16 g!4 r8 g cis h
+    a8. g16 fis4 r8 fis h a %200
     g h e8. d16 cis8 e a8. g16
     fis8 e d4 r2
     r h4 g
@@ -304,10 +304,10 @@ QuoniamOboeI = {
     d8 r r4 r2
     R1*2
     fis2\f e
-    d8 d,4\ff d8 fis2 %235
+    d8\ff d,4 d8 fis2 %235
     a d4 fis
     g1
-    fis\fermata \bar "|." %238 FINIS
+    fis\fermata \bar "|." %238 finis
   }
 }
 
@@ -543,7 +543,7 @@ EtResurrexitOboeI = {
     r fis r e
     r a2 g4
     fis fis e2\trill
-    d4 r r2\fermata \bar "|." %234 FINIS
+    d4 r r2\fermata \bar "|." %234 finis
   }
 }
 
@@ -578,7 +578,7 @@ SanctusOboeI = {
     d e4 fis g a16 g %25
     fis8 fis e4\trill d8 r r4
     a'4 g fis8 r r4
-    a cis d r\fermata \bar "|." %28 FINIS
+    a cis d r\fermata \bar "|." %28 finis
   }
 }
 
@@ -630,7 +630,7 @@ OsannaOboeI = {
     d e4 fis g a16 g
     fis8 fis e4\trill d8 r r4
     a'4 g fis8 r r4
-    a cis d r\fermata \bar "|." %28 FINIS
+    a cis d r\fermata \bar "|." %28 finis
   }
 }
 
@@ -718,6 +718,6 @@ DonaNobisOboeI = {
     h4 c
     c2
     h
-    a\fermata \bar "|." %140 FINIS
+    a\fermata \bar "|." %140 finis
   }
 }

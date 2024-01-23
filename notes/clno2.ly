@@ -97,16 +97,16 @@ QuoniamClarinoII = {
     c4 r c r8 e
     e e e4 e r
     R1*7 %159
-    r2 r4 r8 c\f %160
-    c4 c'8 g e c[\ffE e g]
-    c \tuplet 3/2 8 { g16 c g e[ g e] c e c } g8 g16. g32 g16 g g g
+    r2 r4 r8 c\fE %160
+    c4 c'8 g e c\ff e g
+    c \tuplet 3/2 8 { g16 c g e g e c e c } g8 g16. g32 g16 g g g
     c4 r r2
     R1*2 %165
-    r2 g'\fE
+    r2 g'
     c4 r r2
     c,4\ff r8 c16. c32 e4 r8 e16. e32
     g4 r8 g16. g32 e8 e16. e32 g8 g16. g32 \noBreak
-    e8 g16. g32 c16 g e c g2\fermata \bar "||" %170
+    e8 g16. g32 c16 g e c g2\fermata %170
     R1*4
     g'4\fE e c r %175
     r g c r
@@ -120,8 +120,8 @@ QuoniamClarinoII = {
     r2 g,4 g
     c r r2
     R1*3 %200
-    r2 r4 \once \tieDashed g~
-    g c c r
+    r2 r4 g
+    c r r2
     R1*2
     r2 r4 g %205
     c r r2
@@ -146,7 +146,7 @@ QuoniamClarinoII = {
     c4\ff r8 c16. c32 e4 r8 e16. e32 %235
     g4 r8 g16. g32 c,4 c
     c8 c16. c32 c8 c c c c c
-    c1\fermata \bar "|." %238 FINIS
+    c1\fermata \bar "|." %238 finis
   }
 }
 
@@ -251,7 +251,7 @@ EtResurrexitClarinoII = {
     c4 c g2
     c4 r g2
     c4 c g2
-    e4 r r2\fermata \bar "|." %234 FINIS
+    e4 r r2\fermata \bar "|." %234 finis
   }
 }
 
@@ -286,7 +286,7 @@ SanctusClarinoII = {
     r2 r4 g %25
     c8 c g4 e8 r r4
     e8 e g4 c8 r r4
-    c8 c g4 e r\fermata \bar "|." %28 FINIS
+    c8 c g4 e r\fermata \bar "|." %28 finis
   }
 }
 
@@ -304,7 +304,7 @@ OsannaClarinoII = {
     r2 r4 g
     c8 c g4 e8 r r4
     e8 e g4 c8 r r4 %50
-    c8 c g4 e r\fermata \bar "|." %51 FINIS
+    c8 c g4 e r\fermata \bar "|." %51 finis
   }
 }
 
@@ -359,6 +359,6 @@ DonaNobisClarinoII = {
     c4 c
     c8 c16 c c8 c
     c c c c
-    c2\fermata \bar "|." %140 FINIS
+    c2\fermata \bar "|." %140 finis
   }
 }

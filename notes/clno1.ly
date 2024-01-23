@@ -90,8 +90,8 @@ QuoniamClarinoI = {
     R1*3 %131
     \pao c4 r g' e8 r
     R1
-    r2 e8 e16. e32 e8 e
-    e4 r r2 %135
+    r2 \pa e8 e16. e32 e8 e
+    e4 \pd r r2 %135
     R1*4
     r2 r4 r8 d'\f %140
     e4 r8 e d r r4
@@ -99,41 +99,41 @@ QuoniamClarinoI = {
     R1*4 %146
     g4 r g r
     R1*3 %150
-    e4 r e r8 e
-    e e e4 e r
+    e4 r e r8 \pa e
+    e e e4 e \pd r
     R1*7 %159
-    r2 r4 r8 c'\f %160
-    c4 e8 d c c,[\ffE e g]
-    c \tuplet 3/2 8 { g16 c g e[ g e] c e c } g'8 g16. g32 g16 g g g
+    r2 r4 r8 c'\fE %160
+    c4 e8 d \pa c c,\ff e g
+    c \tuplet 3/2 8 { g16 c g e g e c e c } \pd g'8 g16. g32 g16 g g g
     e4 r r2
     R1*2 %165
-    r2 d'\fE
+    r2 d'
     e4 r r2
-    c,4\ff r8 c16. c32 e4 r8 e16. e32
-    g4 r8 g16. g32 c8 c16. c32 d8 d16. d32 \noBreak
-    c8 g16. g32 c16 g e c g'2\fermata \bar "||" %170
+    \pao c,4\ff r8 \pa c16. c32 e4 \pd r8 \pa e16. e32
+    g4 \pd r8 \pa g16. g32 \pd c8 c16. c32 d8 d16. d32 \noBreak
+    \pa c8 g16. g32 c16 g e c \pd g'2\fermata %170
     R1*4
-    g4\fE e c r %175
+    \pa g4\fE e c \pd r %175
     r g' \pao c, r
     R1*3
-    r2 r4 e8. e16 %180
-    e4 r r2
-    r4 e8. e16 e4 r
+    r2 r4 \pa e8. e16 %180
+    e4 \pd r r2
+    r4 \pa e8. e16 e4 \pd r
     R1*3 %185
     d'2 e4 r
     R1*9 %195
     r2 g,4 g
     c r r2
     R1*3 %200
-    r2 r4 g~
-    g e \pao c r
+    r2 r4 \pa g~
+    g e c r \pd
     R1*2
     r2 r4 g' %205
     e r r2
     R1*2
-    r2 r4 e8. e16
-    e4 r r2 %210
-    e4 e8. e16 e4 r
+    r2 r4 \pa e8. e16
+    e4 \pd r r2 %210
+    \pa e4 e8. e16 e4 \pd r
     R1*3
     g4 r r2 %215
     g4 r r2
@@ -141,17 +141,17 @@ QuoniamClarinoI = {
     g4 r g r
     g r g r
     g r r2 %220
-    r g4 e
-    c r r2
+    r \pa g4 e
+    c \pd r r2
     R1*2
     d'4 e c r %225
     c r \pa d8 e d4 \pd
     c r r2
     R1*7 %234
-    c,4\ff r8 c16. c32 e4 r8 e16. e32 %235
-    g4 r8 g16. g32 c4 c
+    \pao c,4\ff r8 \pa c16. c32 e4 \pd r8 \pa e16. e32 %235
+    g4 \pd r8 \pa g16. g32 \pd c4 c
     c8 c16. c32 c8 c c c c c
-    c1\fermata \bar "|." %238 FINIS
+    c1\fermata \bar "|." %238 finis
   }
 }
 
@@ -256,7 +256,7 @@ EtResurrexitClarinoI = {
     e4 e d2
     e4 r d2
     e4 e d2
-    c4 r r2\fermata \bar "|." %234 FINIS
+    c4 r r2\fermata \bar "|." %234 finis
   }
 }
 
@@ -291,7 +291,7 @@ SanctusClarinoI = {
     r2 r4 d %25
     e8 e d4 c8 r r4
     c8 c d4 e8 r r4
-    e8 e d4 c r\fermata \bar "|." %28 FINIS
+    e8 e d4 c r\fermata \bar "|." %28 finis
   }
 }
 
@@ -309,7 +309,7 @@ OsannaClarinoI = {
     r2 r4 d
     e8 e d4 c8 r r4
     c8 c d4 e8 r r4 %50
-    e8 e d4 c r\fermata \bar "|." %51 FINIS
+    e8 e d4 c r\fermata \bar "|." %51 finis
   }
 }
 
@@ -364,6 +364,6 @@ DonaNobisClarinoI = {
     c4 c
     c8 c16 c c8 c
     c c c c
-    c2\fermata \bar "|." %140 FINIS
+    c2\fermata \bar "|." %140 finis
   }
 }

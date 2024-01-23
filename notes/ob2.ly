@@ -195,35 +195,35 @@ QuoniamOboeII = {
     \key d \major \time 4/4 \tempoQuoniam
       \set Score.currentBarNumber = #124
     g'8.\f fis16 g8 e a8. cis16 d8 fis
-    d d^\critnote h4 a8 r r \once \slurDashed e( %125
+    d cis h4 a8 r r e( %125
     d) r r d( e) r r e'(
-    d) a fis8.(\trill e32 d) a'4 r
+    d) a fis8.\trill e32 d a'4 r
     d8. cis16 d8 e fis4 d8 a
     g fis e4 d r8 a'~
-    a r r e'( d) r r \once \tieDashed d~ %130
+    a r r \once \slurDashed e'( d) r r d~ %130
     d cis d e d r r4
     d8. cis16 d8 e fis4 d8 a
     g fis e4 d r8 a'~
     a r r e' a,4 ais
     h r e, gis %135
-    a r fis2
+    a! r fis2
     e8 gis h a fis2~
     fis8 e r4 r2
     R1
     r4 r8 e\f e'4 d8 cis %140
     fis4 e8 d a4. gis8
-    a4 r8 e'( d) r r \once \slurDashed fis(
-    e) r r h a4 r8 e'
+    a4 r8 e' d r r fis
+    e r r h a4 r8 e'
     d4 r8 cis h4 r8 e
     d cis h4 a r %145
     r r8 h a a4 gis8
     a8. gis16 a8 h cis4 a8 e'
     d cis h4 a r8 e'~
-    e r r d( cis) r r e
+    e r r d cis r r e
     d h4 ais8 h r r4 %150
     h8. ais16 h8 cis d4 h8 h
-    ais h cis4 h r8 \once \slurDashed fis'(
-    e) r r cis( h) r r4
+    ais h cis4 h r8 fis'
+    e r r cis h r r4
     R1
     a'4 g16 fis e d g8 r r a,~ %155
     a cis d4 r8 e4 d8
@@ -231,41 +231,41 @@ QuoniamOboeII = {
     R1
     r4 r8 a\f fis'4 e8 d
     h4 dis8 e a, g fis h %160
-    a d4 cis8 d d,\ffE fis a
+    a d4 cis8 d d,\ff fis a
     d4 fis8 d cis4. cis8
-    d4 r8 fis,(\fE e) r r \once \slurDashed e'(
-    d) r r \once \slurDashed a'( g) h, a4
+    d4 r8 fis, e r r e'
+    d r r a' g h, a4
     r8 g fis4 r8 e d4 %165
     r r8 a' cis4 e
     d r r2
     d,\ff fis
     a d4 cis \noBreak
-    d2 cis\fermata \bar "||" %170
+    d2 cis\fermata %170
     R1*2
     d4\f cis fis d
-    r8 h e d cis8.\trillE h16 a4
+    r8 h e d cis8. h16 a4
     r2 r4 h~ %175
     h8 a16 g fis8 e d4 r
     r a' d fis
-    gis,2\trillE a
+    gis,2 a
     R1*2 %180
-    fis'4 d g e
-    r8 cis fis e d8.\trillE cis16 h4
+    fis'4 d g! e
+    r8 cis fis e d8. cis16 h4
     r fis h d
-    eis,2\trillE fis
+    eis,2 fis
     R1*2 %186
-    d'4 h e c
+    d'4 h e! c
     r8 a d c h a g a16 h
     c8 h a h16 c d8 c h a
     g a16 h c4. h16 a g8 fis %190
     e4 r r g'~
-    g8 fis16 e d8 cis! h4 r
+    g8 fis16 e d!8 cis! h4 r
     R1*3 %195
     r2 e4 cis
     fis d r8 h e d
-    cis8.\trillE h16 a4 r8 a d cis
-    h8.\trillE a16 g!4 r8 g cis h
-    a8.\trillE g16 fis4 r8 fis h a %200
+    cis8. h16 a4 r8 a d cis
+    h8. a16 g!4 r8 g cis h
+    a8. g16 fis4 r8 fis h a %200
     g h e8. d16 cis8 e a8. g16
     fis8 e d4 r2
     r h4 g
@@ -298,10 +298,10 @@ QuoniamOboeII = {
     d8 r r4 r2
     R1*2
     d2.\f cis4
-    d8 d,4\ff d8 fis2 %235
+    d8\ff d,4 d8 fis2 %235
     a d4 c
     h1
-    a\fermata \bar "|." %238 FINIS
+    a\fermata \bar "|." %238 finis
   }
 }
 
@@ -516,7 +516,7 @@ EtResurrexitOboeII = {
     r d r cis
     r fis e2
     d4 d cis2
-    d4 r r2\fermata \bar "|." %234 FINIS
+    d4 r r2\fermata \bar "|." %234 finis
   }
 }
 
@@ -551,7 +551,7 @@ SanctusOboeII = {
     h4 cis d e %25
     d8 d cis4\trill d8 r r4
     a cis d8 r r4
-    a4 g' fis r\fermata \bar "|." %28 FINIS
+    a4 g' fis r\fermata \bar "|." %28 finis
   }
 }
 
@@ -603,7 +603,7 @@ OsannaOboeII = {
     h4 cis d e
     d8 d cis4\trillE d8 r r4
     a cis d8 r r4 %50
-    a4 g' fis r\fermata \bar "|." %51 FINIS
+    a4 g' fis r\fermata \bar "|." %51 finis
   }
 }
 
@@ -692,6 +692,6 @@ DonaNobisOboeII = {
     g4 a
     a2
     g
-    fis\fermata \bar "|." %140 FINIS
+    fis\fermata \bar "|." %140 finis
   }
 }

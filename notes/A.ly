@@ -417,7 +417,7 @@ QuoniamAltoNotes = {
     \key d \major \time 4/4 \autoBeamOff \tempoQuoniam
       \set Score.currentBarNumber = #124
     R1*4 %127
-    \mvTr a'8.\f^\tutti a16 a8 a a4 a8 a
+    \mvTr a'8.\fE^\tuttiE a16 a8 a a4 a8 a
     g fis e4 d r
     R1*2 %131
     a'8. a16 a8 a a4 a8 a
@@ -449,9 +449,9 @@ QuoniamAltoNotes = {
     d([ fis)] a d cis4. cis8
     d4 r r2
     R1*4 %167
-    r8 d,\ff d d fis8. fis16 fis8 fis
+    r8 d,\f d d fis8. fis16 fis8 fis
     a8. a16 a8 a fis fis16 fis a8 a \noBreak
-    a2 a\fermata \bar "||" %170
+    a2 a\fermata %170
     r4 d,(\f g) h \noBreak
     cis,2 d
     R1*2
@@ -493,7 +493,7 @@ QuoniamAltoNotes = {
     h4 r r2 %210
     r r4 h(
     e) g ais,2
-    h8 fis'[ h a] g[ fis] e[ fis16 g]
+    h8 fis'[ h a!] g[ fis] e[ fis16 g]
     a8[ g] fis[ g16 a] h8[ a g fis]
     e[ fis16 gis] a8[ g] fis[ e] d[ e16 fis] %215
     g4. fis8 e[ d] cis[ d16 e]
@@ -507,18 +507,29 @@ QuoniamAltoNotes = {
     g[ a16 h] cis8[ a] d[ cis] h[ cis16 d]
     e8[ cis] d4 r r8 fis, %225
     h[ a] g[ a16 h] a8 a a4
-    fis r r8 \mvTr a\p^\soloE a a
-    a8. h16 a4 r8 a a a16 a
-    a8.([ h16)] a4 r8 a a a16 a
-    a4\f h \once \stemUp h( a8[ g)] %230
-    fis4 r r8 g4\pp g8
-    fis4 a r8 g4 g8
-    fis4 a r8 g4 g8
-    fis4 h \once \stemUp \mvTr h(\fE^\tuttiE a8[ g])
+    fis << { \autoBeamOff
+        r^\markup \remark "S tutti"_\markup \remark "A" r8 a a a
+        a8. h16 a4 r8 a a a16 a
+        a8.([ h16)] a4 r8 a a a16 a
+        fis'4 fis e2
+        d4 r r8 a4 a8
+        a8.([ h16)] a4 r8 a4 a8
+        a8.([ h16)] a4 r8 a4 a8
+        fis'4 fis
+    } \\ \context Voice = "Alto" {
+      \voiceTwo r r8 \mvTr a,\p a a
+      a8. h16 a4 r8 a a a16 a
+      a8.([ h16)] a4 r8 a a a16 a
+      \mvDlh a4\f h h( a8[ g)] %230
+      fis4 r r8 \mvDlll g4\pp g8
+      fis4 a r8 g4 g8
+      fis4 a r8 g4 g8
+      \mvDlh fis4\f h \oneVoice
+    } >> \once \stemUp h(^\markup \remark "A" a8[ g])
     fis d\ff d d fis8. fis16 fis8 fis %235
     a a16 a a8 a d,4 fis
     g1
-    fis\fermata \bar "|." %238 FINIS
+    fis\fermata \bar "|." %238 finis
   }
 }
 
@@ -624,7 +635,7 @@ QuoniamAltoLyrics = \lyricmode {
   men. Cum San -- cto Spi -- ri -- tu in %235
   glo -- ri -- a De -- i Pa -- tris,
   a --
-  men. %238 FINIS
+  men. %238 finis
 }
 
 CredoAltoNotes = {
@@ -978,7 +989,7 @@ EtResurrexitAltoNotes = {
     a a a2
     a4 r r a~
     a a a2
-    fis4 r r2\fermata \bar "|." %234 FINIS
+    fis4 r r2\fermata \bar "|." %234 finis
   }
 }
 
@@ -1078,7 +1089,7 @@ EtResurrexitAltoLyrics = \lyricmode {
   men, a --
   men, a --
   men, a --
-  men. %234 FINIS
+  men. %234 finis
 }
 
 SanctusAltoNotes = {
@@ -1110,7 +1121,7 @@ SanctusAltoNotes = {
     g([ h)] e, a d,([ h')] a4 %25
     a8 a a4 fis8 a, d fis
     a a a4 a8 a, d fis
-    a a a4 fis r\fermata \bar "|." %28 FINIS
+    a a a4 fis r\fermata \bar "|." %28 finis
   }
 }
 
@@ -1140,7 +1151,7 @@ SanctusAltoLyrics = \lyricmode {
   o -- san -- na, o -- san -- na %25
   in ex -- cel -- sis, o -- san -- na
   in ex -- cel -- sis, o -- san -- na
-  in ex -- cel -- sis. %28 FINIS
+  in ex -- cel -- sis. %28 finis
 }
 
 BenedictusAltoNotes = {
@@ -1200,7 +1211,7 @@ OsannaAltoNotes = {
     g([ h)] e, a d,([ h')] a4
     a8 a a4 fis8 a, d fis
     a a a4 a8 a, d fis %50
-    a a a4 fis r\fermata \bar "|." %51 FINIS
+    a a a4 fis r\fermata \bar "|." %51 finis
   }
 }
 
@@ -1214,7 +1225,7 @@ OsannaAltoLyrics = \lyricmode {
   o -- san -- na, o -- san -- na
   in ex -- cel -- sis, o -- san -- na
   in ex -- cel -- sis, o -- san -- na %50
-  in ex -- cel -- sis. %51 FINIS
+  in ex -- cel -- sis. %51 finis
 }
 
 AgnusDeiAltoNotes = {
@@ -1354,7 +1365,7 @@ DonaNobisAltoNotes = {
     d4 d
     d2~
     d
-    d\fermata \bar "|." %140 FINIS
+    d\fermata \bar "|." %140 finis
   }
 }
 
@@ -1444,5 +1455,5 @@ DonaNobisAltoLyrics = \lyricmode {
   no -- bis
   pa --
 
-  cem. %140 FINIS
+  cem. %140 finis
 }

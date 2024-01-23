@@ -90,15 +90,15 @@ QuoniamTimpani = {
     g4 r g r
     R1*12 %159
     r2 r4 r8 c\fE %160
-    c c16 c g8 g16 g c8 c16\ff c c c c c
+    c c16 c g8 g16 g c8 c16.\ff c32 c16 c c c
     c2\trill g8 g16. g32 g16 g g g
     c4 r r2
     R1*2 %165
-    r2 g8\fE g16. g32 g8 g
+    r2 g8 g16. g32 g8 g
     c4 r r2
     c4\ff r8 \tuplet 3/2 8 { c16 c c } c4 r8 \tuplet 3/2 8 { c16 c c }
     c4 r8 \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c } g8 \tuplet 3/2 8 { g16 g g } \noBreak
-    c8 \tuplet 3/2 8 { c16 c c } c8 c g2\fermata \bar "||" %170 finis
+    c8 \tuplet 3/2 8 { c16 c c } c8 c g2\fermata %170 finis
     R1*4
     r4 c\fE c r %175
     r g c r
@@ -128,7 +128,7 @@ QuoniamTimpani = {
     c4\ff r8 \tuplet 3/2 8 { c16 c c } c4 r8 \tuplet 3/2 8 { c16 c c } %235
     c4 r8 \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c }
     c8 \tuplet 3/2 8 { c16 c c } c8 c c c c c
-    c1\fermata \bar "|." %238 FINIS
+    c1\fermata \bar "|." %238 finis
   }
 }
 
@@ -228,7 +228,7 @@ EtResurrexitTimpani = {
     c c g g
     c r r g
     c c8. c16 g4 g8. g16
-    c4 r r2\fermata \bar "|." %234 FINIS
+    c4 r r2\fermata \bar "|." %234 finis
   }
 }
 
@@ -263,7 +263,7 @@ SanctusTimpani = {
     r2 r4 g %25
     c8 c g4 c8 r r4
     c8 c16 c g8 g c4 r
-    c8 c16 c g8 g c4 r\fermata \bar "|." %28 FINIS
+    c8 c16 c g8 g c4 r\fermata \bar "|." %28 finis
   }
 }
 
@@ -281,7 +281,7 @@ OsannaTimpani = {
     r2 r4 g
     c8 c g4 c8 r r4
     c8 c16 c g8 g c4 r %50
-    c8 c16 c g8 g c4 r\fermata \bar "|." %51 FINIS
+    c8 c16 c g8 g c4 r\fermata \bar "|." %51 finis
   }
 }
 
@@ -334,6 +334,6 @@ DonaNobisTimpani = {
     c4 c
     c8 c16 c c8 c
     c c c c
-    c2\fermata \bar "|." %140 FINIS
+    c2\fermata \bar "|." %140 finis
   }
 }

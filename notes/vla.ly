@@ -258,20 +258,20 @@ QuoniamViola = {
       \set Score.currentBarNumber = #124
     d8.\f cis16 h8 a fis'8. e16 d8 d'
     g, a h e, e r r a,~ %125
-    a r r \once \tieDashed a~ a r r \once \slurDashed a'(
-    d) a fis8.(\trillE e32 d) a'8 a, r4
+    a r r a~ a r r a'(
+    d) a-! fis8.\trill e32 d a'8 a, r4
     a'8. g16 fis8 e d fis a fis
     e h cis e d4 r8 d(
-    e) r r \once \tieDashed a~ a r r a( %130
-    g) r r a, d^\critnote \tuplet 3/2 8 { d'16 cis h } a8 \tuplet 3/2 8 { g16 fis e }
+    e) r r a~ a r r a( %130
+    g) r r a, d \tuplet 3/2 8 { d'16 cis h } a8 \tuplet 3/2 8 { g16 fis e }
     \appoggiatura { d16[ fis] } a8. g16 fis8 e d fis a d,
-    e h cis e d4 r8 \once \slurDashed d(
-    e) r r a a d, cis fis
+    e h cis e d4 r8 d
+    e r r a a d, cis fis
     fis h, d fis e a gis h %135
     e, a cis a fis d h fis'
     h h, e a a fis d h
-    e e,16. fis32 gis16. a32 h16. gis32 e8\pE gis4 a8
-    e4 r8 e e gis4 a8
+    e e,16. fis32 gis16. a32 h16. gis32 e8 gis4\p a8
+    e4 r8 e~ e gis4 a8
     e8.. fis32 gis16. a32 h16. gis32 a8\f cis e cis %140
     d fis a d, cis d e d
     cis4 r8 a'4 fis8 d[ h']~
@@ -279,31 +279,31 @@ QuoniamViola = {
     a a' gis gis, fis fis' e e,
     d' cis h gis a a'4 a8 %145
     d cis h gis a a fis d
-    cis8. d16 cis8 h a cis e a,
+    <cis e>8. d16 cis8 h a cis e a,
     h fis gis h a4 r8 e'
     e, r r e' e, r r cis'
-    d d g! fis fis \tuplet 3/2 8 { d16 cis h } fis'8 \tuplet 3/2 8 { ais16 gis fis } %150
+    \override TupletNumber.stencil = ##f d d g! fis fis \tuplet 3/2 8 { d16 cis h } fis'8 \tuplet 3/2 8 { ais16 gis fis } %150
     h8. e,16 d8 cis h d fis h,
     e d cis4 h r8 fis'
     fis, r r fis' fis, r r h~
-    h g'! e cis a4 r8 a~
+    h g'! e h a4 r8 a~
     a fis' d a h c d e %155
     fis g a fis d h'4 h8
-    a a,16. h32 cis16. d32 e16. cis32 a8\pE cis4 d8
-    a4 r8 a a cis4 d8
-    a8.. h32 cis16. e32 a16. g32 fis8\fE a, cis d~
+    a a,16. h32 cis16. d32 e16. cis32 a8\p cis4 d8
+    a4 r8 a~ a cis4 d8
+    a8.. h32 cis16. e32 a16. g32 fis8\f a, cis d~
     d e fis g a g fis e %160
     d g a a, d4 r8 a\ff
-    fis a d fis \tuplet 3/2 8 { <a a,>16 q q q[ q q] q q q q[ q q] }
-    <fis a,>4 r8 a~\fE a cis, e a~
+    fis a d fis \tuplet 3/2 8 { <a a,>16 q q q q q q q q q q q }
+    <fis a,>4 r8 a~ a cis, e a~
     a fis a d~ d g,, fis fis'
     e e, d d' cis cis h h %165
     a a'4 a a, a8
-    d4 r8 a a d4 cis8
+    d4 r8 a~ a d4 cis8
     <d d,>4\ff r8. d,32( e fis4) r8. fis32( g
-    a4) r8. \tuplet 3/2 16 { a32( h cis } d8) r16 a64( h cis d e8) r16 a,64( h cis d128 e \noBreak
-    fis8) d32( e fis g a8) a a2\fermata \bar "||" %170
-    r4 d,\fE g h
+    a4) \stemUp r8. \tuplet 3/2 16 { a32( h cis } d8) r16 a64( h cis d e8) \stemNeutral r16 a,64( h cis d128 e) \noBreak \revert TupletNumber.stencil
+    fis8 d32( e fis g) a8-! a-! a2\fermata %170
+    r4 d,\f g h
     cis,2\trill d
     R1
     r4 e4. fis16 gis a8 g
@@ -314,11 +314,11 @@ QuoniamViola = {
     r fis'4. g16 a h8 a
     g fis e4. d8 cis4 %180
     d h e g
-    ais,2\trillE h
+    ais,2 h
     r r4 d'~
     d8 cis16 h a8 gis fis4 r
     r8 fis h a gis8.\trill fis16 e4 %185
-    r8 e a g fis8.\trillE e16 d4
+    r8 e a g fis8.\trill e16 d4
     r8 d g fis e fis16 g a8 g
     fis2 g4 e
     a fis r8 d g fis
@@ -332,20 +332,20 @@ QuoniamViola = {
     fis gis16 a h8 a gis2
     a8 e a g fis8.\trill e16 d4
     r8 d g fis e8.\trill d16 cis4
-    r8 cis fis e d8.\trillE cis16 h8 h %200
-    e8. d16 cis8^\critnote e a8. g16 fis8 e
+    r8 cis fis e d8. cis16 h8 h %200
+    e8. d16 cis8 e a8. g16 fis8 e
     <d a'>4 fis h g
-    r8 e a g fis8.\trillE e16 d4
-    r8 g, c h a8. g16 fis8 d'
+    r8 e a g fis8.\trill e16 d4
+    r8 g, c h a8.\trill g16 fis8 d'
     g fis e4. fis16 g a8 g %205
     fis e d4 r2
     r4 e4. fis16 g a8 h
     cis4 d,4. e16 fis g8 a
     h4 g4. fis16 e d8 cis
     h4 d g e %210
-    r8 cis fis e d8.\trillE cis16 h4
-    e g ais,2\trillE
-    h8 fis' h a g fis e fis16 g
+    r8 cis fis e d8. cis16 h4
+    e g ais,2
+    h8 fis' h a! g fis e fis16 g
     a8 g fis g16 a h8 a g fis
     e fis16 gis a8 g fis e d e16 fis %215
     g4. fis8 e d cis d16 e
@@ -359,18 +359,25 @@ QuoniamViola = {
     g a16 h cis8 a d cis h cis16 d
     e8 cis d4 r r8 fis, %225
     h a g a16 h a8 a a4
-    fis8 <d fis>\pE q q <d g> <cis g'> q q
-    <d fis> q q q <d g> <cis g'> q q
-    <d fis> q q q <d g> <cis g'> q q
-    <d fis>\fE d' h, h' g, g' a, a' %230
-    d, <d fis>\pp q q <d g> <cis g'> q q
-    <d fis> q q q <d g> <cis g'> q q
-    <d fis> q q q <d g> <cis g'> q q
-    <d fis>\f d' h, h' g, g' a, a'
-    d,,4 r8. d32(\ff e fis4) r8. fis32( g %235
-    a4) r8. \tuplet 3/2 16 { a32( h cis } d8) a' fis d
+    fis8 d\pp d d d cis cis cis
+    d d d d d cis cis cis
+    d d d d d cis cis cis
+    d\f d' h, h' g, g' a, a' %230
+    << {
+      d, fis\pp fis fis g g g g
+      fis fis fis fis g g g g
+      fis fis fis fis g g g g
+      fis[ d']
+    } \\ {
+      d, d d d d cis cis cis
+      d d d d d cis cis cis
+      d d d d d cis cis cis
+      d[ d']
+     } >> h, h' g, g' a, a'
+    d,,4\ff r8. d32( e fis4) r8. fis32( g %235
+    a4) r8. \tuplet 3/2 16 { a32_( h cis } d8) a' fis d
     g <g h>4 q q q8
-    <fis a>1\fermata \bar "|." %238 FINIS
+    <fis a>1\fermata \bar "|." %238 finis
   }
 }
 
@@ -619,7 +626,7 @@ EtResurrexitViola = {
     d, fis a d a, a' cis a
     d, a' fis d cis e a cis
     d, fis a d a, cis e a
-    d,4 d' r2\fermata \bar "|." %234 FINIS
+    d,4 d' r2\fermata \bar "|." %234 finis
   }
 }
 
@@ -654,7 +661,7 @@ SanctusViola = {
     h) h' cis, cis' d, d' e, e' %25
     a, a g4 fis8 r r a
     a a cis8.(\trillE h32 cis) d8 r r a,~
-    a a e'8.(\trill d32 e) d4 r\fermata \bar "|." %28 FINIS
+    a a e'8.(\trill d32 e) d4 r\fermata \bar "|." %28 finis
   }
 }
 
@@ -720,7 +727,7 @@ OsannaViola = {
     h) h' cis, cis' d, d' e, e'
     a, a g4 fis8 r r a
     a a cis8.(\trill h32 cis) d8 r r a,~ %50
-    a a e'8.(\trill d32 e) d4 r\fermata \bar "|." %51 FINIS
+    a a e'8.(\trill d32 e) d4 r\fermata \bar "|." %51 finis
   }
 }
 
@@ -875,6 +882,6 @@ DonaNobisViola = {
     g4 fis
     g8 d' h g
     d h g h
-    d2\fermata \bar "|." %140 FINIS
+    d2\fermata \bar "|." %140 finis
   }
 }
