@@ -154,7 +154,7 @@ CredoClarinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoCredo
-    e4\f r e e
+    e4\fE r e e
     g2 e4 r
     R1
     r2 r4 g

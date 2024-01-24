@@ -618,11 +618,11 @@ CredoTenoreNotes = {
     a2 a4 r
     h a8 a h4 h
     h2 h4 e
-    d cis d h8 h %5
+    d! cis d h8 h %5
     a4 cis r2
     cis4 e g! cis,8 cis
     d4 cis d h8 h
-    a4^\critnote a a4. a8
+    g4 a a4. a8
     a4 r r2 %10
     R1*3
     d4 d d d
@@ -673,7 +673,7 @@ CredoTenoreNotes = {
     a([ cis)] e4 r e
     e d2 cis4~
     cis h2 a4~ %65
-    a g2 \once \tieDashed fis4~
+    a g2 fis4~
     fis e d d'
     d2( cis)
     d4 r r2

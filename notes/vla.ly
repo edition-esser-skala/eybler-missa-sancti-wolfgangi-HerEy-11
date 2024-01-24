@@ -385,7 +385,7 @@ CredoViola = {
   \relative c' {
     \clef alto
     \key d \major \time 4/4 \tempoCredo
-    d8\f d'16 cis d8 d d a fis d
+    d8\fE d'16 cis d8 d d a fis d
     cis e cis a d a' fis d
     g h16 a g8 fis e h' g e
     dis fis dis h e d cis a
@@ -401,7 +401,7 @@ CredoViola = {
     d d' a fis d a' fis d
     a a' e cis a e' cis a %15
     e' e' h gis e h' gis e
-    a cis a e cis e cis a8
+    a cis a e cis e cis a
     d fis h fis d fis h fis
     dis fis h fis dis fis h dis
     e h gis e a e cis a %20
@@ -413,7 +413,7 @@ CredoViola = {
     e cis a cis e d e e,
     a a, a' gis fis fis' fis, e
     d d' d, cis h h' h, a
-    gis a h cis d e fis gis?
+    gis a h cis d e fis gis
     a h cis fis d h e e, %30
     a e' cis a gis h gis e
     a a, cis e a h a g

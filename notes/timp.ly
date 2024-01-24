@@ -136,7 +136,7 @@ CredoTimpani = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoCredo
-    c4\f r c c
+    c4\fE r c c
     g8 g16 g g8 g c4 r
     R1
     r2 r4 g

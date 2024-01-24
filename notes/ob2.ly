@@ -309,7 +309,7 @@ CredoOboeII = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoCredo
-    fis4\f g fis fis
+    fis4\fE g fis fis
     g2 fis4 r
     g a g g
     a2 g4 e'
@@ -358,7 +358,7 @@ CredoOboeII = {
     fis h ais h
     h2. e,4
     fis1
-    fis4 d'8 cis h4 h'8 a %50
+    fis4 d'8 cis h4 h'8 a! %50
     g4 g8 fis e4 e8 d
     cis h ais h cis d e cis
     d ais h2 ais4
@@ -372,7 +372,7 @@ CredoOboeII = {
     d4 r r d
     d a' g8 a h g
     e2 r4 e'~
-    e d2 cis4
+    e d2 cis4~
     cis h2 a4~ %65
     a g2 fis4~
     fis e d d'

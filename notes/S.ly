@@ -608,7 +608,7 @@ CredoSopranoNotes = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \autoBeamOff \tempoCredo
-    \mvTr a'4\fE^\tutti h8 cis d4 d
+    \mvTr a'4\fE^\tuttiE h8 cis d4 d
     e2 d4 r
     h cis8 dis e4 e
     fis2 e4 g

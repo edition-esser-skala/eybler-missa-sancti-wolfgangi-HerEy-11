@@ -370,23 +370,23 @@ CredoViolinoII = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoCredo
-    a'16\f fis d a' h8 cis d16 a fis a d8 d
+    a'16\fE fis d a' h8 cis d16 a fis a d8 d
     e16 cis a cis e8 e d16 a fis a d8 d
-    h16 g d h'-\critnote cis8 dis e16 h g h e8 e
+    h16 g d h' cis8 dis  e16 h g h e8 e
     fis16 dis h dis fis8 fis e16 h e fis g8 g
     fis16 d a fis' e8 e d16 h fis d' e8 e %5
     cis16 a e a cis8 cis e16 cis a cis e8 e
     g!16 a g fis e8 e cis16 d cis h a8 a
     a'16 a, d fis a8 g fis16 h, cis d e8 d
     cis16 a h cis d8 d' a,16 e' d' e, a,8 cis'
-    d,16 a d e fis8 e d16 d, fis h-\critnote d8 cis %10
+    d,16 a d e fis8 e d16 d, fis h d8 cis %10
     h16  h, d g h8 a g16 g, h e g8 fis
     e16 g fis a g h a cis h d cis e d fis e g
     fis e d cis d8 d' e, d' a, cis'
     d,,16 fis a d fis8 fis fis,16 a d fis a8 fis
     e16 cis a cis e8 e cis,16 e a cis e8 cis %15
     d16 h gis h d8 d gis,16 h d gis h8 d,
-    cis16 a e a cis8 cis e,16 a cis e a8 cis,^\critnote
+    cis16 a e a cis8 cis e,16 a cis e a8 cis,
     h16 fis d fis h8 h h,16 d fis h d8 h
     fis16 h dis fis a8 a a16 fis dis h a8 a
     gis16 h e gis h8 d, cis16 a cis e a8 cis, %20
@@ -397,7 +397,7 @@ CredoViolinoII = {
     cis16 a cis e a8 a a,16 a, d fis a8 a %25
     cis,16 e a cis e8 a gis,16 h e gis h8 d,
     cis16 e a h cis8 h a16 a, cis fis a8 gis
-    fis16 fis, a d fis8 e d16 d, fis h-\critnote d8 cis
+    fis16 fis, a d fis8 e d16 d, fis h d8 cis
     h16 d cis e d fis e gis fis a gis h a cis h d
     cis h a gis a8 cis, h a' e, gis' %30
     a16 cis, a cis e8 e h16 e gis e h'8 d,
@@ -419,7 +419,7 @@ CredoViolinoII = {
     d16 h d, h' d8 d cis16 h ais cis h8 h
     g16 fis e fis g8 g d16 e fis e d8 cis
     h16 d fis d h'8 h cis,16 fis ais fis cis'8 e,
-    d16 fis h cis^\critnote d8 cis h16 h, d^\critnote g h8 a %50
+    d16 fis h cis d8 cis h16 h, d^\critnote g h8 a %50
     g16 g, h e g8 fis e16 e, g cis e8 d
     cis16 d h cis ais cis h d cis e d fis e g fis e
     d cis h ais h8 h' cis, h' fis, ais'

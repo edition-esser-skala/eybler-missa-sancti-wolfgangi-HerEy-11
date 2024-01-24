@@ -370,7 +370,7 @@ CredoViolinoI = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoCredo
-    a'16\f fis d a' h8 cis d16 a fis a d8 d
+    a'16\fE fis d a' h8 cis d16 a fis a d8 d
     e16 cis a cis e8 e d16 a fis a d8 d
     h16 g d h' cis8 dis  e16 h g h e8 e
     fis16 dis h dis fis8 fis e16 h e fis g8 g
@@ -379,7 +379,7 @@ CredoViolinoI = {
     g!16 a g fis e8 e cis16 d cis h a8 a
     a'16 a, d fis a8 g fis16 h, cis d e8 d
     cis16 a h cis d8 d' a,16 e' d' e, a,8 cis'
-    d,16 a d e fis8 e d16 d, fis h-\critnote d8 cis %10
+    d,16 a d e fis8 e d16 d, fis h d8 cis %10
     h16  h, d g h8 a g16 g, h e g8 fis
     e16 g fis a g h a cis h d cis e d fis e g
     fis e d cis d8 d' e, d' a, cis'
@@ -393,7 +393,7 @@ CredoViolinoI = {
     h16 e h gis e8 e e16 gis h cis d8 d
     cis16 a e a cis8 cis d16 h cis d e8 e
     fis16 d a d fis8 fis e16 cis a cis e8 e
-    dis16 h fis h dis8 dis d16 h e,-\critnote h' d8 d
+    dis16 h fis h dis8 dis d16 h e, h' d8 d
     cis16 a cis e a8 a a,16 a, d fis a8 a %25
     cis,16 e a cis e8 a gis,16 h e gis h8 d,
     cis16 e a h cis8 h a16 a, cis fis a8 gis

@@ -642,7 +642,7 @@ CredoAltoNotes = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \autoBeamOff \tempoCredo
-    \mvTr fis4\f^\tuttiE g8 e fis4 fis
+    \mvTr fis4\fE^\tuttiE g8 e fis4 fis
     g2 fis4 r
     g a8 a g4 g
     a2 g4 a

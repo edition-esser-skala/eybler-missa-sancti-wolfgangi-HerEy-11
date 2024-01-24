@@ -159,7 +159,7 @@ CredoClarinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoCredo
-    g'4\f r c c
+    g'4\fE r c c
     d2 c4 r
     R1
     r2 r4 d
@@ -182,8 +182,8 @@ CredoClarinoI = {
     R1*2 %30
     g4 r r2
     R1
-    e4 e8. e16 e4 e
-    e r r2
+    \pa e4 e8. e16 e4 e
+    e \pd r r2
     R1 %35
     d'2 e4 r
     R1*2
