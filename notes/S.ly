@@ -749,30 +749,31 @@ EtIncarnatusSopranoNotes = {
       \set Score.currentBarNumber = #74
     \mvTr d'4\pE^\solo d d
     f8. es16 es4 r8 d %75
-    c4~ c16[ d es f] g([ d)] es([ c)]
-    b8.[( \grace { c32[ b a b] } c16]) a4 r
+    c4~ c16[ d( es f)] g([ d)] es([ c)]
+    b8.[ \grace { c32[ b a b] } c16] a4 r
     c4. d16([ c)] b([ a)] g([ f)]
     f'4.. es16 d8 r16 d
-    h([ c)] es([ g)] b,4. \acciaccatura d16 c8 %80
+    h([ c)] es([ g)] b,4. \appoggiatura d16 c8 %80
     b4 r8 d c b
     f'8.([ c16)] c8 r f f
-    f4~ f16[ e g f] e[ d] c([ b)]
+    f4~ f16[ e( g f] e[ d]) c([ b)]
     b4( a) r8 a
     g4~ g8[ b] d g %85
-    f8.[( \grace { g32[ f e f] } g16]) e4 r
+    f8.[ \grace { g32[ f e f] } g16] e4 r
     c4. c8 c c
     c16([ d)] e([ f)] c4 r8 c
     g'4~ g8[ e] c b
-    \acciaccatura c8 b4 a r8 f' %90
+    \appoggiatura c8 b4 a r8 f' %90
     f8.([ d16)] d4 r8 d
     d8.[( b16)] b4 r
-    f!2 g8.([\trill c16)]
+    % f!2 g8.([ c16)] % for MIDI
+    \override Script.Y-offset = #4 f!2 \after 8 \turn g8.([ c16)] \revert Script.Y-offset
     b4( a) r8 f'
-    f8.([ d16)] b4 r8 f' %95
-    as8.([\sfE f16)] f4 r
+    f8.([\cresc d16)] b4 r8 f' %95
+    as8.([\sf f16)] f4 r
     es!2\pp g,4
     as r r
-    r8 \mvTr as'4\fE^\tutti f8 des ces
+    r8 \mvTr as'4\f^\tutti f8 des ces
     b8. ces16 des4 r8 ges %100
     f4 b, r
     r r es8 es
@@ -781,7 +782,7 @@ EtIncarnatusSopranoNotes = {
     f'4. es8 des c %105
     b4 des r
     r as as
-    as?( g!) g
+    as( g!) g
     r b b
     b( a!) a %110
     R2.
@@ -791,7 +792,7 @@ EtIncarnatusSopranoNotes = {
     d4 r r %115
     g2.\sf
     f4 r r
-    r es!\p b!
+    r es!\p b
     g2.
     g4 g f %120
     e2 e4
@@ -811,7 +812,7 @@ EtIncarnatusSopranoLyrics = \lyricmode {
   ho -- mo fa -- ctus %80
   est. Et in -- car --
   na -- tus, in -- car --
-  na -- _ tus
+  na -- tus
   est __ de
   Spi -- ri -- tu %85
   San -- cto
@@ -848,7 +849,7 @@ EtIncarnatusSopranoLyrics = \lyricmode {
   sus
   et se --
   pul --
-  tus, \xE et \x se -- %120
+  tus, et se -- %120
   pul -- tus
   est, et se --
   pul -- tus

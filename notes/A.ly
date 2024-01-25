@@ -793,19 +793,20 @@ EtIncarnatusAltoNotes = {
     g4~ g8 b4 g8
     g4( f) r8 f
     d2 d8 b' %85
-    a8.(_[ \grace{ b32[ a g a] } b16)] g4 r
+    % a8._[ b16] g4 r % for MIDI
+    \after 8 \turn a8._[ b16] g4 r
     g4. g8 g g
     a8. f16 f4 r8 f
     b2 g8 g
-    \acciaccatura a g4 f r8 f %90
+    \appoggiatura a g4 f r8 f %90
     f8.([ b16)] b4 r8 b
     b8.([ g16]) g4 r
     c,2 e4
     g( f) r8 a
-    b8.([ f16)] f4 r8 f %95
+    b8.([\cresc f16)] f4 r8 f %95
     f8.([\sf as16)] as4 r
     as2\pp es4
-    es8 \mvTr es'4\fE^\tutti c8 as ges
+    es8 \mvTr es'4\f^\tutti c8 as ges
     f8. ges16 as4 r
     r8 b b8.([ ges16)] es4 %100
     r r b'8 b
@@ -814,7 +815,7 @@ EtIncarnatusAltoNotes = {
     r8 f, f b c des
     c4 f, r %105
     r ges ges
-    ges?( f) f
+    ges( f) f
     e2 e4
     r g! g
     fis2 fis4 %110
@@ -828,7 +829,7 @@ EtIncarnatusAltoNotes = {
     R2.
     r4 es!\p d
     cis2 d4 %120
-    d d cis8 cis
+    d d( cis8) cis
     d4 a a
     b2 b4
     a2.\fermata \bar "||" %124 finis
@@ -882,8 +883,8 @@ EtIncarnatusAltoLyrics = \lyricmode {
   sus
 
   et se --
-  pul -- tus %120
-  est, se -- pul -- tus
+  pul -- tus, %120
+  se -- pul -- tus
   est, et se --
   pul -- tus
   est. %124 finis

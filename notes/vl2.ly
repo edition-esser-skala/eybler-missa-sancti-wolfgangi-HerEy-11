@@ -475,7 +475,7 @@ EtIncarnatusViolinoII = {
     b\cresc b b b b b %95
     h\sf h h h h h
     c\pp c c c des, des
-    c\f es es es es es
+    c\f es! es es es es
     f f f f as as
     ges ges ges ges ges ges %100
     f f f f as as
@@ -484,24 +484,24 @@ EtIncarnatusViolinoII = {
     as as as b a b
     c f, f f f f %105
     ges ges ges ges ges ges
-    ges? ges f f f f
+    ges ges f f f f
     e e e e e e
     g! g g g g g
     fis fis fis fis fis fis %110
     g g g g f e
     d f gis gis gis gis
-    a a a a a a
+    a! a a a a a
     <g! b>\sf <g b> q q q q
     <f a> q q q q q %115
     cis'\sf cis cis cis cis cis
     d d d d d d
-    b!4 r r
-    r es,!8\pE es d d
+    b4 r r
+    r es,!8\p es d d
     cis cis cis cis d d %120
     d d d d cis cis
     d4 r r
     R2.
-    R\fermata \bar "||"
+    R\fermata \bar "||" %124 finis
   }
 }
 

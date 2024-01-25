@@ -457,7 +457,7 @@ EtIncarnatusViolinoI = {
     b b a a a a
     c c c c c c
     f f f es d d
-    c c b! b b a %80
+    c c b b b a %80
     b b b d c b
     c c c c c c
     b b b b b b
@@ -485,7 +485,7 @@ EtIncarnatusViolinoI = {
     c c c c c c %105
     b b b b b b
     as as as as as as
-    as? as g! g g g
+    as as g! g g g
     b b b b b b
     b b a! a a a %110
     g g b b a a

@@ -904,7 +904,7 @@ EtIncarnatusOrgano = {
     b b b b b b
     c c c c c, c
     f f f f es! es
-    d\crescE d d d d d %95
+    d\cresc d d d d d %95
     d\sf d d d d d
     es!\pp es es es es es
     \mvTr as,\f-\tuttiE as as as as as
@@ -913,7 +913,7 @@ EtIncarnatusOrgano = {
     d! d d d d d
     es es es es es es
     as, as as as as as
-    des des des des c b
+    des des des des c! b
     a! a a a a a %105
     b b b b b b
     h h h h h h
@@ -923,12 +923,12 @@ EtIncarnatusOrgano = {
     b! b b b b b
     b b b b b b
     a a a a a a
-    a\sfE a a a a a
+    a\sf a a a a a
     a a a a a a %115
     a\sf a a a a a
     a a a a a a
-    g4 \clef treble es'''!^\org\pE b!
-    g \clef bass g,,8^\bassi g g g
+    g4 \clef treble es'''!\p b
+    g \clef bass g,,8 g g g
     a a a a a a %120
     a a a a a a
     d,4 r r
@@ -942,47 +942,47 @@ EtIncarnatusBassFigures = \figuremode {
   r8 <6 5> r2 %75
   <6>2.
   <6 4>4 <5 3>2
-  <4 2>2.
+  <2>2.
   <6>4 <8 6>8 <7 5> <5 3>4
-  <6> <6 4>4. <5 [3]>8 %80
+  <6> <6 4>4. <[7] 5>8 %80
   r2.
   <6>
-  <7>4 <7 _!> <6 5>
-  <9 4> <5 3> <[6]>
+  <7>4 <7 _!>2
+  <9 4>4 <8 3>2
   <6>2. %85
-  <6 4>4 <5 _!>2
+  <6 4>4 <[5] _!>2
   <4!>2.
-  \bo <[6]>
-  <6>2 r8 \bc <[5]>
+  <6>
+  <[6 5]>
   <9 4>4 <5 3>2 %90
-  <5>2 <5\+>4
+  r2 <5\+>4
   <6>2.
-  <6 4>2 <[5 _!]>4
-  <7! 4 2> <8 3> <[\t \t]>
+  <6 4[!]>2 <[5] _!>4
+  <7! 4 2> <8 3> <2>
   <6>2. %95
   <6! 5->
   <6 4->2 <7- [3]>4
   <7->2.
-  <[6-] 4 2->2 <6- [_-]>8 <5- \t>
-  <5->4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <[6]> <_-> %100
-  <6>2 r8 <5->
+  <[6-] 4 2->2 \bo <6- [_-]>8 \bc <5- [\t]>
+  <5->4. \once \bassFigureExtendersOn q8 <6>4 %100
+  <6>2 \once \bassFigureExtendersOn q8 <5->
   <7- [_!]>2.
-  <[7-]>
-  <5- 3>4. <6->8 <6!> <[_-]>
+  <7- [_!]>
+  \bo <[5-] 3>4 \once \bassFigureExtendersOn \bc q8 <6>8 <6!> <_->
   <6>2. %105
-  <6- _->2.
-  <7- 6- _!>4 <\t 5 \t>2
-  <6- _!>4 <5 \t>2
+  <_ 6- _->2. \bassFigureExtendersOn
+  <7- 6- _!>4 <7- 5 _!>4. q8 \bassFigureExtendersOff
+  <6- _!>4 <5[!] \t>2
   <7 [_!]>2.
   <6- _+>4 \bassFigureExtendersOn <5! _+>4. q8 \bassFigureExtendersOff %110
-  <[6]>4 <8 6> <7! 5!>
+  <8 6>4. \once \bassFigureExtendersOn q8 <7! 5[!]>4
   <6\\>2.
   <_+>
-  <9 7 [5!] _+>
+  <9 7 _+>
   <6 4> %115
-  <9 7 [5!] _+>
+  <9 7 5! _+>
   <6 4>
-  <6- _->
+  <6->
   r4 <6-> <5>
   <9 7 _+> <8 \t \t> <6 4> %120
   <5! 4>2 <\t _+>4

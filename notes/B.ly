@@ -809,8 +809,8 @@ EtIncarnatusBassoNotes = {
     b4 b, r
     c2 c'4
     c( f,) r8 es!
-    d4 d r8 d' %95
-    d4\sfE d, r
+    d4\cresc d r8 d' %95
+    d4\sf d, r
     es2\pp es4
     as, r \mvTr as'8\f^\tutti as
     ces2 f,4
@@ -824,7 +824,7 @@ EtIncarnatusBassoNotes = {
     h2 h4
     c2 c4
     cis2 cis4
-    d4. fis8 a! c %110
+    d4. fis8 a! c! %110
     b!4 g r
     b, b b
     a4. a8 a4

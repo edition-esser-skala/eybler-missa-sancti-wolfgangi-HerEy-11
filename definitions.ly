@@ -15,6 +15,12 @@ markCritnote = {
 mvDlh = \once \override DynamicText.X-offset = #-1
 mvDlll = \once \override DynamicText.X-offset = #-4
 mvTll = \once \override TextScript.X-offset = #-3
+smashLyricDistance = {
+  \override VerticalAxisGroup.nonstaff-nonstaff-spacing.basic-distance = #0
+  \override VerticalAxisGroup.nonstaff-nonstaff-spacing.minimum-distance = #0
+  \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.basic-distance = #0
+  \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.minimum-distance = #0
+}
 
 
 tempoKyrie = \tempoMarkup "Andante con moto"

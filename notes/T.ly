@@ -756,7 +756,7 @@ EtIncarnatusTenoreNotes = {
     \mvTr d4\pE^\solo d d
     c8. c16 c4 r8 d %75
     es2 es8 es
-    d8.([ \grace { es32[ d c d] } es16]) c4 r
+    d8.[ \grace { es32[ d c d] } es16] c4 r
     a4. a8 c a
     b4 c b8 r16 d
     es8 g16([ es)] d8( f4) a,8 %80
@@ -774,12 +774,18 @@ EtIncarnatusTenoreNotes = {
     b8.([ d16)] d4 r
     a2 c4
     e( f) r8 c
-    b8.([ d16)] d4 r8 b %95
+    b8.([\cresc d16)] d4 r8 b %95
     h4\sf h r
-    c2\ppE des4
-    c8 \mvTr ges'4\fE^\tutti es8 c c
-    des8. es16 f4 r8 des
-    des?8.([ b16)] ges4 r %100
+    << \context Voice = "TenoreTutti" { \autoBeamOff \voiceOne
+      r4 r \mvDl es8^\f-\tutti es
+      ges2 c,4
+      des8. es16 f4
+    } \\ \context Voice = "Tenore" { \voiceTwo
+      \mvDlll c2\pp des4
+      c8 ges'4\f es8 c c
+      des8. es16 f4 \oneVoice
+    } >> r8 des
+    des8.([ b16)] ges4 r %100
     r8 f'4 d8 b as
     g!8. as16 b4 r
     r8 as as c! es ges
@@ -790,10 +796,10 @@ EtIncarnatusTenoreNotes = {
     c4 r c
     e2.
     d4 r r %110
-    d4. c8 d e
+    d4. cis8 d e
     f2( d4)
     cis r r
-    g'!2.\sfE
+    g'!2.\sf
     f4 r r %115
     e2.\sf
     f4 r r
@@ -805,6 +811,10 @@ EtIncarnatusTenoreNotes = {
     g2 g4
     fis2.\fermata \bar "||" %124 finis
   }
+}
+
+EtIncarnatusTenoreTuttiLyrics = \lyricmode {
+  Cru -- ci -- fi -- xus
 }
 
 EtIncarnatusTenoreLyrics = \lyricmode {

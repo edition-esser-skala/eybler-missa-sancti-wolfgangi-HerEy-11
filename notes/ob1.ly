@@ -315,7 +315,7 @@ CredoOboeI = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoCredo
-    \pa a'4\fE h8 cis d4 d
+    a'4\fE h8 cis d4 d
     e2 d4 r
     h cis8 dis e4 e
     fis2 e4 g
@@ -397,28 +397,28 @@ EtIncarnatusOboeI = {
     \key b \major \time 3/4 \tempoEtIncarnatus
       \set Score.currentBarNumber = #74
     R2.*3 %76
-    f'4.\pE^\solo g16( f es d c b)
+    f'4.\pE g16( f es d c b)
     a4( c) r
     R2.*2 %80
     f4. es16( d c b a b)
-    c4. d16( e f g a f)
+    c4.( d16 e f g a f)
     b4 r r
-    c,4. f16( e d c b a)
+    c,4.( f16 e d c b a)
     g4 r r %85
-    c c16( d e f g a b g)
+    c~ c16 d( e f g a b g)
     e4 r r
-    c'4. b16( a g f e d)
+    c'4.( b16 a g f e d)
     c4 r r
-    c4. d16( e f g a f) %90
+    c4.( d16 e f g a f) %90
     d4 r8 d cis16( d cis d)
-    b4 r8 d c16( b a g)
+    b4 r8 d( c16_[ b a g])
     f!4 r r
     r r16 f( g a b c d es!)
-    f4 r16 a,(\cresc b c d es f g) %95
-    as2\sf h,4
-    c\pp r r
-    R2.
-    r8 as'4\f^\tuttiE f8 des ces
+    f4 r16 a,(\cresc b c d es! f g) %95
+    as2\sf h,4\p
+    c r r
+    \pa R2.
+    r8 as'4\f f8 des ces
     b8. ces16 des4 r8 ges %100
     f4 b, r
     r r es8 es
@@ -427,7 +427,7 @@ EtIncarnatusOboeI = {
     f'4. es8 des c %105
     b4 des r
     r as as
-    as?( g!) g
+    as( g!) g
     r b b
     b( a!) a %110
     R2.
@@ -435,7 +435,7 @@ EtIncarnatusOboeI = {
     a'4 a, r
     b2.\sf
     a4 r8 a16( h cis d e f) %115
-    g2.\sfE
+    g2.\sf
     f4 r r
     R2.*6 %123
     R2.\fermata \bar "||" %124 finis

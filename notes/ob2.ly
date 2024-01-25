@@ -400,16 +400,16 @@ EtIncarnatusOboeII = {
     r8 f, f b c des
     c4 f, r %105
     r ges ges
-    ges f f
+    ges( f) f
     e2 e4
     r g! g
     fis2 fis4 %110
     g8. a!16 b4 a
     gis2.
     a4 r r
-    g!2.\sfE
+    g!2.\sf
     f4 r r %115
-    e'?2.\sfE
+    e'2.\sf
     d4 r r
     R2.*6 %123
     R2.\fermata \bar "||" %124 finis
