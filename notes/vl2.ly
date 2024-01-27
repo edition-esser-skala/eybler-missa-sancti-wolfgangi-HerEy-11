@@ -619,34 +619,34 @@ SanctusViolinoII = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \tempoSanctus
-    d16.(\f e32 fis g a h64 cis) d8.. d,32 d8.(\trill cis32 d)
-    cis16.( d32 e fis g a64 h) cis8.. cis,32 cis8.(\trill h32 cis)
-    c16.( d32 e fis g a64 h) c8.. c,32 c8.(\trill h32 c)
-    h8..[-\markup { \remark "staccato" } d'32 d8.. d32 d8.. d32]
+    d16.(\f e32 fis g a h64 cis) d8.. d,32 d8.\trill cis32 d
+    cis16.( d32 e fis g a64 h) cis8.. cis,32 cis8.\trill h32 cis
+    c16.( d32 e fis g a64 h) c8.. c,32 c8.\trill h32 c
+    h8..[-\markup \remark "staccato e forte" d'32 d8.. d32 d8.. d32]
     d8..[ d32 d8.. d32 d8.. d32] %5
     cis8..[ cis32 d8.. d32 a8.. a32]
     a8..[ a32 f8.. f32 d8.. d32]
-    a'16.( gis32 fis e d cis64 h) a8 a a a \noBreak
+    \once \slurDashed a'16.( gis32 fis e d cis64 h) a8 a a a \noBreak
     a2 r4\fermata \bar "||"
     \time 4/4 \tempoPleni cis16\f e cis e cis e cis e a h a h a h a h \noBreak %10
     cis d cis d e d e cis d a d a fis e fis e
     fis a fis a fis a fis a d e d e d e d e
-    fis e fis e d a d fis, e d e d cis a' cis d-\critnote
+    fis e fis e d a d fis, e d e d cis a' cis d
     e d e cis a g a fis g a g a h a h g
     fis g fis d e fis e cis d fis g fis g e fis e %15
     fis cis d cis d e fis e fis g a gis a gis a gis
-    a g fis e d c'? h a g h' h h h g g g
+    a g fis e d c' h a g h' h h h g g g
     g e e e e g fis e d fis e d cis e d cis
-    d d, fis fis fis8 fis fis16 a a a a8 fis16 d
-    \slurDashed d( cis) cis( d) d( e) e( fis) a( g) \slurSolid g-\parenthesize-! g-\parenthesize-! e8 a, %20
+    d d, fis fis fis8 fis fis16 a a a a8 fis16( d)
+    d( cis) cis( d) d( e) e( fis) a( g) g-! g-! e8 a, %20
     a16 cis cis cis cis8 a a16 e' e e e8 e16 cis
-    \slurDashed cis( d) d( e) e( fis) fis( g) h( a) \slurSolid a-\parenthesize-! a-\parenthesize-! fis8 \slurDashed a,16( d)
-    d( cis) cis( h) h( a) a( g') g( fis) fis( e) e( d) a( d)
-    d( cis) cis( h) h( a) a( g') g( fis) fis( e) e( d) \slurSolid d' d,
+    cis d d e e fis fis g h a a a fis8 a,16 d
+    d cis cis h h a a g' g fis fis e e d a d
+    d cis cis h h a a g' g fis fis e e d d' d,
     d e e e e fis fis fis fis g g g g h a g %25
-    fis a d fis cis8 e d \slurDashed a16( d) d( fis) fis( a) \slurSolid
-    a,8 a e'8.(\trill d32 e) d8 a,16( d) d( fis) fis( a)
-    a8 a e'8.(\trill d32 e) d4 r\fermata \bar "|." %28 finis
+    fis a d fis cis8 e d a16( d) d( fis) fis( a)
+    a,8 a e'8.\trill d32 e d8 a,16( d) d( fis) fis( a)
+    a8 a e'8.\trill d32 e d4 r\fermata \bar "|." %28 finis
   }
 }
 

@@ -556,7 +556,7 @@ SanctusOboeI = {
     fis
     g
     g~ %5
-    g4 f e
+    g4 f cis!
     d2.
     cis4 r r \noBreak
     R2.\fermata \bar "||"
@@ -574,7 +574,7 @@ SanctusOboeI = {
     r2 r4 r8 cis
     d e fis g a4 fis8 d
     cis h a g' fis e d d
-    cis h a g' fis e d d
+    cis h a g' fis e d d~
     d e4 fis g a16 g %25
     fis8 fis e4\trill d8 r r4
     a'4 g fis8 r r4

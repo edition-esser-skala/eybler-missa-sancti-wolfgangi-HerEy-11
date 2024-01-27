@@ -1097,7 +1097,7 @@ SanctusAltoNotes = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \autoBeamOff \tempoSanctus
-    r4 \mvTr fis\f^\tuttiE fis
+    r4 \mvDl fis\f^\tuttiE fis
     r e e
     r d fis
     g4. g8 g4
@@ -1106,7 +1106,7 @@ SanctusAltoNotes = {
     d2 f4
     a r r \noBreak
     R2.\fermata \bar "||"
-    \time 4/4 \tempoPleni e4 e8e  a4 a8 a \noBreak %10
+    \time 4/4 \tempoPleni e4\f e8 e a4 a8 a \noBreak %10
     a4 a8 a a4 a
     a a8 a a4 a8 a
     a4 a8 a a4 a

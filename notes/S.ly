@@ -1063,7 +1063,7 @@ SanctusSopranoNotes = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \autoBeamOff \tempoSanctus
-    r4 \mvTr d'\fE^\tuttiE a
+    r4 \mvDl d'\f^\tuttiE a
     r e' a,
     r fis' d
     R2.
@@ -1072,7 +1072,7 @@ SanctusSopranoNotes = {
     f2 gis,4
     a r r \noBreak
     R2.\fermata \bar "||"
-    \time 4/4 \tempoPleni a4 a8 h cis4 cis8 d \noBreak %10
+    \time 4/4 \tempoPleni a4\f a8 h cis4 cis8 d \noBreak %10
     e([ fis)] g e fis4 d
     d d8 e fis4 fis8 g
     a4 fis8 d cis4 a

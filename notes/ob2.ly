@@ -542,10 +542,10 @@ SanctusOboeII = {
     R1
     a4 c h8 d4 h8~
     h g4 h8 a4 cis
-    d r r r8 a
+    d r r r8 a~
     a a cis d e4 cis8 r %20
-    r2 r4 r8 a
-    a cis d cis d4 d8 a
+    r2 r4 r8 a~
+    a cis d cis d4~ d8 a
     a4. e'8 d cis d a
     a4. e'8 d cis d a
     h4 cis d e %25

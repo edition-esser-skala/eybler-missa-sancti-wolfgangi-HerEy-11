@@ -1225,7 +1225,7 @@ SanctusOrgano = {
       a4 a' g
       f d b
     } \\ {
-      h8..[_\markup { \remark "Vlc. e Bassi staccato e forte"  } h32 h8.. h32 h8.. h32]
+      h8..[_\markup { \remark "vlc, b staccato e forte"  } h32 h8.. h32 h8.. h32]
       b8..[ b32 b8.. b32 b8.. b32]
       a8..[ a32 a'8.. a32 g8.. g32]
       f8..[ f32 d8.. d32 b8.. b32]
@@ -1260,7 +1260,7 @@ SanctusBassFigures = \figuremode {
   <4 2>
   <6>
   q %5
-  <7>4 <6! 4> <4 2>
+  <7>4 <6! 4> <4\+>
   <6>2 <6\\ [5!]>4
   <_+>2.
   r
@@ -1268,21 +1268,21 @@ SanctusBassFigures = \figuremode {
   r
   r
   r
-  <[6 5]>2 <6>8 \bo <[6]> <8> \bc <[6]>
+  <[6 5]>2 <6>
   <6 4>4 <7 [3]>2. %15
   r1
   <7!>
   <6>4. q8 <6 4>4 <[5] _+>
-  r2.. <6>8
-  <2> <6> q4 <6 5> <5 3> %20
-  r2 <[7]>4. <2>8
-  <6> q <8 3> <6> q4. <6 3>8
-  <6 4> \bassFigureExtendersOn <6 4\!> q <6\! 3> q \bassFigureExtendersOff <6> q <6 3>
-  <6 4> \bassFigureExtendersOn <6 4\!> q <6\! 3> q \bassFigureExtendersOff <6> q4
+  r1
+  <4 2>8 <6> q4 <6 5> <5 3> %20
+  r2.. <4 2>8
+  <6> q <8> <6> <[6]>4. <6\! 3>8 \bassFigureExtendersOn
+  q q q \bassFigureExtendersOff <6 5> <5 3> <6> q <6\! 3>8 \bassFigureExtendersOn
+  q q q \bassFigureExtendersOff <6 5> <5 3> <6>4
   <5>8 <6> <5> <6> <5> <6> <6 5>4 %25
-  r4 <[7]>2.
-  <[6]>1
-  q %28 finis
+  r1
+  r
+  r %28 finis
 }
 
 BenedictusOrgano = {

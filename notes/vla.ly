@@ -638,10 +638,10 @@ SanctusViola = {
     d,16.(\f e32 fis g a h64 cis) d8 d, d d
     cis16.( d32 e fis g a64 h) cis8 cis, cis cis
     c16.( d32 e fis g a64 h) c8 c, c c'
-    h8..[-\markup { \remark "staccato"  } g'32 g8.. g32 g8.. g32]
+    h8..[-\markup \remark "staccato e forte" g'32 g8.. g32 g8.. g32]
     g8..[ g32 g8.. g32 g8.. g32]
     a8..[ a32 a8.. a32 e8.. e32]
-    d8..[ d32 <f? a>8.. <f a>32 d'8.. d32]
+    d8..[ d32 a'8.. a32 d8.. d32]
     cis4 r8 a, a a \noBreak
     a2 r4\fermata \bar "||"
     \time 4/4 \tempoPleni r8 a'\f a, a' r a a, a' \noBreak %10
@@ -651,18 +651,23 @@ SanctusViola = {
     r a a, a' h a g h
     a a, g g' fis d d, d' %15
     r d d, d' r d d, d'
-    r fis, g a h16 <h' d> q q q <g h> q q
-    q <e g> q q q <g h> <fis a> <e g> <d fis> <fis a> <e g> <d fis> <cis e> <e g> <d fis> <cis e>
+    r fis, g a << {
+      h16 d' d d d h h h
+      h g g g g h a g fis a g fis e g fis e
+    } \\ {
+      h16 h' h h h g g g
+      g e e e e g fis e d fis e d cis e d cis
+    } >>
     d8 d d, d' r d d, d'
-    e fis g fis^\critnote e a cis, e %20
+    e fis g fis e a cis, e %20
     a, a' a, a' r a a, a'
     a g fis e d fis a, a~
     a a4 a' a a,8~
-    a a4 a' a a,8(
-    h) h' cis, cis' d, d' e, e' %25
-    a, a g4 fis8 r r a
-    a a cis8.(\trillE h32 cis) d8 r r a,~
-    a a e'8.(\trill d32 e) d4 r\fermata \bar "|." %28 finis
+    a a4 a' a a,8
+    h h' cis, cis' d, d' e, e' %25
+    a, a g4\trill fis8 r r a~
+    a a cis8.\trill h32 cis d8 r r a,~
+    a a e'8.\trill d32 e d4 r\fermata \bar "|." %28 finis
   }
 }
 

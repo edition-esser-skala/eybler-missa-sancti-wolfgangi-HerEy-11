@@ -1078,7 +1078,7 @@ SanctusTenoreNotes = {
   \relative c' {
     \clef "treble_8"
     \key d \major \time 3/4 \autoBeamOff \tempoSanctus
-    r4 \mvTr a\f^\tuttiE a
+    r4 \mvDl a\f^\tuttiE a
     r a a
     r a a
     R2.
@@ -1087,7 +1087,7 @@ SanctusTenoreNotes = {
     a2 d4
     cis r r \noBreak
     R2.\fermata \bar "||"
-    \time 4/4 \tempoPleni cis4 cis8 d e4 e8 d \noBreak %10
+    \time 4/4 \tempoPleni cis4\f cis8 d e4 e8 d \noBreak %10
     cis([ d)] e cis d4 fis
     fis fis8 e d4 d8 e
     fis4 d8 d e4 cis

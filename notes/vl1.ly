@@ -619,10 +619,10 @@ SanctusViolinoI = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \tempoSanctus
-    d16.(\f e32 fis g a h64 cis) d8.. d,32 d8.(\trill cis32 d)
-    cis16.( d32 e fis g a64 h) cis8.. cis,32 cis8.(\trill h32 cis)
-    c16.( d32 e fis g a64 h) c8.. c,32 c8.(\trill h32 c)
-    \kneeBeam h8..[-\markup { \remark "staccato" } g''32 g8.. g32 g8.. g32]
+    d16.(\f e32 fis g a h64 cis) d8.. d,32 d8.\trill cis32 d
+    cis16.( d32 e fis g a64 h) cis8.. cis,32 cis8.\trill h32 cis
+    c16.( d32 e fis g a64 h) c8.. c,32 c8.\trill h32 c
+    \kneeBeam h8..[-\markup \remark "staccato e forte" g''32 g8.. g32 g8.. g32]
     g8..[ g32 g8.. g32 g8.. g32] %5
     g8..[ g32 f8.. f32 cis!8.. cis32]
     d8..[ d32 f8.. f32 gis,8.. gis32]
@@ -637,16 +637,16 @@ SanctusViolinoI = {
     d e fis e fis g a g a h c h c h c h
     c h a g fis e d c h d' d d d h h h
     h g g g g h a g fis a g fis e g fis e
-    d a d d d8 a a16 fis' fis fis fis8 fis16 d
+    d a d d d8 a a16 fis' fis fis fis8 fis16( d)
     d( cis) cis( d) d( e) e( fis) a( g) g-! g-! e8 a, %20
     a16 e' e e e8 a, a16 g' g g g8 e16 cis
-    \slurDashed cis( d) d( e) e( fis) fis( g) \slurSolid h( a) a-! a-! fis8 fis16( d)
-    d( cis) cis( h) \slurDashed h( a) a( g') g( fis) fis( e) e( d) fis( d)
-    d( cis) cis( h) h( a) a( g') g( fis) fis( e) e( d) \slurSolid d, d'
+    cis d d e e fis fis g h a a a fis8 fis16 d
+    d cis cis h h a a g' g fis fis e e d fis d
+    d cis cis h h a a g' g fis fis e e d d, d'
     d e e e e fis fis fis fis g g g g h a g %25
-    fis a d fis, e8 cis' d, \slurDashed a16( d) d( fis) fis( a) \slurSolid
-    a8 a g8.(\trill fis32 g) fis8 \once \slurDashed a,16( d) d( fis) fis( a)
-    a8 a cis8.(\trill h32 cis) d4 r\fermata \bar "|." %28 finis
+    fis a d fis, e8 cis' d, a16( d) d( fis) fis( a)
+    a8 a g8.\trill fis32 g fis8 a,16( d) d( fis) fis( a)
+    a8 a cis8.\trill h32 cis d4 r\fermata \bar "|." %28 finis
   }
 }
 

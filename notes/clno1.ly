@@ -264,10 +264,10 @@ SanctusClarinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoSanctus
-    c4\f r8 c16. c32 c8 c
+    \pao c4\f r8 \pa c16. c32 c8 c \pd
     g'4 r8 g16. g32 g8 g
     e4 r8 e16. e32 e8 e
-    c'8..[-\markup { \remark "staccato" } c32 c8.. c32 c8.. c32]
+    c'8..[-\markup \remark "staccato e forte" c32 c8.. c32 c8.. c32]
     c8..[ c32 c8.. c32 c8.. c32] %5
     g8..[ g32 g8.. g32 g8.. g32]
     c8..[ c32 c8.. c32 c8.. c32]

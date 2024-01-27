@@ -238,8 +238,8 @@ SanctusTimpani = {
     \key c \major \time 3/4 \tempoSanctus
     c4\f r8 c16. c32 c8 c
     g4 r8 g16. g32 g8 g
-    c4 r8 c16. c32 c8-\critnote c
-    c8..[ c32 c8.. c32 c8.. c32]
+    c4 r8 c16. c32 c8 c
+    c8..[-\markup \remark "staccato e forte" c32 c8.. c32 c8.. c32]
     c8..[ c32 c8.. c32 c8.. c32] %5
     g8..[ g32 g8.. g32 g8.. g32]
     c8..[ c32 c8.. c32 c8.. c32]

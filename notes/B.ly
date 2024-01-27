@@ -1111,7 +1111,7 @@ SanctusBassoNotes = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \autoBeamOff \tempoSanctus
-    r4 \mvTr d'\f^\tuttiE d,
+    r4 \mvDl d'\f^\tuttiE d,
     r cis' cis,
     r c' c,
     R2.
@@ -1120,7 +1120,7 @@ SanctusBassoNotes = {
     f( d) b
     a r r \noBreak
     R2.\fermata \bar "||"
-    \time 4/4 \tempoPleni a'4 a8 a a4 a8 a \noBreak %10
+    \time 4/4 \tempoPleni a'4\f a8 a a4 a8 a \noBreak %10
     a4 a8 a d4 d,
     d' d8 d d4 d8 d
     d4 d,8 fis a4 a
@@ -1128,7 +1128,7 @@ SanctusBassoNotes = {
     a4( a,) d r %15
     R1*3
     r2 r4 r8 fis
-    g fis e d cis4 a'8^\critnote r %20
+    g fis e d cis4 cis'8 r %20
     r2 r4 r8 g
     fis e d e fis4 d'8 r
     r4 r8 cis, d([ e)] fis r
