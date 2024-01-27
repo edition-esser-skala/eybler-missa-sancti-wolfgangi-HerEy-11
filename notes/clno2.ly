@@ -210,7 +210,7 @@ EtResurrexitClarinoII = {
     c4\f r r2 %125
     c4 c8. c16 e4 c
     g g8. g16 g4 g
-    c c-\critnote r2
+    c r r2
     R1*5 %133
     g'2 c4 r
     R1*11 %145

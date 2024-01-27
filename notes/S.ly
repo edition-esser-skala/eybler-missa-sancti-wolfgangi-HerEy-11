@@ -867,7 +867,7 @@ EtResurrexitSopranoNotes = {
     fis d r fis
     e2 d4 cis
     h2 d4 fis %130
-    a,2. \acciaccatura cis8 h4
+    a,2. \appoggiatura cis8 h4
     a r a a
     cis( a) cis e
     g!2 fis4 fis
@@ -885,9 +885,9 @@ EtResurrexitSopranoNotes = {
     d4. d8 d4 d
     f2. f4
     d2 r
-    cis!2\sfE e\sfE %150
-    g\sfE cis,!\sfE
-    d4 e f g
+    cis!2\sf e\sf %150
+    g\sf cis,!\sf
+    d4\ff e f g
     a1~
     a2 a,
     R1*10 %164
@@ -914,7 +914,7 @@ EtResurrexitSopranoNotes = {
     c4 c c c
     h d r g,
     e' e e e
-    dis fis r2 %190
+    dis fis! r2 %190
     g r4 e
     dis4. dis8 e4 r
     a, g fis2

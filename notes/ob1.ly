@@ -417,7 +417,7 @@ EtIncarnatusOboeI = {
     f4 r16 a,(\cresc b c d es! f g) %95
     as2\sf h,4\p
     c r r
-    \pa R2.
+    R2.
     r8 as'4\f f8 des ces
     b8. ces16 des4 r8 ges %100
     f4 b, r
@@ -453,7 +453,7 @@ EtResurrexitOboeI = {
     fis d r fis
     e2 d4 cis
     h2 d4 fis %130
-    a,2. \acciaccatura cis8 h4
+    a,2. \appoggiatura cis8 h4
     a r a a
     cis a cis e
     g!2 fis4 fis
@@ -468,13 +468,13 @@ EtResurrexitOboeI = {
     h4 h8 a g4 g8 fis
     e fis g a h cis d e
     fis cis d fis e2 %145
-    d4.\ffE d8 d4 d
+    d4.\f d8 d4 d
     d4. d8 d4 d
     f2. f4
     d2 r
-    cis!2\sfE e\sfE %150
-    g\sfE cis,!\sfE
-    d4\sfE e f g
+    cis!2\sf e\sf %150
+    g\sf cis,!\sf
+    d4\ff e f g
     e2 f
     e f
     e4 r r2 %155
@@ -508,8 +508,8 @@ EtResurrexitOboeI = {
     e
     dis2 e
     a,4 g fis2
-    e4 g'8 fis e4 e8 d
-    c4 c8 h a4 a8 g
+    e4 g'8 fis e4 e8 d!
+    c4 c8 h a4 a8 g %195
     fis ais h cis dis e fis a
     g4 e2 dis4
     e e, fis gis
@@ -537,7 +537,7 @@ EtResurrexitOboeI = {
     e e e fis8 d %225
     cis4 e r a,
     a fis' e d
-    cis e g2
+    cis e g2~
     g8 fis e d e2\trill
     d4 a' r g %230
     r fis r e

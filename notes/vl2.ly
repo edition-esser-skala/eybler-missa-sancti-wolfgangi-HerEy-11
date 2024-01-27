@@ -531,26 +531,24 @@ EtResurrexitViolinoII = {
     h16 h, d g h8 a g16 g, h e g8 fis
     e16 g fis a g h a cis h d cis e d fis e g
     fis e d cis d8 fis, e d' a, cis' %145
-    d,16\sf d cis cis d d e e f\sfE f e e f f fis fis
+    d,16\sf d cis cis d d e e f\sf f e e f f fis fis
     g\sf g fis! fis g g gis gis a\sf a gis gis a a b b
     a\sf a d d f f e e d d c c b b a a
     b b f f d' d c c b b a a g g f f
     e e g g b b a a g g f f e e d d %150
     cis! cis d d e e f f g g b b a a g g
     f f e e d d cis! cis d d c c h! h b b
-    a\ffE a cis cis e e a a a, a d d f f a a
-    a, a cis! cis e e a a a, a d d f f a a
-    a,4 r16 a( h! cis!) d4 r8 d32( e f g) %155
-    a4 r16 a( h! cis!) d4 r8 d32( e f g)
+    a4\ff r8 \tuplet 3/2 8 { a16( h cis) } d4 r8 d32( e f g)
+    a4 r8 \tuplet 3/2 8 { a16( h! cis!) } d4 r8 d32( e f g)
     a4 r r2
-    R1*7 %164
+    R1*9 %164
     d,16\f a fis! a d8 d e16 cis a cis e8 e %165
     fis16 a, d fis a8 a g16 e a, g' fis8 fis
     e16 h e fis g8 g h,16 e g e cis8 cis
     d16 a fis a d8 fis e,16 d' e d e,8 cis'
     d16 a fis d d'8 e fis16 d a fis fis'8 g
     a16 fis d a a'8 h c16 a fis d c'8 h %170
-    a16 h g a fis g e fis d e c d h c a h
+    a16 h g a fis g e fis d e c d h c a c
     h g h c d8 d h16 g h d g8 g
     e16 c g e c8 e' d16 c h a g8 h
     c16 d c h c8 c d,16 c' a' c, d,8 h'
@@ -582,13 +580,13 @@ EtResurrexitViolinoII = {
     fis16 e d cis h8 h d16 cis h a gis8 gis %200
     a16 cis e cis a8 a e16 a cis e g!8 g
     fis16 g a fis d8 d h16 d e d cis8 cis
-    d16 a fis a d,8 d d16 fis h-\critnote fis d'8 d
+    d16 a fis a d,8 d d16 fis a fis d'8 d
     h16 a g fis e8 e g'16 fis e d cis8 cis
     d,16 fis a d fis8 g a16 fis d fis a8 h %205
     c16 d h c a h g a fis g e fis d e c d
     h g h d g8 g g,16 h e g h8 h
     a,16 c e c a'8 a fis16 d fis a c8 c
-    h16 g d h g8 g16 h \slurDashed h( a) a( g) g( fis) fis( e) \slurSolid
+    h16 g d h g8 g16( h) h( a) a( g) g( fis) fis( e)
     dis\p e fis dis h8 h e16 fis g e h8 h %210
     fis'16 g a fis h,8 h e16 fis g e h8 h
     c16 d c d e8 e a16 h a h c8 c

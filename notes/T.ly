@@ -902,8 +902,8 @@ EtResurrexitTenoreNotes = {
     d2 r
     cis!\sf e\sf %150
     g\sf cis,!\sf
-    d4 e f d
-    \once \tieDashed a1~
+    d4\ff e f d
+    a1~
     a2 a
     R1*10 %164
     r2 cis4\fE cis %165
@@ -929,7 +929,7 @@ EtResurrexitTenoreNotes = {
     c4 c c e
     d h r h
     c c e g
-    fis dis r2 %190
+    fis! dis r2 %190
     e r4 h
     h4. h8 h4 r
     h h h2
@@ -959,7 +959,7 @@ EtResurrexitTenoreNotes = {
     fis4.( e8 d[ cis d h])
     a4 r r2 %220
     r4 d,2\p e8([ f)]
-    f?4 e r a\f
+    f4 e r a\f
     d2 cis4 cis
     e2 d4 d
     h h g' fis8 fis %225

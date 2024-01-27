@@ -1011,29 +1011,29 @@ EtResurrexitOrgano = {
     fis d e fis g a h a
     gis e fis gis a h cis h
     ais fis gis ais h cis d h
-    e fis g e cis a d d, %140
+    e fis g! e cis a d d, %140
     g fis g e a g a a,
     d-\solo fis16 a d8 cis h h, h' a
     g g, g' fis e e, e' d
     cis d e fis g a h cis
-    d e fis h, g e a a, %145
-    \mvTrh d-\sf-\unisono-\tuttiE cis d e f\sf e f fis
+    d e fis h, g e a-\tuttiE a, %145
+    \mvTrh d-\sf-\unisono cis d e f\sf e f fis
     g\sf fis! g gis a\sf gis a b
-    a\sfE d f e d c b a
+    a\sf d f e d c b a
     b f d' c b a g f
-    e g b a g f? e d %150
+    e g b a g f e d %150
     cis! d e f g b a g
     f e d cis! d c h! b
     a\ff cis e a a, d f a
     a, cis! e a a, d f a
     a,4 r r2 %155
     R1*3
-    r4 \mvTr a\p-\senzaOrg-\solo a a
+    r4 \mvTr a\p-\senzaOrg-\soloE a a
     b( cis! e g) %160
-    b( e, g cis,!)
-    e( b cis! g)
-    b( e, g b)
-    cis!( e g cis,)
+    b(^\critnote a g f)
+    e( d cis! d)
+    e a,( cis e)
+    g( b a cis,!)
     \mvTr d8\f-\tutti fis'! e d cis h a g %165
     fis a d fis, e cis' d, d'
     g, h e h g e a g
@@ -1056,7 +1056,7 @@ EtResurrexitOrgano = {
     g fis g a h a h g
     c h c a d c d d, %185
     g h d c h a g f
-    e g c? g e g e c?
+    e g c g e g e c
     g' g, h d g d h g
     c e g c h, h' ais, ais'
     h, h' dis h fis dis h h' %190
@@ -1067,7 +1067,7 @@ EtResurrexitOrgano = {
     a a, a' g fis fis, fis' e %195
     dis cis! dis ais h cis dis h
     e fis g c a fis h h,
-    e-\tutti e' h gis e fis d e
+    e-\tutti e' h gis e fis d! e
     cis! d h cis a h cis a
     d cis d h e d e e, %200
     a cis e a cis a e cis
@@ -1078,7 +1078,7 @@ EtResurrexitOrgano = {
     a g fis e d c h a
     g g' h g e, e' g e
     c c' a c d c d d,
-    g-! g,-! g'-! h-! a-! g-! fis-! e-!
+    g g, g' h-! a-! g-! fis-! e-!
     dis\p fis h a g h g e %210
     dis fis h a g h g e
     a h c h a g e fis
@@ -1089,9 +1089,9 @@ EtResurrexitOrgano = {
     e, g h g e gis h e
     a, a, a' h cis! d e cis
     d d, fis' e d cis d h
-    a4 a,\p a a %220
+    a4 a,-!\p a-! a-! %220
     gis1
-    a2 a'8\f g! fis! e
+    a2 a'8-!\f g!-! fis!-! e-!
     d fis a d a, a' cis a
     cis, e a cis d, fis a d
     g,, h d g g, g' gis, gis' %225
@@ -1109,61 +1109,61 @@ EtResurrexitOrgano = {
 
 EtResurrexitBassFigures = \figuremode {
   r2 <6 4>4 <7 2> %125
-  <8 3>1
+  <[8 3]>1
   r2 <4 2>4 <5 3>
   r1
-  r2 <6\\>4 <6>
-  q2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff %130
-  <6 4>2. <[7 _+]>4
+  r2 <6\\>4 <[6]>
+  <6>1 %130
+  <6 4>2. <[7] _+>4
   r1
-  r2. <[6 5!]>4
-  <7!>1
+  r
+  <7!>
   <6>2 <7> %135
   r1
   <6>
   q
   q
   r2 <[6 5]> %140
-  <6 5>1
+  <6 5> <_+>
   r1
   r
-  \bo <[3 _]>8 <3> q q q q q q
-  q <6> q4 \bc <[6 5]>2 %145
+  r
+  r2 <[6 5]> %145
   r1
   r
   <6! 4>2.. \bassFigureExtendersOn q8
   <5!>2.. q8
   <6\\ 5->2.. q8 %150
   <7->2.. q8 \bassFigureExtendersOff
-  <6>4 <5 2>8 <\t \t> <_!>4 <6>8 <\t>
+  <6>4 <5 2> <_!> <6>
   <[5] _+>2 <6! 4>
   <[5] _+> <6! 4>
-  <[5] _+>1 %155
+  <[5 _+]>1 %155
   r1*9 %164
   <[_+]>2 <6> %165
   q q
   q2. <_+>4
   <6>2 <4>4 <3>
-  r4. \bo <[3]>8 <3>4 q8 q
-  q4 q8 q <3!>4 q8 <3> %170
-  q q q q q <3!> <3> \bc <[3]>
   r1
+  r %170
   r
-  <_!>2 <5!>8 <\t> <9 4!> <8 3>
-  <6 4>4 <6>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %175
-  r4. <\t>8 <6!>2
+  r
+  r
+  <_!>2 <6 5!>4 <9 4!>8 <8 3>
+  <6 4>4 <6>2. %175
+  r2 <6!>
   <6>2. <6 4>8 <6!>
   <6 4>2 <5 [3]>
   r1
   r2 <[_!]> %180
-  \bo <[3 _]>8 <3> <3!> <3> q q q q
-  q <6> q4 \bc <[6 5]>2
-  r2 <6>
-  r <[6]>
-  <6 5> <_+> %185
   r1
-  <6!>2 <\t>
+  r2 <[6 5]>
+  r <6>
   r1
+  <6 5>2 <_+> %185
+  r1
+  <6!>
+  r
   r2 <6 4>4 <7 _+>
   <_+>1 %190
   r
@@ -1171,40 +1171,40 @@ EtResurrexitBassFigures = \figuremode {
   <[6 5]> <4>4 <_+>
   r1
   \bo <[_! _ _]>2 <5!> %195
-  <6>8 <6\\> <6> q <_+> <6\\> <6 5> <7 _+>
-  r <6\\> <6>4 \bc <[6 5 _!]> <_+>
+  <6>8 <6\\> <6> q <_+> <6\\> <6> <7 5! _+>
+  r2 <6 5 _!>4 \bc <[_+ _ _]>
   <_+>2 <6\\ 4 2>4 <4\+ 2>
   <6>1
   <6 5>2 <_+> %200
-  r \bo <[6 5!]>
-  r4 <6> \bc <[6 5]>2
-  <6>1
-  <6 5>2 <_+>
-  r <[6]> %205
-  <6 4 _!>2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff
   r1
+  r
+  <6>
+  <6 5>
+  r4 <3>8 q <[6]>4 <3>8 q %205
+  <6 4 _!>1
+  r
   <6 5>
   r
   <6>2 q %210
   q q
   <_!>1
-  r2 <[6]>
-  <5!> <6>
-  r <[6]> %215
-  <_+>1
-  r2 <[7!] _+>
-  <_+> <6 5!>
-  r4. <6>8 r q r <6\\>
+  r
+  <\fivehatnatural>2 <6>
+  r1 %215
+  <_+>
+  r2 <_+>
+  q <6 5[!]>
+  r4. <6>4 q4 <6\\>8
   r1 %220
   <7!>
   <6! 4>4 <5 _+>2.
   <_+>1
-  <6 5>
+  <[6 5]>
   <6>2. <7>4 %225
   r1
   r2 <6>4 q
   <4 2>2 <6 5>
-  r4 <[5 3]> <4> <3>
+  r <4>4 <3>
   r2 <[6 5]> %230
   r1
   r2 <[6 5]>

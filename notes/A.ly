@@ -906,7 +906,7 @@ EtResurrexitAltoNotes = {
     e2 a4 cis
     a2 a4 a
     g( e) d fis %135
-    e a^\critnote r2
+    e a r2
     a g4 g
     h4. h8 a4 a
     cis cis8 cis h4 h
@@ -919,9 +919,9 @@ EtResurrexitAltoNotes = {
     d4. d8 d4 d
     f2. f4
     d2 r
-    cis,!\sf e\sfE %150
-    g\sf cis,!\sfE
-    d4 e f g
+    cis,!\sf e\sf %150
+    g\sf cis,!\sf
+    d4\ff e f g
     a1~
     a2 a,
     R1*10 %164

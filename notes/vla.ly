@@ -531,17 +531,17 @@ EtResurrexitViola = {
     a a' e cis a a' a, a'
     d, d' a fis d a' fis d
     a cis e a h, h' cis, cis'
-    d, fis h^\critnote d h, h' d, d' %130
+    d, fis h d h, h' d, d' %130
     e cis a cis e d e e,
     a cis e cis a e cis e
     a, a' cis a e a cis, e
     a, h cis a d e fis d
     g e h g gis h d gis %135
     a a, cis e a h a g
-    fis d e fis g a h g^\critnote
+    fis d e fis g a h a
     gis e fis gis a h cis h
     ais fis gis ais h cis d h
-    e, fis g e cis' a d d, %140
+    e fis g! e cis a d d, %140
     g fis g e a g a a,
     d fis16 a d8 cis h h, h' a
     g g, g' fis e e, e' d
@@ -551,7 +551,7 @@ EtResurrexitViola = {
     g\sf fis! g gis a\sf gis a b
     a\sf d f e d c b a
     b f d' c b a g f
-    e g b a g f? e d %150
+    e g b a g f e d %150
     cis! d e f g b a g
     f e d cis! d c h! b
     a\ff cis e a a, d f a
@@ -562,10 +562,10 @@ EtResurrexitViola = {
     fis a d fis, e cis' d, d'
     g, h e h g e a g
     fis a fis d a' g a a,
-    d fis16 a d8 cis d d, d e
+    d fis16 a d8 cis d d, d' e
     fis fis, fis' g a a, a' g %170
     fis e d c h a g fis
-    g' a h a g d h g
+    g a h a g d h g
     c d e fis g a h g
     a h a g fis d g g,
     d' d' fis d a fis d d' %175
@@ -580,7 +580,7 @@ EtResurrexitViola = {
     g fis g a h a h g
     c h c a d c d d, %185
     g h d c h a g f
-    e g c? g e g e c?
+    e g c g e g e c
     g' g, h d g d h g
     c e g c h, h' ais, ais'
     h, h' dis h fis dis h h' %190
@@ -591,7 +591,7 @@ EtResurrexitViola = {
     a a, a' g fis fis, fis' e %195
     dis cis! dis ais h cis dis h
     e fis g c a fis h h,
-    e e' h gis e fis d e
+    e e' h gis e fis d! e
     cis! d h cis a h cis a
     d cis d h e d e e, %200
     a cis e a cis a e cis
@@ -615,7 +615,7 @@ EtResurrexitViola = {
     d d, fis e d cis d h
     a4 r r2 %220
     r4 f\p f f
-    f? e a'8\f g! fis! e
+    f e a'8\f g! fis! e
     d fis a d a, a' cis a
     cis, e a cis d, fis a d
     g,, h d g g, g' gis, gis' %225

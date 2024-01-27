@@ -927,7 +927,7 @@ EtResurrexitBassoNotes = {
     d2 r
     cis,!\sf e\sf %150
     g\sf cis,!\sf
-    d4 e f g
+    d4\ff e f g
     a1~
     a2 a
     R1*6 %160

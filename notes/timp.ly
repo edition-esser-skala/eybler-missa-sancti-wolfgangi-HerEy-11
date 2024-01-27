@@ -195,10 +195,10 @@ EtResurrexitTimpani = {
     R1*11 %145
     c4\f r c r
     c r c r
-    c1\trill
-    c4 r r2
+    c1\startTrillSpan
+    c4\stopTrillSpan r r2
     R1*7 %156
-    \mvTrr g1~\mf\startTrillSpan-\solo
+    g1~\p\startTrillSpan
     g~
     g4\stopTrillSpan r r2
     R1*5 %164
