@@ -677,63 +677,76 @@ BenedictusViola = {
     \key g \major \time 4/4 \tempoBenedictus
     r8 h(\p a g) r a( g d)~
     d g4 e'8 d4~ d16 c( h a)
-    g2\cresc <e' g>4 <d fis>16 <c e> <h d> <a c>
-    <g h>8\fE <h d>4 << { c16[ a] } \\ { a8 } >> \appoggiatura fis4 g2
-    r8 \mvTr d\pE-\pizz fis g r c h a %5
+    g2 << {
+      g'4 fis16 e d c
+      h8 d4 c16[ a]
+    } \\ {
+      e'4\cresc d16 c h a
+      g8 h4\sf a8
+    } >> \appoggiatura fis4 g2
+    r8 d-\pizz fis g r c h a %5
     g r e' r r d d d
     r d d d r g e c
     r h h fis g h r fis
     r g(-\arco h) r r a( g) r
     r h( c) r r d( fis,) r %10
-    r g( d') r r \once \slurDashed g,( e') r
-    r h4 fis8 g16 g'( fis e) d( c h a)
-    a8 g r d' d d, r d'
+    r g( d') r r g,( e') r
+    r h~ h[ fis] g16 g'( fis e d_[ c h a])
+    a8( g) r d' d d, r d'
     d d, r c' d d, r d'
     d d, r d' e e, r e' %15
     d d, r c' h h4 a8
-    fis g r g a4 h8 c
+    fis( g) r g a4 h8 c
     h g c e d d4 d8
     d d4 d8 c c4 e8
-    d h4 \acciaccatura d16 c8 h8 g4 g8 %20
+    d h4 \appoggiatura d16 c8 h8 g4 g8 %20
     d a'4 fis8 g g4 g8
     d fis4 a8 g d'4 d8
-    c <e g> <d fis!>16 <c e> <h d> <a c> <g h>8 <fis a> <g h> <a c>
-    <h d> g4 h8 r a( g fis)
+    << {
+      c g' fis16( e d c) h8( a h c)
+      d g,4 h8
+    } \\ {
+      c e d16( c h a) g8( fis g a)
+      h g4 h8
+    } >> r a( g fis)
     g( h d h) a( c h fis) %25
     g h d g d( c' h fis)
-    g d h g d( c' h fis)
-    g\crescE g'4 g8 r g,\fE c e
-    d(\p ais h d) \once \slurDashed d(\cresc <g, h> <a c> <ais cis>)
-    <h d>16 q q q q q q q c\f c c c c c e e %30
-    d d d\sf d d d c c h8 r r e
+    g( d h g) d( c' h fis)
+    g \after 8 \cresc g'4 g8 r g,( c e)
+    d( ais h\p d) << {
+      d h( c cis)
+      d16 d d d d d d d c c c c
+    } \\ {
+      d8 g,( a ais)\cresc
+      h16 h h h h h h h c\f c c c
+    } >> c c e e %30
+    d d d\sf d d d c c h8 r r e\f
     e r r d d r r d
     c16( gis a h) c8. e16 d8 d,16( e fis g a fis)
-    g d h' d, d' d, h' d, c' d, a' d, fis d a' d,
-    g d h' d, d' d, h' d, c' d, a' d, fis d a' d, %35
-    g\cresc h8 d d d16 g, c8 e e e16
-    d(\p h g h) d8 d d16 <h d> <c e> <d fis> <e g>\cresc <fis a> <g h> <a c>
-    <h d>8\fE r r g, g' e <d fis>16 <c e> <h d> <a c>
-    <g h>8 <h d>4\sfE <a c>8 <g h>^\critnote r r e'\p
-    e r r a, a r16 d d'16\fE a fis d %40
-    a8 a d d <a e'>4 r8\fermata \bar "||" %41 finis
-  }
-}
-
-OsannaViola = {
-  \relative c' {
-    \clef alto
-    \key d \major \time 4/4 \tempoOsanna
-      \set Score.currentBarNumber = #42
-    \partial 8 r8 r d\f d, d' r d d, d'
+    g(\p d h' d,) d'( d,) h'( d,) c'( d,) a'( d,) fis( d) a'( d,)
+    g( d) h'( d,) d'( d,) h'( d,) c'( d,) a'( d,) fis( d) a'( d,) %35
+    g h8 \after 16 \cresc d d d16 g, c8 e e e16
+    d(\p h g h) d8 d << { d16-! d-! e-! fis-! g-! a-! h-! c-! d8 } \\ { d,16 h c d e\cresc fis g a h8\f } >>
+    r r g, << {
+      g'4 fis16 e d c
+      h8 d4 c8 h
+    } \\ {
+      g'8 e d16 c h a
+      g8 h4\sf a8 g
+    } >> r r e'\p
+    e r r a, a r16 d-!\f d'16-! a-! fis-! d-! \noBreak %40
+    a8 a d d <a e'>4 r8\fermata \bar "||"
+    \key d \major \tempoOsanna
+      \partial 8 r8 \noBreak r8 d\f d, d' r d d, d' \markCritnote \noBreak
     e fis g fis e a cis, e
     a, a' a, a' r a a, a'
-    a g fis e d fis a, \once \tieDashed a~ %45
+    a g fis e d fis a, a~ %45
     a a4 a' a a,8~
-    a a4 a' a \once \slurDashed a,8(
-    h) h' cis, cis' d, d' e, e'
-    a, a g4 fis8 r r a
-    a a cis8.(\trill h32 cis) d8 r r a,~ %50
-    a a e'8.(\trill d32 e) d4 r\fermata \bar "|." %51 finis
+    a a4 a' a a,8
+    h h' cis, cis' d, d' e, e'
+    a, a g4\trill fis8 r r a~
+    a a cis8.\trill h32 cis d8 r r a,~ %50
+    a a e'8.\trill d32 e d4 r\fermata \bar "|." %51 finis
   }
 }
 

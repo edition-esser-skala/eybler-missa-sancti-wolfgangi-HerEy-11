@@ -290,12 +290,13 @@ SanctusClarinoII = {
   }
 }
 
-OsannaClarinoII = {
+BenedictusClarinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoOsanna
-      \set Score.currentBarNumber = #42
-    \partial 8 r8 R1
+    \key c \major \time 4/4 \tempoBenedictus
+    R1*40 \noBreak %40
+    r2 r4 r8\fermata \bar "||"
+    \tempoOsanna r8 \noBreak R1 \markCritnote \noBreak
     r8 e\fE g c g4 r
     R1
     r8 g c g c4 r %45

@@ -1163,7 +1163,7 @@ BenedictusAltoNotes = {
     \mvTr d4.\pE^\solo g8 g([ fis)] g a
     h([ g)] e c' h a r d,
     d'4 c8 h e4 d16([ c)] h([ a)]
-    g4. \acciaccatura h16 a8 g4 r %20
+    g4. \appoggiatura h16 a8 g4 r %20
     r8 fis4 a8 \tuplet 3/2 8 { g16([ a h)] } h8 r4
     r8 fis fis16([ c')] h a g([ h)] h8 r4
     r r r8 d4 fis,8
@@ -1171,12 +1171,23 @@ BenedictusAltoNotes = {
     d4. g8 g([ fis)] g a %25
     h g r4 r2
     r8 d'([ h)] g d([ c')] h a
-    g4\crescE a8 h c4\fE c,8 e
-    d([\pE e d)] fis fis([ g)] r g
-    g4\crescE g8 g g4\f a8 a %30
-    g4. \acciaccatura h16 a8 g4 r
-    R1*9 %40
-    r2 r4 r8\fermata \bar "||" %41 finis
+    g4 a8\cresc h c4 c,8 e
+    d([ e d)]\p fis fis([ g)] r g
+    g4\cresc g8 g g4\f a8 a %30
+    g4. \appoggiatura h16 a8 g4 r
+    R1*9 \noBreak %40
+    r2 r4 r8\fermata \bar "||"
+    \key d \major \tempoOsanna
+      \partial 8 r8 \noBreak r2 r4 r8 \mvTr a\f^\tutti \markCritnote \noBreak
+    a a a a a4 a8 r
+    r2 r4 r8 a
+    a a a a a4 a8 a %45
+    a4 a8 a a4 a8 a
+    a a a a a4 a8 a
+    g([ h)] e, a d,([ h')] a4
+    a8 a a4 fis8 a, d fis
+    a a a4 a8 a, d fis %50
+    a a a4 fis r\fermata \bar "|." %51 finis
   }
 }
 
@@ -1195,28 +1206,8 @@ BenedictusAltoLyrics = \lyricmode {
   ve -- nit in no -- mi -- ne
   Do -- mi -- ni, in
   no -- mi -- ne, no -- mi -- ne %30
-  Do -- mi -- ni. %31 finis
-}
+  Do -- mi -- ni.
 
-OsannaAltoNotes = {
-  \relative c' {
-    \clef treble
-    \key d \major \time 4/4 \autoBeamOff \tempoOsanna
-      \set Score.currentBarNumber = #42
-    \partial 8 r8 r2 r4 r8 \mvTr a'\fE^\tutti
-    a a a a a4 a8 r
-    r2 r4 r8 a
-    a a a a a4 a8 a %45
-    a4 a8 a a4 a8 a
-    a a a a a4 a8 a
-    g([ h)] e, a d,([ h')] a4
-    a8 a a4 fis8 a, d fis
-    a a a4 a8 a, d fis %50
-    a a a4 fis r\fermata \bar "|." %51 finis
-  }
-}
-
-OsannaAltoLyrics = \lyricmode {
   O -- %42
   san -- na in ex -- cel -- sis,
   o --
@@ -1243,7 +1234,7 @@ AgnusDeiAltoNotes = {
     f d r8 f
     e8.([ a16)] a4 r8 a %25
     gis8.([ h16)] d8 f, e d
-    \acciaccatura d8 c4 h r
+    \appoggiatura d8 c4 h r
     \mvTr c2\p^\tutti e4
     e2\f e4
     e2(\pp d4) %30

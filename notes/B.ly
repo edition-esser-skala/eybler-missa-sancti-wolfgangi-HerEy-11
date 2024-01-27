@@ -1177,7 +1177,7 @@ BenedictusBassoNotes = {
     \mvTr d4.\pE^\solo g8 g([ fis)] g a
     h([ g)] e c' h a r d, %10
     d'4 c8 h e4 d16([ c)] h([ a)]
-    g4. \acciaccatura h16 a8 g d'4 fis,8
+    g4. \appoggiatura h16 a8 g d'4 fis,8
     a g r h a4 h8 c
     d16([ c)] h8 r4 d,~ d16[ fis] a([ fis)]
     g8 d r g g([ g')] fis16([ e)] d([ c)] %15
@@ -1193,12 +1193,23 @@ BenedictusBassoNotes = {
     r8 d'([ h)] g d([ c')] h a %25
     g([ h)] d h a d, r4
     d4. g8 g([ fis)] g a
-    h\crescE g r g c4\fE c8 c
-    d([\pE cis d)] d, g4 r8 g
-    h,([\crescE d)] g h c,([\fE e)] a c %30
+    h g r g\cresc c4 c8 c
+    d([cis d)]\p d, g4 r8 g
+    h,([\cresc d)] g h c,!([\f e)] a c %30
     d4 d, g r
-    R1*9 %40
-    r2 r4 r8\fermata \bar "||" %41 finis
+    R1*9 \noBreak %40
+    r2 r4 r8\fermata \bar "||"
+    \key d \major \tempoOsanna
+      \partial 8 r8 \noBreak r2 r4 r8 \mvTr fis\f^\tutti \markCritnote \noBreak
+    g fis e d cis4 cis'8 r
+    r2 r4 r8 g
+    fis e d e fis4 d'8 r %45
+    r4 r8 cis, d([ e)] fis r
+    r4 a8 cis, d([ e)] fis fis
+    g4 a8 a h4 cis
+    d8 d a4 d, r
+    fis8 fis a4 d8 a, d fis %50
+    a a a,4 d r\fermata \bar "|." %51 finis
   }
 }
 
@@ -1224,29 +1235,9 @@ BenedictusBassoLyrics = \lyricmode {
   be -- ne -- di -- ctus, qui
   ve -- nit in no -- mi -- ne
   Do -- mi -- ni, in
-  no -- mi -- ne, \xE no -- mi -- ne \x %30
-  Do -- mi -- ni. %31 finis
-}
+  no -- mi -- ne, no -- mi -- ne %30
+  Do -- mi -- ni.
 
-OsannaBassoNotes = {
-  \relative c {
-    \clef bass
-    \key d \major \time 4/4 \autoBeamOff \tempoOsanna
-      \set Score.currentBarNumber = #42
-    \partial 8 r8 r2 r4 r8 \mvTr fis\fE^\tutti
-    g fis e d cis4 cis'8 r
-    r2 r4 r8 g
-    fis e d e fis4 d'8 r %45
-    r4 r8 cis, d([ e)] fis r
-    r4 a8 cis, d([ e)] fis fis
-    g4 a8 a h4 cis
-    d8 d a4 d, r
-    fis8 fis a4 d8 a, d fis %50
-    a a a,4 d r\fermata \bar "|." %51 finis
-  }
-}
-
-OsannaBassoLyrics = \lyricmode {
   O -- %42
   san -- na in ex -- cel -- sis,
   o --

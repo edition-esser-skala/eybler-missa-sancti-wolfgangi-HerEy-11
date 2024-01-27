@@ -655,64 +655,57 @@ BenedictusViolinoI = {
     \clef treble
     \key g \major \time 4/4 \tempoBenedictus
     d4.\p g8 g( fis g a)
-    h( g e c') h a r d,
-    d'4\cresc c16( h a g) g'4 fis16( e d c)
-    h8\f d4 fis,8 \appoggiatura a4 g2
-    r8 \mvTr d\pE-\pizz d g r fis g a %5
+    h( g e c') h( a) r d,
+    d'4 c16(\cresc h a g) g'4 fis16( e d c)
+    h8 d4\sf fis,8 \appoggiatura a4 g2
+    r8 d-\pizz d g r fis g a %5
     h r c r r a h c
     r d c h r e c a
     r g g a g4 r
     d4.-\arco g8 g( fis g a)
-    h( g e c') h a r d, %10
+    h( g e c') h( a) r d, %10
     d'4 c8 h \appoggiatura { c16[ d] } e4 d16( c h a)
-    g4. \acciaccatura h16 a8 g4 r
-    r16. d32 d16.([\trill c64 d]) g,8( g') r16. fis32 fis16.([\trill e64 fis]) \once \slurDashed g8( a)
-    r16. g32 g16.([\trill fis64 g]) e8( c') r16. a32 a16.([\trill gis64 a)] fis8( d)
-    r16. d32 d16.([\trill cis64 d]) g8( d') r16. e,32 e16.([\trill d64 e)] a8( e') %15
-    r16. h32 h16.([\trill a64 h]) d8( fis,) \tuplet 3/2 8 { g16 d h' g[ d' h] g h g d[ e c] }
-    \tuplet 3/2 8 { c a c h[ d fis] g d g h[ a g] g a g fis[ d fis] g d g a[ d, a'] }
-    \tuplet 3/2 8 { h c cis d[ h g] e fis gis a[ h c] h g? h a[ d, e] fis g a h[ c a] }
-    \tuplet 3/2 8 { d h, d g[ h d] d c h h[ a g] e' e, g c[ e g] fis g e d[ e c] }
-    \tuplet 3/2 8 { h g h d[ h g] h g d c'[ a fis] } g8 <h, d>4 q8 %20
+    g4. \appoggiatura h16 a8 g4 r
+    r16. d32 d16.[\trill c64 d] g,8( g') r16. fis32 fis16.[\trill e64 fis] g8( a)
+    r16. g32 g16.[\trill fis64 g] e8( c') r16. a32 a16.[\trill gis64 a] fis8( d)
+    r16. d32 d16.[\trill cis64 d] g8( d') r16. e,32 e16.[\trill d64 e] a8( e') %15
+    r16. h32 h16.[\trill a64 h] d8( fis,) \tuplet 3/2 8 { g16 d h' g[ d' h] g h g d[ e c]
+    \override TupletNumber.stencil = ##f c a c h d fis g d g h a g g a g fis d fis g d g a d, a'
+    h c cis d h g e fis gis a h c h g? h a d, e fis g a h c a
+    d h, d g h d d c h h a g e' e, g c e g fis g e d e c
+    h g h d h g h g d c' a fis } g8 <h, d>4 q8 \revert TupletNumber.stencil %20
     r d~ d16 c'( h a) g8 <h, d>4 q8
     r a'~ a16 e'( d c) h8 h,4 g'8~
-    g16( g') g-! g-! \once \slurDashed fis!( e) d-\parenthesize-! c-\parenthesize-! h8 a r4
-    d,4. g8 g fis g a
+    g16( g') g-! g-! fis!( e d c) h8( a) r4
+    d,4. g8 g( fis g a)
     h d h g a d, r4 %25
-    \once \tieDashed d~ d16 g h g g fis a fis g d a' d,
-    h' d, g h d h g h a8 d, r d
-    d'4\cresc d16( c) c( h) e4\fE d16( c h a)
-    g4.\p a8 a(\cresc h c cis)
+    d~ d16 g( h g) g( fis a fis) g d a' d,
+    h'( d, g h) d( h g h) a8 d, r d
+    d'4 d16(\cresc c) c( h) e4 d16( c h a)
+    \after 4 \p g4. a8 a( h c cis)\cresc
     d16 d d d d d d d e\f e e e c c c c %30
-    h h d\sf d d d fis, fis g8 h'16-! a-! g-! fis-! e-! d-!
+    h h d\sf d d d fis, fis g8 h'16-!\f a-! g-! fis-! e-! d-!
     d( c) a'-! g-! fis-! e-! d-! c-! c( h) g'-! fis-! e-! d-! c-! h-!
     a( h c d) e( h c a) g8( fis) r4
-    \mvTr d4~\p-\markup { \remark "dolce" } d16 \once \slurDashed e( fis g) g8 fis r4
-    d'4~ d16 e( fis g) g8 fis r d, %35
-    d'4\crescE c16( h a g) e'4 d16( c h a)
-    g8\p g h16( a g a) h-! d-! e-! fis-! g-!\crescE a-! h-! c-!
-    d4\f c16( h a g) fis( e a g) fis( e d c)
-    h8 d4\sf fis,8 g h'16(\pE fis g dis e h)
-    d( cis fis e d c? h a) g( fis) d-! fis-! a\f d fis a %40
-    d8 d gis,8.(\trill fis32 gis) a4 r8\fermata \bar "||" %41 finis
-  }
-}
-
-OsannaViolinoI = {
-  \relative c' {
-    \clef treble
-    \key d \major \time 4/4 \tempoOsanna
-      \set Score.currentBarNumber = #42
-    \partial 8 a'8\f a16( d) d-! d-! d8( a) a16( fis') fis-! fis-! fis8-! fis16( d)
+    \mvTr d4~\p-\dolce d16 e( fis g) g8( fis) r4
+    d'4~ d16 e( fis g) g8( fis) r d, %35
+    d'4 c16(\cresc h a g) e'4 d16( c h a)
+    g8\p g h16( a g a) h-! d-! e-! fis-! g-!\cresc a-! h-! c-!
+    d4\f c16( h a g) fis( e a g fis e d c)
+    h8 d4\sf fis,8 g h'16(\p fis g dis e h)
+    d( cis fis e d c? h a) g( fis) d-!\f fis-! a-! d-! fis-! a-! \noBreak %40
+    d8 d gis,8.\trill fis32 gis a4 r8\fermata \bar "||"
+    \key d \major \tempoOsanna
+      a,8\f \noBreak a16 d d d d8 a a16 fis' fis fis fis8 fis16( d) \markCritnote \noBreak
     d( cis) cis( d) d( e) e( fis) a( g) g-! g-! e8 a,
     a16 e' e e e8 a, a16 g' g g g8 e16 cis
-    \slurDashed cis( d) d( e) \slurSolid e( fis) fis( g) \once \slurDashed h( a) a-\parenthesize-! a-\parenthesize-! fis8 \slurDashed fis16( d) %45
-    d( cis) cis( h) h( a) a( g') g( fis) fis( e) e( d) fis( d)
-    d( cis) cis( h) h( a) a( g') g( fis) fis( e) e( d) \slurSolid d, d'
-    d( e) e-! e-! e( fis) fis-! fis-! fis( g) g-! g-! g h a g
-    fis a d fis, e8 cis' d, \slurDashed a16( d) d( fis) fis( a) \slurSolid
-    a8 a g8.(\trill fis32 g) fis8 \slurDashed a,16( d) d( fis) fis( a) \slurSolid %50
-    a8 a cis8.(\trill h32 cis) d4 r\fermata \bar "|." %28 finis
+    cis d d e e fis fis g h a a a fis8 fis16 d %45
+    d cis cis h h a a g' g fis fis e e d fis d
+    d cis cis h h a a g' g fis fis e e d d, d'
+    d e e e e fis fis fis fis g g g g h a g
+    fis a d fis, e8 cis' d, a16( d) d( fis) fis( a)
+    a8 a g8.\trill fis32 g fis8 a,16( d) d( fis) fis( a) %50
+    a8 a cis8.\trill h32 cis d4 r\fermata \bar "|." %51 finis
   }
 }
 
@@ -729,7 +722,7 @@ AgnusDeiViolinoI = {
     r8 d,(\p b fis) g4
     r8 a'( f cis) d4
     r8 g( e b! a g)
-    \acciaccatura g f4\trill e r %10
+    \appoggiatura g f4\trill e r %10
     a8 a a a a a
     <f' a, a,>\f f[ f f d d]
     c!\pp c c c b b
@@ -746,7 +739,7 @@ AgnusDeiViolinoI = {
     r8 a,(\p f cis) d4
     r8 e'( c! gis) a4 %25
     r8 \once \slurDashed d( h f e d)
-    \acciaccatura d c4\trill h r
+    \appoggiatura d c4\trill h r
     e8 e e e e e
     e'\f e e e c c
     g!\pp g g g f f %30

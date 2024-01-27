@@ -1144,7 +1144,7 @@ BenedictusTenoreNotes = {
     \mvTr d,4.\pE^\solo g8 g([ fis)] g a %5
     h([ g)] e c' h a r d,
     d'4 c8 h e4 d16([ c)] h([ a)]
-    g4. \acciaccatura h16 a8 g d'4 fis,8
+    g4. \appoggiatura h16 a8 g d'4 fis,8
     a g r h a4 h8 c
     d16([ c)] h8 r4 d,~ d16[ fis] a([ fis)] %10
     g8 d r g g([ g')] fis16([ e)] d([ c)]
@@ -1156,20 +1156,31 @@ BenedictusTenoreNotes = {
     c h r4 r8 d4 c8
     h d r a g([ fis)] fis d'
     d([ h)] g d' e([ c)] c e
-    r h4 \acciaccatura d16 c8 h d4 h8 %20
+    r h4 \appoggiatura d16 c8 h d4 h8 %20
     \tuplet 3/2 8 { a16([ h c)] } c8 r4 r8 d e16([ d)] c h
     a([ c)] c8 r4 r8 g g' f16 f
-    f?16([ e d c)] d([ c)] h([ a)] g16. fis32 fis8 r4
+    f16([ e d c)] d([ c)] h([ a)] g16. fis32 fis8 r4
     r8 d'([ h)] g d([ c')] h a
     g([ h)] d h a d, r4 %25
     d4. g8 g([ fis)] g a
     h g r4 r r8 fis
-    g([\crescE h)] d g g4\f fis16([ e)] d([ c)]
-    h8([\pE ais h)] \acciaccatura d16 c8 c([ h)] r g
+    g([ h)] d\cresc g g4 fis16([ e)] d([ c)]
+    h8([ ais h)]\p c! c([ h)] r g
     g([\cresc h)] d d e4\f c8 e %30
-    d( h4) \acciaccatura d16 c8 h4 r
-    R1*9 %40
-    r2 r4 r8\fermata \bar "||" %41 finis
+    d( h4)\sf \appoggiatura d16 c8 h4 r
+    R1*9 \noBreak %40
+    r2 r4 r8\fermata \bar "||"
+    \key d \major \tempoOsanna
+      \partial 8 r8 \noBreak r4 r8 \mvTr a\f^\tutti a([ d)] d d \markCritnote \noBreak
+    e d cis d e4 e8 r
+    r4 r8 a, a([ e')] e e
+    d g fis e d4 d8 fis %45
+    e([ d)] cis e d([ g)] fis fis
+    e d cis e d([ g)] fis d
+    h4 cis8 cis d4 e
+    d8 d cis4 d r
+    d8 d cis4 d r %50
+    d8 d cis4 d r\fermata \bar "|." %51 finis
   }
 }
 
@@ -1200,28 +1211,8 @@ BenedictusTenoreLyrics = \lyricmode {
   no -- mi -- ne, no -- mi -- ne
   Do -- mi -- ni, in
   no -- mi -- ne, no -- mi -- ne %30
-  Do -- mi -- ni. %31 finis
-}
+  Do -- mi -- ni.
 
-OsannaTenoreNotes = {
-  \relative c' {
-    \clef "treble_8"
-    \key d \major \time 4/4 \autoBeamOff \tempoOsanna
-      \set Score.currentBarNumber = #42
-    \partial 8 r8 r4 r8 \mvTr a\f^\tuttiE a([ d)] d d
-    e d cis d e4 e8 r
-    r4 r8 a, a([ e')] e e
-    d g fis e d4 d8 fis %45
-    e([ d)] cis e d([ g)] fis fis
-    e d cis e d([ g)] fis d
-    h4 cis8 cis d4 e
-    d8 d cis4 d r
-    d8 d cis4 d r %50
-    d8 d cis4 d r\fermata \bar "|." %51 finis
-  }
-}
-
-OsannaTenoreLyrics = \lyricmode {
   O -- san -- na, o -- %42
   san -- na in ex -- cel -- sis,
   o -- san -- na, o --
@@ -1243,7 +1234,7 @@ AgnusDeiTenoreNotes = {
     b g r8 b
     a8.([ d16)] d4 r8 d
     cis8.([ e16)] g8 b,! a g
-    \acciaccatura g f4 e r %10
+    \appoggiatura g f4 e r %10
     \mvTr d'2\p^\tutti d4
     d2\fE a4
     a2(\pp g4)

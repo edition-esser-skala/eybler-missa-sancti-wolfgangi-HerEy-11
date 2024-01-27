@@ -589,48 +589,41 @@ BenedictusOboeI = {
     R1
     r2 r8 a'(\pE\cresc h c)
     d2 e
-    r8 d4\fE fis,8 \appoggiatura a4 g2
+    r8 d4\sfE fis,8 \appoggiatura a4 g2
     R1*12 %16
     d'4.\p g8 g( fis g a)
     h g e c' h a r d,,
-    d'8.( e32 d) c8 h g'4 fis16( e d c)
+    d'8. e32 d c8 h g'4 fis16 e d c
     h8 d4 fis,8 g r r4 %20
-    c2( h8) r r4
-    \once \slurDashed c2( h8) r r4
+    c2(\p h8) r r4
+    c2 h8 r r4
     r2 r8 a( h c)
     d r r4 r2
     R1*2 %26
-    d4. g8 g( fis g a)
+    d4. g8 g fis g a
     h g r4 r2
-    r r8 h,(\cresc c cis)
-    d4 c16( h a g) g'4\f \once \slurDashed fis16( e d c) %30
-    h4. a8 g r r e'16( d)
-    d( c) r8 r d16( c) c( h) r8 r4
+    r r8 h,( c cis)\cresc
+    d4 c16( h a g) g'4\f fis16( e d c) %30
+    h4. a8 g r r e'16 d
+    d c r8 r d16 c c h r8 r4
     r8 a4 c8 h( a) r4
     R1*3 %36
     r2 r16 d-!\pE e-! fis-! g-!\cresc a-! h-! c-!
-    d4\f c16( h a g) fis( e dis e) \once \slurDashed d( c h a)
+    d4\f c16( h a g) fis( e dis e) d( c h a)
     g8 h4\sf a8 g r r4
-    r2 r4 r8 d'\f %40
-    fis fis gis8.(\trill fis32 gis) a4 r8\fermata \bar "||" %41 finis
-  }
-}
-
-OsannaOboeI = {
-  \relative c' {
-    \clef treble
-    \key d \major \time 4/4 \tempoOsanna
-      \set Score.currentBarNumber = #42
-    \partial 8 r8 r2 r4 r8 d'\f
+    r2 r4 r8 d'\f \noBreak %40
+    fis fis gis8.\trill fis32 gis a4 r8\fermata \bar "||"
+    \key d \major \time 4/4
+      \partial 8 r8 \noBreak r2 r4 r8 d,\f \markCritnote \noBreak
     cis d e fis g4 e8 r
     r2 r4 r8 cis
-    d e fis g a4 fis8 d
+    d e fis g a4 fis8 d %45
     cis h a g' fis e d d
-    cis h a g' fis e d d
+    cis h a g' fis e d d~
     d e4 fis g a16 g
     fis8 fis e4\trill d8 r r4
-    a'4 g fis8 r r4
-    a cis d r\fermata \bar "|." %28 finis
+    a'4 g fis8 r r4 %50
+    a cis d r\fermata \bar "|." %51 finis
   }
 }
 
