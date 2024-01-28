@@ -21,6 +21,7 @@
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
         \new Staff { \GloriaOboeI }
@@ -30,6 +31,7 @@
   \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
+    \paper { systems-per-page = #6 }
     \score {
       <<
         \new Staff { \QuiTollisOboeI }
@@ -48,6 +50,7 @@
   \bookpart {
     \section "3" "Credo"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
         \new Staff { \CredoOboeI }
@@ -75,7 +78,7 @@
   \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
-    \paper { page-count = #1 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
         \new Staff { \SanctusOboeI }
@@ -92,31 +95,11 @@
     }
   }
   \bookpart {
-    \subsection "Osanna"
-    \addTocEntry
-    \paper { systems-per-page = #3 }
-    \score {
-      <<
-        \new Staff { \OsannaOboeI }
-      >>
-    }
-  }
-  \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
-    \paper { systems-per-page = #4 }
     \score {
       <<
         \new Staff { \AgnusOboeI }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Dona nobis pacem"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DonaNobisOboeI }
       >>
     }
   }

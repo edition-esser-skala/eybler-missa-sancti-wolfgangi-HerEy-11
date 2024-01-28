@@ -13,9 +13,16 @@
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { instrumentName = \transposedName "Clarino" "D" "" } <<
-            \new Staff \with { instrumentName = "I" } { \KyrieClarinoI }
-            \new Staff \with { instrumentName = "II" } { \KyrieClarinoII }
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = \transposedName "Clarino" "D" ""
+            \new Staff {
+              \set Staff.instrumentName = "I"
+              \KyrieClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "II"
+              \KyrieClarinoII
+            }
           >>
         >>
         \new Staff {
@@ -32,13 +39,20 @@
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \new Staff \with { instrumentName = "1" } { \GloriaClarinoI }
-            \new Staff \with { instrumentName = "2" } { \GloriaClarinoII }
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \GloriaClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \GloriaClarinoII
+            }
           >>
         >>
         \new Staff { \GloriaTimpani }
       >>
     }
+    \tacet "subsection" "Qui tollis"
   }
   \bookpart {
     \subsection "Quoniam"
@@ -47,8 +61,14 @@
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \new Staff \with { instrumentName = "1" } { \QuoniamClarinoI }
-            \new Staff \with { instrumentName = "2" } { \QuoniamClarinoII }
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \QuoniamClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \QuoniamClarinoII
+            }
           >>
         >>
         \new Staff { \QuoniamTimpani }
@@ -62,13 +82,20 @@
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \new Staff \with { instrumentName = "1" } { \CredoClarinoI }
-            \new Staff \with { instrumentName = "2" } { \CredoClarinoII }
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \CredoClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \CredoClarinoII
+            }
           >>
         >>
         \new Staff { \CredoTimpani }
       >>
     }
+    \tacet "subsection" "Et incarnatus est"
   }
   \bookpart {
     \subsection "Et resurrexit"
@@ -77,8 +104,14 @@
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \new Staff \with { instrumentName = "1" } { \EtResurrexitClarinoI }
-            \new Staff \with { instrumentName = "2" } { \EtResurrexitClarinoII }
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \EtResurrexitClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \EtResurrexitClarinoII
+            }
           >>
         >>
         \new Staff { \EtResurrexitTimpani }
@@ -92,8 +125,14 @@
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \new Staff \with { instrumentName = "1" } { \SanctusClarinoI }
-            \new Staff \with { instrumentName = "2" } { \SanctusClarinoII }
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \SanctusClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \SanctusClarinoII
+            }
           >>
         >>
         \new Staff { \SanctusTimpani }
@@ -101,33 +140,45 @@
     }
   }
   \bookpart {
-    \subsection "Osanna"
+    \section "5" "Benedictus"
     \addTocEntry
     \paper { systems-per-page = #3 }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \new Staff \with { instrumentName = "1" } { \OsannaClarinoI }
-            \new Staff \with { instrumentName = "2" } { \OsannaClarinoII }
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \BenedictusClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \BenedictusClarinoII
+            }
           >>
         >>
-        \new Staff { \OsannaTimpani }
+        \new Staff { \BenedictusTimpani }
       >>
     }
   }
   \bookpart {
-    \subsection "Dona nobis pacem"
+    \section "6" "Agnus Dei"
     \addTocEntry
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \new Staff \with { instrumentName = "1" } { \DonaNobisClarinoI }
-            \new Staff \with { instrumentName = "2" } { \DonaNobisClarinoII }
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \AgnusClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \AgnusClarinoII
+            }
           >>
         >>
-        \new Staff { \DonaNobisTimpani }
+        \new Staff { \AgnusTimpani }
       >>
     }
   }

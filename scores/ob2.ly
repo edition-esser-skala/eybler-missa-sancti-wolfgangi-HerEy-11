@@ -21,6 +21,7 @@
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
         \new Staff { \GloriaOboeII }
@@ -30,7 +31,7 @@
   \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper { systems-per-page = #4 }
     \score {
       <<
         \new Staff { \QuiTollisOboeII }
@@ -49,6 +50,7 @@
   \bookpart {
     \section "3" "Credo"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
         \new Staff { \CredoOboeII }
@@ -58,7 +60,7 @@
   \bookpart {
     \subsection "Et incarnatus est"
     \addTocEntry
-    \paper { systems-per-page = #5 }
+    \paper { systems-per-page = #3 }
     \score {
       <<
         \new Staff { \EtIncarnatusOboeII }
@@ -77,7 +79,7 @@
   \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
         \new Staff { \SanctusOboeII }
@@ -94,31 +96,11 @@
     }
   }
   \bookpart {
-    \subsection "Osanna"
-    \addTocEntry
-    \paper { systems-per-page = #3 }
-    \score {
-      <<
-        \new Staff { \OsannaOboeII }
-      >>
-    }
-  }
-  \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
-    \paper { systems-per-page = #4 }
     \score {
       <<
         \new Staff { \AgnusOboeII }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Dona nobis pacem"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DonaNobisOboeII }
       >>
     }
   }

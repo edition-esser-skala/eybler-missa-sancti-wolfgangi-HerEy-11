@@ -1,7 +1,7 @@
 \version "2.24.2"
 
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "b")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,7 +12,7 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Organo"
+          \set Staff.instrumentName = "Bassi"
           \KyrieOrgano
         }
       >>
@@ -92,30 +92,11 @@
     }
   }
   \bookpart {
-    \subsection "Osanna"
-    \addTocEntry
-    \paper { systems-per-page = #3 }
-    \score {
-      <<
-        \new Staff { \OsannaOrgano }
-      >>
-    }
-  }
-  \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
     \score {
       <<
         \new Staff { \AgnusOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Dona nobis pacem"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DonaNobisOrgano }
       >>
     }
   }

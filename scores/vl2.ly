@@ -92,30 +92,11 @@
     }
   }
   \bookpart {
-    \subsection "Osanna"
-    \addTocEntry
-    \paper { systems-per-page = #5 }
-    \score {
-      <<
-        \new Staff { \OsannaViolinoII }
-      >>
-    }
-  }
-  \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
     \score {
       <<
         \new Staff { \AgnusViolinoII }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Dona nobis pacem"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DonaNobisViolinoII }
       >>
     }
   }

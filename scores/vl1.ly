@@ -39,6 +39,7 @@
   \bookpart {
     \subsection "Quoniam"
     \addTocEntry
+    \paper { page-count = #4 }
     \score {
       <<
         \new Staff { \QuoniamViolinoI }
@@ -92,30 +93,11 @@
     }
   }
   \bookpart {
-    \subsection "Osanna"
-    \addTocEntry
-    \paper { systems-per-page = #5 }
-    \score {
-      <<
-        \new Staff { \OsannaViolinoI }
-      >>
-    }
-  }
-  \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
     \score {
       <<
         \new Staff { \AgnusViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Dona nobis pacem"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DonaNobisViolinoI }
       >>
     }
   }

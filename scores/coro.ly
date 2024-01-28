@@ -324,41 +324,6 @@
     }
   }
   \bookpart {
-    \subsection "Osanna"
-    \addTocEntry
-    \score {
-      <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \OsannaSopranoNotes }
-          }
-          \new Lyrics \lyricsto Soprano \OsannaSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \OsannaAltoNotes }
-          }
-          \new Lyrics \lyricsto Alto \OsannaAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \OsannaTenoreNotes }
-          }
-          \new Lyrics \lyricsto Tenore \OsannaTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \OsannaBassoNotes }
-          }
-          \new Lyrics \lyricsto Basso \OsannaBassoLyrics
-        >>
-        \new Staff { \OsannaOrgano }
-        \new FiguredBass { \OsannaBassFigures }
-      >>
-    }
-  }
-  \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
     \score {
@@ -390,41 +355,6 @@
         >>
         \new Staff { \AgnusOrgano }
         \new FiguredBass { \AgnusBassFigures }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Dona nobis pacem"
-    \addTocEntry
-    \score {
-      <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \DonaNobisSopranoNotes }
-          }
-          \new Lyrics \lyricsto Soprano \DonaNobisSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \DonaNobisAltoNotes }
-          }
-          \new Lyrics \lyricsto Alto \DonaNobisAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \DonaNobisTenoreNotes }
-          }
-          \new Lyrics \lyricsto Tenore \DonaNobisTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \DonaNobisBassoNotes }
-          }
-          \new Lyrics \lyricsto Basso \DonaNobisBassoLyrics
-        >>
-        \new Staff { \DonaNobisOrgano }
-        \new FiguredBass { \DonaNobisBassFigures }
       >>
     }
   }

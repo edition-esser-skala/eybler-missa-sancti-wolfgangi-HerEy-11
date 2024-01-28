@@ -101,33 +101,12 @@
     }
   }
   \bookpart {
-    \subsection "Osanna"
-    \addTocEntry
-    \paper { systems-per-page = #3 }
-    \score {
-      <<
-        \new Staff { \OsannaOrgano }
-        \new FiguredBass { \OsannaBassFigures }
-      >>
-    }
-  }
-  \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
     \score {
       <<
         \new Staff { \AgnusOrgano }
         \new FiguredBass { \AgnusBassFigures }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Dona nobis pacem"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DonaNobisOrgano }
-        \new FiguredBass { \DonaNobisBassFigures }
       >>
     }
   }

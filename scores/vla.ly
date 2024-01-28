@@ -1,7 +1,7 @@
 \version "2.24.2"
 
 \include "../definitions.ly"
-#(define option-instrument-name (markup #:center-column ("vla" "1, 2")))
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,7 +12,7 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Viola I, II"
+          \set Staff.instrumentName = "Viole"
           \KyrieViola
         }
       >>
@@ -92,30 +92,11 @@
     }
   }
   \bookpart {
-    \subsection "Osanna"
-    \addTocEntry
-    \paper { systems-per-page = #5 }
-    \score {
-      <<
-        \new Staff { \OsannaViola }
-      >>
-    }
-  }
-  \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
     \score {
       <<
         \new Staff { \AgnusViola }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Dona nobis pacem"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DonaNobisViola }
       >>
     }
   }
