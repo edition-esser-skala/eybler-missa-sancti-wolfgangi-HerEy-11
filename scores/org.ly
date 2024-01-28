@@ -116,8 +116,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusDeiOrgano }
-        \new FiguredBass { \AgnusDeiBassFigures }
+        \new Staff { \AgnusOrgano }
+        \new FiguredBass { \AgnusBassFigures }
       >>
     }
   }

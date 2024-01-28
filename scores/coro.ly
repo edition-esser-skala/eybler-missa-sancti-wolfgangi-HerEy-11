@@ -366,30 +366,30 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \AgnusDeiSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \AgnusSopranoNotes }
           }
-          \new Lyrics \lyricsto Soprano \AgnusDeiSopranoLyrics
+          \new Lyrics \lyricsto Soprano \AgnusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \AgnusAltoNotes }
           }
-          \new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
+          \new Lyrics \lyricsto Alto \AgnusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \AgnusTenoreNotes }
           }
-          \new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
+          \new Lyrics \lyricsto Tenore \AgnusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \AgnusBassoNotes }
           }
-          \new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
+          \new Lyrics \lyricsto Basso \AgnusBassoLyrics
         >>
-        \new Staff { \AgnusDeiOrgano }
-        \new FiguredBass { \AgnusDeiBassFigures }
+        \new Staff { \AgnusOrgano }
+        \new FiguredBass { \AgnusBassFigures }
       >>
     }
   }

@@ -286,12 +286,14 @@ BenedictusTimpani = {
   }
 }
 
-DonaNobisTimpani = {
+AgnusTimpani = {
   \relative c {
     \clef bass
-    \twofourtime \key c \major \time 2/4 \tempoDonaNobis
-      \set Score.currentBarNumber = #52
-    R2*4 %55
+    \key c \major \time 3/4 \tempoAgnus
+    R2.*50 \noBreak %50
+    R2.\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoDona
+      R2*4 %55
     c4\f g
     c r
     r g
@@ -305,7 +307,7 @@ DonaNobisTimpani = {
     c8\f c16 c c8 c %80
     g4 r
     R2*10 %91
-    g4\fE c
+    g4\f c
     g c
     R2*2 %95
     c4 c8. c16
@@ -326,12 +328,12 @@ DonaNobisTimpani = {
     c4 r
     R2*3 %126
     r4\fermata r\fermata
-    g c
+    g\f c
     R2
     g8 g16 g g8 g %130
     c4 r
     R2*4 %135
-    c4.\ffE c8
+    c4.\f c8
     c4 c
     c8 c16 c c8 c
     c c c c

@@ -1225,18 +1225,18 @@ BenedictusTenoreLyrics = \lyricmode {
   in ex -- cel -- sis. %51 finis
 }
 
-AgnusDeiTenoreNotes = {
+AgnusTenoreNotes = {
   \relative c' {
     \clef "treble_8"
-    \key d \minor \time 3/4 \autoBeamOff \tempoAgnusDei
+    \key d \minor \time 3/4 \autoBeamOff \tempoAgnus
     R2.*5 %5
-    \mvTr g'2\pE^\solo d4
+    \mvTr g'2\f^\solo d4
     b g r8 b
     a8.([ d16)] d4 r8 d
     cis8.([ e16)] g8 b,! a g
     \appoggiatura g f4 e r %10
     \mvTr d'2\p^\tutti d4
-    d2\fE a4
+    d2\f a4
     a2(\pp g4)
     f r r
     R2.*13 %27
@@ -1245,39 +1245,12 @@ AgnusDeiTenoreNotes = {
     c2(\pp h4) %30
     c r r
     R2.*15 %46
-    \mvTr d2.\p^\tuttiE
+    \mvTr d2.\p^\tutti
     e4 r r
-    R2.*2 %50
-    R2.\fermata \bar "||" %51 finis
-  }
-}
-
-AgnusDeiTenoreLyrics = \lyricmode {
-  A -- gnus %6
-  De -- i, qui
-  tol -- lis, qui
-  tol -- lis pec -- ca -- ta
-  mun -- di: %10
-  Mi -- se --
-  re -- re
-  no --
-  bis.
-
-  Mi -- se -- %28
-  re -- re
-  no -- %30
-  bis.
-
-  Pa -- %47
-  cem. %48 finis
-}
-
-DonaNobisTenoreNotes = {
-  \relative c' {
-    \clef "treble_8"
-    \twofourtime \key d \major \time 2/4 \autoBeamOff \tempoDonaNobis
-      \set Score.currentBarNumber = #52
-    \mvTr d4.\pE^\solo d8
+    R2.*2 \noBreak %50
+    R2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      \mvTr d4.\pE^\solo d8 \noBreak
     d4 d
     g,4. g8
     a([ cis)] d4 %55
@@ -1350,7 +1323,7 @@ DonaNobisTenoreNotes = {
     e4. fis8 %125
     fis4. g8
     e8.([\fermata g16)] g4\fermata
-    e d
+    e\f d
     h d
     d( cis) %130
     d r
@@ -1360,51 +1333,69 @@ DonaNobisTenoreNotes = {
     fis4 r %135
     a4.\f a8
     h4 c
-    c?2(
+    c2(
     h)
     a\fermata \bar "|." %140 finis
   }
 }
 
-DonaNobisTenoreLyrics = \lyricmode {
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus %6
+  De -- i, qui
+  tol -- lis, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: %10
+  Mi -- se --
+  re -- re
+  no --
+  bis.
+
+  Mi -- se -- %28
+  re -- re
+  no -- %30
+  bis.
+
+  Pa -- %47
+  cem.
+
   Do -- na %52
   no -- bis
   pa -- cem,
-  pa -- cem. %55
-  Do -- na
+  pa -- cem, %55
+  do -- na
   no -- bis,
   do -- na no -- bis
-  pa -- cem.
-  Do -- na %60
+  pa -- cem,
+  do -- na %60
   no -- bis
   pa -- cem,
-  pa -- cem.
-  Do -- na
+  pa -- cem,
+  do -- na
   no -- bis %65
   pa --
-  cem.
+  cem,
 
-  Do -- na, %72
+  do -- na, %72
   do -- na
   no -- bis
   pa -- cem, %75
   do -- na
   no -- bis,
   no -- bis
-  pa -- cem.
-  Do -- na %80
+  pa -- cem,
+  do -- na %80
   no -- bis
   pa --
   cem,
   pa --
   cem, %85
   pa --
-  cem.
-  Do -- na,
+  cem,
+  do -- na,
   do -- na
   no -- bis %90
-  pa -- cem.
-  Do -- na
+  pa -- cem,
+  do -- na
   no -- bis,
   do -- na no -- bis
   pa -- cem, %95
@@ -1415,8 +1406,8 @@ DonaNobisTenoreLyrics = \lyricmode {
   do -- na %100
   no -- bis
   pa --
-  cem.
-  Do -- na
+  cem,
+  do -- na
   no -- bis %105
   pa -- cem,
   pa -- cem,
@@ -1427,8 +1418,8 @@ DonaNobisTenoreLyrics = \lyricmode {
   do -- na
   no -- bis,
   no -- bis
-  pa -- cem. %115
-  Do -- na
+  pa -- cem, %115
+  do -- na
   no -- bis
   pa --
   cem,
@@ -1439,16 +1430,16 @@ DonaNobisTenoreLyrics = \lyricmode {
   do -- na
   no -- bis %125
   pa -- cem,
-  pa -- cem.
-  Do -- na
+  pa -- cem,
+  do -- na
   no -- bis
   pa -- %130
   cem,
   pa --
   cem,
   pa --
-  cem. %135
-  Do -- na
+  cem, %135
+  do -- na
   no -- bis
   pa --
 

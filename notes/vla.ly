@@ -750,15 +750,15 @@ BenedictusViola = {
   }
 }
 
-AgnusDeiViola = {
+AgnusViola = {
   \relative c' {
     \clef alto
-    \key d \minor \time 3/4 \tempoAgnusDei
-    <f, a>4\pE r r8 \once \slurDashed a(
+    \key d \minor \time 3/4 \tempoAgnus
+    << { a4 } \\ { f\p } >> r r8 a(
     b4) r r8 b(
-    h4) r r8 \once \slurDashed h(
-    e,4) r r8 a\f
-    a'-\parenthesize-! cis-\parenthesize-! d-\parenthesize-! <d, a'>-\parenthesize-! <d b'>-\parenthesize-! <d c'>-\parenthesize-! %5
+    h4) r r8 h(
+    e,4) r r8 a-!\f
+    a'-! cis-! d-! <d, a'> <d b'> <d c'> %5
     <d b'>4 r r
     b\p r r8 b(
     a4) r r8 a(
@@ -771,19 +771,19 @@ AgnusDeiViola = {
     a a a a a a %15
     b b b b b b
     h h h h h h
-    c4 r r8 \once \slurDashed e,(
+    c4 r r8 e,(
     f4) r r8 f(
-    fis4) r r8 \once \slurDashed fis( %20
-    gis4) r r8 e\f
-    e'-\parenthesize-! gis-\parenthesize-! a-\parenthesize-! e-\parenthesize-! f!-\parenthesize-! g?-\parenthesize-!
-    <f a,>4 r r
-    f,\p r r8 f(
+    fis4) r r8 fis( %20
+    gis4) r r8 e-!\f
+    e'-! gis-! a-! <a, e'> <a f'> <a g'?>
+    <a f'>4 r r
+    f\p r r8 f(
     e4) r r8 e( %25
-    d4) r8 c( d d)
+    d4) r8 c( d) d
     dis4 e r
     a8 a a a a a
     h\f h h h c c
-    c\ppE c c c h h %30
+    c\pp c c c h h %30
     c e, e e e e
     e e e e e e
     f f f f f f
@@ -791,8 +791,8 @@ AgnusDeiViola = {
     g4 r r8 h( %35
     c4) r r8 c(
     cis4) r r8 cis(
-    fis,4) r r8 h\f
-    h'-\parenthesize-! dis-\parenthesize-! e-\parenthesize-! <e, h'>-\parenthesize-! <e c'>-\parenthesize-! <e d'>-\parenthesize-!
+    fis,4) r r8 h-!\f
+    h'-! dis-! e-! <e, h'>-! <e c'>-! <e d'>-!
     <e c'>4 r r %40
     r8 e\p e e e e
     r e e e e e
@@ -801,19 +801,12 @@ AgnusDeiViola = {
     r f f f f f %45
     r d d d d d
     r d d d d d
-    e4 r \once \slurDashed d'(
-    cis) r \once \slurDashed d,(
-    cis) cis cis %50
-    cis2.\fermata \bar "||" %51 finis
-  }
-}
-
-DonaNobisViola = {
-  \relative c' {
-    \clef alto
-    \twofourtime \key d \major \time 2/4 \tempoDonaNobis
-      \set Score.currentBarNumber = #52
-    r8 d\p d d
+    e4 r d'(
+    cis) r d,(
+    cis) cis cis \noBreak %50
+    cis2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      r8 d\p d d \noBreak
     r d d d
     r d d d
     a cis d4 %55
@@ -826,12 +819,12 @@ DonaNobisViola = {
     r d d d
     a cis d4
     d'8\f d, h' h,
-    g' g, e'^\critnote e, %65
+    g' g, e' e, %65
     a a'16 gis a8 a,
     d16 d' cis h a g fis e
     d8\p d d d
     r a a a
-    r e h'-\critnote e %70
+    r e h' e %70
     r e e e
     d4 e
     d e
@@ -849,7 +842,7 @@ DonaNobisViola = {
     e4 r %85
     d2
     cis16 a h cis d e fis gis
-    a8\p a, a d
+    a8 a, a d
     r cis cis cis
     r cis cis d %90
     r a a a
@@ -871,7 +864,7 @@ DonaNobisViola = {
     r a a a
     h4 g
     d r
-    g8 fis e d %110
+    g8( fis e d) %110
     a'4 a,
     r8 a a a
     r a a a
@@ -889,15 +882,15 @@ DonaNobisViola = {
     a cis a fis %125
     h d h g
     <e a,>4\fermata r\fermata
-    e,8 e' d, d'
+    e,8\f e' d, d'
     h h' gis, gis'
     a4 a, %130
     d r
-    <a e'>2\pE\>
-    <a fis'>4\! r
-    <g a>2\>
-    <fis a>4\! r %135
-    d'4.\ff d8
+    <a e'>2_~\p
+    <a fis'>4 r
+    << { a2~ a4 } \\ { g2 fis4 } >>
+    r %135
+    d'4.\f d8
     g4 fis
     g8 d' h g
     d h g h

@@ -309,12 +309,14 @@ BenedictusClarinoII = {
   }
 }
 
-DonaNobisClarinoII = {
+AgnusClarinoII = {
   \relative c' {
     \clef treble
-    \twofourtime \key c \major \time 2/4 \tempoDonaNobis
-      \set Score.currentBarNumber = #52
-    R2*4 %55
+    \key c \major \time 3/4 \tempoAgnus
+    R2.*50 \noBreak %50
+    R2.\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoDona
+      R2*4 %55
     c'4\f g
     c, r
     r g
@@ -351,12 +353,12 @@ DonaNobisClarinoII = {
     c4 r
     R2*2 %126
     r4\fermata r\fermata
-    g' c
+    g'\f c
     d c
     c g %130
     e r
     R2*4 %135
-    c4.\ffE c8
+    c4.\f c8
     c4 c
     c8 c16 c c8 c
     c c c c

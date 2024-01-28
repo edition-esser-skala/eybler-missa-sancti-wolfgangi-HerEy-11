@@ -106,7 +106,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusDeiViolinoII }
+        \new Staff { \AgnusViolinoII }
       >>
     }
   }

@@ -709,14 +709,14 @@ BenedictusViolinoI = {
   }
 }
 
-AgnusDeiViolinoI = {
+AgnusViolinoI = {
   \relative c' {
     \clef treble
-    \key d \minor \time 3/4 \tempoAgnusDei
+    \key d \minor \time 3/4 \tempoAgnus
     r8 a''(\p f cis) d4
     r8 b'( g cis,) d4
     r8 f( e d) f,4
-    r8 \once \slurDashed e( gis a) a,[ r16 \tuplet 3/2 16 { a'32(\f h cis)] }
+    r8 e( gis a) a, r16 \tuplet 3/2 16 { a'32(\f h cis) }
     d8-! e-! f-! fis-! g-! a-! %5
     b4 r r
     r8 d,(\p b fis) g4
@@ -724,33 +724,33 @@ AgnusDeiViolinoI = {
     r8 g( e b! a g)
     \appoggiatura g f4\trill e r %10
     a8 a a a a a
-    <f' a, a,>\f f[ f f d d]
+    \mvDl <f' a, a,>\f f f f d d
     c!\pp c c c b b
     a4 r8 c( a f)
-    es4 d8-! a''( fis c) %15
+    es4( d8) a''([ fis c)] %15
     b4 r8 d( b g)
-    f!4 e8-! h''( gis d)
+    f!4( e8) h''([ gis d)]
     c-! e( c gis) a4
     r8 f'( d gis,) a4
     r8 c( h a) c,4 %20
-    r8 \once \slurDashed h( dis e) e'[ r16 \tuplet 3/2 16 { e,32(\f fis gis)] }
+    r8 h( dis e) e' r16 \tuplet 3/2 16 { e,32(\f fis gis) }
     a8-! h-! c-! cis-! d-! e-!
     f4 r r
     r8 a,(\p f cis) d4
     r8 e'( c! gis) a4 %25
-    r8 \once \slurDashed d( h f e d)
+    r8 d( h f e d)
     \appoggiatura d c4\trill h r
     e8 e e e e e
     e'\f e e e c c
     g!\pp g g g f f %30
     e4 r8 g'( e c)
-    b!4 a8-! e'( cis g)
+    b!4( a8) e'([ cis g)]
     f4 r8 a'( f d)
-    c!4 h8-! fis'( dis a)
-    g-\parenthesize-! h'( g dis) e4 %35
+    c!4( h8) fis'([ dis a)]
+    g h'( g dis) e4 %35
     r8 c'( a dis,) e4
     r8 g( fis e) g,4
-    r8 \once \slurDashed fis( ais h) h,[ r16 \tuplet 3/2 16 { h'32(\f cis dis)] }
+    r8 fis( ais h) h, r16 \tuplet 3/2 16 { h'32(\f cis dis) }
     e8-! fis-! g-! gis-! a-! h-!
     c4 r r %40
     r8 c,\p c c c c
@@ -760,19 +760,12 @@ AgnusDeiViolinoI = {
     r f f f d d %45
     r b! b b a a
     r gis gis gis gis gis
-    a e'( f cis d gis,)
-    a e( f cis d gis,)
-    a4 a a %50
-    a2.\fermata \bar "||" %51 finis
-  }
-}
-
-DonaNobisViolinoI = {
-  \relative c' {
-    \clef treble
-    \twofourtime \key d \major \time 2/4 \tempoDonaNobis
-      \set Score.currentBarNumber = #52
-    r8 fis\p fis g
+    a( e' f cis d gis,)
+    a( e f cis d gis,)
+    a4 a a \noBreak %50
+    a2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      r8 fis'\p fis g \noBreak
     r a a a
     r h h h
     a g fis16 fis a d %55
@@ -800,11 +793,11 @@ DonaNobisViolinoI = {
     r d d d
     r cis cis d
     r e e e
-    <a a, d,>4\f fis %80
+    \mvDl <a a, d,>4\f fis %80
     e16 dis e cis d cis d h
     cis h cis a h a h gis
-    a( gis a h) cis( d e fis)
-    fis(\p e dis e) dis( e h d)
+    a(\p gis a h) cis( d e fis)
+    fis( e dis e) dis( e h d)
     cis( h a h) cis( d e fis) %85
     fis( e dis e) dis( e h cis)
     a cis, d e fis gis a h
@@ -831,7 +824,7 @@ DonaNobisViolinoI = {
     e( d cis h)
     a4. d8
     cis( d e fis) %110
-    \once \slurDashed fis4( e)
+    fis4( e)
     r8 a, a h
     r cis cis cis
     r cis cis d
@@ -848,15 +841,15 @@ DonaNobisViolinoI = {
     cis cis a a cis cis fis fis %125
     d d h h d d g g
     <g a,>4\fermata r\fermata
-    g16 fis g a fis e fis g
+    g16\f fis g a fis e fis g
     e dis e fis d cis d e
     fis d a fis' e cis a e' %130
-    d( cis d e) fis( g a h)
-    h(\p a gis a) gis( a e g)
+    d(\p cis d e) fis( g a h)
+    h( a gis a) gis( a e g)
     fis( a g fis) e( d cis h)
     h( a gis a) gis( a g e)
-    d(\ff cis d cis) d( cis d cis) %135
-    d( cis d cis) d( cis d cis)
+    d( cis d cis) d( cis d cis) %135
+    d(\f cis d cis) d( cis d cis)
     d( cis d cis) d( cis d cis)
     d( cis d cis) d( cis d cis)
     d( cis d cis) d( cis d cis)

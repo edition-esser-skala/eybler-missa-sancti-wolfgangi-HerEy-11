@@ -709,36 +709,36 @@ BenedictusViolinoII = {
   }
 }
 
-AgnusDeiViolinoII = {
+AgnusViolinoII = {
   \relative c' {
     \clef treble
-    \key d \minor \time 3/4 \tempoAgnusDei
-    d4\p r r8 \slurDashed d(
-    d4) r r8 d(
-    d4) r r8 d(
-    cis4) \slurSolid r r8 e\f
+    \key d \minor \time 3/4 \tempoAgnus
+    d4\p r r8 d
+    d4 r r8 d
+    d4 r r8 d(
+    cis4) r r8 e-!\f
     f-! g-! a-! d-! d-! fis-! %5
     g4 r r
-    d,\p r r8 \slurDashed d(
-    d4) r r8 d(
-    cis4) r8 d( e cis) \slurSolid
+    d,\p r r8 d
+    d4 r r8 d(
+    cis4) r8 d( e cis)
     d4 cis r %10
     f8 f f f f f
     a\f a a a a a
     a\pp a a a g g
-    f f c c c c
-    c c c c d es? %15
+    f c c c c c
+    c c c c d d %15
     d d d d d d
-    d d d d e! e
-    e4 r r8 \slurDashed a,(
-    a4) r r8 a(
-    a4) r r8 a( %20
-    gis4) \slurSolid r r8 h\f
+    d d d d e e
+    e4 r r8 a,
+    a4 r r8 a
+    a4 r r8 a( %20
+    gis4) r r8 h-!\f
     c-! d-! e-! a-! a-! cis-!
     d4 r r
-    a,\p r r8 \slurSolid a(
-    a4) r r8 a( %25
-    gis4) r8 c( h gis) \slurDashed
+    a,\p r r8 a
+    a4 r r8 a( %25
+    gis4) r8 c( h gis)
     a4 gis r
     a8 a a a a a
     <e' h'>\f q q q <e a> q
@@ -747,10 +747,10 @@ AgnusDeiViolinoII = {
     g g g g a a
     a a a a a a
     a a a a h h
-    h?4 r r8 \slurDashed e( %35
-    e4) r r8 e(
-    e4) r r8 e(
-    dis4) \slurSolid r r8 fis\f
+    h4 r r8 e %35
+    e4 r r8 e
+    e4 r r8 e(
+    dis4) r r8 fis-!\f
     g-! a-! h-! e-! e-! gis-!
     a4 r r %40
     r8 a,\p a a a a
@@ -762,26 +762,19 @@ AgnusDeiViolinoII = {
     r f f f d d
     cis4 r f'(
     e) r f,(
-    e) e e %50
-    e2.\fermata \bar "||" %51 finis
-  }
-}
-
-DonaNobisViolinoII = {
-  \relative c' {
-    \clef treble
-    \twofourtime \key d \major \time 2/4 \tempoDonaNobis
-      \set Score.currentBarNumber = #52
-    r8 d\p d e
+    e) e e \noBreak %50
+    e2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      r8 d\p d e \noBreak
     r fis fis fis
     r g g g
     fis e d16 fis a d %55
-    fis\f a,^\critnote d fis e a, cis e
+    fis\f a, d fis e a, cis e
     g g, g' g g a fis g
     e a, d a cis a d a
     fis' e dis e d cis h a
-    r8 d,\pE d e %60
-    r-\critnote fis fis fis
+    r8 d,\p d e %60
+    r fis fis fis
     r g g g
     fis e d16 fis a d
     fis\f a, fis' fis fis d fis fis
@@ -800,13 +793,13 @@ DonaNobisViolinoII = {
     r h h h
     r a a h
     r cis cis cis
-    <fis a, d,>4\f d %80
+    \mvDl <fis a, d,>4\f d %80
     cis16 his cis a fis eis fis d
     e dis e cis d cis d h
-    a( gis a h) \slurDashed cis( d e fis)
-    fis(\p e dis e) dis( e h d)
+    a(\p gis a h) cis( d e fis)
+    fis( e dis e) dis( e h d)
     cis( h a h) cis( d e fis) %85
-    fis( e dis e) dis( e h cis) \slurSolid
+    fis( e dis e) dis( e h cis)
     a cis d e fis gis a h
     cis8 e, e e
     r e e e
@@ -830,7 +823,7 @@ DonaNobisViolinoII = {
     r d d d
     R2
     g,8( fis e d)
-    a a'( cis d) %110
+    a( a' cis d) %110
     d4( cis)
     r8 cis, cis d
     r e e e
@@ -848,15 +841,15 @@ DonaNobisViolinoII = {
     cis cis a a cis cis fis fis %125
     d d h h d d g g
     <e a,>4\fermata r\fermata
-    g16 fis g a fis e fis g
+    g16\f fis g a fis e fis g
     e dis e fis d cis d e
     d a fis d a cis e cis %130
-    d( cis d e) fis( g a h)
-    h(\p a gis a) gis( a e g)
+    d(\p cis d e) fis( g a h)
+    h( a gis a) gis( a e g)
     fis( a g fis) e( d cis h)
     h( a gis a) gis( a h cis)
-    d(\ff cis d cis) d( cis d cis) %135
-    d( cis d cis) d( cis d cis)
+    d( cis d cis) d( cis d cis) %135
+    d(\f cis d cis) d( cis d cis)
     d( cis d cis) d( cis d cis)
     d( cis d cis) d( cis d cis)
     d( cis d cis) d( cis d cis)

@@ -627,10 +627,10 @@ BenedictusOboeI = {
   }
 }
 
-AgnusDeiOboeI = {
+AgnusOboeI = {
   \relative c' {
     \clef treble
-    \key d \minor \time 3/4 \tempoAgnusDei
+    \key d \minor \time 3/4 \tempoAgnus
     R2.*3
     r4 r r8 cis'\f
     d e f fis g a %5
@@ -644,24 +644,17 @@ AgnusDeiOboeI = {
     R2.*5 %28
     e2\f c4
     R2.*8 %37
-    r4 r r8 dis\fE
+    r4 r r8 dis\f
     e fis g gis a h
     c4 r r %40
-    R2.*10 %50
-    R2.\fermata \bar "||" %51 finis
-  }
-}
-
-DonaNobisOboeI = {
-  \relative c' {
-    \clef treble
-    \twofourtime \key d \major \time 2/4 \tempoDonaNobis
-      \set Score.currentBarNumber = #52
-    R2*4 %55
-    fis'4\f e
+    R2.*10 \noBreak %50
+    R2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      R2*4 %55
+    fis,4\f e
     g4. fis8
     e d cis d
-    fis( e) e4
+    fis e e4
     R2*4 %63
     d4\fE fis
     fis8 e fis g %65
@@ -687,7 +680,7 @@ DonaNobisOboeI = {
     d r
     R2*5 %108
     a'2\p
-    g8 fis e d %110
+    g8( fis e d) %110
     d4 cis
     R2*4 %115
     e4\f g
@@ -702,12 +695,12 @@ DonaNobisOboeI = {
     cis4. fis8 %125
     d4. g8
     g4\fermata r\fermata
-    g fis
+    g\f fis
     e d
     fis e %130
     d r
     R2*4 %135
-    a4.\ffE a8
+    a4.\f a8
     h4 c
     c2
     h

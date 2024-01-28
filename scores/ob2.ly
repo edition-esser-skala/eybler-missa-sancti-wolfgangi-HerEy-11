@@ -109,7 +109,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \AgnusDeiOboeII }
+        \new Staff { \AgnusOboeII }
       >>
     }
   }

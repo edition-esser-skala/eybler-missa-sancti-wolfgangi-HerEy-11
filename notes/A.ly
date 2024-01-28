@@ -1220,14 +1220,14 @@ BenedictusAltoLyrics = \lyricmode {
   in ex -- cel -- sis. %51 finis
 }
 
-AgnusDeiAltoNotes = {
+AgnusAltoNotes = {
   \relative c' {
     \clef treble
-    \key d \minor \time 3/4 \autoBeamOff \tempoAgnusDei
+    \key d \minor \time 3/4 \autoBeamOff \tempoAgnus
     R2.*10 %10
     \mvTr f2\p^\tutti f4
-    a2\fE f4
-    f2(\ppE e4)
+    a2\f f4
+    f2(\pp e4)
     f r r
     R2.*8 %22
     \mvTr d'2\pE^\solo a4
@@ -1240,39 +1240,12 @@ AgnusDeiAltoNotes = {
     e2(\pp d4) %30
     c r r
     R2.*15 %46
-    \mvTr f'2(\p^\tutti d4)
+    \mvTr f2(\p^\tutti d4)
     cis r r
-    R2.*2 %50
-    R2.\fermata \bar "||" %51 finis
-  }
-}
-
-AgnusDeiAltoLyrics = \lyricmode {
-  Mi -- se -- %11
-  re -- re
-  no --
-  bis.
-
-  A -- gnus %23
-  De -- i, qui
-  tol -- lis, qui %25
-  tol -- lis pec -- ca -- ta
-  mun -- di:
-  Mi -- se --
-  re -- re
-  no -- %30
-  bis.
-
-  Pa -- %47
-  cem. %48 finis
-}
-
-DonaNobisAltoNotes = {
-  \relative c' {
-    \clef treble
-    \twofourtime \key d \major \time 2/4 \autoBeamOff \tempoDonaNobis
-      \set Score.currentBarNumber = #52
-    \mvTr d4.\pE^\soloE e8
+    R2.*2 \noBreak %50
+    R2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      \mvTr d4.\pE^\solo e8 \noBreak
     g([ fis)] fis4
     h4. g8
     fis([ e)] d4 %55
@@ -1286,7 +1259,7 @@ DonaNobisAltoNotes = {
     fis([ e)] d4
     \mvTr a'\f^\tutti h
     h g %65
-    fis( g)
+    fis( \grace a8 g4)
     fis r
     R2*4 %71
     \mvTr fis4\pE^\solo g
@@ -1297,7 +1270,7 @@ DonaNobisAltoNotes = {
     e4 e
     e4. a8
     a4 a
-    \mvTr fis\fE^\tutti a %80
+    \mvTr fis\f^\tutti a %80
     a fis
     e( gis)
     a r
@@ -1309,7 +1282,7 @@ DonaNobisAltoNotes = {
     e4 e
     a4. a8 %90
     a4 a
-    \mvTr a\fE^\tutti a
+    \mvTr a\f^\tutti a
     a a
     a8 a a a
     a4 a %95
@@ -1333,7 +1306,7 @@ DonaNobisAltoNotes = {
     a4. a8
     a4 a,
     a'4. a8 %115
-    \mvTr a4.\fE^\tutti a8
+    \mvTr a4.\f^\tutti a8
     a4 g
     fis( e)
     fis r
@@ -1345,7 +1318,7 @@ DonaNobisAltoNotes = {
     a4. a8 %125
     h4. h8
     a4\fermata a\fermata
-    a a
+    a\f a
     g gis
     a2 %130
     fis4 r
@@ -1353,7 +1326,7 @@ DonaNobisAltoNotes = {
     d4 r
     cis2
     d4 r %135
-    d4.\ff d8
+    d4.\f d8
     d4 d
     d2~
     d
@@ -1361,45 +1334,63 @@ DonaNobisAltoNotes = {
   }
 }
 
-DonaNobisAltoLyrics = \lyricmode {
+AgnusAltoLyrics = \lyricmode {
+  Mi -- se -- %11
+  re -- re
+  no --
+  bis.
+
+  A -- gnus %23
+  De -- i, qui
+  tol -- lis, qui %25
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se --
+  re -- re
+  no -- %30
+  bis.
+
+  Pa -- %47
+  cem.
+
   Do -- na %52
   no -- bis
   pa -- cem,
-  pa -- cem. %55
-  Do -- na
+  pa -- cem, %55
+  do -- na
   no -- bis,
   do -- na no -- bis
-  pa -- cem.
-  Do -- na %60
+  pa -- cem,
+  do -- na %60
   no -- bis
   pa -- cem,
-  pa -- cem.
-  Do -- na
+  pa -- cem,
+  do -- na
   no -- bis %65
   pa --
-  cem.
+  cem,
 
-  Do -- na, %72
+  do -- na, %72
   do -- na
   no -- bis
   pa -- cem, %75
   do -- na
   no -- bis,
   no -- bis
-  pa -- cem.
-  Do -- na %80
+  pa -- cem,
+  do -- na %80
   no -- bis
   pa --
   cem,
   pa --
   cem, %85
   pa --
-  cem.
-  Do -- na,
+  cem,
+  do -- na,
   do -- na
   no -- bis %90
-  pa -- cem.
-  Do -- na
+  pa -- cem,
+  do -- na
   no -- bis,
   do -- na no -- bis
   pa -- cem, %95
@@ -1410,8 +1401,8 @@ DonaNobisAltoLyrics = \lyricmode {
   do -- na %100
   no -- bis
   pa --
-  cem.
-  Do -- na
+  cem,
+  do -- na
   no -- bis %105
   pa -- cem,
   pa -- cem,
@@ -1422,8 +1413,8 @@ DonaNobisAltoLyrics = \lyricmode {
 
   do -- na
   no -- bis
-  pa -- cem. %115
-  Do -- na
+  pa -- cem, %115
+  do -- na
   no -- bis
   pa --
   cem,
@@ -1434,16 +1425,16 @@ DonaNobisAltoLyrics = \lyricmode {
   no -- bis,
   do -- na %125
   no -- bis
-  pa -- cem.
-  Do -- na
+  pa -- cem,
+  do -- na
   no -- bis
   pa -- %130
   cem,
   pa --
   cem,
   pa --
-  cem. %135
-  Do -- na
+  cem, %135
+  do -- na
   no -- bis
   pa --
 

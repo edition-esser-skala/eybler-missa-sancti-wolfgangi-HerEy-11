@@ -1197,67 +1197,38 @@ BenedictusSopranoLyrics = \lyricmode {
   in ex -- cel -- sis. %51 finis
 }
 
-AgnusDeiSopranoNotes = {
+AgnusSopranoNotes = {
   \relative c' {
     \clef treble
-    \key d \minor \time 3/4 \autoBeamOff \tempoAgnusDei
+    \key d \minor \time 3/4 \autoBeamOff \tempoAgnus
     R2.*10 %10
     \mvTr a'2\p^\tutti a4
     f'2\f d4
-    \once \tieDashed c!2~\pp c8.[ b16]
+    c!2~\pp c8.[ b16]
     a4 r r
     R2.*13 %27
-    \mvTr c,2\p^\tuttiE c4
+    \mvTr e2\p^\tuttiE e4
     e'2\f c4
-    \once \tieDashed g!2~\pp g8.[ f16] %30
+    g!2~\pp g8.[ f16] %30
     e4 r r
     R2.*8 %39
-    \mvTr a'2\pE^\solo e4 %40
+    \mvTr <a a'>2\pE^\solo e'4 %40
     c a r8 c
     h8.([ e16)] e4 r8 e
-    \appoggiatura d8 cis4 cis8 e g cis,
+    \appoggiatura d!8 cis4 cis8 e g cis,
     e8.([ d16)] d4 r
     f2 d4 %45
     b!2 a4
-    \mvTr gis2.\pE^\tutti
+    \mvTr gis2.\p^\tutti
     a4 r r
-    R2.*2 %50
-    R2.\fermata \bar "||" %51 finis
-  }
-}
-
-AgnusDeiSopranoLyrics = \lyricmode {
-  Mi -- se -- %11
-  re -- re
-  no --
-  bis.
-
-  Mi -- se -- %28
-  re -- re
-  no -- %30
-  bis.
-
-  A -- gnus %40
-  De -- i, qui
-  tol -- lis, qui
-  tol -- lis pec -- ca -- ta
-  mun -- di:
-  Do -- na %45
-  no -- bis
-  pa --
-  cem. %48 finis
-}
-
-DonaNobisSopranoNotes = {
-  \relative c' {
-    \clef treble
-    \twofourtime \key d \major \time 2/4 \autoBeamOff \tempoDonaNobis
-      \set Score.currentBarNumber = #52
-    \mvTr fis4.\pE^\solo g8
+    R2.*2 \noBreak %50
+    R2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      \mvTr fis4.\pE^\solo g8 \noBreak
     h([ a)] a4
     d4. h8
     a([ g)] fis4 %55
-    \mvTr fis'\fE^\tutti e
+    \mvTr fis'\f^\tutti e
     g4. fis8
     e d cis d
     fis([ e)] e4
@@ -1265,9 +1236,9 @@ DonaNobisSopranoNotes = {
     h([ a)] a4
     d4. h8
     a([ g)] fis4
-    \mvTr fis'\fE^\tutti fis
+    \mvTr fis'\f^\tutti fis
     fis8([ e)] fis([ g)] %65
-    d4( \slashedGrace fis8 e4)
+    d4( \grace fis8 e4)
     d r
     \mvTr fis,4.\pE^\solo a8
     a([ e)] e4
@@ -1281,11 +1252,11 @@ DonaNobisSopranoNotes = {
     cis([ d)] d4
     cis4. d8
     fis([ e)] e4
-    \mvTr a\fE^\tutti fis %80
+    \mvTr a\f^\tutti fis %80
     e8([ cis)] d([ h)]
-    a4( \slashedGrace cis8 h4)
+    a4( \grace cis8 h4)
     a r
-    d2\pE
+    d2\p
     cis4 r %85
     gis2
     a4 r
@@ -1329,7 +1300,7 @@ DonaNobisSopranoNotes = {
     cis4. fis8 %125
     d4. g8
     g8.([\fermata e16)] e4\fermata
-    g4 fis
+    g4\f fis
     e d
     fis( e) %130
     d r
@@ -1337,7 +1308,7 @@ DonaNobisSopranoNotes = {
     fis4 r
     e2
     d4 r %135
-    d'4.\ffE d8
+    d'4.\f d8
     d4 d
     d2~
     d
@@ -1345,24 +1316,44 @@ DonaNobisSopranoNotes = {
   }
 }
 
-DonaNobisSopranoLyrics = \lyricmode {
+AgnusSopranoLyrics = \lyricmode {
+  Mi -- se -- %11
+  re -- re
+  no --
+  bis.
+
+  Mi -- se -- %28
+  re -- re
+  no -- %30
+  bis.
+
+  A -- gnus %40
+  De -- i, qui
+  tol -- lis, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Do -- na %45
+  no -- bis
+  pa --
+  cem.
+
   Do -- na %52
   no -- bis
   pa -- cem,
-  pa -- cem. %55
-  Do -- na
+  pa -- cem, %55
+  do -- na
   no -- bis,
   do -- na no -- bis
-  pa -- cem.
-  Do -- na %60
+  pa -- cem,
+  do -- na %60
   no -- bis
   pa -- cem,
-  pa -- cem.
-  Do -- na
+  pa -- cem,
+  do -- na
   no -- bis %65
   pa --
-  cem.
-  Do -- na
+  cem,
+  do -- na
   no -- bis
   pa -- cem, %70
   pa -- cem,
@@ -1373,20 +1364,20 @@ DonaNobisSopranoLyrics = \lyricmode {
   do -- na
   no -- bis,
   no -- bis
-  pa -- cem.
-  Do -- na %80
+  pa -- cem,
+  do -- na %80
   no -- bis
   pa --
   cem,
   pa --
   cem, %85
   pa --
-  cem.
-  Do -- na
-  no -- bis,
+  cem,
+  do -- na,
+  do -- na
   no -- bis %90
-  pa -- cem.
-  Do -- na
+  pa -- cem,
+  do -- na
   no -- bis,
   do -- na no -- bis
   pa -- cem, %95
@@ -1397,8 +1388,8 @@ DonaNobisSopranoLyrics = \lyricmode {
   do -- na %100
   no -- bis
   pa --
-  cem.
-  Do -- na
+  cem,
+  do -- na
   no -- bis %105
   pa -- cem,
   pa -- cem,
@@ -1409,8 +1400,8 @@ DonaNobisSopranoLyrics = \lyricmode {
   do -- na
   no -- bis
   pa -- cem,
-  pa -- cem. %115
-  Do -- na
+  pa -- cem, %115
+  do -- na
   no -- bis
   pa --
   cem,
@@ -1421,16 +1412,16 @@ DonaNobisSopranoLyrics = \lyricmode {
   do -- na
   no -- bis %125
   pa -- cem,
-  pa -- cem.
-  Do -- na
+  pa -- cem,
+  do -- na
   no -- bis
   pa -- %130
   cem,
   pa --
   cem,
   pa --
-  cem. %135
-  Do -- na
+  cem, %135
+  do -- na
   no -- bis
   pa --
 

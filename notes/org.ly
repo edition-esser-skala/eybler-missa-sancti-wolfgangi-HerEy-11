@@ -1244,9 +1244,9 @@ SanctusOrgano = {
     d'-\tutti d, r d' d d, r fis
     g fis e d cis e a cis %20
     a a, r a' a a, r g'
-    fis e d e fis a d \noBeam \clef "treble_8" fis
-    e d cis \noBeam \clef bass cis, d e fis \noBeam \clef "treble_8" fis'
-    e d cis \noBeam \clef bass cis d e fis fis,
+    fis e d e fis[ a d] \clef "treble_8" fis
+    e[ d cis] \clef bass cis, d[ e fis] \clef "treble_8" fis'
+    e[ d cis] \clef bass cis d e fis fis,
     g g, a' a, h' h, cis' cis, %25
     d' d, a' a, d4 r8 d
     fis d a' a, d4 r8 d
@@ -1341,9 +1341,9 @@ BenedictusOrgano = {
       \partial 8 r8 \noBreak \mvTr d'8\f-\tutti d, r d' d d, r fis \markCritnote \noBreak
     g fis e d cis e a cis
     a a, r a' a a, r g'
-    fis e d e fis a d \noBeam \clef "treble_8" fis %45
-    e d cis \noBeam \clef bass cis, d e fis \noBeam \clef "treble_8" fis'
-    e d cis \noBeam \clef bass cis d e fis fis,
+    fis e d e fis[ a d] \clef "treble_8" fis %45
+    e[ d cis] \clef bass cis, d[ e fis] \clef "treble_8" fis'
+    e[ d cis] \clef bass cis d e fis fis,
     g g, a' a, h' h, cis' cis,
     d' d, a' a, d4 r8 d
     fis d a' a, d4 r8 d %50
@@ -1405,68 +1405,68 @@ BenedictusBassFigures = \figuremode {
   r %51 finis
 }
 
-AgnusDeiOrgano = {
+AgnusOrgano = {
   \relative c {
     \clef bass
-    \key d \minor \time 3/4 \tempoAgnusDei
+    \key d \minor \time 3/4 \tempoAgnus
     \mvTr d4\p-\solo r r8 f(
     g4) r r8 g(
     gis4) r r8 gis(
     a4) r r8 g\f
-    f-! e-! d-! c-! b-! a-! %5
+    f-! e-! d-! c!-! b-! a-! %5
     g4 r r
     g'\p r r8 g(
     f!4) r r8 f(
-    e4) r8 d cis e
-    gis,4 a8 b! a g %10
+    e4) r8 d( cis e)
+    gis,4 a8( b! a g) %10
     \mvTr f\p-\tutti f' f f f f
     d\f d d d d d
     f\pp f f f c! c
     << {
-      f,8^\vlc f'^\pizz f f f f
+      f,8^\vlc f' f f f f
       fis fis fis fis fis fis %15
       g g g g g g
       gis gis gis gis gis gis
       a4
     } \\ {
-      f,4_\bassi_\senzaOrg r r
-      r r d' %15
+      f,4_\bassi_\senzaOrg_\soloE r r
+      r r d'_\pizz %15
       g r r
       r r e
       a
     } >> r r8 c(-\arco
     d4) r r8 d(
     dis4) r r8 dis( %20
-    e4) r r8 d\f
-    c-! h-! a-! g-! f!-! e-!
+    e4) r r8 d-!\f
+    c-! h-! a-! g!-! f!-! e-!
     d4 r r
     d'\p r r8 d(
-    c!4) r r8 \once \slurDashed c( %25
-    h4) r8 a gis h
-    dis,4 e8 f!( e d)
+    c!4) r r8 c( %25
+    h4) r8 a( gis h)
+    dis,4 e8( f! e d)
     \mvTr c\p-\tutti c c c c c
     gis\f gis gis gis a a
     c\pp c c c g g %30
     << {
-      c,8^\vlc c'^\pizz c c c c
+      c,8^\vlc c' c c c c
       cis cis cis cis cis cis
       d d d d d d
       dis dis dis dis dis dis
       e4
     } \\ {
-      c,4_\bassi_\senzaOrg r r
-      r r a'
+      c,4_\bassi_\senzaOrg_\soloE r r
+      r r a'_\pizz
       d r r
       r r h
       e
   } >> r r8 g(-\arco %35
     a4) r r8 a(
     ais4) r r8 ais(
-    h4) r r8 a\f
-    g-! fis-! e-! d-! c-! h-!
+    h4) r r8 a-!\f
+    g-! fis-! e-! d!-! c-! h-!
     a4 r r %40
     << {
-      r8 a'^\vlc^\pizzE a a a a
+      r8 a'^\vlc a a a a
       r g g g g g
       r g g g g g
       r f f f f f
@@ -1475,81 +1475,20 @@ AgnusDeiOrgano = {
       r b b b b b
       a4
     } \\ {
-      \mvTr a4\p_\bassi r r
+      \mvDl a4\pE_\bassi_\pizz r r
       g r r
       g' r r
       f r r
       d r r %45
       d r r
-      \mvTr b!\pE_\tuttiE r r
+      b!_\tuttiE r r
       a
     } >> r r
     a r r
-    a8-\arco gis'(^\unisono a dis, e gis,) %50
-    a2.\fermata \bar "||" %51 finis
-  }
-}
-
-AgnusDeiBassFigures = \figuremode {
-  r2 r8 <6>
-  r2.
-  <7 _!>2 r8 <\t \t>
-  <_+>2 r8 \bo <[4\+ 2]>
-  <6> <6\\> r <4\+> <6> \bc <[6\\ _]> %5
-  r2.
-  r
-  <6>2 r8 <6>
-  <6\\>4. <6->8 <6> <6\\>
-  <7 _!>4 <_+>2 %10
-  <6>2.
-  r
-  <5>2 <7>4
-  r2.
-  r %15
-  r
-  r
-  r2 r8 <[6]>
-  r2.
-  \bo <[7 _+ _]>2 r8 <\t \t> %20
-  <5! _+>2 r8 <6! 4\+ 2>
-  <6> <6\\> r <4\+> <6> \bc <[6\\ _ _]>
-  r2.
-  r
-  <6>2 r8 <[6]> %25
-  <6\\>4. <6>8 <6 _!> <6\\>
-  <7 _+>4 <[5!] _+>2
-  <6>2.
-  <6 [_!]>
-  <5!>2 <7 _!>4 %30
-  r2.
-  r
-  r
-  r
-  r2 r8 <[6 _!]> %35
-  r2.
-  \bo <[7 _+ _]>2 r8 <\t \t>
-  <5\+ _+>2 r8 <6\\ 4\+ 2!>
-  <6 _!> <6\\> <5!> <6! 4\+ 2> <6> \bc <[6\\ _ _]>
-  r2. %40
-  <3>
-  <6 _!>
-  <6 4\+ _->
-  <[7]>4 <6>2
-  r2. %45
-  <6->2 <[5]>4
-  <6\\ 5>2.
-  <_+>
-  <[\t]>
-  r %50
-  r %51 finis
-}
-
-DonaNobisOrgano = {
-  \relative c {
-    \clef bass
-    \twofourtime \key d \major \time 2/4 \tempoDonaNobis
-      \set Score.currentBarNumber = #52
-    \mvTr d4\p-\solo r
+    a8(-\arco^\unisono gis' a dis, e gis,) \noBreak %50
+    a2.\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      \mvTr d4\p-\solo r \noBreak
     d r
     d r
     d r %55
@@ -1557,21 +1496,21 @@ DonaNobisOrgano = {
     h h, a a'
     g fis e d
     a a'16 gis a8 a,
-    \mvTr d4\p-\solo r %60
+    \mvTr d4\pE-\solo r %60
     d r
     d r
     d r
     \mvTr d'8\f-\tutti d, h' h,
     g' g, e' e, %65
     a a'16 gis a8 a,
-    d16-! d'-! cis-! h-! a-! g-! fis-! e-!
+    d16 d'-! cis-! h-! a-! g-! fis-! e-!
     << {
       r8 d^\vlc d d
       r cis cis cis
       r gis' gis gis %70
       r a a a
     } \\ {
-      \mvTr d,4\p_\solo_\bassi r
+      \mvTr d,4\pE_\solo_\markup \remark "b, org" r
       cis r
       gis r %70
       a r
@@ -1586,16 +1525,16 @@ DonaNobisOrgano = {
       r a a a
       r a a a
     } \\ {
-      e4_\bassi r
+      e4_\markup \remark "b, org" r
       e r
       a r
       a r
     } >>
-    \mvTr d,16(\f-\tutti cis d e) \once \slurDashed fis( e fis gis) %80
+    \mvTr d,16\f-\tutti cis d e fis e fis gis %80
     a8 a, d d,
     e' e, e' e,
-    a( cis e a,)
-    gis(\p h e gis,)
+    a(\p cis e a,)
+    gis( h e gis,)
     a( cis e a,) %85
     e( gis h e)
     a, h16 cis d e fis gis
@@ -1605,12 +1544,12 @@ DonaNobisOrgano = {
       r a a a
       r a a a
     } \\ {
-      a4_\bassi_\soloE r
+      a4_\markup \remark "b, org"_\soloE r
       a r
       a r %90
       a r
     } >>
-    \mvTr cis,8\f-\tuttiE cis' d, d'
+    \mvTr cis,8\f-\tutti cis' d, d'
     g,,! g'! fis, fis'
     e d cis d
     a a'16 gis a8 a, %95
@@ -1628,7 +1567,7 @@ DonaNobisOrgano = {
       r a a a
       r d, d d
     } \\ {
-      \mvTr a4\p_\solo_\bassi r
+      \mvTr a4\p_\solo_\markup \remark "b, org" r
       a r %105
       a r
       d r
@@ -1653,15 +1592,15 @@ DonaNobisOrgano = {
     a cis a fis %125
     h d h g
     cis4\fermata r\fermata
-    cis,8 cis' d d,
+    cis,8\f cis' d d,
     g, g' h h,
     a a' a a, %130
-    d( fis a d,)
-    cis(\p e a cis,)
+    d(\p fis a d,)
+    cis( e a cis,)
     d( fis a d,)
     a cis e a
     d,4 r %135
-    d4.\ff d8
+    d4.\f d8
     g4 fis
     g2
     g,
@@ -1669,19 +1608,70 @@ DonaNobisOrgano = {
   }
 }
 
-DonaNobisBassFigures = \figuremode {
-  r2 %52
+AgnusBassFigures = \figuremode {
+  r2 r8 \bo <[6 _]>
+  r2.
+  <7 _!>
+  <_+>2 r8 <4\+ 2>
+  <6> <6\\> r <4\+> <6> \bc <[6\\ _]> %5
+  r2.
+  r
+  <6>
+  <6\\>4. <6->8 <6> <6\\>
+  <7 _!>4 <_+>2 %10
+  <6>2.
+  r
+  <5[!]>2 <7>4
+  r2.
+  r %15
+  r
+  r
+  r2 r8 \bo <[6 _]>
+  r2.
+  <7 _+>2 r8 <\t \t> %20
+  <5! _+>2 r8 <\t \t>
+  <6> <6\\> r <4\+> <6> \bc <[6\\ _]>
+  r2.
+  r
+  <6> %25
+  <6\\>4. <6>8 <6 _!> <6\\>
+  <7 _+>4 <[5!] _+>2
+  <6>2.
+  <6 [_!]>
+  <5!>2 <7 _!>4 %30
+  r2.
+  r
+  r
+  r
+  r2 r8 \bo <[6 _!]> %35
+  r2.
+  <7 _+>2 r8 <\t \t>
+  <5\+ _+>2 r8 <\t \t>
+  <6 _!> <6\\> <5!> <6! 4\+> <6> \bc <[6\\ _]>
+  r2. %40
+  r
+  <6 _!>
+  <6 4\+ _->
+  <6>
+  r %45
+  <6->2 <5>4
+  <6\\ 5>2.
+  <_+>
+  r
+  r %50
+  r
+  r2
   r
   <6 4>
   <5 [3]> %55
   r4 <6>
-  q <8 7 4>8 <\t 6 \t>
-  <2> <6> q <8>
-  <6 4>4 <5 3>
+  q8 <\t> <8 7 4>8 <\t 6 \t>
+  <2> <6> q4
+  <6 4>8 <5 3>4.
   r2 %60
   r
   <6 4>
-  <5 3>
+  <5 [3]>
   r4 <5>
   <7>8 <6>4. %65
   <6 4>4 <7 [3]>
@@ -1691,68 +1681,68 @@ DonaNobisBassFigures = \figuremode {
   q %70
   r
   q4 <4\+ _!>
-  <6> <4\+ 3>
+  <6> <4\+ _!>
   <6>2
   <6 4>4 <[5] _+> %75
-  \bo <[5 _+]>4. <6 4>8
-  <6 4\+> <7 _+>4.
-  r4. <4 2>8
-  <6 4> <5 3>4.
-  r4 \bc <[6 _]> %80
-  r <6>
+  r2
+  r
+  r
+  r
+  r %80
+  r4 <6>
   <6 4> <[7] _+>
   r2
   <6 5>
   r %85
   <7 _+>
   r
-  r4. <4 2>8
-  \bo <[\t \t]> \bc <[5 3]>4.
-  <7! [5]>4. <[6 4>8 %90
-  <[\t \t]>8 <5 3>4.
+  r
+  \bo <[9 4]>8 \bc <[8 3]>4.
+  <7!>2 %90
+  <6 4>8 <5 3>4.
   <6 5>2
-  <4 2>4 <6>
-  <6>8 <8> <6> <8>
+  <4 2>4 <[6]>
+  <6> q
   <6 4>4 <[5] _+> %95
-  <1>4. <4 2>8
-  <6 4> <[5 3]>4.
+  r4. <4 2>8
+  <6 4> <5 3>4.
   <6 4>2
-  <5 3>
+  <[5 3]>
   r4 <6> %100
   r2
   <6 4>4 <[5] _+>
   r2
-  \bo <[7 _]>
-  \bc <[7 5]>8 <6 4>4. %105
-  <5 [3]>2
-  \bo <[7 4]>8 \bc <[8 3]>4.
-  r4 <[6]>
-  r q
+  r
+  r %105
+  r
+  r
+  r
+  r
   <7 3>8 <6 4> <5 3> <6 4> %110
-  <6 4>4 <5 3>
+  q4 <5 3>
   r2
   r
   r
   r %115
   r4 <6 5>
   r <6>
-  <6 4> <5 3>
+  <6 4> <[5] 3>
   r2
   r %120
   r
   r
   r
-  <5>4. <8>8
-  <5>4. <8>8 %125
-  <5>4. <8>8
+  <5>4 \once \bassFigureExtendersOn q8 <8>
+  <5>4 \once \bassFigureExtendersOn q8 <8> %125
+  <5>4 \once \bassFigureExtendersOn q8 <8>
   <6 5>2
   q
   <6>4 <6\\>
-  <6 4> <5 3> %130
+  <6 4> <[5] 3> %130
   r2
   <6>
   r
-  r
+  <7>
   r %135
   r
   r4 <6 5!>
