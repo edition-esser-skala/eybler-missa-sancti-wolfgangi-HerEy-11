@@ -8,7 +8,7 @@ KyrieOrgano = {
     b8. d32 f b8 b, b a
     g4(\pp a b)
     a8. cis32 e \mvTr a8-!\f-\unisono g-! f-! e-!
-    d8-\acc d d d e e %5
+    d8-\markup \remark "accomp." d d d e e %5
     f f f f fis fis
     g g a a a, a
     d d' d, f e d

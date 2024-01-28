@@ -1,12 +1,11 @@
 \version "2.24.2"
 
 #(define option-movement-title-format "number-title")
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
-\include "ees_articulate.ly"
+% \include "ees_articulate.ly"
 
 
-acc = \markup \remark "acc."
 fivehatnatural = \markup { \concat { \raise #.3 \fontsize #-5 \natural \combine \figured-bass 5 \path #.15 #'((rmoveto 0 1.2) (rlineto .5 .5) (rlineto .5 -.5)) } }
 markCritnote = {
   \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
