@@ -3,6 +3,12 @@
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
 
+% for print
+%\paper {
+%  outer-margin = 1.3\cm
+%  inner-margin = 1.7\cm
+%}
+
 \book {
   \bookpart {
     \section "1" "Kyrie"
