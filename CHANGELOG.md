@@ -1,5 +1,17 @@
 # Changelog
 
+## 3.1.0 – 2026-10-31
+
+### Added
+
+- printed edition (metadata, cover)
+- ARK
+
+### Changed
+
+- updated files to EES Tools v2026.01.0
+
+
 ## 3.0.0 - 2024-01-28
 
 ### Changed
